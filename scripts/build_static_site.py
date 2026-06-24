@@ -194,6 +194,34 @@ def build_index(instruments):
       </section>
 
       <section class="section">
+        <div class="section-heading"><h2>下拉式分類</h2><span id="dropdown-count" class="section-note"></span></div>
+        <div class="dropdown-browser">
+          <label>
+            <span>分類</span>
+            <select id="filter-category"><option value="">全部分類</option></select>
+          </label>
+          <label>
+            <span>旅圖</span>
+            <select id="filter-journey"><option value="">全部旅圖</option></select>
+          </label>
+          <label>
+            <span>發聲</span>
+            <select id="filter-sound"><option value="">全部發聲</option></select>
+          </label>
+          <label>
+            <span>國家/地區</span>
+            <select id="filter-country"><option value="">全部國家/地區</option></select>
+          </label>
+          <label>
+            <span>年代</span>
+            <select id="filter-era"><option value="">全部年代</option></select>
+          </label>
+          <button id="filter-reset" type="button">重設</button>
+        </div>
+        <div id="dropdown-results" class="dropdown-results"></div>
+      </section>
+
+      <section class="section">
         <div class="section-heading"><h2>分類瀏覽</h2><a href="{site_url('/categories/')}">全部分類</a></div>
         <div class="facet-grid">{category_links}</div>
       </section>
@@ -303,7 +331,7 @@ h2 { margin:0; }
 .lead,.empty { color:var(--muted); line-height:1.65; }
 .search-panel input { width:100%; min-height:48px; border:1px solid var(--line); border-radius:8px; padding:0 14px; font-size:16px; background:#fff; }
 .search-results { margin-top:12px; display:grid; gap:8px; }
-.search-results a { padding:10px 12px; border:1px solid var(--line); border-radius:8px; background:#fff; text-decoration:none; }
+.search-results a,.dropdown-results a { padding:10px 12px; border:1px solid var(--line); border-radius:8px; background:#fff; text-decoration:none; }
 .stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; margin:14px 0 36px; }
 .stats div,.facet-card,.instrument-card { border:1px solid var(--line); background:#fff; border-radius:8px; padding:16px; }
 .stats strong { display:block; font-size:26px; }
@@ -311,6 +339,15 @@ h2 { margin:0; }
 .section { margin-top:38px; }
 .section-heading { display:flex; justify-content:space-between; align-items:end; margin-bottom:16px; }
 .section-heading a { color:var(--blue); font-weight:700; text-decoration:none; }
+.section-note { color:var(--muted); font-size:14px; }
+.dropdown-browser { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)) auto; gap:10px; align-items:end; padding:16px; border:1px solid var(--line); border-radius:8px; background:#fff; }
+.dropdown-browser label { display:grid; gap:6px; min-width:0; }
+.dropdown-browser label span { color:var(--muted); font-size:13px; font-weight:700; }
+.dropdown-browser select { width:100%; min-height:40px; border:1px solid var(--line); border-radius:6px; padding:0 10px; background:#fff; color:var(--ink); }
+.dropdown-browser button { min-height:40px; border:0; border-radius:6px; padding:0 14px; background:var(--ink); color:#fff; font-weight:800; cursor:pointer; }
+.dropdown-results { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:10px; margin-top:12px; }
+.dropdown-results a strong,.search-results a strong { display:block; margin-bottom:4px; }
+.dropdown-results a span,.search-results a span { color:var(--muted); font-size:13px; line-height:1.45; }
 .facet-grid,.instrument-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:14px; }
 .facet-card,.instrument-card { display:flex; min-height:112px; flex-direction:column; gap:8px; text-decoration:none; }
 .instrument-card strong { font-size:18px; }
@@ -327,8 +364,8 @@ h2 { margin:0; }
 .source-note a { color:var(--blue); }
 .markdown-body { color:#344054; line-height:1.75; font-size:16px; }
 .markdown-body h2 { color:var(--ink); margin-top:1.4em; border-bottom:1px solid var(--line); padding-bottom:8px; }
-@media (max-width:900px){ .facet-grid,.instrument-grid{grid-template-columns:repeat(2,1fr)} .instrument-header{grid-template-columns:1fr} }
-@media (max-width:620px){ .site-header{align-items:flex-start; flex-direction:column} h1{font-size:34px} .facet-grid,.instrument-grid,.stats,.meta-grid{grid-template-columns:1fr} }
+@media (max-width:900px){ .facet-grid,.instrument-grid,.dropdown-results{grid-template-columns:repeat(2,1fr)} .dropdown-browser{grid-template-columns:repeat(2,minmax(0,1fr))} .instrument-header{grid-template-columns:1fr} }
+@media (max-width:620px){ .site-header{align-items:flex-start; flex-direction:column} h1{font-size:34px} .facet-grid,.instrument-grid,.stats,.meta-grid,.dropdown-browser,.dropdown-results{grid-template-columns:1fr} }
 """
     search_index = [
         {
@@ -355,6 +392,28 @@ h2 { margin:0; }
 const SEARCH_INDEX = {json.dumps(search_index, ensure_ascii=False)};
 const input = document.getElementById('site-search');
 const results = document.getElementById('search-results');
+const dropdownResults = document.getElementById('dropdown-results');
+const dropdownCount = document.getElementById('dropdown-count');
+const filterControls = {{
+  category: document.getElementById('filter-category'),
+  journey: document.getElementById('filter-journey'),
+  sound_class: document.getElementById('filter-sound'),
+  country: document.getElementById('filter-country'),
+  era: document.getElementById('filter-era')
+}};
+const resetFilters = document.getElementById('filter-reset');
+
+function appendResult(container, item) {{
+  const link = document.createElement('a');
+  link.href = item.url;
+  const title = document.createElement('strong');
+  title.textContent = item.title;
+  const meta = document.createElement('span');
+  meta.textContent = `${{item.original_name}} · ${{item.category}} · ${{item.country}} · ${{item.era}}`;
+  link.append(title, meta);
+  container.append(link);
+}}
+
 if (input && results) {{
   input.addEventListener('input', () => {{
     const q = input.value.trim().toLowerCase();
@@ -362,16 +421,62 @@ if (input && results) {{
     if (!q) return;
     const hits = SEARCH_INDEX.filter(item => Object.values(item).join(' ').toLowerCase().includes(q)).slice(0, 20);
     for (const item of hits) {{
-      const link = document.createElement('a');
-      link.href = item.url;
-      const title = document.createElement('strong');
-      title.textContent = item.title;
-      const meta = document.createElement('span');
-      meta.textContent = `${{item.original_name}} · ${{item.category}} · ${{item.country}} · ${{item.era}}`;
-      link.append(title, document.createElement('br'), meta);
-      results.append(link);
+      appendResult(results, item);
     }}
   }});
+}}
+
+function countValues(field) {{
+  const counts = new Map();
+  for (const item of SEARCH_INDEX) {{
+    const value = item[field];
+    if (!value) continue;
+    counts.set(value, (counts.get(value) || 0) + 1);
+  }}
+  return [...counts.entries()].sort((a, b) => a[0].localeCompare(b[0], 'zh-Hant'));
+}}
+
+function fillSelect(select, field) {{
+  if (!select) return;
+  for (const [value, count] of countValues(field)) {{
+    const option = document.createElement('option');
+    option.value = value;
+    option.textContent = `${{value}}（${{count}}）`;
+    select.append(option);
+  }}
+}}
+
+function selectedFilters() {{
+  return Object.fromEntries(Object.entries(filterControls).map(([field, select]) => [field, select?.value || '']));
+}}
+
+function renderDropdownResults() {{
+  if (!dropdownResults) return;
+  dropdownResults.replaceChildren();
+  const filters = selectedFilters();
+  const hits = SEARCH_INDEX.filter(item => Object.entries(filters).every(([field, value]) => !value || item[field] === value));
+  if (dropdownCount) dropdownCount.textContent = `${{hits.length}} 筆`;
+  for (const item of hits.slice(0, 60)) {{
+    appendResult(dropdownResults, item);
+  }}
+}}
+
+if (dropdownResults) {{
+  fillSelect(filterControls.category, 'category');
+  fillSelect(filterControls.journey, 'journey');
+  fillSelect(filterControls.sound_class, 'sound_class');
+  fillSelect(filterControls.country, 'country');
+  fillSelect(filterControls.era, 'era');
+  for (const select of Object.values(filterControls)) {{
+    select?.addEventListener('change', renderDropdownResults);
+  }}
+  resetFilters?.addEventListener('click', () => {{
+    for (const select of Object.values(filterControls)) {{
+      if (select) select.value = '';
+    }}
+    renderDropdownResults();
+  }});
+  renderDropdownResults();
 }}
 """
     write(OUTPUT_DIR / "assets" / "site.css", css.strip() + "\n")
