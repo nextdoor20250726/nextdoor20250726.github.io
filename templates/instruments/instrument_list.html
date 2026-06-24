@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block title %}樂器列表｜世界樂器百科{% endblock %}
+
+{% block content %}
+<main class="page">
+  <section class="list-toolbar">
+    <div>
+      <p class="eyebrow">Browse</p>
+      <h1>樂器列表</h1>
+    </div>
+    <form class="filter-form" method="get">
+      <input name="q" value="{{ query }}" type="search" placeholder="搜尋樂器、音色、歷史...">
+      <select name="category">
+        <option value="">全部分類</option>
+        {% for category in categories %}
+          <option value="{{ category.slug }}" {% if selected_category.slug == category.slug %}selected{% endif %}>
+            {{ category }}
+          </option>
+        {% endfor %}
+      </select>
+      <button type="submit">篩選</button>
+    </form>
+  </section>
+
+  <div class="instrument-grid">
+    {% for instrument in page_obj %}
+      {% include "instruments/partials/instrument_card.html" %}
+    {% empty %}
+      <p class="empty">找不到符合條件的樂器。</p>
+    {% endfor %}
+  </div>
+
+  {% include "instruments/partials/pagination.html" %}
+</main>
+{% endblock %}

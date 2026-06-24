@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block title %}{{ category.name }}｜世界樂器百科{% endblock %}
+
+{% block content %}
+<main class="page">
+  <section class="list-toolbar">
+    <div>
+      <p class="eyebrow">Category</p>
+      <h1>{{ category.name }}</h1>
+      {% if category.description %}
+        <p class="lead">{{ category.description }}</p>
+      {% endif %}
+    </div>
+  </section>
+
+  <div class="instrument-grid">
+    {% for instrument in page_obj %}
+      {% include "instruments/partials/instrument_card.html" %}
+    {% empty %}
+      <p class="empty">此分類尚未建立樂器條目。</p>
+    {% endfor %}
+  </div>
+
+  {% include "instruments/partials/pagination.html" %}
+</main>
+{% endblock %}

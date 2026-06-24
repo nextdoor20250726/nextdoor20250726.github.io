@@ -1,0 +1,36 @@
+---
+title: "鐘琴 (銅鐘)"
+original_name: "Carillon"
+category: "鍵盤樂器"
+country: "中國"
+era: "16 世紀"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/MayoClinicCarillonneur.jpg/960px-MayoClinicCarillonneur.jpg"
+listen_link: ""
+source_url: "https://zh.wikipedia.org/wiki/%E9%90%98%E7%90%B4_(%E9%8A%85%E9%90%98)"
+wikidata_id: "Q505174"
+---
+## 介紹
+
+# 鐘琴 (銅鐘)
+
+鐘琴（法語：carillon  ，英語：carillon），是由不同音高的銅鐘構成的打擊樂器。在中國大陸，其中文名稱和一般在樂團中常見的鍵盤形排列的鐘琴（Glockenspiel）同名，但由於其普及性遠不及後者，因此不常被提及。
+一套可供演奏用的鐘琴至少設有23個銅鐘。而鐘琴的銅鐘愈多，音域就愈廣。鐘琴通常安置於教堂和市政樓的鐘塔，或置於獨立的鐘塔內。鐘琴的琴鍵排列方法和一般的鍵盤樂器或有音高的敲擊樂器相同，但琴鍵是呈棍狀，並且是豎直呈垂直擺放，下層琴鍵為基本音；上層則為變化音，琴鍵通過連接著的配置，帶動末端的琴槌敲打銅鐘而發聲。演奏者可以運用握拳方式拍打鍵盤桿，或用腳踏控制低音大鐘的鍵盤。鐘琴是現存最重的樂器，大型鐘琴單計銅鐘的總重量已有一百噸。鐘琴最集中的地方是在歐洲的低地國家：荷蘭、比利時、法國北部。
+有的鐘琴不安置在鐘塔內，而是可以搬動，甚至能作室內演奏，比如Frank Steijns的流動鐘琴。另外亦有利用機械裝置，令鐘琴可以在不使用演奏者的情況下自行演奏作品。例如以電腦控制、或是放入經過打孔的硬身卡紙，去控制每個銅鐘的開合。
+
+## 可查證來源
+
+- 中文維基百科：https://zh.wikipedia.org/wiki/%E9%90%98%E7%90%B4_(%E9%8A%85%E9%90%98)
+
+- 原始來源：https://en.wikipedia.org/wiki/Carillon
+
+## 歷史背景
+
+## Carillon 的歷史背景
+
+此預設條目以 Wikidata/Wikipedia 的公開結構化資料建立。若需要精確年代、地域流變、演奏流派與製作工藝，建議由管理員在後台根據專書或博物館資料補充。
+
+來源：https://en.wikipedia.org/wiki/Carillon
+
+## 音色描述
+
+音色多由材質本體振動決定，常呈現清晰、短促或具有明顯泛音的聲響。

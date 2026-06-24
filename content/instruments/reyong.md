@@ -1,0 +1,34 @@
+---
+title: "Reyong（暫譯）"
+original_name: "Reyong"
+category: "打擊樂器"
+country: "待考"
+era: "傳統／年代待考"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Gamelan_of_Bali_200507-4.jpg/960px-Gamelan_of_Bali_200507-4.jpg"
+listen_link: ""
+source_url: "https://en.wikipedia.org/wiki/Reyong"
+wikidata_id: "Q6415141"
+---
+## 介紹
+
+# Reyong
+
+The reyong (also spelled reong) is a musical instrument used in Balinese gamelan. It consists of a long row of metal gongs suspended on a frame. In gamelan gong kebyar, it is played by four players at once, each with two mallets.
+Often the individual pots can be removed from the frame and played individually as bonang in beleganjur.
+
+## 可查證來源
+
+- 圖像檔案：https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Gamelan_of_Bali_200507-4.jpg/960px-Gamelan_of_Bali_200507-4.jpg
+- 主要來源：https://en.wikipedia.org/wiki/Reyong
+
+## 歷史背景
+
+## Reyong 的歷史背景
+
+此預設條目以 Wikidata/Wikipedia 的公開結構化資料建立。若需要精確年代、地域流變、演奏流派與製作工藝，建議由管理員在後台根據專書或博物館資料補充。
+
+來源：https://en.wikipedia.org/wiki/Reyong
+
+## 音色描述
+
+音色多由材質本體振動決定，常呈現清晰、短促或具有明顯泛音的聲響。

@@ -1,0 +1,21 @@
+{% load static %}
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}世界樂器百科{% endblock %}</title>
+  <link rel="stylesheet" href="{% static 'css/site.css' %}">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="{% url 'home' %}">世界樂器百科</a>
+    <nav class="site-nav">
+      <a href="{% url 'instrument_list' %}">全部樂器</a>
+      <a href="/admin/">管理後台</a>
+    </nav>
+  </header>
+
+  {% block content %}{% endblock %}
+</body>
+</html>

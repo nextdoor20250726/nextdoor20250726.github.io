@@ -1,0 +1,36 @@
+---
+title: "电吉他"
+original_name: "Electric guitar"
+category: "電子樂器"
+country: "美國"
+era: "20 世紀"
+image: ""
+listen_link: ""
+source_url: "https://zh.wikipedia.org/wiki/%E7%94%B5%E5%90%89%E4%BB%96"
+wikidata_id: "Q78987"
+---
+## 介紹
+
+# Electric guitar
+
+An electric guitar is a guitar that, unlike a standard acoustic guitar, requires external electric sound amplification to be heard at typical performance volumes. It uses one or more pickups to convert the vibration of its strings into electrical signals, which ultimately are reproduced as sound by loudspeakers. The sound is sometimes shaped or electronically altered to achieve different timbres or tonal qualities via amplifier settings or knobs on the guitar. Often, this is done through the use of effects such as reverb, distortion and overdrive; the latter is considered to be a key element of electric blues guitar music, rock and heavy metal guitar playing. Designs also exist combining attributes of electric and acoustic guitars: the semi-acoustic and acoustic-electric guitars.
+Invented in 1932, the electric guitar was adopted by jazz guitar players, who wanted to play single-note guitar solos in large big band ensembles. Early proponents of the electric guitar on record include Les Paul, Eddie Durham, George Barnes, Lonnie Johnson, Sister Rosetta Tharpe, T-Bone Walker, and Charlie Christian. During the 1950s and 1960s, the electric guitar became the most important instrument in popular music. It has evolved into an instrument that is capable of a multitude of sounds and styles in genres ranging from pop and rock to folk to country music, blues and jazz. It served as a major component in the development of electric blues, rock and roll, rock music, heavy metal music and many other genres of music.
+Electric guitar design and construction varies greatly in the shape of the body and the configuration of the neck, bridge, and pickups. Guitars may have a fixed bridge or a spring-loaded hinged bridge, which lets players "bend" the pitch of notes or chords up or down, or perform vibrato effects. The sound of an electric guitar can be modified by new playing techniques such as string bending, tapping, and hammering-on, using audio feedback, or slide guitar playing.
+There are several types of electric guitar. Early forms were hollow-body semi-acoustic guitars, while solid body guitars developed later. String configurations include the six-string guitar (the most common type), which is usually tuned E, A, D, G, B, E, from lowest to highest strings; the seven-string guitar, which typically adds a low B string below the low E; the eight-string guitar, which typically adds a low E or F# string below the low B; and the twelve-string guitar, which has six two-string courses similar to a mandolin.
+In rock, the electric guitar is often used in two roles: as a rhythm guitar, which plays the chord sequences or progressions, and riffs, and sets the beat (as part of a rhythm section); and as a lead guitar, which provides instrumental melody lines, melodic instrumental fill passages, and solos. In a small group, such as a power trio, one guitarist may switch between both roles; in larger groups there is often a rhythm guitarist and a lead guitarist.
+
+## 可查證來源
+
+- 主要來源：https://en.wikipedia.org/wiki/Electric_guitar
+
+## 歷史背景
+
+## Electric guitar 的歷史背景
+
+此預設條目以 Wikidata/Wikipedia 的公開結構化資料建立。若需要精確年代、地域流變、演奏流派與製作工藝，建議由管理員在後台根據專書或博物館資料補充。
+
+來源：https://en.wikipedia.org/wiki/Electric_guitar
+
+## 音色描述
+
+音色由弦長、張力、共鳴箱與演奏法影響，可呈現撥奏、擦奏或擊弦的不同質感。

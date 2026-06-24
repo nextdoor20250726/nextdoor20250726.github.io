@@ -1,0 +1,36 @@
+---
+title: "Ranat ek lek（暫譯）"
+original_name: "Ranat ek lek"
+category: "打擊樂器"
+country: "待考"
+era: "傳統／年代待考"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Ranat_ek_lek.jpg/960px-Ranat_ek_lek.jpg"
+listen_link: ""
+source_url: "https://en.wikipedia.org/wiki/Ranat_ek_lek"
+wikidata_id: "Q4885547"
+---
+## 介紹
+
+# Ranat ek lek
+
+The ranat ek lek (Thai: ระนาดเอกเหล็ก, pronounced [ranâːt ʔèːk lèk]) is a metallophone used in the classical music of Thailand. It is the smaller of the two sizes of Thai metallophone; the larger one is called ranat thum lek.
+This musical instrument was originated in the reign of King Rama IV (1854-1868).
+The ranat ek lek consists of flat metal slabs placed over a rectangular wooden resonator. It is played with two bamboo sticks with padded ends.
+The ranat ek lek is very similar to the Khmer roneat dek.
+
+## 可查證來源
+
+- 圖像檔案：https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Ranat_ek_lek.jpg/960px-Ranat_ek_lek.jpg
+- 主要來源：https://en.wikipedia.org/wiki/Ranat_ek_lek
+
+## 歷史背景
+
+## Ranat ek lek 的歷史背景
+
+此預設條目以 Wikidata/Wikipedia 的公開結構化資料建立。若需要精確年代、地域流變、演奏流派與製作工藝，建議由管理員在後台根據專書或博物館資料補充。
+
+來源：https://en.wikipedia.org/wiki/Ranat_ek_lek
+
+## 音色描述
+
+音色多由材質本體振動決定，常呈現清晰、短促或具有明顯泛音的聲響。

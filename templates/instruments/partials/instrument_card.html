@@ -1,0 +1,9 @@
+<a class="instrument-card" href="{{ instrument.get_absolute_url }}">
+  <span>{{ instrument.category.name }}</span>
+  <strong>{{ instrument.name }}</strong>
+  {% if instrument.timbre_description %}
+    <p>{{ instrument.timbre_description|truncatechars:96 }}</p>
+  {% else %}
+    <p>{{ instrument.introduction_md|striptags|truncatechars:96 }}</p>
+  {% endif %}
+</a>

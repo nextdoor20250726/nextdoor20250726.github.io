@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block title %}世界樂器百科｜World Musical Instrument Encyclopedia{% endblock %}
+
+{% block content %}
+<main class="page">
+  <section class="hero">
+    <p class="eyebrow">World Musical Instrument Encyclopedia</p>
+    <h1>世界樂器百科</h1>
+    <form class="search-panel" method="get" action="{% url 'instrument_list' %}">
+      <input name="q" type="search" placeholder="搜尋樂器名稱、分類、音色或歷史..." aria-label="搜尋樂器">
+      <button type="submit">搜尋</button>
+    </form>
+  </section>
+
+  <section class="section">
+    <div class="section-heading">
+      <h2>依分類瀏覽</h2>
+      <a href="{% url 'instrument_list' %}">查看全部</a>
+    </div>
+    <div class="category-grid">
+      {% for category in categories %}
+        <a class="category-card" href="{{ category.get_absolute_url }}">
+          <strong>{{ category.name }}</strong>
+          {% if category.description %}
+            <span>{{ category.description|truncatechars:80 }}</span>
+          {% else %}
+            <span>瀏覽此分類與其子分類的樂器條目</span>
+          {% endif %}
+        </a>
+      {% empty %}
+        <p class="empty">尚未建立分類，請先到管理後台新增。</p>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-heading">
+      <h2>最新條目</h2>
+    </div>
+    <div class="instrument-grid">
+      {% for instrument in featured_instruments %}
+        {% include "instruments/partials/instrument_card.html" %}
+      {% empty %}
+        <p class="empty">尚未建立樂器條目。</p>
+      {% endfor %}
+    </div>
+  </section>
+</main>
+{% endblock %}
