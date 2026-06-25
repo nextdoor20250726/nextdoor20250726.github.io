@@ -1,8 +1,10 @@
 #!/usr/bin/env python
 from __future__ import annotations
 
+import hashlib
 import json
 import os
+import random
 import re
 import shutil
 from collections import Counter, defaultdict
@@ -107,12 +109,24 @@ def parse_youtube_ids(value):
     return [v for v in ids if re.match(r'^[A-Za-z0-9_\-]{11}$', v)]
 
 
+def remove_empty_headings(html):
+    """Remove h2 tags that have no content before the next h2/end."""
+    return re.sub(r'(<h2>[^<]+</h2>)\s*(?=<h2>|$)', '', html)
+
+
+def strip_intro_heading(html):
+    """Remove the '介紹' h2 heading tag but keep its content."""
+    return re.sub(r'<h2>\s*介紹\s*</h2>', '', html)
+
+
 def read_instruments():
     instruments = []
     for path in sorted(CONTENT_DIR.glob("*.md")):
         meta, body = parse_frontmatter(path.read_text(encoding="utf-8"))
         body_html = markdown.markdown(body.strip(), extensions=["extra", "tables", "fenced_code"], output_format="html5")
         body_html = strip_wiki_links(body_html)
+        body_html = remove_empty_headings(body_html)
+        body_html = strip_intro_heading(body_html)
         instruments.append(
             {
                 "slug": path.stem,
@@ -141,7 +155,7 @@ def write(path, content):
     path.write_text(content, encoding="utf-8")
 
 
-def page(title, body, page_path=None):
+def page(title, body, page_path=None, meta_extra=""):
     return f"""<!doctype html>
 <html lang="zh-Hant">
 <head>
@@ -150,6 +164,7 @@ def page(title, body, page_path=None):
   <meta name="referrer" content="no-referrer-when-downgrade">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https: data:; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self'; frame-src https://www.youtube-nocookie.com https://www.youtube.com; base-uri 'self'; form-action 'none'; object-src 'none'">
   <title>{escape(title)}｜世界樂器百科</title>
+  {meta_extra}
   <link rel="stylesheet" href="{resolve_url(page_path, '/assets/site.css')}">
 </head>
 <body>
@@ -164,6 +179,18 @@ def page(title, body, page_path=None):
     </nav>
   </header>
   {body}
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span>世界樂器百科 — 收錄 943 件世界樂器</span>
+      <nav class="footer-nav">
+        <a href="{resolve_url(page_path, '/')}">首頁</a>
+        <a href="{resolve_url(page_path, '/categories/')}">分類</a>
+        <a href="{resolve_url(page_path, '/countries/')}">國家</a>
+        <a href="{resolve_url(page_path, '/eras/')}">年代</a>
+      </nav>
+    </div>
+  </footer>
+  <button id="back-top" class="back-top" aria-label="回頂部">↑</button>
   <script src="{resolve_url(page_path, '/assets/search.js')}"></script>
 </body>
 </html>
@@ -172,7 +199,7 @@ def page(title, body, page_path=None):
 
 def card(instrument, page_path=None):
     img = safe_external_url(instrument.get("image", ""))
-    img_html = f'<img class="card-thumb" src="{img}" alt="" loading="lazy">' if img else '<div class="card-thumb card-thumb--empty"></div>'
+    img_html = f'<img class="card-thumb" src="{img}" alt="" loading="lazy" onerror="this.style.display=\'none\'">' if img else '<div class="card-thumb card-thumb--empty" aria-hidden="true">♩</div>'
     return f"""<a class="instrument-card" href="{resolve_url(page_path, '/instruments/' + instrument['slug'] + '/')}">
       {img_html}
       <div class="card-body">
@@ -211,7 +238,20 @@ def build_index(instruments):
         f'<a class="facet-card" href="{resolve_url(index_path, f"/categories/{slugify(name)}/")}"><strong>{escape(name)}</strong><span>{count} 筆</span></a>'
         for name, count in categories.most_common()
     )
-    sample_cards = "\n".join(card(item, index_path) for item in instruments[:12])
+    # Pick 12 featured instruments: 2 per category, image preferred, deterministic
+    by_cat = defaultdict(list)
+    for item in instruments:
+        by_cat[item["category"]].append(item)
+    featured = []
+    rng = random.Random(42)
+    for cat_items in by_cat.values():
+        with_img = [i for i in cat_items if i.get("image")]
+        pool = with_img if with_img else cat_items
+        shuffled = list(pool)
+        rng.shuffle(shuffled)
+        featured.extend(shuffled[:2])
+    rng.shuffle(featured)
+    sample_cards = "\n".join(card(item, index_path) for item in featured[:12])
     body = f"""
     <main class="page">
       <section class="hero">
@@ -299,6 +339,10 @@ def build_youtube_section(youtube_ids):
 
 
 def build_detail_pages(instruments):
+    by_category = defaultdict(list)
+    for item in instruments:
+        by_category[item["category"]].append(item)
+
     for item in instruments:
         meta_fields = [
             ("分類", item["category"]),
@@ -309,20 +353,38 @@ def build_detail_pages(instruments):
             ("樂器家族", item["family"]),
             ("演奏方式", item["playing_method"]),
             ("身體聆聽", item["body_listening"]),
-            ("聲音地景", item["soundscape"]),
             ("地區類型", item["region_type"]),
         ]
         meta_grid = "".join(meta_row(label, val) for label, val in meta_fields if val)
         orig = f'<p class="original-name">{escape(item["original_name"])}</p>' if item["original_name"] and item["original_name"] != item["title"] else ""
+        soundscape_val = item.get("soundscape", "")
+        soundscape_html = f'<p class="soundscape-tag">{escape(soundscape_val)}</p>' if soundscape_val else ""
         img_url = safe_external_url(item.get("image", ""))
-        img_html = f'<img class="instrument-image" src="{img_url}" alt="{escape(item["title"])}" loading="lazy">' if img_url else ""
+        img_html = f'<img class="instrument-image" src="{img_url}" alt="{escape(item["title"])}" loading="lazy" onerror="this.style.display=\'none\'">' if img_url else ""
         header_class = "instrument-header has-image" if img_url else "instrument-header"
         youtube_html = build_youtube_section(item.get("youtube_ids", []))
+        # Extract plain-text description from first paragraph of HTML body
+        desc_match = re.search(r'<p>(.*?)</p>', item['html'], re.DOTALL)
+        desc_text = re.sub(r'<[^>]+>', '', desc_match.group(1))[:160] if desc_match else ""
+        og_tags = "\n".join(filter(None, [
+            f'<meta name="description" content="{escape(desc_text)}">' if desc_text else "",
+            f'<meta property="og:title" content="{escape(item["title"])}｜世界樂器百科">',
+            f'<meta property="og:description" content="{escape(desc_text)}">' if desc_text else "",
+            f'<meta property="og:image" content="{img_url}">' if img_url else "",
+            f'<meta property="og:type" content="article">',
+        ]))
+        related_pool = [i for i in by_category[item["category"]] if i["slug"] != item["slug"]]
+        seed = int(hashlib.md5(item["slug"].encode()).hexdigest(), 16)
+        random.Random(seed).shuffle(related_pool)
+        related = related_pool[:4]
+        related_html = ""
+        if related:
+            related_cards = "\n".join(card(r) for r in related)
+            related_html = f'<section class="related-section"><h2 class="related-heading">同類樂器</h2><div class="instrument-grid">{related_cards}</div></section>'
         body = f"""
         <main class="instrument-page">
           <nav class="breadcrumb">
-            <a href="../../">首頁</a> <span>/</span>
-            <a href="../">全部樂器</a> <span>/</span>
+            <a href="../../">← 返回篩選</a> <span class="sep">/</span>
             <span>{escape(item['title'])}</span>
           </nav>
           <header class="{header_class}">
@@ -330,15 +392,17 @@ def build_detail_pages(instruments):
               <p class="eyebrow">{escape(item['category'])}</p>
               <h1>{escape(item['title'])}</h1>
               {orig}
+              {soundscape_html}
             </div>
             {f'<div class="header-image">{img_html}</div>' if img_url else ""}
           </header>
           {"<dl class='meta-grid'>" + meta_grid + "</dl>" if meta_grid else ""}
           {youtube_html}
           <article class="markdown-body">{item['html']}</article>
+          {related_html}
         </main>
         """
-        write(OUTPUT_DIR / "instruments" / item["slug"] / "index.html", page(item["title"], body))
+        write(OUTPUT_DIR / "instruments" / item["slug"] / "index.html", page(item["title"], body, meta_extra=og_tags))
 
 
 def build_facet_pages(instruments, field, folder, title):
@@ -462,6 +526,13 @@ h2 { margin:0; font-weight:700; }
 }
 .dropdown-browser button:hover { background:#2d3f50; }
 .dropdown-results { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:10px; }
+.load-more-btn {
+  display:block; width:100%; margin-top:16px; padding:12px 0;
+  border:2px dashed var(--line); border-radius:var(--radius);
+  background:none; color:var(--muted); font-size:14px; font-weight:600;
+  cursor:pointer; transition:all .15s;
+}
+.load-more-btn:hover { border-color:var(--accent); color:var(--accent); background:rgba(13,118,107,.04); }
 
 /* ── Result items (search + dropdown) ───────────────────────── */
 .search-results a,.dropdown-results a {
@@ -496,7 +567,7 @@ h2 { margin:0; font-weight:700; }
 }
 .instrument-card:hover { border-color:var(--accent); box-shadow:var(--shadow-md); transform:translateY(-2px); }
 .card-thumb { display:block; width:100%; height:140px; object-fit:cover; flex-shrink:0; }
-.card-thumb--empty { height:80px; background:linear-gradient(135deg,#f0f4f8,#e2e8f0); }
+.card-thumb--empty { height:80px; background:linear-gradient(135deg,#f0f4f8,#e2e8f0); display:flex; align-items:center; justify-content:center; font-size:28px; color:#c5ced8; }
 .card-body { padding:14px; display:flex; flex-direction:column; gap:4px; flex:1; }
 .card-cat { color:var(--accent); font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:.05em; }
 .card-title { font-size:16px; font-weight:700; line-height:1.3; }
@@ -508,12 +579,13 @@ h2 { margin:0; font-weight:700; }
 .breadcrumb { display:flex; flex-wrap:wrap; gap:6px; color:var(--muted); font-size:13px; margin-bottom:24px; }
 .breadcrumb a { text-decoration:none; color:var(--muted); }
 .breadcrumb a:hover { color:var(--accent); }
-.breadcrumb span { color:var(--line); }
+.breadcrumb .sep { color:var(--line); }
 .instrument-header { display:grid; gap:28px; margin-bottom:28px; align-items:start; }
 .instrument-header.has-image { grid-template-columns:minmax(0,1fr) 240px; }
 .header-text { display:flex; flex-direction:column; gap:4px; }
 .header-image { position:sticky; top:80px; }
 .original-name { color:var(--muted); font-size:15px; margin:6px 0 0; }
+.soundscape-tag { color:var(--accent); font-size:14px; font-style:italic; margin:8px 0 0; line-height:1.5; }
 .instrument-image { width:100%; border-radius:var(--radius); box-shadow:var(--shadow-md); object-fit:cover; }
 .meta-grid {
   display:grid; grid-template-columns:repeat(auto-fill,minmax(175px,1fr));
@@ -546,6 +618,36 @@ h2 { margin:0; font-weight:700; }
 .listen-button:hover { background:var(--accent2); }
 .source-note { color:var(--muted); font-size:14px; line-height:1.6; word-break:break-word; }
 .source-note a { color:var(--blue); }
+
+/* ── Related instruments ─────────────────────────────────────── */
+.related-section { margin-top:48px; padding-top:32px; border-top:1px solid var(--line); }
+.related-heading { font-size:20px; margin-bottom:20px; color:var(--ink); }
+
+/* ── Footer ──────────────────────────────────────────────────── */
+.site-footer {
+  border-top:1px solid var(--line); background:var(--surface);
+  padding:20px 28px; margin-top:60px;
+}
+.footer-inner {
+  max-width:1160px; margin:0 auto;
+  display:flex; justify-content:space-between; align-items:center;
+  flex-wrap:wrap; gap:12px; color:var(--muted); font-size:13px;
+}
+.footer-nav { display:flex; gap:16px; }
+.footer-nav a { color:var(--muted); text-decoration:none; }
+.footer-nav a:hover { color:var(--accent); }
+
+/* ── Back to top ─────────────────────────────────────────────── */
+.back-top {
+  position:fixed; bottom:24px; right:24px;
+  width:42px; height:42px; border-radius:50%;
+  background:var(--accent); color:#fff; border:none;
+  display:flex; align-items:center; justify-content:center;
+  font-size:18px; cursor:pointer; opacity:0;
+  transform:translateY(8px); transition:opacity .2s, transform .2s;
+  z-index:50; box-shadow:0 2px 8px rgba(0,0,0,.2);
+}
+.back-top.visible { opacity:1; transform:none; }
 
 /* ── Responsive ──────────────────────────────────────────────── */
 @media (max-width:960px) {
@@ -606,6 +708,7 @@ function appendResult(container, item) {{
     img.className = 'result-thumb';
     img.alt = '';
     img.loading = 'lazy';
+    img.onerror = () => img.remove();
     link.append(img);
   }}
   const info = document.createElement('div');
@@ -644,10 +747,16 @@ if (input && results) {{
     const q = input.value.trim().toLowerCase();
     results.replaceChildren();
     if (!q) return;
-    const hits = SEARCH_INDEX.filter(item =>
-      [item.title, item.original_name, item.category, item.country, item.era, item.sound_class]
-        .join(' ').toLowerCase().includes(q)
-    ).slice(0, 20);
+    const scored = SEARCH_INDEX.flatMap(item => {{
+      const t = item.title.toLowerCase();
+      const o = (item.original_name || '').toLowerCase();
+      const haystack = [t, o, item.category, item.country, item.era, item.sound_class].join(' ').toLowerCase();
+      if (!haystack.includes(q)) return [];
+      const score = t === q ? 0 : t.startsWith(q) ? 1 : o.startsWith(q) ? 2 : 3;
+      return [{{item, score}}];
+    }});
+    scored.sort((a, b) => a.score - b.score);
+    const hits = scored.slice(0, 20).map(x => x.item);
     for (const item of hits) appendResult(results, item);
   }});
 }}
@@ -679,15 +788,36 @@ function selectedFilters() {{
   );
 }}
 
+const PAGE_SIZE = 100;
+let currentHits = [];
+let shownCount = 0;
+
+function renderNextPage() {{
+  const batch = currentHits.slice(shownCount, shownCount + PAGE_SIZE);
+  for (const item of batch) appendResult(dropdownResults, item);
+  shownCount += batch.length;
+  const oldBtn = document.getElementById('load-more-btn');
+  if (oldBtn) oldBtn.remove();
+  if (shownCount < currentHits.length) {{
+    const btn = document.createElement('button');
+    btn.id = 'load-more-btn';
+    btn.className = 'load-more-btn';
+    btn.textContent = `顯示更多（還有 ${{currentHits.length - shownCount}} 筆）`;
+    btn.addEventListener('click', renderNextPage);
+    dropdownResults.after(btn);
+  }}
+}}
+
 function renderDropdownResults() {{
   if (!dropdownResults) return;
   dropdownResults.replaceChildren();
   const filters = selectedFilters();
-  const hits = SEARCH_INDEX.filter(item =>
+  currentHits = SEARCH_INDEX.filter(item =>
     Object.entries(filters).every(([field, value]) => !value || item[field] === value)
   );
-  if (dropdownCount) dropdownCount.textContent = `${{hits.length}} 筆`;
-  for (const item of hits) appendResult(dropdownResults, item);
+  shownCount = 0;
+  if (dropdownCount) dropdownCount.textContent = `${{currentHits.length}} 筆`;
+  renderNextPage();
   // Save filter state
   try {{ localStorage.setItem('wmi_filters', JSON.stringify(filters)); }} catch(e) {{}}
 }}
@@ -718,10 +848,52 @@ if (dropdownResults) {{
   }});
   renderDropdownResults();
 }}
+
+/* ── Back to top ──────────────────────────────────────────────── */
+const backTop = document.getElementById('back-top');
+if (backTop) {{
+  window.addEventListener('scroll', () => {{
+    backTop.classList.toggle('visible', window.scrollY > 400);
+  }}, {{passive: true}});
+  backTop.addEventListener('click', () => window.scrollTo({{top:0, behavior:'smooth'}}));
+}}
 """
     write(OUTPUT_DIR / "assets" / "site.css", css.strip() + "\n")
     write(OUTPUT_DIR / "assets" / "search.js", js.strip() + "\n")
     write(OUTPUT_DIR / "search-index.json", json.dumps(search_index, ensure_ascii=False, indent=2))
+
+
+def build_404(instruments):
+    sample = random.Random(7).sample(instruments, min(8, len(instruments)))
+    cards = "\n".join(card(item) for item in sample)
+    body = f"""
+    <main class="page">
+      <section class="compact-hero">
+        <p class="eyebrow">404</p>
+        <h1>找不到頁面</h1>
+        <p class="lead">這個頁面不存在，或已被移動。</p>
+        <a href="{site_url('/')}" style="display:inline-block;margin-top:16px;padding:10px 20px;background:var(--accent);color:#fff;border-radius:8px;text-decoration:none;font-weight:700;">回首頁</a>
+      </section>
+      <section class="section">
+        <div class="section-heading"><h2>隨機推薦</h2></div>
+        <div class="instrument-grid">{cards}</div>
+      </section>
+    </main>"""
+    write(OUTPUT_DIR / "404.html", page("頁面找不到", body))
+
+
+def build_sitemap(instruments):
+    base = SITE_BASE_PATH or ""
+    urls = [f"<url><loc>{base}/</loc></url>",
+            f"<url><loc>{base}/instruments/</loc></url>",
+            f"<url><loc>{base}/categories/</loc></url>",
+            f"<url><loc>{base}/countries/</loc></url>",
+            f"<url><loc>{base}/eras/</loc></url>"]
+    for item in instruments:
+        urls.append(f"<url><loc>{base}/instruments/{item['slug']}/</loc></url>")
+    xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+    xml += "\n".join(urls) + "\n</urlset>\n"
+    write(OUTPUT_DIR / "sitemap.xml", xml)
 
 
 def main():
@@ -737,6 +909,8 @@ def main():
     build_facet_pages(instruments, "sound_class", "sound-classes", "發聲分類")
     build_facet_pages(instruments, "country", "countries", "國家/地區")
     build_facet_pages(instruments, "era", "eras", "年代")
+    build_404(instruments)
+    build_sitemap(instruments)
     write(OUTPUT_DIR / ".nojekyll", "")
     print(f"Built {len(instruments)} instruments into {OUTPUT_DIR}")
 
