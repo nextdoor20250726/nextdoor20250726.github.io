@@ -2,8 +2,11 @@
 title: 海螺號
 original_name: Conch (instrument)
 category: 管樂器
-country: 待考
+country: 太平洋島嶼國家／南美洲／南亞地區
 era: 傳統／年代待考
+region_type: 跨文化／多地
+soundscape: 吹向遠方的號角（天然號、宗教號角、山谷長號與銅管）
+body_listening: 嘴唇、遠方、召喚、空間方向
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Moibung_Khongba_%28%EA%AF%83%EA%AF%A3%EA%AF%8F%EA%AF%95%EA%AF%A8%EA%AF%A1_%EA%AF%88%EA%AF%A3%EA%AF%A1%EA%AF%95%29%2C_the_classical_Meitei_musical_performing_art_of_blowing_Moibung_%28conch_shell%29_of_Kangleipak_%28Manipur%29.jpg/500px-Moibung_Khongba_%28%EA%AF%83%EA%AF%A3%EA%AF%8F%EA%AF%95%EA%AF%A8%EA%AF%A1_%EA%AF%88%EA%AF%A3%EA%AF%A1%EA%AF%95%29%2C_the_classical_Meitei_musical_performing_art_of_blowing_Moibung_%28conch_shell%29_of_Kangleipak_%28Manipur%29.jpg
 ---
 ## 介紹

@@ -5,10 +5,10 @@ category: 其他
 country: 千里達及托巴哥
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Steelpan_Instruments_at_Trinidad_and_Tobago_Carnival.jpg/500px-Steelpan_Instruments_at_Trinidad_and_Tobago_Carnival.jpg
-sound_class: 合奏／編制
-hs_class: Ensemble／編制與合奏系統
-family: 鋼鼓合奏
-playing_method: 多聲部鋼鼓
+sound_class: 合奏系統／編制
+hs_class: 合奏編制，非單一 H-S 類目
+family: 合奏系統、地域編制與現代混合
+playing_method: 合奏／編制／群體互動
 body_listening: 島嶼節慶、旋律與低音分工
 soundscape: 眾聲相遇的廣場（合奏系統、地域編制與現代混合）
 region_type: 單一地區／文化圈

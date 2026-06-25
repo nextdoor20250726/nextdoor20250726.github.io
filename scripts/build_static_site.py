@@ -79,29 +79,6 @@ def strip_wiki_links(html):
     return url_pattern.sub("", html)
 
 
-def extract_introduction_section(markdown_text):
-    if not markdown_text:
-        return ""
-    match = re.search(
-        r"(^#{1,6}\s*介紹\b.*?$)(.*?)(?=^#{1,6}\s*\S|\Z)",
-        markdown_text,
-        flags=re.MULTILINE | re.DOTALL,
-    )
-    if not match:
-        return ""
-    heading = match.group(1).strip()
-    body = match.group(2).strip()
-    return f"{heading}\n\n{body}" if body else heading
-
-
-def extract_introduction_headings(markdown_text):
-    section = extract_introduction_section(markdown_text)
-    if not section:
-        return ""
-    lines = [line for line in section.splitlines() if line.lstrip().startswith("#")]
-    return "\n".join(lines)
-
-
 def parse_frontmatter(text):
     if not text.startswith("---\n"):
         return {}, text
@@ -119,8 +96,15 @@ def parse_frontmatter(text):
 
 
 def slugify(value):
-    slug = re.sub(r"[^a-zA-Z0-9\u4e00-\u9fff]+", "-", value).strip("-").lower()
+    slug = re.sub(r"[^a-zA-Z0-9一-鿿]+", "-", value).strip("-").lower()
     return slug or "unknown"
+
+
+def parse_youtube_ids(value):
+    if not value:
+        return []
+    ids = [v.strip() for v in re.split(r"[,\s]+", value.strip()) if v.strip()]
+    return [v for v in ids if re.match(r'^[A-Za-z0-9_\-]{11}$', v)]
 
 
 def read_instruments():
@@ -145,6 +129,7 @@ def read_instruments():
                 "soundscape": meta.get("soundscape", ""),
                 "region_type": meta.get("region_type", ""),
                 "image": meta.get("image", ""),
+                "youtube_ids": parse_youtube_ids(meta.get("youtube_ids", "")),
                 "html": body_html,
             }
         )
@@ -163,13 +148,13 @@ def page(title, body, page_path=None):
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="referrer" content="no-referrer-when-downgrade">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https: data:; style-src 'self'; script-src 'self'; connect-src 'self'; base-uri 'self'; form-action 'none'; object-src 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https: data:; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self'; frame-src https://www.youtube-nocookie.com https://www.youtube.com; base-uri 'self'; form-action 'none'; object-src 'none'">
   <title>{escape(title)}｜世界樂器百科</title>
   <link rel="stylesheet" href="{resolve_url(page_path, '/assets/site.css')}">
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="{resolve_url(page_path, '/')}">世界樂器百科</a>
+    <a class="brand" href="{resolve_url(page_path, '/')}">🌍 世界樂器百科</a>
     <nav>
       <a href="{resolve_url(page_path, '/instruments/')}">全部樂器</a>
       <a href="{resolve_url(page_path, '/categories/')}">分類</a>
@@ -187,14 +172,16 @@ def page(title, body, page_path=None):
 
 def card(instrument, page_path=None):
     img = safe_external_url(instrument.get("image", ""))
-    img_html = f'<img class="card-thumb" src="{img}" alt="" loading="lazy">' if img else ""
-    return f"""
-    <a class="instrument-card" href="{resolve_url(page_path, '/instruments/' + instrument['slug'] + '/')}">
+    img_html = f'<img class="card-thumb" src="{img}" alt="" loading="lazy">' if img else '<div class="card-thumb card-thumb--empty"></div>'
+    return f"""<a class="instrument-card" href="{resolve_url(page_path, '/instruments/' + instrument['slug'] + '/')}">
       {img_html}
-      <span>{escape(instrument['category'])}</span>
-      <strong>{escape(instrument['title'])}</strong>
-    </a>
-    """
+      <div class="card-body">
+        <span class="card-cat">{escape(instrument['category'])}</span>
+        <strong class="card-title">{escape(instrument['title'])}</strong>
+        {f'<span class="card-orig">{escape(instrument["original_name"])}</span>' if instrument.get("original_name") and instrument["original_name"] != instrument["title"] else ""}
+        <span class="card-meta">{escape(instrument['country'])}</span>
+      </div>
+    </a>"""
 
 
 def list_page(title, instruments, page_path=None):
@@ -206,6 +193,7 @@ def list_page(title, instruments, page_path=None):
           <section class="compact-hero">
             <p class="eyebrow">Browse</p>
             <h1>{escape(title)}</h1>
+            <p class="lead">{len(instruments)} 件樂器</p>
           </section>
           <div class="instrument-grid">{cards}</div>
         </main>
@@ -227,29 +215,30 @@ def build_index(instruments):
     body = f"""
     <main class="page">
       <section class="hero">
-        <p class="eyebrow">Static Markdown Edition</p>
+        <p class="eyebrow">World Musical Instruments Encyclopedia</p>
         <h1>世界樂器百科</h1>
+        <p class="lead hero-lead">收錄來自世界各地的傳統與現代樂器，探索人類音樂的多元面貌。</p>
         <div class="search-panel">
-          <input id="site-search" type="search" placeholder="搜尋中文名、英文名、分類、國家或年代...">
+          <input id="site-search" type="search" placeholder="搜尋中文名、英文名、分類、國家或年代…" autocomplete="off" spellcheck="false">
         </div>
         <div id="search-results" class="search-results"></div>
       </section>
 
       <section class="stats">
-        <div><strong>{len(instruments)}</strong><span>樂器條目</span></div>
-        <div><strong>{len(categories)}</strong><span>分類</span></div>
-        <div><strong>{len(countries)}</strong><span>國家/地區</span></div>
-        <div><strong>{len(eras)}</strong><span>年代</span></div>
+        <div class="stat-item"><strong>{len(instruments)}</strong><span>樂器條目</span></div>
+        <div class="stat-item"><strong>{len(categories)}</strong><span>分類</span></div>
+        <div class="stat-item"><strong>{len(countries)}</strong><span>國家/地區</span></div>
+        <div class="stat-item"><strong>{len(eras)}</strong><span>年代</span></div>
       </section>
 
       <section class="view-switch" aria-label="瀏覽模式">
-        <button id="mode-dropdown" class="is-active" type="button">下拉式分類</button>
-        <button id="mode-cards" type="button">卡片分類</button>
+        <button id="mode-dropdown" class="is-active" type="button">🔍 篩選瀏覽</button>
+        <button id="mode-cards" type="button">📂 分類卡片</button>
       </section>
 
       <div id="dropdown-mode" class="browse-mode">
         <section class="section">
-          <div class="section-heading"><h2>下拉式分類</h2><span id="dropdown-count" class="section-note"></span></div>
+          <div class="section-heading"><h2>篩選樂器</h2><span id="dropdown-count" class="section-note"></span></div>
           <div class="dropdown-browser">
             <label>
               <span>分類</span>
@@ -263,7 +252,11 @@ def build_index(instruments):
               <span>年代</span>
               <select id="filter-era"><option value="">全部年代</option></select>
             </label>
-            <button id="filter-reset" type="button">重設</button>
+            <label>
+              <span>發聲方式</span>
+              <select id="filter-sound-class"><option value="">全部發聲</option></select>
+            </label>
+            <button id="filter-reset" type="button">✕ 重設</button>
           </div>
           <div id="dropdown-results" class="dropdown-results"></div>
         </section>
@@ -271,12 +264,12 @@ def build_index(instruments):
 
       <div id="card-mode" class="browse-mode" hidden>
         <section class="section">
-          <div class="section-heading"><h2>分類瀏覽</h2><a href="{resolve_url(index_path, '/categories/')}">全部分類</a></div>
+          <div class="section-heading"><h2>分類瀏覽</h2><a href="{resolve_url(index_path, '/categories/')}">全部分類 →</a></div>
           <div class="facet-grid">{category_links}</div>
         </section>
 
         <section class="section">
-          <div class="section-heading"><h2>樂器條目</h2><a href="{resolve_url(index_path, '/instruments/')}">查看全部</a></div>
+          <div class="section-heading"><h2>精選樂器</h2><a href="{resolve_url(index_path, '/instruments/')}">查看全部 →</a></div>
           <div class="instrument-grid">{sample_cards}</div>
         </section>
       </div>
@@ -288,7 +281,21 @@ def build_index(instruments):
 def meta_row(label, value):
     if not value:
         return ""
-    return f'<div><dt>{escape(label)}</dt><dd>{escape(value)}</dd></div>'
+    return f'<div class="meta-item"><dt>{escape(label)}</dt><dd>{escape(value)}</dd></div>'
+
+
+def build_youtube_section(youtube_ids):
+    if not youtube_ids:
+        return ""
+    iframes = []
+    for vid_id in youtube_ids[:2]:
+        iframes.append(
+            f'<div class="yt-embed"><iframe src="https://www.youtube-nocookie.com/embed/{escape(vid_id)}" '
+            f'title="YouTube video player" frameborder="0" '
+            f'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" '
+            f'allowfullscreen loading="lazy"></iframe></div>'
+        )
+    return f'<section class="yt-section"><h2 class="yt-heading">聆聽示範</h2><div class="yt-grid">{"".join(iframes)}</div></section>'
 
 
 def build_detail_pages(instruments):
@@ -310,17 +317,24 @@ def build_detail_pages(instruments):
         img_url = safe_external_url(item.get("image", ""))
         img_html = f'<img class="instrument-image" src="{img_url}" alt="{escape(item["title"])}" loading="lazy">' if img_url else ""
         header_class = "instrument-header has-image" if img_url else "instrument-header"
+        youtube_html = build_youtube_section(item.get("youtube_ids", []))
         body = f"""
         <main class="instrument-page">
+          <nav class="breadcrumb">
+            <a href="../../">首頁</a> <span>/</span>
+            <a href="../">全部樂器</a> <span>/</span>
+            <span>{escape(item['title'])}</span>
+          </nav>
           <header class="{header_class}">
-            <div>
+            <div class="header-text">
               <p class="eyebrow">{escape(item['category'])}</p>
               <h1>{escape(item['title'])}</h1>
               {orig}
             </div>
-            {img_html}
+            {f'<div class="header-image">{img_html}</div>' if img_url else ""}
           </header>
           {"<dl class='meta-grid'>" + meta_grid + "</dl>" if meta_grid else ""}
+          {youtube_html}
           <article class="markdown-body">{item['html']}</article>
         </main>
         """
@@ -347,68 +361,210 @@ def build_facet_pages(instruments, field, folder, title):
 
 def build_assets(instruments):
     css = """
-:root { --ink:#172026; --muted:#64748b; --line:#d8e0ea; --surface:#fff; --soft:#f4f7fb; --accent:#0f766e; --blue:#1d4ed8; }
-* { box-sizing: border-box; }
-body { margin:0; color:var(--ink); background:#fbfcfe; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
-a { color: inherit; }
-.site-header { display:flex; justify-content:space-between; gap:20px; align-items:center; padding:18px 28px; border-bottom:1px solid var(--line); background:rgba(255,255,255,.95); position:sticky; top:0; z-index:10; }
-.brand { font-weight:800; text-decoration:none; }
-.site-header nav { display:flex; gap:16px; color:var(--muted); font-size:14px; }
-.site-header nav a { text-decoration:none; }
-.page,.instrument-page { max-width:1120px; margin:0 auto; padding:34px 20px 64px; }
-.hero { padding:54px 0 34px; }
-.compact-hero { padding:28px 0 24px; }
-.eyebrow { color:var(--accent); font-size:13px; font-weight:800; margin:0 0 10px; text-transform:uppercase; letter-spacing:0; }
-h1 { font-size:44px; line-height:1.12; margin:0 0 14px; }
-h2 { margin:0; }
-.lead,.empty { color:var(--muted); line-height:1.65; }
-.search-panel input { width:100%; min-height:48px; border:1px solid var(--line); border-radius:8px; padding:0 14px; font-size:16px; background:#fff; }
-.search-results { margin-top:12px; display:grid; gap:8px; }
-.search-results a,.dropdown-results a { padding:10px 12px; border:1px solid var(--line); border-radius:8px; background:#fff; text-decoration:none; }
-.stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; margin:14px 0 36px; }
-.stats div,.facet-card,.instrument-card { border:1px solid var(--line); background:#fff; border-radius:8px; padding:16px; }
-.stats strong { display:block; font-size:26px; }
-.stats span,.facet-card span,.instrument-card span,.instrument-card small { color:var(--muted); }
-.view-switch { display:flex; flex-wrap:wrap; gap:8px; margin:10px 0 0; }
-.view-switch button { min-height:40px; border:1px solid var(--line); border-radius:7px; padding:0 16px; background:#fff; color:var(--ink); font-weight:800; cursor:pointer; }
+/* ── Reset & tokens ─────────────────────────────────────────── */
+:root {
+  --ink: #1a2332;
+  --ink2: #344054;
+  --muted: #667085;
+  --line: #e4e7ec;
+  --surface: #fff;
+  --soft: #f8fafc;
+  --accent: #0d766b;
+  --accent2: #0a5c53;
+  --blue: #1d4ed8;
+  --radius: 10px;
+  --shadow: 0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.06);
+  --shadow-md: 0 4px 6px -1px rgba(0,0,0,.07), 0 2px 4px -2px rgba(0,0,0,.07);
+}
+*, *::before, *::after { box-sizing: border-box; }
+body { margin:0; color:var(--ink); background:var(--soft); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC",sans-serif; line-height:1.6; }
+a { color:inherit; }
+img { max-width:100%; }
+
+/* ── Site header ─────────────────────────────────────────────── */
+.site-header {
+  display:flex; justify-content:space-between; gap:20px; align-items:center;
+  padding:14px 28px; border-bottom:1px solid var(--line);
+  background:rgba(255,255,255,.97); backdrop-filter:blur(8px);
+  position:sticky; top:0; z-index:100;
+  box-shadow: 0 1px 0 var(--line);
+}
+.brand { font-weight:800; font-size:17px; text-decoration:none; color:var(--accent); letter-spacing:-.3px; }
+.site-header nav { display:flex; gap:4px; }
+.site-header nav a { text-decoration:none; color:var(--muted); font-size:14px; font-weight:500; padding:6px 10px; border-radius:6px; transition:color .15s,background .15s; }
+.site-header nav a:hover { color:var(--ink); background:var(--soft); }
+
+/* ── Page layout ─────────────────────────────────────────────── */
+.page,.instrument-page { max-width:1160px; margin:0 auto; padding:36px 24px 80px; }
+
+/* ── Hero ────────────────────────────────────────────────────── */
+.hero { padding:60px 0 40px; }
+.compact-hero { padding:32px 0 28px; }
+.eyebrow { color:var(--accent); font-size:12px; font-weight:700; margin:0 0 10px; text-transform:uppercase; letter-spacing:.08em; }
+h1 { font-size:clamp(32px,5vw,48px); line-height:1.1; margin:0 0 16px; font-weight:800; letter-spacing:-.5px; }
+h2 { margin:0; font-weight:700; }
+.lead { color:var(--muted); line-height:1.7; margin:0 0 8px; }
+.hero-lead { max-width:520px; font-size:17px; margin:0 0 32px; }
+.empty { color:var(--muted); }
+
+/* ── Search ──────────────────────────────────────────────────── */
+.search-panel { max-width:580px; }
+.search-panel input {
+  width:100%; height:52px; border:2px solid var(--line); border-radius:var(--radius);
+  padding:0 18px; font-size:16px; background:var(--surface); color:var(--ink);
+  transition:border-color .2s, box-shadow .2s;
+}
+.search-panel input:focus { outline:none; border-color:var(--accent); box-shadow:0 0 0 3px rgba(13,118,107,.12); }
+.search-results { margin-top:10px; display:grid; gap:6px; max-width:580px; }
+
+/* ── Stats ───────────────────────────────────────────────────── */
+.stats { display:grid; grid-template-columns:repeat(4,minmax(120px,1fr)); gap:12px; margin:0 0 40px; }
+.stat-item { border:1px solid var(--line); background:var(--surface); border-radius:var(--radius); padding:20px; text-align:center; box-shadow:var(--shadow); }
+.stat-item strong { display:block; font-size:32px; font-weight:800; color:var(--accent); line-height:1.1; }
+.stat-item span { color:var(--muted); font-size:13px; }
+
+/* ── View switch ─────────────────────────────────────────────── */
+.view-switch { display:flex; flex-wrap:wrap; gap:8px; margin:0 0 4px; }
+.view-switch button {
+  height:40px; border:2px solid var(--line); border-radius:8px;
+  padding:0 18px; background:var(--surface); color:var(--muted);
+  font-weight:700; font-size:14px; cursor:pointer; transition:all .15s;
+}
+.view-switch button:hover { border-color:var(--accent); color:var(--accent); }
 .view-switch button.is-active { border-color:var(--accent); background:var(--accent); color:#fff; }
 .browse-mode[hidden] { display:none !important; }
-.section { margin-top:38px; }
-.section-heading { display:flex; justify-content:space-between; align-items:end; margin-bottom:16px; }
-.section-heading a { color:var(--blue); font-weight:700; text-decoration:none; }
-.section-note { color:var(--muted); font-size:14px; }
-.dropdown-browser { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)) auto; gap:10px; align-items:end; padding:16px; border:1px solid var(--line); border-radius:8px; background:#fff; }
+
+/* ── Section ─────────────────────────────────────────────────── */
+.section { margin-top:40px; }
+.section-heading { display:flex; justify-content:space-between; align-items:center; margin-bottom:18px; }
+.section-heading a { color:var(--accent); font-weight:600; text-decoration:none; font-size:14px; }
+.section-note { color:var(--muted); font-size:14px; font-weight:600; }
+
+/* ── Dropdown filter ─────────────────────────────────────────── */
+.dropdown-browser {
+  display:grid; grid-template-columns:repeat(4,minmax(0,1fr)) auto;
+  gap:12px; align-items:end; padding:20px; margin-bottom:16px;
+  border:1px solid var(--line); border-radius:var(--radius);
+  background:var(--surface); box-shadow:var(--shadow);
+}
 .dropdown-browser label { display:grid; gap:6px; min-width:0; }
-.dropdown-browser label span { color:var(--muted); font-size:13px; font-weight:700; }
-.dropdown-browser select { width:100%; min-height:40px; border:1px solid var(--line); border-radius:6px; padding:0 10px; background:#fff; color:var(--ink); }
-.dropdown-browser button { min-height:40px; border:0; border-radius:6px; padding:0 14px; background:var(--ink); color:#fff; font-weight:800; cursor:pointer; }
-.dropdown-results { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:10px; margin-top:12px; }
-.dropdown-results a strong,.search-results a strong { display:block; margin-bottom:4px; }
-.dropdown-results a span,.search-results a span { color:var(--muted); font-size:13px; line-height:1.45; }
-.dropdown-results a small,.search-results a small { display:block; margin-top:4px; color:#667085; font-size:12px; line-height:1.45; }
-.facet-grid,.instrument-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:14px; }
-.facet-card,.instrument-card { display:flex; min-height:112px; flex-direction:column; gap:8px; text-decoration:none; overflow:hidden; }
-.instrument-card strong { font-size:18px; }
-.card-thumb { display:block; width:calc(100% + 32px); margin:-16px -16px 4px; height:120px; object-fit:cover; flex-shrink:0; }
-.search-results a,.dropdown-results a { display:flex; gap:10px; align-items:center; }
-.result-thumb { width:52px; height:40px; object-fit:cover; border-radius:4px; flex-shrink:0; }
-.breadcrumb { display:flex; gap:8px; color:var(--muted); margin-bottom:16px; font-size:14px; }
-.breadcrumb a { text-decoration:none; }
-.instrument-header { display:grid; grid-template-columns:minmax(0,1fr); gap:24px; margin-bottom:24px; align-items:start; }
-.instrument-header.has-image { grid-template-columns:minmax(0,1fr) 220px; }
-.original-name { color:var(--muted); font-size:15px; margin:4px 0 0; }
-.instrument-image { width:100%; border:1px solid var(--line); border-radius:8px; background:var(--soft); object-fit:cover; }
-.meta-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:10px; margin:0 0 32px; }
-.meta-grid div { border:1px solid var(--line); border-radius:8px; padding:12px; background:#fff; }
-.meta-grid dt { color:var(--muted); font-size:13px; }
-.meta-grid dd { margin:4px 0 0; font-weight:700; font-size:15px; }
-.listen-button { display:inline-flex; align-items:center; min-height:42px; padding:0 16px; border-radius:6px; background:var(--accent); color:white; text-decoration:none; font-weight:800; }
+.dropdown-browser label span { color:var(--muted); font-size:12px; font-weight:700; text-transform:uppercase; letter-spacing:.05em; }
+.dropdown-browser select {
+  width:100%; height:42px; border:1px solid var(--line); border-radius:7px;
+  padding:0 12px; background:var(--surface); color:var(--ink); font-size:14px;
+  cursor:pointer; transition:border-color .15s;
+}
+.dropdown-browser select:focus { outline:none; border-color:var(--accent); }
+.dropdown-browser button {
+  height:42px; border:0; border-radius:7px; padding:0 16px;
+  background:var(--ink); color:#fff; font-weight:700; font-size:14px; cursor:pointer;
+  white-space:nowrap; transition:background .15s;
+}
+.dropdown-browser button:hover { background:#2d3f50; }
+.dropdown-results { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:10px; }
+
+/* ── Result items (search + dropdown) ───────────────────────── */
+.search-results a,.dropdown-results a {
+  display:flex; gap:12px; align-items:center;
+  padding:12px 14px; border:1px solid var(--line); border-radius:var(--radius);
+  background:var(--surface); text-decoration:none; transition:all .15s;
+  box-shadow:var(--shadow);
+}
+.search-results a:hover,.dropdown-results a:hover { border-color:var(--accent); box-shadow:var(--shadow-md); transform:translateY(-1px); }
+.search-results a strong,.dropdown-results a strong { display:block; font-size:15px; margin-bottom:3px; }
+.search-results a span,.dropdown-results a span { color:var(--muted); font-size:13px; line-height:1.4; }
+.result-thumb { width:56px; height:44px; object-fit:cover; border-radius:6px; flex-shrink:0; }
+
+/* ── Facet grid ──────────────────────────────────────────────── */
+.facet-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(160px,1fr)); gap:12px; }
+.facet-card {
+  display:flex; flex-direction:column; gap:6px; padding:18px;
+  border:1px solid var(--line); border-radius:var(--radius); background:var(--surface);
+  text-decoration:none; transition:all .15s; box-shadow:var(--shadow);
+}
+.facet-card:hover { border-color:var(--accent); box-shadow:var(--shadow-md); transform:translateY(-2px); }
+.facet-card strong { font-size:15px; font-weight:700; }
+.facet-card span { color:var(--muted); font-size:13px; }
+
+/* ── Instrument card grid ────────────────────────────────────── */
+.instrument-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(200px,1fr)); gap:16px; }
+.instrument-card {
+  display:flex; flex-direction:column;
+  border:1px solid var(--line); border-radius:var(--radius); background:var(--surface);
+  text-decoration:none; overflow:hidden; transition:all .15s;
+  box-shadow:var(--shadow);
+}
+.instrument-card:hover { border-color:var(--accent); box-shadow:var(--shadow-md); transform:translateY(-2px); }
+.card-thumb { display:block; width:100%; height:140px; object-fit:cover; flex-shrink:0; }
+.card-thumb--empty { height:80px; background:linear-gradient(135deg,#f0f4f8,#e2e8f0); }
+.card-body { padding:14px; display:flex; flex-direction:column; gap:4px; flex:1; }
+.card-cat { color:var(--accent); font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:.05em; }
+.card-title { font-size:16px; font-weight:700; line-height:1.3; }
+.card-orig { color:var(--muted); font-size:12px; }
+.card-meta { color:var(--muted); font-size:12px; margin-top:auto; }
+
+/* ── Instrument detail page ──────────────────────────────────── */
+.instrument-page { max-width:860px; }
+.breadcrumb { display:flex; flex-wrap:wrap; gap:6px; color:var(--muted); font-size:13px; margin-bottom:24px; }
+.breadcrumb a { text-decoration:none; color:var(--muted); }
+.breadcrumb a:hover { color:var(--accent); }
+.breadcrumb span { color:var(--line); }
+.instrument-header { display:grid; gap:28px; margin-bottom:28px; align-items:start; }
+.instrument-header.has-image { grid-template-columns:minmax(0,1fr) 240px; }
+.header-text { display:flex; flex-direction:column; gap:4px; }
+.header-image { position:sticky; top:80px; }
+.original-name { color:var(--muted); font-size:15px; margin:6px 0 0; }
+.instrument-image { width:100%; border-radius:var(--radius); box-shadow:var(--shadow-md); object-fit:cover; }
+.meta-grid {
+  display:grid; grid-template-columns:repeat(auto-fill,minmax(175px,1fr));
+  gap:10px; margin:0 0 32px; padding:0;
+}
+.meta-item { border:1px solid var(--line); border-radius:var(--radius); padding:14px; background:var(--surface); box-shadow:var(--shadow); }
+.meta-item dt { color:var(--muted); font-size:12px; font-weight:600; text-transform:uppercase; letter-spacing:.05em; margin-bottom:6px; }
+.meta-item dd { margin:0; font-weight:700; font-size:14px; line-height:1.4; }
+
+/* ── YouTube embeds ──────────────────────────────────────────── */
+.yt-section { margin-bottom:32px; }
+.yt-heading { font-size:20px; margin-bottom:16px; color:var(--ink); }
+.yt-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
+.yt-embed { position:relative; padding-bottom:56.25%; border-radius:var(--radius); overflow:hidden; background:#000; box-shadow:var(--shadow-md); }
+.yt-embed iframe { position:absolute; inset:0; width:100%; height:100%; border:0; }
+
+/* ── Article body ────────────────────────────────────────────── */
+.markdown-body { color:var(--ink2); line-height:1.8; font-size:16px; }
+.markdown-body h2 { color:var(--ink); font-size:20px; margin:2em 0 .6em; padding-bottom:8px; border-bottom:1px solid var(--line); }
+.markdown-body h3 { color:var(--ink); font-size:17px; margin:1.5em 0 .5em; }
+.markdown-body p { margin:0 0 1.1em; }
+.markdown-body ul,.markdown-body ol { margin:0 0 1em; padding-left:1.6em; }
+.markdown-body li { margin-bottom:.35em; }
+.markdown-body a { color:var(--blue); }
+.markdown-body blockquote { margin:1em 0; padding:.5em 1em; border-left:3px solid var(--accent); color:var(--muted); background:var(--soft); border-radius:0 6px 6px 0; }
+.markdown-body table { width:100%; border-collapse:collapse; margin-bottom:1.2em; font-size:15px; }
+.markdown-body th { text-align:left; border-bottom:2px solid var(--line); padding:8px 12px; color:var(--muted); font-size:12px; text-transform:uppercase; }
+.markdown-body td { border-bottom:1px solid var(--line); padding:9px 12px; }
+.listen-button { display:inline-flex; align-items:center; min-height:42px; padding:0 18px; border-radius:7px; background:var(--accent); color:white; text-decoration:none; font-weight:700; font-size:14px; transition:background .15s; }
+.listen-button:hover { background:var(--accent2); }
 .source-note { color:var(--muted); font-size:14px; line-height:1.6; word-break:break-word; }
 .source-note a { color:var(--blue); }
-.markdown-body { color:#344054; line-height:1.75; font-size:16px; }
-.markdown-body h2 { color:var(--ink); margin-top:1.4em; border-bottom:1px solid var(--line); padding-bottom:8px; }
-@media (max-width:900px){ .facet-grid,.instrument-grid,.dropdown-results{grid-template-columns:repeat(2,1fr)} .dropdown-browser{grid-template-columns:repeat(2,minmax(0,1fr))} .instrument-header,.instrument-header.has-image{grid-template-columns:1fr} }
-@media (max-width:620px){ .site-header{align-items:flex-start; flex-direction:column} h1{font-size:34px} .facet-grid,.instrument-grid,.stats,.meta-grid,.dropdown-browser,.dropdown-results{grid-template-columns:1fr} }
+
+/* ── Responsive ──────────────────────────────────────────────── */
+@media (max-width:960px) {
+  .instrument-grid { grid-template-columns:repeat(auto-fill,minmax(170px,1fr)); }
+  .dropdown-browser { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .dropdown-results { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .stats { grid-template-columns:repeat(2,1fr); }
+  .yt-grid { grid-template-columns:1fr; }
+}
+@media (max-width:700px) {
+  .site-header { flex-direction:column; align-items:flex-start; gap:10px; padding:14px 18px; }
+  .site-header nav { flex-wrap:wrap; gap:2px; }
+  h1 { font-size:28px; }
+  .instrument-grid,.stats,.meta-grid,.dropdown-browser,.dropdown-results { grid-template-columns:1fr; }
+  .instrument-header,.instrument-header.has-image { grid-template-columns:1fr; }
+  .header-image { position:static; }
+  .page,.instrument-page { padding:20px 16px 60px; }
+  .facet-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+}
 """
     search_index = [
         {
@@ -417,6 +573,7 @@ h2 { margin:0; }
             "category": item["category"],
             "country": item["country"],
             "era": item["era"],
+            "sound_class": item.get("sound_class", ""),
             "url": site_url(f"/instruments/{item['slug']}/"),
             "image": safe_external_url(item.get("image", "")),
         }
@@ -435,7 +592,8 @@ const cardMode = document.getElementById('card-mode');
 const filterControls = {{
   category: document.getElementById('filter-category'),
   country: document.getElementById('filter-country'),
-  era: document.getElementById('filter-era')
+  era: document.getElementById('filter-era'),
+  sound_class: document.getElementById('filter-sound-class')
 }};
 const resetFilters = document.getElementById('filter-reset');
 
@@ -454,45 +612,55 @@ function appendResult(container, item) {{
   const title = document.createElement('strong');
   title.textContent = item.title;
   const meta = document.createElement('span');
-  meta.textContent = `${{item.category}} · ${{item.country}} · ${{item.era}}`;
+  const parts = [item.category, item.country, item.era].filter(Boolean);
+  meta.textContent = parts.join(' · ');
   info.append(title, meta);
   link.append(info);
   container.append(link);
 }}
 
 function setBrowseMode(mode) {{
-  if (!dropdownMode || !cardMode || !modeDropdown || !modeCards) return;
+  if (!dropdownMode || !cardMode) return;
   const useDropdown = mode !== 'cards';
   dropdownMode.hidden = !useDropdown;
   cardMode.hidden = useDropdown;
-  modeDropdown.classList.toggle('is-active', useDropdown);
-  modeCards.classList.toggle('is-active', !useDropdown);
+  if (modeDropdown) modeDropdown.classList.toggle('is-active', useDropdown);
+  if (modeCards) modeCards.classList.toggle('is-active', !useDropdown);
+  try {{ localStorage.setItem('wmi_browse_mode', mode); }} catch(e) {{}}
 }}
 
 modeDropdown?.addEventListener('click', () => setBrowseMode('dropdown'));
 modeCards?.addEventListener('click', () => setBrowseMode('cards'));
-setBrowseMode('dropdown');
 
+// Restore saved mode
+try {{
+  const saved = localStorage.getItem('wmi_browse_mode');
+  if (saved) setBrowseMode(saved); else setBrowseMode('dropdown');
+}} catch(e) {{ setBrowseMode('dropdown'); }}
+
+// Search box
 if (input && results) {{
   input.addEventListener('input', () => {{
     const q = input.value.trim().toLowerCase();
     results.replaceChildren();
     if (!q) return;
-    const hits = SEARCH_INDEX.filter(item => Object.values(item).join(' ').toLowerCase().includes(q)).slice(0, 20);
-    for (const item of hits) {{
-      appendResult(results, item);
-    }}
+    const hits = SEARCH_INDEX.filter(item =>
+      [item.title, item.original_name, item.category, item.country, item.era, item.sound_class]
+        .join(' ').toLowerCase().includes(q)
+    ).slice(0, 20);
+    for (const item of hits) appendResult(results, item);
   }});
 }}
 
+// Populate selects
 function countValues(field) {{
   const counts = new Map();
   for (const item of SEARCH_INDEX) {{
-    const value = item[field];
-    if (!value) continue;
-    counts.set(value, (counts.get(value) || 0) + 1);
+    const v = item[field];
+    if (!v) continue;
+    counts.set(v, (counts.get(v) || 0) + 1);
   }}
-  return [...counts.entries()].sort((a, b) => a[0].localeCompare(b[0], 'zh-Hant'));
+  return [...counts.entries()].sort((a, b) => b[1] - a[1]);
 }}
 
 function fillSelect(select, field) {{
@@ -506,24 +674,38 @@ function fillSelect(select, field) {{
 }}
 
 function selectedFilters() {{
-  return Object.fromEntries(Object.entries(filterControls).map(([field, select]) => [field, select?.value || '']));
+  return Object.fromEntries(
+    Object.entries(filterControls).map(([field, select]) => [field, select?.value || ''])
+  );
 }}
 
 function renderDropdownResults() {{
   if (!dropdownResults) return;
   dropdownResults.replaceChildren();
   const filters = selectedFilters();
-  const hits = SEARCH_INDEX.filter(item => Object.entries(filters).every(([field, value]) => !value || item[field] === value));
+  const hits = SEARCH_INDEX.filter(item =>
+    Object.entries(filters).every(([field, value]) => !value || item[field] === value)
+  );
   if (dropdownCount) dropdownCount.textContent = `${{hits.length}} 筆`;
-  for (const item of hits) {{
-    appendResult(dropdownResults, item);
-  }}
+  for (const item of hits) appendResult(dropdownResults, item);
+  // Save filter state
+  try {{ localStorage.setItem('wmi_filters', JSON.stringify(filters)); }} catch(e) {{}}
 }}
 
 if (dropdownResults) {{
   fillSelect(filterControls.category, 'category');
   fillSelect(filterControls.country, 'country');
   fillSelect(filterControls.era, 'era');
+  fillSelect(filterControls.sound_class, 'sound_class');
+
+  // Restore saved filters
+  try {{
+    const saved = JSON.parse(localStorage.getItem('wmi_filters') || '{{}}');
+    for (const [field, value] of Object.entries(saved)) {{
+      if (filterControls[field] && value) filterControls[field].value = value;
+    }}
+  }} catch(e) {{}}
+
   for (const select of Object.values(filterControls)) {{
     select?.addEventListener('change', renderDropdownResults);
   }}
@@ -531,6 +713,7 @@ if (dropdownResults) {{
     for (const select of Object.values(filterControls)) {{
       if (select) select.value = '';
     }}
+    try {{ localStorage.removeItem('wmi_filters'); }} catch(e) {{}}
     renderDropdownResults();
   }});
   renderDropdownResults();

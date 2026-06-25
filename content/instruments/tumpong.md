@@ -2,8 +2,11 @@
 title: Tumpong（暫譯）
 original_name: Tumpong
 category: 管樂器
-country: 待考
+country: 菲律賓／東南亞
 era: 傳統／年代待考
+region_type: 地區／文化圈
+soundscape: 一口氣走過山谷（竹管、陶管、長音與世界笛聲）
+body_listening: 氣息、胸腔、長音、空間
 image: https://upload.wikimedia.org/wikipedia/en/thumb/d/d5/Tumpong.jpg/500px-Tumpong.jpg
 ---
 ## 介紹

@@ -2,8 +2,15 @@
 title: 馬辛可琴
 original_name: Masenqo
 category: 弦樂器
-country: 待考
+country: 非洲之角（厄立特里亞、衣索比亞）
+
+或簡化為：
+
+東非
 era: 傳統／年代待考
+region_type: 地區／文化圈
+soundscape: 像人聲一樣哭與唱（擦弦、輪弦、鍵弓琴與提琴家族）
+body_listening: 胸口、嗓音、拉長的情緒
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/COLLECTIE_TROPENMUSEUM_Langhalsluit_met_1_snaar_TMnr_2997-19a.jpg/500px-COLLECTIE_TROPENMUSEUM_Langhalsluit_met_1_snaar_TMnr_2997-19a.jpg
 ---
 ## 介紹

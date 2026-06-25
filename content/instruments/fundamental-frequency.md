@@ -2,8 +2,11 @@
 title: 基本頻率
 original_name: Fundamental frequency
 category: 弦樂器
-country: 待考
+country: 全球
 era: 傳統／年代待考
+region_type: 跨文化／多地
+soundscape: 手邊發光的小宇宙（近身體鳴、舌片琴與手奏金屬共鳴）
+body_listening: 指尖、掌心、尾音、近身聆聽
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Harmonic_partials_on_strings.svg/500px-Harmonic_partials_on_strings.svg.png
 ---
 ## 介紹

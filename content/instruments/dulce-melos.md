@@ -2,8 +2,11 @@
 title: 甜蜜琴
 original_name: Dulce melos
 category: 鍵盤樂器
-country: 待考
+country: 歐洲（中世紀歐洲）
 era: 傳統／年代待考
+region_type: 單一地區／文化圈
+soundscape: 平放在大地上的弦（齊特琴、箏類、擊弦與鍵盤化弦鳴）
+body_listening: 手掌、弦面、推音、敲擊
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/1440_Dulce_Melos.png/500px-1440_Dulce_Melos.png
 ---
 ## 介紹

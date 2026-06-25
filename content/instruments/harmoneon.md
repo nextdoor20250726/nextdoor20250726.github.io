@@ -2,8 +2,11 @@
 title: 和聲手風琴
 original_name: Harmoneon
 category: 管樂器
-country: 待考
+country: 法國
 era: 傳統／年代待考
+region_type: 單一地區／文化圈
+soundscape: 按鍵、機械與現代耳朵（風箱鍵盤、鋼琴、合成器與取樣）
+body_listening: 手指、機械距離、記憶、電聲
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Harmoneon_cavagnolo.jpg/500px-Harmoneon_cavagnolo.jpg
 ---
 ## 介紹

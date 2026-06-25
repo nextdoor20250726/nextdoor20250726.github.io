@@ -6,9 +6,9 @@ country: 全球／非洲／現代
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Handpans_2020_by_Glenn_Francis.jpg/500px-Handpans_2020_by_Glenn_Francis.jpg
 sound_class: 體鳴
-hs_class: Idiophone／體鳴樂器
-family: 金屬泛音容器
-playing_method: 手拍／敲擊
+hs_class: 12 體鳴／舌片琴／金屬共鳴
+family: 近身體鳴、舌片琴與手奏金屬共鳴
+playing_method: 手敲／拇指撥片／近身共鳴
 body_listening: 指尖、掌心、尾音、近身聆聽
 soundscape: 手邊發光的小宇宙（近身共鳴、舌片琴與療癒金屬聲響）
 region_type: 跨文化／多地

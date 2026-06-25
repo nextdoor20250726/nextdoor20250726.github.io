@@ -2,8 +2,11 @@
 title: 坦布拉琴
 original_name: Tanpura
 category: 弦樂器
-country: 待考
+country: 印度／南亞
 era: 傳統／年代待考
+region_type: 地區／文化圈
+soundscape: 旅人手中的撥弦故事（魯特琴、短頸長頸撥弦與民謠弦聲）
+body_listening: 懷抱、手指、腳步、敘事
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Pandit_Murli_Manohar_Shukla_%27MANHAR%27.jpg/500px-Pandit_Murli_Manohar_Shukla_%27MANHAR%27.jpg
 ---
 ## 介紹

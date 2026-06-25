@@ -4,6 +4,9 @@ original_name: Russian guitar
 category: 鍵盤樂器
 country: 俄羅斯
 era: 古代
+region_type: 單一地區／文化圈
+soundscape: 旅人手中的撥弦故事（魯特琴、短頸長頸撥弦與民謠弦聲）
+body_listening: 懷抱、手指、腳步、敘事
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F_%D1%81%D0%B5%D0%BC%D0%B8%D1%81%D1%82%D1%80%D1%83%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B3%D0%B8%D1%82%D0%B0%D1%80%D0%B0.JPG/500px-%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F_%D1%81%D0%B5%D0%BC%D0%B8%D1%81%D1%82%D1%80%D1%83%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B3%D0%B8%D1%82%D0%B0%D1%80%D0%B0.JPG
 ---
 ## 介紹

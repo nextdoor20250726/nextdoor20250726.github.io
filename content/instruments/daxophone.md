@@ -2,8 +2,11 @@
 title: Daxophone（暫譯）
 original_name: Daxophone
 category: 打擊樂器
-country: 待考
+country: 德國
 era: 傳統／年代待考
+region_type: 單一地區／文化圈
+soundscape: 像人聲一樣哭與唱（擦弦、輪弦、鍵弓琴與提琴家族）
+body_listening: 胸口、嗓音、拉長的情緒
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Deutsches_Jazzfestival_2015_-_Hope_-_Kazuhisa_Uchihashi_-_03.jpg/500px-Deutsches_Jazzfestival_2015_-_Hope_-_Kazuhisa_Uchihashi_-_03.jpg
 ---
 ## 介紹

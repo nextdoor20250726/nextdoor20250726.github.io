@@ -6,9 +6,9 @@ country: 中東／歐亞／東亞／美洲／全球
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/%E6%A1%83%E5%9C%92%E6%99%AF%E7%A6%8F%E5%AE%AE%E9%88%9E%E5%A4%A9%E7%A4%BE%E6%9C%88%E7%90%B4.jpg/500px-%E6%A1%83%E5%9C%92%E6%99%AF%E7%A6%8F%E5%AE%AE%E9%88%9E%E5%A4%A9%E7%A4%BE%E6%9C%88%E7%90%B4.jpg
 sound_class: 弦鳴
-hs_class: Chordophone／弦鳴樂器
-family: 東亞劇場撥弦
-playing_method: 撥弦
+hs_class: 321/322 魯特琴類／撥弦
+family: 魯特琴、短頸長頸撥弦與民謠弦聲
+playing_method: 撥弦／刷弦／撥片
 body_listening: 懷抱、手指、腳步、敘事
 soundscape: 旅人手中的撥弦故事（魯特琴、短頸長頸撥弦與民謠弦聲）
 region_type: 跨文化／多地

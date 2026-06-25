@@ -2,8 +2,11 @@
 title: Kse diev（暫譯）
 original_name: Kse diev
 category: 打擊樂器
-country: 待考
+country: 柬埔寨／東南亞
 era: 傳統／年代待考
+region_type: 地區／文化圈
+soundscape: 平放在大地上的弦（齊特琴、箏類、擊弦與鍵盤化弦鳴）
+body_listening: 手掌、弦面、推音、敲擊
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Yoeun_Mek_tries_kse_diev_2001.jpg/500px-Yoeun_Mek_tries_kse_diev_2001.jpg
 ---
 ## 介紹

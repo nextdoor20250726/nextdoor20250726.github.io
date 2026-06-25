@@ -6,9 +6,9 @@ country: 全球
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/e/e8/John_Church_and_Co._reed_organ.jpg
 sound_class: 氣鳴
-hs_class: Aerophone／氣鳴樂器
-family: 管風琴與風箱鍵盤
-playing_method: 鍵盤＋氣流
+hs_class: 412/422 簧鳴與自由簧／單簧雙簧
+family: 口簧、自由簧、單簧雙簧與風袋
+playing_method: 吹奏／簧片振動／風袋或風箱
 body_listening: 手指、機械距離、記憶、電聲
 soundscape: 按鍵、機械與現代耳朵（風箱鍵盤、鋼琴、合成器與取樣）
 region_type: 跨文化／多地

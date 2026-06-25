@@ -6,9 +6,9 @@ country: 肯亞
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Nyatiti.jpg/500px-Nyatiti.jpg
 sound_class: 弦鳴
-hs_class: Chordophone／弦鳴樂器
-family: 羅uo里拉琴
-playing_method: 撥奏
+hs_class: 322 豎琴與里拉類
+family: 豎琴、里拉與開放弦樂器
+playing_method: 撥弦／開放弦共鳴
 body_listening: 吟唱支撐、節奏腳鈴、故事敘事
 soundscape: 開放弦的天空與河流（豎琴、里拉與開放弦樂器）
 region_type: 單一地區／文化圈

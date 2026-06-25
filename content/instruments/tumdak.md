@@ -2,8 +2,11 @@
 title: 坦姆達克鼓
 original_name: Tumdak'
 category: 打擊樂器
-country: 待考
+country: 印度東部／孟加拉國
 era: 傳統／年代待考
+region_type: 地區／文化圈
+soundscape: 手掌、皮膜與舞步（手鼓、框鼓、杯鼓、語言鼓與鼓組）
+body_listening: 手掌、腳底、低音、舞步
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/A_Santal_drummer_playing_Tumda.jpg/500px-A_Santal_drummer_playing_Tumda.jpg
 ---
 ## 介紹

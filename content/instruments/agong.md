@@ -2,8 +2,11 @@
 title: A鑼
 original_name: Agong
 category: 打擊樂器
-country: 待考
+country: 馬來西亞
 era: 傳統／年代待考
+region_type: 單一地區／文化圈
+soundscape: 手裡搖動的節奏星塵（沙鈴、刮器、鈴串與身體小打擊）
+body_listening: 手腕、腳踝、短音、節奏對齊
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Arms_of_the_Yang_di-Pertuan_Agong_of_Malaysia.svg/500px-Arms_of_the_Yang_di-Pertuan_Agong_of_Malaysia.svg.png
 ---
 ## 介紹
@@ -11,4 +14,5 @@ image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Arms_of_the_Yan
 馬來西亞國王，正式名稱為「最高元首」（Yang di-Pertuan Agong，字面意思為「被立為領主者」，爪夷文：يڠ دڤرتوان اݢوڠ‎），是馬來西亞的君主立憲制元首和名義上的國家元首。該職位於1957年馬來亞聯邦從英國獲得獨立時設立。最高元首由統治者會議選舉產生，該會議由馬來各州的九位統治者組成，該職位在他們之間實際上輪流擔任，使馬來西亞成為世界上少數幾個選舉君主制國家之一。第17任及現任最高元首是來自柔佛的易卜拉欣伊斯干達。
 ## 歷史背景
 
-## 音色描述
+
+一九五七年八月三十一日，統治者會議拒絕了「楊迪佩爾圖安貝薩」的建議名稱，改採「楊迪佩爾圖安阿貢」，並選出第一位聯邦君主。按資歷排序，現任柔佛蘇丹、時年八十四歲的易卜拉欣將軍自一八九五年起統治柔佛，本應優先獲選，但因年邁而婉拒。次順位的彭亨蘇丹阿布巴卡自一九三二年起統治彭亨，遭選舉人五度否決，未獲必要票數。其原因部分源於他與多名名人及舞廳舞者的婚姻被視為有損皇室尊嚴，尤其是據敦達都阿都拉曼口述所知，他曾與一名龍根舞舞者秘密結婚並蜜月赴香港。最終，一九三三年當選森美蘭楊木端貝薩的內格里森布蘭州統治者阿都拉曼以八比一的票數當選為國王。

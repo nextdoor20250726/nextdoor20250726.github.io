@@ -2,8 +2,15 @@
 title: 薩克斯管
 original_name: Sarrusophone
 category: 管樂器
-country: 待考
+country: 法國
 era: 傳統／年代待考
+region_type: 單一地區／文化圈
+soundscape: 簧片裡的鼻音與歌聲（口簧、自由簧、單簧雙簧與風袋聲音）
+body_listening: 口腔、舌頭、簧片震動、鼻音
+playing_method: 吹奏／簧片振動／風袋或風箱
+family: 口簧、自由簧、單簧雙簧與風袋
+hs_class: 412/422 簧鳴與自由簧／單簧雙簧
+sound_class: 氣鳴
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Soprano_Sarrusophone_in_B-flat_MET_mus350a.jpeg/500px-Soprano_Sarrusophone_in_B-flat_MET_mus350a.jpeg
 ---
 ## 介紹

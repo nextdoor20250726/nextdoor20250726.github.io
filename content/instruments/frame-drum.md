@@ -2,8 +2,11 @@
 title: 框架鼓
 original_name: Frame drum
 category: 打擊樂器
-country: 待考
+country: 中東／地中海地區
 era: 傳統／年代待考
+region_type: 地區／文化圈
+soundscape: 手掌、皮膜與舞步（手鼓、框鼓、杯鼓、語言鼓與鼓組）
+body_listening: 手掌、腳底、低音、舞步
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Bebny_szama%C5%84skie.jpg/500px-Bebny_szama%C5%84skie.jpg
 ---
 ## 介紹

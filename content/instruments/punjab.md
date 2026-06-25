@@ -4,6 +4,9 @@ original_name: Punjab
 category: 弦樂器
 country: 印度
 era: 15 世紀
+region_type: 單一地區／文化圈
+soundscape: 眾聲相遇的廣場（合奏系統、地域編制與現代混合）
+body_listening: 身體、群體、互聽、分工
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Punjab_region_in_Indian_subcontinent.svg/500px-Punjab_region_in_Indian_subcontinent.svg.png
 ---
 ## 介紹

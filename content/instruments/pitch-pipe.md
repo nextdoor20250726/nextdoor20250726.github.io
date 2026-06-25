@@ -2,8 +2,11 @@
 title: 音高笛
 original_name: Pitch pipe
 category: 管樂器
-country: 待考
+country: 歐洲
 era: 傳統／年代待考
+region_type: 單一地區／文化圈
+soundscape: 一口氣走過山谷（竹管、陶管、長音與世界笛聲）
+body_listening: 氣息、胸腔、長音、空間
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/PitchPipes.JPG/500px-PitchPipes.JPG
 ---
 ## 介紹

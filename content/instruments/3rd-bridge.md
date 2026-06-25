@@ -2,8 +2,11 @@
 title: 第三琴橋
 original_name: 3rd bridge
 category: 弦樂器
-country: 待考
+country: 全球
 era: 傳統／年代待考
+region_type: 跨文化／多地
+soundscape: 旅人手中的撥弦故事（魯特琴、短頸長頸撥弦與民謠弦聲）
+body_listening: 懷抱、手指、腳步、敘事
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Home_swinger.jpg/500px-Home_swinger.jpg
 ---
 ## 介紹
@@ -11,4 +14,5 @@ image: https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Home_swinger.jp
 第三琴橋是一種在電吉他和其他弦樂器上使用的延伸演奏技巧，允許音樂家產生在傳統的兩個琴橋（琴頭和琴橋）弦樂器上無法獲得的獨特音色和泛音。使用這項技巧所產生的音色接近甘美蘭樂器的音質，例如邦邦鑼和類似的印尼音高鑼。
 ## 歷史背景
 
-## 音色描述
+
+第三琴橋技巧起源於1970年代的實驗音樂領域，由美國吉他手和作曲家開創。這項技術受到印尼甘美蘭音樂的啟發，音樂家們發現在弦樂器的第三點施加壓力，能夠產生類似邦邦鑼和高鑼的金屬質感音色。初期主要在前衛古典音樂和電子音樂圈子中探索發展。1980年代，隨著實驗搖滾和噪音音樂的興起，第三琴橋技巧逐漸被電吉他手採納。通過錄音和現場演奏的推廣，這項技術逐步傳播至歐洲和世界各地的當代音樂社群。如今已成為現代吉他演奏中公認的擴展技巧之一，被應用於電影配樂、實驗音樂創作及教育領域，豐富了樂器的音色表現可能性。

@@ -6,9 +6,9 @@ country: 全球
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Jasraj_001.jpg/500px-Jasraj_001.jpg
 sound_class: 弦鳴
-hs_class: Chordophone／弦鳴樂器
-family: 齊特琴延伸與現代變形
-playing_method: 撥／擊／鍵盤
+hs_class: 314/315/316 齊特琴／擊弦／鍵盤化弦鳴
+family: 齊特琴、箏類、擊弦與鍵盤化弦鳴
+playing_method: 撥弦／擊弦／按鍵擊弦
 body_listening: 手掌、弦面、推音、敲擊
 soundscape: 平放在大地上的弦（齊特琴、箏類、擊弦與鍵盤化收束）
 region_type: 跨文化／多地

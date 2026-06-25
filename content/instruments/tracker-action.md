@@ -2,8 +2,11 @@
 title: 運動相機
 original_name: Tracker action
 category: 打擊樂器
-country: 待考
+country: 歐洲
 era: 傳統／年代待考
+region_type: 單一地區／文化圈
+soundscape: 按鍵、機械與現代耳朵（風箱鍵盤、鋼琴、合成器與取樣）
+body_listening: 手指、機械距離、記憶、電聲
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Pipe_organ_tracker_action.jpg/500px-Pipe_organ_tracker_action.jpg
 ---
 ## 介紹

@@ -2,8 +2,11 @@
 title: 中低音雙簧管
 original_name: Baritone oboe
 category: 管樂器
-country: 待考
+country: 歐洲
 era: 傳統／年代待考
+region_type: 單一地區／文化圈
+soundscape: 簧片裡的鼻音與歌聲（口簧、自由簧、單簧雙簧與風袋聲音）
+body_listening: 口腔、舌頭、簧片震動、鼻音
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Bass_oboe_-_St_Cecilia%27s_Hall.webm/500px--Bass_oboe_-_St_Cecilia%27s_Hall.webm.jpg
 ---
 ## 介紹

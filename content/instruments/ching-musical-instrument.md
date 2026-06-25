@@ -2,8 +2,11 @@
 title: 指鈸
 original_name: Ching (musical instrument)
 category: 打擊樂器
-country: 待考
+country: 東南亞（柬埔寨／泰國）
 era: 傳統／年代待考
+region_type: 地區／文化圈
+soundscape: 手裡搖動的節奏星塵（沙鈴、刮器、鈴串與身體小打擊）
+body_listening: 手腕、腳踝、短音、節奏對齊
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Ching_%28musical_instrument%29.jpg/500px-Ching_%28musical_instrument%29.jpg
 ---
 ## 介紹

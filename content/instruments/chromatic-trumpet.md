@@ -2,8 +2,11 @@
 title: 半音小號
 original_name: Chromatic trumpet
 category: 打擊樂器
-country: 待考
+country: 中東／地中海地區
 era: 傳統／年代待考
+region_type: 地區／文化圈
+soundscape: 吹向遠方的號角（天然號、宗教號角、山谷長號與銅管）
+body_listening: 嘴唇、遠方、召喚、空間方向
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Yamaha_Trumpet_YTR-8335LA_crop.jpg/500px-Yamaha_Trumpet_YTR-8335LA_crop.jpg
 ---
 ## 介紹

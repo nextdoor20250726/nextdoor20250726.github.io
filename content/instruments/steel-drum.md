@@ -2,8 +2,11 @@
 title: 鋼鼓
 original_name: Steel drum
 category: 打擊樂器
-country: 待考
+country: 千里達及托巴哥
 era: 傳統／年代待考
+region_type: 單一地區／文化圈
+soundscape: 木石金屬的回聲城市（木琴、石琴、編鐘、鑼群與甘美朗）
+body_listening: 材料、回聲、群體分工、音列
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Steelpan_Instruments_at_Trinidad_and_Tobago_Carnival.jpg/500px-Steelpan_Instruments_at_Trinidad_and_Tobago_Carnival.jpg
 ---
 ## 介紹

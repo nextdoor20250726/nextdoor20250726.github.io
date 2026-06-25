@@ -4,6 +4,9 @@ original_name: Huiringua
 category: 打擊樂器
 country: 墨西哥
 era: 傳統／年代待考
+region_type: 單一地區／文化圈
+soundscape: 手邊發光的小宇宙（近身體鳴、舌片琴與手奏金屬共鳴）
+body_listening: 指尖、掌心、尾音、近身聆聽
 ---
 ## 介紹
 

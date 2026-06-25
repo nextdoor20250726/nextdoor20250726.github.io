@@ -2,8 +2,11 @@
 title: 法竹笛
 original_name: Hocchiku
 category: 管樂器
-country: 待考
+country: 日本
 era: 傳統／年代待考
+region_type: 單一地區／文化圈
+soundscape: 一口氣走過山谷（竹管、陶管、長音與世界笛聲）
+body_listening: 氣息、胸腔、長音、空間
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/YUNGhocchiku_utagchi.jpg/500px-YUNGhocchiku_utagchi.jpg
 ---
 ## 介紹

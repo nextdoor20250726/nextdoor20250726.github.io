@@ -2,8 +2,9 @@
 title: 烏克蘭
 original_name: Ukraine
 category: 弦樂器
-country: 待考
+country: 東歐（烏克蘭及周邊地區）
 era: 9 世紀
+region_type: 單一地區／文化圈
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/500px-Flag_of_Ukraine.svg.png
 ---
 ## 介紹

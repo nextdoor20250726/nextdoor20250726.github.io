@@ -2,8 +2,11 @@
 title: 汽笛琴
 original_name: Calliope (music)
 category: 管樂器
-country: 待考
+country: 美國
 era: 傳統／年代待考
+region_type: 單一地區／文化圈
+soundscape: 一口氣走過山谷（竹管、陶管、長音與世界笛聲）
+body_listening: 氣息、胸腔、長音、空間
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Calliope%2C_the_wonderful_operonicon_or_steam_car_of_the_muses%2C_advertising_poster%2C_1874.jpg/500px-Calliope%2C_the_wonderful_operonicon_or_steam_car_of_the_muses%2C_advertising_poster%2C_1874.jpg
 ---
 ## 介紹

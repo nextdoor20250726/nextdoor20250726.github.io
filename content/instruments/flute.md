@@ -2,8 +2,11 @@
 title: 笛
 original_name: Flute
 category: 打擊樂器
-country: 待考
+country: 歐洲（斯洛維尼亞）／全球
 era: 傳統／年代待考
+region_type: 跨文化／多地
+soundscape: 一口氣走過山谷（竹管、陶管、長音與世界笛聲）
+body_listening: 氣息、胸腔、長音、空間
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Shinobue_and_other_flutes.jpg/500px-Shinobue_and_other_flutes.jpg
 ---
 ## 介紹

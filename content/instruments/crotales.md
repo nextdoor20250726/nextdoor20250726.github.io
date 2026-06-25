@@ -6,9 +6,9 @@ country: 歐洲／全球
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Crotales_-_Paiste_brand.jpg/500px-Crotales_-_Paiste_brand.jpg
 sound_class: 體鳴
-hs_class: Idiophone／體鳴樂器
-family: 定音小鈸
-playing_method: 敲擊／拉弓
+hs_class: 11 小型體鳴／搖奏刮奏敲奏
+family: 小型節奏體鳴、沙鈴、刮器與身體打擊
+playing_method: 搖奏／刮奏／敲擊／身體打擊
 body_listening: 高亮泛音、星點音色、樂團空間
 soundscape: 木石金屬的回聲城市（定音體鳴、材料敲擊與鑼鐘木琴系統）
 region_type: 跨文化／古典與現代

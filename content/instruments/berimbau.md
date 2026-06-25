@@ -2,8 +2,11 @@
 title: 伯林巴烏琴
 original_name: Berimbau
 category: 弦樂器
-country: 待考
+country: 非洲（安哥拉）／巴西
 era: 傳統／年代待考
+region_type: 地區／文化圈
+soundscape: 開放弦的天空與河流（豎琴、里拉、科拉與跨文化開放弦）
+body_listening: 循環、河流感、開放弦、吟唱
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/History_of_Inventions_USNM_41_Angola_Muscial_Bow.jpg/500px-History_of_Inventions_USNM_41_Angola_Muscial_Bow.jpg
 ---
 ## 介紹

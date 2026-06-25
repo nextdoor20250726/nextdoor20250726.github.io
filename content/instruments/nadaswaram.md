@@ -6,9 +6,9 @@ country: 印度南部
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/A_Nadaswaram_with_seevali.JPG/500px-A_Nadaswaram_with_seevali.JPG
 sound_class: 氣鳴
-hs_class: Aerophone／氣鳴樂器
-family: 南印度雙簧管
-playing_method: 吹奏
+hs_class: 412/422 簧鳴與自由簧／單簧雙簧
+family: 口簧、自由簧、單簧雙簧與風袋
+playing_method: 吹奏／簧片振動／風袋或風箱
 body_listening: 寺廟婚禮、強烈喜慶、長線條
 soundscape: 簧片裡的鼻音與歌聲（口簧、自由簧、單簧雙簧與風袋）
 region_type: 單一地區／文化圈

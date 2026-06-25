@@ -2,8 +2,9 @@
 title: 幾內亞
 original_name: Guinea
 category: 弦樂器
-country: 待考
+country: 西非（幾內亞地區）
 era: 傳統／年代待考
+region_type: 單一地區／文化圈
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Flag_of_Guinea.svg/500px-Flag_of_Guinea.svg.png
 ---
 ## 介紹

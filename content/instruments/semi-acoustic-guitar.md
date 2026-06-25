@@ -2,8 +2,11 @@
 title: 半空心吉他
 original_name: Semi-acoustic guitar
 category: 弦樂器
-country: 待考
+country: 美國
 era: 傳統／年代待考
+region_type: 單一地區／文化圈
+soundscape: 旅人手中的撥弦故事（魯特琴、短頸長頸撥弦與民謠弦聲）
+body_listening: 懷抱、手指、腳步、敘事
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Gibson_ES-150.png/500px-Gibson_ES-150.png
 ---
 ## 介紹

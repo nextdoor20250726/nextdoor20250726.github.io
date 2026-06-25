@@ -2,8 +2,11 @@
 title: 拇指琴
 original_name: Kisanji
 category: 打擊樂器
-country: 待考
+country: 剛果民主共和國／剛果共和國（非洲中部）
 era: 傳統／年代待考
+region_type: 地區／文化圈
+soundscape: 手邊發光的小宇宙（近身體鳴、舌片琴與手奏金屬共鳴）
+body_listening: 指尖、掌心、尾音、近身聆聽
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Kisanji.ogv/500px--Kisanji.ogv.jpg
 ---
 ## 介紹

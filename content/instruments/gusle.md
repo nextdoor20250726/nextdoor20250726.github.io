@@ -6,9 +6,9 @@ country: 巴爾幹地區
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/6/6d/Filip_Visnjic_guslar.jpg
 sound_class: 弦鳴
-hs_class: Chordophone／弦鳴樂器
-family: 單弦擦弦琴
-playing_method: 拉奏
+hs_class: 321.3 擦弦／輪弦／提琴家族
+family: 擦弦、輪弦與提琴家族
+playing_method: 弓擦／輪擦
 body_listening: 史詩吟唱、低沉獨奏、人聲敘事
 soundscape: 弓毛拉出的哭與唱（擦弦、輪弦與提琴家族）
 region_type: 區域／多國

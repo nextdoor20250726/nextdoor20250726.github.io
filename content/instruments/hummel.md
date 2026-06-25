@@ -5,9 +5,9 @@ category: 鍵盤樂器
 country: 瑞典／北歐
 era: 傳統／年代待考
 sound_class: 弦鳴
-hs_class: Chordophone／弦鳴樂器
-family: 北歐齊特琴
-playing_method: 撥奏
+hs_class: 314/315/316 齊特琴／擊弦／鍵盤化弦鳴
+family: 齊特琴、箏類、擊弦與鍵盤化弦鳴
+playing_method: 撥弦／擊弦／按鍵擊弦
 body_listening: 持續音、鄉村舞曲、木質簡樸感
 soundscape: 平放在大地上的弦（齊特琴、箏類、擊弦與鍵盤化弦鳴）
 region_type: 區域／多國

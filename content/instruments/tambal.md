@@ -6,9 +6,9 @@ country: 亞洲／歐洲／全球
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Cimbalom_%28from_Emil_Richards_Collection%29.jpg/500px-Cimbalom_%28from_Emil_Richards_Collection%29.jpg
 sound_class: 弦鳴
-hs_class: Chordophone／弦鳴樂器
-family: 擊弦齊特
-playing_method: 槌擊
+hs_class: 314/315/316 齊特琴／擊弦／鍵盤化弦鳴
+family: 齊特琴、箏類、擊弦與鍵盤化弦鳴
+playing_method: 撥弦／擊弦／按鍵擊弦
 body_listening: 手掌、弦面、推音、敲擊
 soundscape: 平放在大地上的弦（齊特琴、箏類、擊弦與鍵盤化收束）
 region_type: 跨文化／多地

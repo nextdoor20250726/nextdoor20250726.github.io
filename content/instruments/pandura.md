@@ -2,8 +2,15 @@
 title: 潘杜拉琴
 original_name: Pandura
 category: 弦樂器
-country: 待考
+country: 拉丁美洲／安地斯／加勒比
 era: 傳統／年代待考
+region_type: 跨文化／多地
+soundscape: 旅人手中的撥弦故事（魯特琴、短頸長頸撥弦與民謠弦聲）
+body_listening: 懷抱、手指、腳步、敘事
+playing_method: 撥弦／刷弦／撥片
+family: 魯特琴、短頸長頸撥弦與民謠弦聲
+hs_class: 321/322 魯特琴類／撥弦
+sound_class: 弦鳴
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Muse_with_%CE%A0%CE%B1%CE%BD%CE%B4%CE%BF%CF%8D%CF%81%CE%B1_Pandura_Pandora_Panduris_ancient_Greece_old_guitar_Athens_IV_BCE_siglo_IV_AEC.jpg/500px-Muse_with_%CE%A0%CE%B1%CE%BD%CE%B4%CE%BF%CF%8D%CF%81%CE%B1_Pandura_Pandora_Panduris_ancient_Greece_old_guitar_Athens_IV_BCE_siglo_IV_AEC.jpg
 ---
 ## 介紹

@@ -4,6 +4,9 @@ original_name: Rock gong
 category: 打擊樂器
 country: 非洲
 era: 傳統／年代待考
+region_type: 單一地區／文化圈
+soundscape: 木石金屬的回聲城市（木琴、石琴、編鐘、鑼群與甘美朗）
+body_listening: 材料、回聲、群體分工、音列
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Ethiopian_Lithophones_with_Stand%2C_Monastery_of_Na%E2%80%99akuto_La%E2%80%99ab_%283425530734%29.jpg/500px-Ethiopian_Lithophones_with_Stand%2C_Monastery_of_Na%E2%80%99akuto_La%E2%80%99ab_%283425530734%29.jpg
 ---
 ## 介紹

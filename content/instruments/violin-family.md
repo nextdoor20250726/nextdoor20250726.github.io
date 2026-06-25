@@ -2,8 +2,11 @@
 title: 提琴族
 original_name: Violin family
 category: 弦樂器
-country: 待考
+country: 義大利
 era: 傳統／年代待考
+region_type: 單一地區／文化圈
+soundscape: 像人聲一樣哭與唱（擦弦、輪弦、鍵弓琴與提琴家族）
+body_listening: 胸口、嗓音、拉長的情緒
 image: https://upload.wikimedia.org/wikipedia/commons/8/8c/Cello_front_side.jpg
 ---
 ## 介紹

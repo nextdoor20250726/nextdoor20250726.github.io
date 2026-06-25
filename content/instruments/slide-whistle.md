@@ -2,8 +2,11 @@
 title: 滑音哨笛
 original_name: Slide whistle
 category: 管樂器
-country: 待考
+country: 全球
 era: 傳統／年代待考
+region_type: 跨文化／多地
+soundscape: 一口氣走過山谷（竹管、陶管、長音與世界笛聲）
+body_listening: 氣息、胸腔、長音、空間
 ---
 ## 介紹
 

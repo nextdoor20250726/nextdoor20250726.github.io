@@ -2,8 +2,11 @@
 title: 十二絃吉他
 original_name: Twelve-string guitar
 category: 弦樂器
-country: 待考
+country: 美國
 era: 傳統／年代待考
+region_type: 單一地區／文化圈
+soundscape: 旅人手中的撥弦故事（魯特琴、短頸長頸撥弦與民謠弦聲）
+body_listening: 懷抱、手指、腳步、敘事
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Yamaha_FG720S-12.jpg/500px-Yamaha_FG720S-12.jpg
 ---
 ## 介紹

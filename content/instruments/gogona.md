@@ -4,6 +4,9 @@ original_name: Gogona
 category: 打擊樂器
 country: 印度
 era: 傳統／年代待考
+region_type: 單一地區／文化圈
+soundscape: 手邊發光的小宇宙（近身體鳴、舌片琴與手奏金屬共鳴）
+body_listening: 指尖、掌心、尾音、近身聆聽
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/%E0%A6%97%E0%A6%97%E0%A6%A3%E0%A6%BE.JPG/500px-%E0%A6%97%E0%A6%97%E0%A6%A3%E0%A6%BE.JPG
 ---
 ## 介紹

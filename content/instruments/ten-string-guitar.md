@@ -2,8 +2,11 @@
 title: 十弦吉他
 original_name: Ten-string guitar
 category: 弦樂器
-country: 待考
+country: 西班牙／歐洲
 era: 傳統／年代待考
+region_type: 地區／文化圈
+soundscape: 旅人手中的撥弦故事（魯特琴、短頸長頸撥弦與民謠弦聲）
+body_listening: 懷抱、手指、腳步、敘事
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Guitar_Decacorde.webm/500px--Guitar_Decacorde.webm.jpg
 ---
 ## 介紹

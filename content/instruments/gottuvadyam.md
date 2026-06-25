@@ -5,9 +5,9 @@ category: 弦樂器
 country: 中東／歐洲／亞洲／美洲
 era: 傳統／年代待考
 sound_class: 弦鳴
-hs_class: Chordophone／弦鳴樂器
-family: 無品撥弦
-playing_method: 滑奏撥弦
+hs_class: 314/315/316 齊特琴／擊弦／鍵盤化弦鳴
+family: 齊特琴、箏類、擊弦與鍵盤化弦鳴
+playing_method: 撥弦／擊弦／按鍵擊弦
 body_listening: 懷抱、手指、腳步、敘事
 soundscape: 旅人手中的撥弦故事（魯特琴、短頸長頸撥弦與民謠弦聲）
 region_type: 地區／文化圈

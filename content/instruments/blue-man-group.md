@@ -2,8 +2,11 @@
 title: 藍人樂團
 original_name: Blue Man Group
 category: 管樂器
-country: 待考
+country: 美國
 era: 傳統／年代待考
+region_type: 單一地區／文化圈
+soundscape: 眾聲相遇的廣場（合奏系統、地域編制與現代混合）
+body_listening: 身體、群體、互聽、分工
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Blue_Man4_%28SP%29_2009_Brazil.JPG/500px-Blue_Man4_%28SP%29_2009_Brazil.JPG
 ---
 ## 介紹

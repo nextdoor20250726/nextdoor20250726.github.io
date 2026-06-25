@@ -4,6 +4,9 @@ original_name: Bar zither
 category: 弦樂器
 country: 非洲
 era: 傳統／年代待考
+region_type: 單一地區／文化圈
+soundscape: 平放在大地上的弦（齊特琴、箏類、擊弦與鍵盤化弦鳴）
+body_listening: 手掌、弦面、推音、敲擊
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/An_African_Banjo%2C_Zambia%2C_ca.1905-ca.1940_%28imp-cswc-GB-237-CSWC47-LS6-048%29.jpg/500px-An_African_Banjo%2C_Zambia%2C_ca.1905-ca.1940_%28imp-cswc-GB-237-CSWC47-LS6-048%29.jpg
 ---
 ## 介紹

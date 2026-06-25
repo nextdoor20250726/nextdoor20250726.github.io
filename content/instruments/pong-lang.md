@@ -2,8 +2,11 @@
 title: 橫衝直闖
 original_name: Pong lang
 category: 打擊樂器
-country: 待考
+country: 泰國東北部（依善地區）
 era: 傳統／年代待考
+region_type: 單一地區／文化圈
+soundscape: 木石金屬的回聲城市（木琴、石琴、編鐘、鑼群與甘美朗）
+body_listening: 材料、回聲、群體分工、音列
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Pong_lang_%28Thai_xylophone%29.jpg/500px-Pong_lang_%28Thai_xylophone%29.jpg
 ---
 ## 介紹

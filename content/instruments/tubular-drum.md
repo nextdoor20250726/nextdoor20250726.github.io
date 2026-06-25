@@ -2,8 +2,11 @@
 title: 管狀鼓
 original_name: Tubular drum
 category: 打擊樂器
-country: 待考
+country: 全球
 era: 傳統／年代待考
+region_type: 跨文化／多地
+soundscape: 手掌、皮膜與舞步（手鼓、框鼓、杯鼓、語言鼓與鼓組）
+body_listening: 手掌、腳底、低音、舞步
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Civic_Orchestra_of_Chicago_Timpani.jpg/500px-Civic_Orchestra_of_Chicago_Timpani.jpg
 ---
 ## 介紹

@@ -6,9 +6,9 @@ country: 全球／亞洲／中東／歐洲
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/4/44/JAP_3_Klappen_Chalumeau.jpg
 sound_class: 氣鳴
-hs_class: Aerophone／氣鳴樂器
-family: 單簧管系
-playing_method: 單簧
+hs_class: 412/422 簧鳴與自由簧／單簧雙簧
+family: 口簧、自由簧、單簧雙簧與風袋
+playing_method: 吹奏／簧片振動／風袋或風箱
 body_listening: 口腔、舌頭、簧片震動、鼻音
 soundscape: 簧片裡的鼻音與歌聲（口簧、自由簧、單簧雙簧與風袋聲音）
 region_type: 跨文化／多地

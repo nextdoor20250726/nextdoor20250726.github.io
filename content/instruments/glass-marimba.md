@@ -2,8 +2,11 @@
 title: 玻璃馬林巴琴
 original_name: Glass Marimba
 category: 打擊樂器
-country: 待考
+country: 非洲／全球
 era: 傳統／年代待考
+region_type: 跨文化／多地
+soundscape: 木石金屬的回聲城市（木琴、石琴、編鐘、鑼群與甘美朗）
+body_listening: 材料、回聲、群體分工、音列
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Glass_Marimba_%28from_Emil_Richards_Collection%29.jpg/500px-Glass_Marimba_%28from_Emil_Richards_Collection%29.jpg
 ---
 ## 介紹

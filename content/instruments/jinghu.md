@@ -6,9 +6,9 @@ country: 亞洲／歐洲／中東／全球
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/%E8%83%A1%E7%90%B4_%E6%98%8E%E6%B8%85%E6%A5%BD_%E6%A5%BD%E5%99%A8_1894_KOKIN_or_HUQIN_musical_instrument_used_in_MINSHINGAKU.jpg/500px-%E8%83%A1%E7%90%B4_%E6%98%8E%E6%B8%85%E6%A5%BD_%E6%A5%BD%E5%99%A8_1894_KOKIN_or_HUQIN_musical_instrument_used_in_MINSHINGAKU.jpg
 sound_class: 弦鳴
-hs_class: Chordophone／弦鳴樂器
-family: 胡琴與東亞擦弦
-playing_method: 弓擦
+hs_class: 321.3 擦弦／輪弦／提琴家族
+family: 擦弦、輪弦與提琴家族
+playing_method: 弓擦／輪擦
 body_listening: 胸口、嗓音、拉長的情緒
 soundscape: 像人聲一樣哭與唱（擦弦、輪弦、鍵弓琴與提琴家族）
 region_type: 跨文化／多地

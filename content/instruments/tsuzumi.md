@@ -6,9 +6,9 @@ country: 日本
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/%E4%B8%80%E5%80%8B%E5%A4%A7%E9%BC%93.jpg/500px-%E4%B8%80%E5%80%8B%E5%A4%A7%E9%BC%93.jpg
 sound_class: 膜鳴
-hs_class: Membranophone／膜鳴樂器
-family: 沙漏鼓
-playing_method: 手拍
+hs_class: 21 膜鳴鼓類
+family: 膜鳴鼓類、框鼓、杯鼓與鼓組
+playing_method: 手拍／槌擊／皮膜振動
 body_listening: 能樂節奏、乾亮高音、身體張力
 soundscape: 皮膜敲醒的地心脈動（膜鳴鼓類、框鼓、杯鼓與鼓組）
 region_type: 單一地區／文化圈

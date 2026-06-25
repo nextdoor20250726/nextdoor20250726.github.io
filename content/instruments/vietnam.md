@@ -2,8 +2,9 @@
 title: 越南
 original_name: Vietnam
 category: 弦樂器
-country: 待考
+country: 東南亞／越南
 era: 傳統／年代待考
+region_type: 地區／文化圈
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/500px-Flag_of_Vietnam.svg.png
 ---
 ## 介紹

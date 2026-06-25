@@ -2,8 +2,11 @@
 title: 烏克蘭摩擦鼓
 original_name: Buhay
 category: 打擊樂器
-country: 待考
+country: 烏克蘭
 era: 傳統／年代待考
+region_type: 單一地區／文化圈
+soundscape: 手掌、皮膜與舞步（手鼓、框鼓、杯鼓、語言鼓與鼓組）
+body_listening: 手掌、腳底、低音、舞步
 image: https://upload.wikimedia.org/wikipedia/commons/c/cb/%D0%91%D1%83%D0%B3%D0%B0%D0%B9_%28%D0%BC%D1%83%D0%B7%D0%B8%D1%87%D0%BD%D0%B8%D0%B9_%D1%96%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%29.jpg
 ---
 ## 介紹

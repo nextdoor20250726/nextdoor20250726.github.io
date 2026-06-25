@@ -2,8 +2,9 @@
 title: 芬蘭
 original_name: Finland
 category: 弦樂器
-country: 待考
+country: 北歐／斯堪的納維亞地區
 era: 傳統／年代待考
+region_type: 地區／文化圈
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Finland.svg/500px-Flag_of_Finland.svg.png
 ---
 ## 介紹

@@ -6,9 +6,9 @@ country: 韓國
 era: 20 世紀
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Ajaeng_player.JPG/500px-Ajaeng_player.JPG
 sound_class: 弦鳴
-hs_class: Chordophone／弦鳴樂器
-family: 箏類／板面齊特
-playing_method: 撥弦
+hs_class: 314/315/316 齊特琴／擊弦／鍵盤化弦鳴
+family: 齊特琴、箏類、擊弦與鍵盤化弦鳴
+playing_method: 撥弦／擊弦／按鍵擊弦
 body_listening: 手掌、弦面、推音、敲擊
 soundscape: 平放在大地上的弦（齊特琴、箏類、擊弦與鍵盤化收束）
 region_type: 單一國家或文化源流
@@ -20,4 +20,5 @@ region_type: 單一國家或文化源流
 
 ## 音色描述
 
-### 讀者導覽
+
+牙箏音色溫潤深沈，帶有獨特的蒼涼感與滄桑氣韻，音域寬廣，跨越中低音至高音區。由連翹木製成的共鳴箱提供豐富的泛音，使其音響具有厚重感與穿透力。弓拉或木棒摩擦琴弦產生的聲音較為幽怨哀婉，明顯異於撥彈樂器的脆亮。牙箏尤其擅長表現顫音，能產生波浪般流動的音效，聲音具有柔和的包裹感。與伽倻琴相比，牙箏音色更為深邃內斂；與中國古箏相較，其共鳴方式更強調弓拉的連貫性與表現力，能營造出近似於拉弦樂器的歌唱性，使演奏具有高度的表情張力。

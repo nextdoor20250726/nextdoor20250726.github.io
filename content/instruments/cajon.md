@@ -4,6 +4,9 @@ original_name: Cajón
 category: 打擊樂器
 country: 秘魯
 era: 傳統／年代待考
+region_type: 單一地區／文化圈
+soundscape: 手掌、皮膜與舞步（手鼓、框鼓、杯鼓、語言鼓與鼓組）
+body_listening: 手掌、腳底、低音、舞步
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Cajon_musician.jpg/500px-Cajon_musician.jpg
 ---
 ## 介紹

@@ -2,8 +2,11 @@
 title: 魯特豎琴
 original_name: Harp lute
 category: 打擊樂器
-country: 待考
+country: 歐洲（英國）
 era: 18 世紀
+region_type: 單一地區／文化圈
+soundscape: 開放弦的天空與河流（豎琴、里拉、科拉與跨文化開放弦）
+body_listening: 循環、河流感、開放弦、吟唱
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Kitty_Stephens%2C_later_Countess_of_Essex_%281794-1882%29_by_George_Henry_Harlow.jpg/500px-Kitty_Stephens%2C_later_Countess_of_Essex_%281794-1882%29_by_George_Henry_Harlow.jpg
 ---
 ## 介紹

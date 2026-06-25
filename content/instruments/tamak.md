@@ -4,6 +4,9 @@ original_name: Tamak'
 category: 打擊樂器
 country: 印度
 era: 古代
+region_type: 單一地區／文化圈
+soundscape: 手掌、皮膜與舞步（手鼓、框鼓、杯鼓、語言鼓與鼓組）
+body_listening: 手掌、腳底、低音、舞步
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Traditional_Instruments_of_Odisha_-_Tamak_02.jpg/500px-Traditional_Instruments_of_Odisha_-_Tamak_02.jpg
 ---
 ## 介紹

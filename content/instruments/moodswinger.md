@@ -2,8 +2,11 @@
 title: 噪音搖滾
 original_name: Moodswinger
 category: 弦樂器
-country: 待考
+country: 美國
 era: 傳統／年代待考
+region_type: 單一地區／文化圈
+soundscape: 平放在大地上的弦（齊特琴、箏類、擊弦與鍵盤化弦鳴）
+body_listening: 手掌、弦面、推音、敲擊
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Moodswinger.jpg/500px-Moodswinger.jpg
 ---
 ## 介紹

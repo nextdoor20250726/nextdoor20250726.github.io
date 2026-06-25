@@ -6,9 +6,9 @@ country: 歐洲
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/en/thumb/7/72/Marine_trumpet.jpg/500px-Marine_trumpet.jpg
 sound_class: 弦鳴
-hs_class: Chordophone／弦鳴樂器
-family: 擦弦單弦琴
-playing_method: 拉奏
+hs_class: 321.3 擦弦／輪弦／提琴家族
+family: 擦弦、輪弦與提琴家族
+playing_method: 弓擦／輪擦
 body_listening: 號角般泛音、修院聲響、古樂奇異感
 soundscape: 弓毛拉出的哭與唱（擦弦、輪弦與提琴家族）
 region_type: 歷史文化圈

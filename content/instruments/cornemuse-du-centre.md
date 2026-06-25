@@ -2,8 +2,11 @@
 title: 中部法國風笛
 original_name: Cornemuse du Centre
 category: 管樂器
-country: 待考
+country: 法國中部（波旁地區、貝里地區、涅韋爾內地區、莫凡地區）
 era: 傳統／年代待考
+region_type: 跨文化／多地
+soundscape: 簧片裡的鼻音與歌聲（口簧、自由簧、單簧雙簧與風袋聲音）
+body_listening: 口腔、舌頭、簧片震動、鼻音
 ---
 ## 介紹
 

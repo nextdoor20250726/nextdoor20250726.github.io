@@ -6,9 +6,9 @@ country: 韓國
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Danso_fingering_chart.svg/500px-Danso_fingering_chart.svg.png
 sound_class: 氣鳴
-hs_class: Aerophone／氣鳴樂器
-family: 端吹笛
-playing_method: 端吹
+hs_class: 421 邊棱氣鳴／無簧笛類
+family: 無簧吹管、長音與氣息樂器
+playing_method: 吹奏／端吹／橫吹／容器共鳴
 body_listening: 氣息、胸腔、長音、空間
 soundscape: 一口氣走過山谷（竹管、陶管、長音與世界笛聲）
 region_type: 單一國家或文化源流

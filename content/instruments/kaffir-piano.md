@@ -2,8 +2,11 @@
 title: 南非鐵片琴
 original_name: Kaffir piano
 category: 鍵盤樂器
-country: 待考
+country: 非洲東南部（津巴布韋）
 era: 古代
+region_type: 單一地區／文化圈
+soundscape: 手邊發光的小宇宙（近身體鳴、舌片琴與手奏金屬共鳴）
+body_listening: 指尖、掌心、尾音、近身聆聽
 image: https://upload.wikimedia.org/wikipedia/commons/c/c0/Ene_mbira.jpg
 ---
 ## 介紹

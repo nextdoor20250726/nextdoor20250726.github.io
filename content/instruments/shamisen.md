@@ -6,9 +6,9 @@ country: 中東／歐亞／東亞／美洲／全球
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Tokyo_Geisha_with_Shamisen_c1870s%2C.jpg/500px-Tokyo_Geisha_with_Shamisen_c1870s%2C.jpg
 sound_class: 弦鳴
-hs_class: Chordophone／弦鳴樂器
-family: 東亞劇場撥弦
-playing_method: 撥弦
+hs_class: 321/322 魯特琴類／撥弦
+family: 魯特琴、短頸長頸撥弦與民謠弦聲
+playing_method: 撥弦／刷弦／撥片
 body_listening: 懷抱、手指、腳步、敘事
 soundscape: 旅人手中的撥弦故事（魯特琴、短頸長頸撥弦與民謠弦聲）
 region_type: 跨文化／多地

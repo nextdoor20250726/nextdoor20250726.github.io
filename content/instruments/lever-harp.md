@@ -2,8 +2,11 @@
 title: 拉桿豎琴
 original_name: Lever harp
 category: 弦樂器
-country: 待考
+country: 歐洲西北部（凱爾特地區）／愛爾蘭、蘇格蘭、威爾士、布列塔尼
 era: 古代
+region_type: 跨文化／多地
+soundscape: 開放弦的天空與河流（豎琴、里拉、科拉與跨文化開放弦）
+body_listening: 循環、河流感、開放弦、吟唱
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Trinity_College_harp%2C_Dublin%2C_Ireland%2C_2017_%28cropped2%29.jpg/500px-Trinity_College_harp%2C_Dublin%2C_Ireland%2C_2017_%28cropped2%29.jpg
 ---
 ## 介紹

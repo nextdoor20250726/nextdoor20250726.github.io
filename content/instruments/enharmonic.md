@@ -2,8 +2,9 @@
 title: Enharmonic（暫譯）
 original_name: Enharmonic
 category: 弦樂器
-country: 待考
+country: 全球
 era: 傳統／年代待考
+region_type: 跨文化／多地
 ---
 ## 介紹
 

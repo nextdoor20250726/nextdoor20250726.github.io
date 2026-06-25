@@ -2,8 +2,11 @@
 title: 克洛伊笛
 original_name: Khloy
 category: 管樂器
-country: 待考
+country: 柬埔寨／東南亞
 era: 古代
+region_type: 地區／文化圈
+soundscape: 一口氣走過山谷（竹管、陶管、長音與世界笛聲）
+body_listening: 氣息、胸腔、長音、空間
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Khloy.jpg/500px-Khloy.jpg
 ---
 ## 介紹

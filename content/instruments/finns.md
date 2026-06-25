@@ -2,8 +2,9 @@
 title: Finns（暫譯）
 original_name: Finns
 category: 弦樂器
-country: 待考
+country: 芬蘭及北歐地區
 era: 傳統／年代待考
+region_type: 單一地區／文化圈
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Map_of_the_Finnish_Diaspora_in_the_World.svg/500px-Map_of_the_Finnish_Diaspora_in_the_World.svg.png
 ---
 ## 介紹

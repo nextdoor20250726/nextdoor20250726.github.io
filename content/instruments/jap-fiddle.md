@@ -4,6 +4,9 @@ original_name: Jap fiddle
 category: 弦樂器
 country: 日本
 era: 20 世紀
+region_type: 單一地區／文化圈
+soundscape: 像人聲一樣哭與唱（擦弦、輪弦、鍵弓琴與提琴家族）
+body_listening: 胸口、嗓音、拉長的情緒
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Japfiddle.jpg/500px-Japfiddle.jpg
 ---
 ## 介紹

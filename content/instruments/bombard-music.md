@@ -2,8 +2,11 @@
 title: 邦巴德管
 original_name: Bombard (music)
 category: 管樂器
-country: 待考
+country: 法國／布列塔尼地區
 era: 傳統／年代待考
+region_type: 地區／文化圈
+soundscape: 簧片裡的鼻音與歌聲（口簧、自由簧、單簧雙簧與風袋聲音）
+body_listening: 口腔、舌頭、簧片震動、鼻音
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Bombarde_und_Biniou.JPG/500px-Bombarde_und_Biniou.JPG
 ---
 ## 介紹

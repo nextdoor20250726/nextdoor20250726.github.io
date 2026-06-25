@@ -2,8 +2,11 @@
 title: 沙希巴傑琴
 original_name: Shahi baaja
 category: 弦樂器
-country: 待考
+country: 印度／南亞
 era: 傳統／年代待考
+region_type: 地區／文化圈
+soundscape: 平放在大地上的弦（齊特琴、箏類、擊弦與鍵盤化弦鳴）
+body_listening: 手掌、弦面、推音、敲擊
 ---
 ## 介紹
 

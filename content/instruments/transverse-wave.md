@@ -2,8 +2,11 @@
 title: 橫波
 original_name: Transverse wave
 category: 弦樂器
-country: 待考
+country: 橫波不是樂器，而是物理學中的波動現象。
+
+若需要樂器的起源地區資訊，請提供樂器名稱。
 era: 傳統／年代待考
+region_type: 單一地區／文化圈
 image: https://upload.wikimedia.org/wikipedia/commons/6/6d/Onde_cisaillement_impulsion_1d_30_petit.gif
 ---
 ## 介紹

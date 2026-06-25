@@ -2,8 +2,11 @@
 title: 原聲低音吉他
 original_name: Acoustic bass guitar
 category: 弦樂器
-country: 待考
+country: 全球
 era: 傳統／年代待考
+region_type: 跨文化／多地
+soundscape: 旅人手中的撥弦故事（魯特琴、短頸長頸撥弦與民謠弦聲）
+body_listening: 懷抱、手指、腳步、敘事
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Vea.guitarra.baixa.png/500px-Vea.guitarra.baixa.png
 ---
 ## 介紹
@@ -11,4 +14,5 @@ image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Vea.guitarra.ba
 原聲低音吉他（有時簡稱為原聲低音或縮寫為 ABG）是一種低音樂器，具有空心木製琴身，與鋼弦民謠吉他相似，但通常更大。像傳統電貝司吉他和低音提琴一樣，原聲低音吉他通常有四條弦，通常調音為 E-A-D-G，比六弦吉他最低的四條弦低一個八度。
 ## 歷史背景
 
-## 音色描述
+
+瑞格樂器公司製造的低音吉他（Bassoguitar）可能是第一款採用吉他型琴身的大量生產原聲低音吉他。Harptone公司從1965年開始生產B4型號，初名為Supreme，生產至1975年結束，並以Standel商標生產數量極少的產品。艾尼．鮑爾（Ernie Ball）於1970年代初期開始生產低音吉他，目標是為貝斯手提供更具原聲效果的樂器，使其與原聲吉他的音色相配。鮑爾表示，既然有電貝斯與電吉他相搭配，就應該有原聲低音吉他與原聲吉他相配。他受到墨西哥馬林巴樂隊中的吉他靈感啟發，在蒂華納購買樂器進行改進。1972年，鮑爾與芬達公司前員工喬治．威廉．富勒頓合作推出Earthwood原聲低音吉他。該樂器體積龐大且琴身深度較大。生產於1974年停止，後由鮑爾員工丹．諾頓主持恢復，最終於1985年停產。

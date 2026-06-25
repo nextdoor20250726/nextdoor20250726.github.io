@@ -6,9 +6,9 @@ country: 全球
 era: 18 世紀
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Caja_musica.jpg/500px-Caja_musica.jpg
 sound_class: 體鳴
-hs_class: Idiophone／體鳴樂器
-family: 摩擦與刮奏近身聲
-playing_method: 摩擦／刮奏
+hs_class: 12 體鳴／舌片琴／金屬共鳴
+family: 近身體鳴、舌片琴與手奏金屬共鳴
+playing_method: 手敲／拇指撥片／近身共鳴
 body_listening: 指尖、掌心、尾音、近身聆聽
 soundscape: 手邊發光的小宇宙（近身共鳴、舌片琴與療癒金屬聲響）
 region_type: 跨文化／多地

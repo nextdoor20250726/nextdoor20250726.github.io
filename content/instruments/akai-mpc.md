@@ -5,10 +5,10 @@ category: 鍵盤樂器
 country: 歐洲／美國／全球現代錄音室
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/2/2d/Akai_MPC60.jpg
-sound_class: 電鳴／機械／混合
-hs_class: Electrophone／電鳴樂器
-family: 取樣器／節奏工作站
-playing_method: 打擊墊／取樣
+sound_class: 鍵盤／電鳴／機械混合
+hs_class: 412/31/52 鍵盤、自由簧、電鳴與機械介面
+family: 鍵盤介面、風箱、電子與取樣
+playing_method: 按鍵／風箱／電控／取樣
 body_listening: 手指、機械距離、記憶、電聲
 soundscape: 按鍵、機械與現代耳朵（風箱鍵盤、鋼琴、合成器與取樣）
 region_type: 跨文化／多地
@@ -20,4 +20,5 @@ Akai MPC（原名MIDI製作中心，現為音樂製作中心）是Akai公司自1
 
 ## 音色描述
 
-### 讀者導覽
+
+Akai MPC的音色特徵取決於所載入的取樣音源，具有高度的可塑性與多樣性。其音響質感通常呈現清晰、直接的數位特質，帶有採樣原有的音色紋理。音域範圍極廣，從低頻鼓聲到高頻人聲皆可駕馭。MPC透過層疊多個取樣、調整音高與濾波等方式進行共鳴塑造，營造出豐富的聲場質感。相較於傳統樂器的有機溫潤感，MPC音色更具現代感與電子特性；與合成器相比，因直接使用真實錄音素材，音色更具親切感與辨識度。其音響特點介於真實樂器與電子合成之間，既保留原始聲音的溫度，又具備數位處理的精準性與創意潛力。

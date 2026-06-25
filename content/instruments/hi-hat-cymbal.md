@@ -2,8 +2,11 @@
 title: 踩鈸
 original_name: Hi-hat cymbal
 category: 打擊樂器
-country: 待考
+country: 美國
 era: 傳統／年代待考
+region_type: 單一地區／文化圈
+soundscape: 手邊發光的小宇宙（近身體鳴、舌片琴與手奏金屬共鳴）
+body_listening: 指尖、掌心、尾音、近身聆聽
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Drums_schematic.svg/500px-Drums_schematic.svg.png
 ---
 ## 介紹

@@ -6,9 +6,9 @@ country: 烏干達／東非
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Three_Adungu_Harps.jpg/500px-Three_Adungu_Harps.jpg
 sound_class: 弦鳴
-hs_class: Chordophone／弦鳴樂器
-family: 弓形豎琴
-playing_method: 撥弦
+hs_class: 322 豎琴與里拉類
+family: 豎琴、里拉與開放弦樂器
+playing_method: 撥弦／開放弦共鳴
 body_listening: 循環、河流感、開放弦、吟唱
 soundscape: 開放弦的天空與河流（豎琴、里拉、科拉與跨文化開放弦）
 region_type: 地區／文化圈
@@ -20,4 +20,5 @@ region_type: 地區／文化圈
 
 ## 音色描述
 
-### 讀者導覽
+
+阿杜古弓形豎琴音色溫潤而富有穿透力，具有獨特的非洲民族韻味。其音色介於明亮與暗沉之間，帶有溫暖的木質共鳴感。樂器音域通常跨越中音至高音區，琴弦數量決定了音域寬度，音色層次豐富多變。共鳴方式依賴於拱形音箱的諧振特性，能產生延續性的尾音與溫和的泛音。與西方豎琴相比，其音色更具民族特色與原始質感；與非洲鼓樂相融合時，能展現出溫潤而富韻律感的音響特徵。撥弦時音色清晰，具有良好的穿透度，適合在戶外環境中演奏，同時也能表現出細膩的情感層面。

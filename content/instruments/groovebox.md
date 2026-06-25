@@ -5,10 +5,10 @@ category: 鍵盤樂器
 country: 歐洲／美國／全球現代錄音室
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Movement_Computer_Systems_%28MCS%29_Drum_System_II_%28or_Percussion_Computer_II%29%2C_circa_1981%2C_United_Kingdom_-_Knobcon_2014.jpg/500px-Movement_Computer_Systems_%28MCS%29_Drum_System_II_%28or_Percussion_Computer_II%29%2C_circa_1981%2C_United_Kingdom_-_Knobcon_2014.jpg
-sound_class: 電鳴
-hs_class: Electrophone／電鳴樂器
-family: 合成器與取樣器
-playing_method: 電子震盪／取樣
+sound_class: 鍵盤／電鳴／機械混合
+hs_class: 412/31/52 鍵盤、自由簧、電鳴與機械介面
+family: 鍵盤介面、風箱、電子與取樣
+playing_method: 按鍵／風箱／電控／取樣
 body_listening: 手指、機械距離、記憶、電聲
 soundscape: 按鍵、機械與現代耳朵（風箱鍵盤、鋼琴、合成器與取樣）
 region_type: 跨文化／多地

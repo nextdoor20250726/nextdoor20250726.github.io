@@ -4,6 +4,13 @@ original_name: Nail violin
 category: 打擊樂器
 country: 德國
 era: 傳統／年代待考
+region_type: 單一地區／文化圈
+soundscape: 像人聲一樣哭與唱（擦弦、輪弦、鍵弓琴與提琴家族）
+body_listening: 胸口、嗓音、拉長的情緒
+playing_method: 弓擦／輪擦
+family: 擦弦、輪弦與提琴家族
+hs_class: 321.3 擦弦／輪弦／提琴家族
+sound_class: 弦鳴
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Nail_violin%2CBohemia.jpg/500px-Nail_violin%2CBohemia.jpg
 ---
 ## 介紹

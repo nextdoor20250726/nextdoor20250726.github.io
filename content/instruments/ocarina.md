@@ -6,9 +6,9 @@ country: 全球
 era: 6 世紀
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/2016-01_Ocarina_front.jpg/500px-2016-01_Ocarina_front.jpg
 sound_class: 氣鳴
-hs_class: Aerophone／氣鳴樂器
-family: 陶笛與容器笛
-playing_method: 容器共鳴
+hs_class: 421 邊棱氣鳴／無簧笛類
+family: 無簧吹管、長音與氣息樂器
+playing_method: 吹奏／端吹／橫吹／容器共鳴
 body_listening: 氣息、胸腔、長音、空間
 soundscape: 一口氣走過山谷（竹管、陶管、長音與世界笛聲）
 region_type: 跨文化／多地

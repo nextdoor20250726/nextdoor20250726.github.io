@@ -4,6 +4,9 @@ original_name: 琵琶
 category: 弦樂器
 country: 中國
 era: 傳統／年代待考
+region_type: 單一地區／文化圈
+soundscape: 旅人手中的撥弦故事（魯特琴、短頸長頸撥弦與民謠弦聲）
+body_listening: 懷抱、手指、腳步、敘事
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/T%E1%BB%B3_b%C3%A0.jpg/500px-T%E1%BB%B3_b%C3%A0.jpg
 ---
 ## 介紹

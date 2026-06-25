@@ -2,8 +2,11 @@
 title: 銅鈸
 original_name: Cymbal
 category: 打擊樂器
-country: 待考
+country: 中東／地中海地區
 era: 傳統／年代待考
+region_type: 地區／文化圈
+soundscape: 手邊發光的小宇宙（近身體鳴、舌片琴與手奏金屬共鳴）
+body_listening: 指尖、掌心、尾音、近身聆聽
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/2006-07-06_Crash_Zildjian_14.jpg/500px-2006-07-06_Crash_Zildjian_14.jpg
 ---
 ## 介紹

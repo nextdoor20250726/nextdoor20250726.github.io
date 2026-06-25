@@ -2,8 +2,11 @@
 title: 卡祖笛
 original_name: Kazoo
 category: 打擊樂器
-country: 待考
+country: 美國
 era: 傳統／年代待考
+region_type: 單一地區／文化圈
+soundscape: 簧片裡的鼻音與歌聲（口簧、自由簧、單簧雙簧與風袋聲音）
+body_listening: 口腔、舌頭、簧片震動、鼻音
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Kazoo.jpg/500px-Kazoo.jpg
 ---
 ## 介紹

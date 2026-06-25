@@ -6,9 +6,9 @@ country: 東南亞／東亞／非洲／歐洲／全球
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Xylophone_%28PSF%29.svg/500px-Xylophone_%28PSF%29.svg.png
 sound_class: 體鳴
-hs_class: Idiophone／體鳴樂器
-family: 木琴家族
-playing_method: 槌擊
+hs_class: 11/12 定音體鳴／鑼鐘木琴石琴系統
+family: 定音體鳴、材料敲擊與鑼鐘木琴系統
+playing_method: 敲擊／搖奏／材料共鳴
 body_listening: 材料、回聲、群體分工、音列
 soundscape: 木石金屬的回聲城市（木琴、石琴、編鐘、鑼群與甘美朗）
 region_type: 跨文化／多地
@@ -20,4 +20,5 @@ region_type: 跨文化／多地
 
 ## 音色描述
 
-### 讀者導覽
+
+阿卡丁達木琴音色明亮清脆，具有溫潤的木質感。其音域寬廣，跨越多個音區，能演奏複雜的旋律與和聲。琴條以木材製成，敲擊時產生純淨的音響，共鳴方式屬於直接的木質體鳴，無需共鳴管增強。相較於馬林巴琴的深沉厚重，阿卡丁達木琴音色更為輕盈活潑；與鐵琴相比，其音質更具溫暖感，缺乏金屬的冷硬特質。琴聲穿透力強，易於在樂隊中突出，且具有民族特色的親和力，能有效傳達非洲鼓樂的韻律感與節奏張力。

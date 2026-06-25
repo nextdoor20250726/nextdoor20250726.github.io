@@ -6,9 +6,9 @@ country: 全球
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/BloomfieldAeolianHarp.JPG/500px-BloomfieldAeolianHarp.JPG
 sound_class: 弦鳴
-hs_class: Chordophone／弦鳴樂器
-family: 豎琴與里拉延伸
-playing_method: 撥弦
+hs_class: 322 豎琴與里拉類
+family: 豎琴、里拉與開放弦樂器
+playing_method: 撥弦／開放弦共鳴
 body_listening: 循環、河流感、開放弦、吟唱
 soundscape: 開放弦的天空與河流（豎琴、里拉、科拉與跨文化開放弦）
 region_type: 跨文化／多地
@@ -20,4 +20,5 @@ region_type: 跨文化／多地
 
 ## 音色描述
 
-### 讀者導覽
+
+風鳴琴的音色飄渺而神祕，帶有明亮透澈的特質，卻又不失溫潤柔和的質感。其音域通常集中在中高音區，音調隨風力變化而流動不定，時而清晰悠揚，時而模糊朦朧。風與琴弦的相互作用產生自然的泛音豐富共鳴，音響層次複雜多變，彷彿空氣本身在歌唱。與豎琴相比，風鳴琴的聲音更顯飄忽不定；與古典吉他相較，其音色更富詩意和虛幻感。這種樂器的音響特點在於無法預測性與有機性，每次鳴響都如自然現象般獨一無二，營造出靜謐、冥想的聽覺氛圍，常被用於營造環境音樂或舞台背景音。

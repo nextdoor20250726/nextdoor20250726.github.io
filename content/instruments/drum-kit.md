@@ -5,10 +5,10 @@ category: 電子樂器
 country: 全球
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Drum_kit_parts.png/500px-Drum_kit_parts.png
-sound_class: 膜鳴／電鳴
-hs_class: Membranophone／膜鳴樂器；Electrophone／電鳴樂器
-family: 鼓組與現代節奏
-playing_method: 槌擊／踏板
+sound_class: 膜鳴
+hs_class: 21 膜鳴鼓類
+family: 膜鳴鼓類、框鼓、杯鼓與鼓組
+playing_method: 手拍／槌擊／皮膜振動
 body_listening: 手掌、腳底、低音、舞步
 soundscape: 手掌、皮膜與舞步（手鼓、框鼓、杯鼓、語言鼓與鼓組）
 region_type: 跨文化／多地

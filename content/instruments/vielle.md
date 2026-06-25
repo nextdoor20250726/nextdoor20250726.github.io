@@ -6,9 +6,9 @@ country: 亞洲／歐洲／中東／南亞／中亞
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Viella2.jpg/500px-Viella2.jpg
 sound_class: 弦鳴
-hs_class: Chordophone／弦鳴樂器
-family: 中世紀擦弦
-playing_method: 弓擦
+hs_class: 321.3 擦弦／輪弦／提琴家族
+family: 擦弦、輪弦與提琴家族
+playing_method: 弓擦／輪擦
 body_listening: 胸口、嗓音、拉長的情緒
 soundscape: 像人聲一樣哭與唱（擦弦、輪弦、鍵弓琴與提琴家族）
 region_type: 地區／文化圈

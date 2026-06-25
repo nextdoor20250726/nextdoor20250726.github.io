@@ -2,8 +2,11 @@
 title: 排簫
 original_name: Pan pipes
 category: 管樂器
-country: 待考
+country: 全球
 era: 傳統／年代待考
+region_type: 跨文化／多地
+soundscape: 一口氣走過山谷（竹管、陶管、長音與世界笛聲）
+body_listening: 氣息、胸腔、長音、空間
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Flute_de_pan_MHNT_ETH_AC_NH_31_Sav%C3%A8s.jpg/500px-Flute_de_pan_MHNT_ETH_AC_NH_31_Sav%C3%A8s.jpg
 ---
 ## 介紹

@@ -6,9 +6,9 @@ country: 全球
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/MeguRee%2C_The_Duo_of_Piano_Accordion_%26_Chromatic_Button_Accordion_at_Musical_Instruments_Fair_Japan_2018-10-20_%E3%83%94%E3%82%A2%E3%83%8E%E3%83%BB%E3%82%A2%E3%82%B3%E3%83%BC%E3%83%87%E3%82%A3%E3%82%AA%E3%83%B3_%E3%82%AF%E3%83%AD%E3%83%9E%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%83%BB%E3%82%A2%E3%82%B3%E3%83%BC%E3%83%87%E3%82%A3%E3%82%AA%E3%83%B3.jpg/500px-thumbnail.jpg
 sound_class: 氣鳴
-hs_class: Aerophone／氣鳴樂器
-family: 簧片鍵盤／風箱
-playing_method: 風箱＋簧片
+hs_class: 412/422 簧鳴與自由簧／單簧雙簧
+family: 口簧、自由簧、單簧雙簧與風袋
+playing_method: 吹奏／簧片振動／風袋或風箱
 body_listening: 口腔、舌頭、簧片震動、鼻音
 soundscape: 簧片裡的鼻音與歌聲（口簧、自由簧、單簧雙簧與風袋聲音）
 region_type: 跨文化／多地
@@ -20,4 +20,5 @@ region_type: 跨文化／多地
 
 ## 音色描述
 
-### 讀者導覽
+
+手風琴音色溫暖而富有表現力，具有獨特的共鳴特徵。其右手鍵盤音色明亮親切，帶有溫潤的質感，音域寬廣可涵蓋從低音至高音；左手鍵鈕則提供渾厚的低音基礎，構成完整的和聲支撐。手風琴的發聲源於內部簧片的振動共鳴，風箱的伸縮控制氣流強弱，使其能呈現從柔和到飽滿的多層次音響。與鋼琴相比，手風琴音色更具流動感與表情；與小提琴相較則顯得更加厚實穩定。其獨特之處在於能同時演奏旋律與伴奏，音響層次豐富，在室內樂及民族音樂中呈現出溫暖親切的音質特徵。

@@ -4,6 +4,9 @@ original_name: Harmonic series (music)
 category: 弦樂器
 country: 義大利
 era: 傳統／年代待考
+region_type: 單一地區／文化圈
+soundscape: 木石金屬的回聲城市（木琴、石琴、編鐘、鑼群與甘美朗）
+body_listening: 材料、回聲、群體分工、音列
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Overtone.jpg/500px-Overtone.jpg
 ---
 ## 介紹

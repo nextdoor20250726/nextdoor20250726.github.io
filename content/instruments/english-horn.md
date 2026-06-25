@@ -2,8 +2,11 @@
 title: 英國管
 original_name: English horn
 category: 管樂器
-country: 待考
+country: 歐洲（中歐／德語區）
 era: 傳統／年代待考
+region_type: 地區／文化圈
+soundscape: 簧片裡的鼻音與歌聲（口簧、自由簧、單簧雙簧與風袋聲音）
+body_listening: 口腔、舌頭、簧片震動、鼻音
 image: https://upload.wikimedia.org/wikipedia/commons/4/40/Range_english_horn.png
 ---
 ## 介紹

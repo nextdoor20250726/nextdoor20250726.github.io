@@ -6,9 +6,9 @@ country: 亞洲／歐洲／全球
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Kacapi-suling-full.jpg/500px-Kacapi-suling-full.jpg
 sound_class: 弦鳴
-hs_class: Chordophone／弦鳴樂器
-family: 箱式齊特
-playing_method: 撥弦
+hs_class: 321/322 魯特琴類／撥弦
+family: 魯特琴、短頸長頸撥弦與民謠弦聲
+playing_method: 撥弦／刷弦／撥片
 body_listening: 手掌、弦面、推音、敲擊
 soundscape: 平放在大地上的弦（齊特琴、箏類、擊弦與鍵盤化收束）
 region_type: 跨文化／多地

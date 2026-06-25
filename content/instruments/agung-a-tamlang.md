@@ -4,6 +4,9 @@ original_name: Agung a tamlang
 category: 打擊樂器
 country: 菲律賓
 era: 傳統／年代待考
+region_type: 單一地區／文化圈
+soundscape: 手邊發光的小宇宙（近身體鳴、舌片琴與手奏金屬共鳴）
+body_listening: 指尖、掌心、尾音、近身聆聽
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Agung_a_Tamlang.jpg/500px-Agung_a_Tamlang.jpg
 ---
 ## 介紹
@@ -11,4 +14,5 @@ image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Agung_a_Tamlang
 竹製鑼鼓（agung a tamlang）是一種菲律賓的竹製狹縫鼓，由挖空的竹子製成，用以模仿真正的鑼鼓。音高由狹縫的長度和深度決定。它被用作真正鑼鼓的練習工具：演奏者可以使用一個竹製鑼鼓（用一隻手持握，另一隻手用槌棒敲擊），或使用兩個竹製鑼鼓，其中另一個鑼鼓用腳來持握。
 ## 歷史背景
 
-## 音色描述
+
+竹製鑼鼓源自菲律賓民答那峨島的伊巴那格族和馬蘭瑙族等南方民族，為當地傳統音樂文化的重要組成部分。這件樂器因地制宜地利用豐富的竹類資源製作，反映了菲律賓原住民社群的創新工藝。竹製鑼鼓最初作為真正銅質鑼鼓的練習替代品而發展，使經濟困難的學習者得以接觸傳統打擊樂藝術。隨著時間推移，它逐漸演變為獨立的樂器，在民族音樂表演中佔有一席之地。透過族群遷移和文化交流，竹製鑼鼓的使用範圍逐漸擴展至菲律賓其他地區。如今，它不僅保留了原有的教學功能，更成為展現菲律賓多元民族文化遺產的重要載體，在傳統音樂教育和文化保存中持續發揮作用。

@@ -6,9 +6,9 @@ country: 印尼爪哇島
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Traditional_indonesian_instruments04.jpg/500px-Traditional_indonesian_instruments04.jpg
 sound_class: 體鳴
-hs_class: Idiophone／體鳴樂器
-family: 懸掛鑼
-playing_method: 敲擊
+hs_class: 11/12 定音體鳴／鑼鐘木琴石琴系統
+family: 定音體鳴、材料敲擊與鑼鐘木琴系統
+playing_method: 敲擊／搖奏／材料共鳴
 body_listening: 段落支撐、低音回聲、空間感
 soundscape: 木石金屬的回聲城市（定音體鳴、材料敲擊與鑼鐘木琴系統）
 region_type: 單一地區／文化圈

@@ -4,6 +4,9 @@ original_name: Carillon
 category: 鍵盤樂器
 country: 中國
 era: 16 世紀
+region_type: 單一地區／文化圈
+soundscape: 木石金屬的回聲城市（木琴、石琴、編鐘、鑼群與甘美朗）
+body_listening: 材料、回聲、群體分工、音列
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Carillon_of_PeterAndPaulCathedral_1.JPG/500px-Carillon_of_PeterAndPaulCathedral_1.JPG
 ---
 ## 介紹

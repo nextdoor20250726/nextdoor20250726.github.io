@@ -2,8 +2,9 @@
 title: 加彭
 original_name: Gabon
 category: 弦樂器
-country: 待考
+country: 非洲中西部
 era: 傳統／年代待考
+region_type: 單一地區／文化圈
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Flag_of_Gabon.svg/500px-Flag_of_Gabon.svg.png
 ---
 ## 介紹

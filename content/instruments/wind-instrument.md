@@ -2,8 +2,11 @@
 title: 管樂器
 original_name: Wind instrument
 category: 管樂器
-country: 待考
+country: 全球
 era: 傳統／年代待考
+region_type: 跨文化／多地
+soundscape: 吹向遠方的號角（天然號、宗教號角、山谷長號與銅管）
+body_listening: 嘴唇、遠方、召喚、空間方向
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Erkencho_del_norte.jpg/500px-Erkencho_del_norte.jpg
 ---
 ## 介紹

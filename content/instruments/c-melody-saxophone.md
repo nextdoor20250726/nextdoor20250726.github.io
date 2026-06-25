@@ -4,6 +4,9 @@ original_name: C melody saxophone
 category: 管樂器
 country: 中國
 era: 21 世紀
+region_type: 單一地區／文化圈
+soundscape: 簧片裡的鼻音與歌聲（口簧、自由簧、單簧雙簧與風袋聲音）
+body_listening: 口腔、舌頭、簧片震動、鼻音
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Conn_C_Melody_Saxophone_1921.jpg/500px-Conn_C_Melody_Saxophone_1921.jpg
 ---
 ## 介紹

@@ -4,6 +4,9 @@ original_name: Agung
 category: 打擊樂器
 country: 菲律賓
 era: 傳統／年代待考
+region_type: 單一地區／文化圈
+soundscape: 木石金屬的回聲城市（木琴、石琴、編鐘、鑼群與甘美朗）
+body_listening: 材料、回聲、群體分工、音列
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Agung_08.jpg/500px-Agung_08.jpg
 ---
 ## 介紹
@@ -11,4 +14,5 @@ image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Agung_08.jpg/50
 阿貢鑼又稱為阿貢，為盛行於亞洲菲律賓地區的傳統民俗樂器，樣式類似打擊樂器的鑼，特徵是兩邊框很高。阿貢鑼使用棒子敲打，也常與班底爾大鑼、甘頂甘鑼和園柱形的達馬甘鼓搭配演出，形成了強烈的音色對比。
 ## 歷史背景
 
-## 音色描述
+
+學者普遍認為阿貢鑼源自印度尼西亞，其名稱來自馬來語「agong」和印度尼西亞/爪哇語「ageng」。英國探險家湯瑪斯·佛雷斯特在1770年代的記述提供了進一步證據。他在著作中記載菲律賓人「喜愛來自爪哇澤里本的音樂銅鑼，鑼面上有圓形凸起」。佛雷斯特於1774年至1776年間進行了新幾內亞和摩鹿加群島的航海探險，其詳細記錄確認了阿貢鑼在東南亞地區的流傳。這些歷史文獻表明，阿貢鑼作為傳統樂器，早已在印度尼西亞及周邊地區廣泛使用，並透過貿易與文化交流傳入菲律賓等地。

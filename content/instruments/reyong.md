@@ -6,9 +6,9 @@ country: 印尼巴厘島
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Gamelan_of_Bali_200507-4.jpg/500px-Gamelan_of_Bali_200507-4.jpg
 sound_class: 體鳴
-hs_class: Idiophone／體鳴樂器
-family: 排鑼／甘美朗聲部
-playing_method: 敲擊
+hs_class: 11/12 定音體鳴／鑼鐘木琴石琴系統
+family: 定音體鳴、材料敲擊與鑼鐘木琴系統
+playing_method: 敲擊／搖奏／材料共鳴
 body_listening: 交錯節奏、金屬閃光、群體分工
 soundscape: 木石金屬的回聲城市（定音體鳴、材料敲擊與鑼鐘木琴系統）
 region_type: 單一地區／文化圈

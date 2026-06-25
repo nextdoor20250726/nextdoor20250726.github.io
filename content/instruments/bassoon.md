@@ -4,6 +4,9 @@ original_name: Bassoon
 category: 管樂器
 country: 義大利
 era: 19 世紀
+region_type: 單一地區／文化圈
+soundscape: 簧片裡的鼻音與歌聲（口簧、自由簧、單簧雙簧與風袋聲音）
+body_listening: 口腔、舌頭、簧片震動、鼻音
 image: https://upload.wikimedia.org/wikipedia/commons/c/c5/Range_bassoon.png
 ---
 ## 介紹

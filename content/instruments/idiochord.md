@@ -2,8 +2,11 @@
 title: 自鳴絃琴
 original_name: Idiochord
 category: 弦樂器
-country: 待考
+country: 印度洋地區／非洲／歐洲和北美
 era: 傳統／年代待考
+region_type: 跨文化／多地
+soundscape: 平放在大地上的弦（齊特琴、箏類、擊弦與鍵盤化弦鳴）
+body_listening: 手掌、弦面、推音、敲擊
 ---
 ## 介紹
 
