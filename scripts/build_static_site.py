@@ -144,6 +144,7 @@ def read_instruments():
                 "body_listening": meta.get("body_listening", ""),
                 "soundscape": meta.get("soundscape", ""),
                 "region_type": meta.get("region_type", ""),
+                "image": meta.get("image", ""),
                 "html": body_html,
             }
         )
@@ -185,8 +186,11 @@ def page(title, body, page_path=None):
 
 
 def card(instrument, page_path=None):
+    img = safe_external_url(instrument.get("image", ""))
+    img_html = f'<img class="card-thumb" src="{img}" alt="" loading="lazy">' if img else ""
     return f"""
     <a class="instrument-card" href="{resolve_url(page_path, '/instruments/' + instrument['slug'] + '/')}">
+      {img_html}
       <span>{escape(instrument['category'])}</span>
       <strong>{escape(instrument['title'])}</strong>
     </a>
@@ -303,14 +307,18 @@ def build_detail_pages(instruments):
         ]
         meta_grid = "".join(meta_row(label, val) for label, val in meta_fields if val)
         orig = f'<p class="original-name">{escape(item["original_name"])}</p>' if item["original_name"] and item["original_name"] != item["title"] else ""
+        img_url = safe_external_url(item.get("image", ""))
+        img_html = f'<img class="instrument-image" src="{img_url}" alt="{escape(item["title"])}" loading="lazy">' if img_url else ""
+        header_class = "instrument-header has-image" if img_url else "instrument-header"
         body = f"""
         <main class="instrument-page">
-          <header class="instrument-header">
+          <header class="{header_class}">
             <div>
               <p class="eyebrow">{escape(item['category'])}</p>
               <h1>{escape(item['title'])}</h1>
               {orig}
             </div>
+            {img_html}
           </header>
           {"<dl class='meta-grid'>" + meta_grid + "</dl>" if meta_grid else ""}
           <article class="markdown-body">{item['html']}</article>
@@ -379,13 +387,17 @@ h2 { margin:0; }
 .dropdown-results a span,.search-results a span { color:var(--muted); font-size:13px; line-height:1.45; }
 .dropdown-results a small,.search-results a small { display:block; margin-top:4px; color:#667085; font-size:12px; line-height:1.45; }
 .facet-grid,.instrument-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:14px; }
-.facet-card,.instrument-card { display:flex; min-height:112px; flex-direction:column; gap:8px; text-decoration:none; }
+.facet-card,.instrument-card { display:flex; min-height:112px; flex-direction:column; gap:8px; text-decoration:none; overflow:hidden; }
 .instrument-card strong { font-size:18px; }
+.card-thumb { display:block; width:calc(100% + 32px); margin:-16px -16px 4px; height:120px; object-fit:cover; flex-shrink:0; }
+.search-results a,.dropdown-results a { display:flex; gap:10px; align-items:center; }
+.result-thumb { width:52px; height:40px; object-fit:cover; border-radius:4px; flex-shrink:0; }
 .breadcrumb { display:flex; gap:8px; color:var(--muted); margin-bottom:16px; font-size:14px; }
 .breadcrumb a { text-decoration:none; }
-.instrument-header { display:grid; grid-template-columns:minmax(0,1fr); gap:8px; margin-bottom:24px; align-items:start; }
+.instrument-header { display:grid; grid-template-columns:minmax(0,1fr); gap:24px; margin-bottom:24px; align-items:start; }
+.instrument-header.has-image { grid-template-columns:minmax(0,1fr) 220px; }
 .original-name { color:var(--muted); font-size:15px; margin:4px 0 0; }
-.instrument-image { width:100%; border:1px solid var(--line); border-radius:8px; background:var(--soft); }
+.instrument-image { width:100%; border:1px solid var(--line); border-radius:8px; background:var(--soft); object-fit:cover; }
 .meta-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:10px; margin:0 0 32px; }
 .meta-grid div { border:1px solid var(--line); border-radius:8px; padding:12px; background:#fff; }
 .meta-grid dt { color:var(--muted); font-size:13px; }
@@ -395,7 +407,7 @@ h2 { margin:0; }
 .source-note a { color:var(--blue); }
 .markdown-body { color:#344054; line-height:1.75; font-size:16px; }
 .markdown-body h2 { color:var(--ink); margin-top:1.4em; border-bottom:1px solid var(--line); padding-bottom:8px; }
-@media (max-width:900px){ .facet-grid,.instrument-grid,.dropdown-results{grid-template-columns:repeat(2,1fr)} .dropdown-browser{grid-template-columns:repeat(2,minmax(0,1fr))} .instrument-header{grid-template-columns:1fr} }
+@media (max-width:900px){ .facet-grid,.instrument-grid,.dropdown-results{grid-template-columns:repeat(2,1fr)} .dropdown-browser{grid-template-columns:repeat(2,minmax(0,1fr))} .instrument-header,.instrument-header.has-image{grid-template-columns:1fr} }
 @media (max-width:620px){ .site-header{align-items:flex-start; flex-direction:column} h1{font-size:34px} .facet-grid,.instrument-grid,.stats,.meta-grid,.dropdown-browser,.dropdown-results{grid-template-columns:1fr} }
 """
     search_index = [
@@ -406,6 +418,7 @@ h2 { margin:0; }
             "country": item["country"],
             "era": item["era"],
             "url": site_url(f"/instruments/{item['slug']}/"),
+            "image": safe_external_url(item.get("image", "")),
         }
         for item in instruments
     ]
@@ -429,11 +442,21 @@ const resetFilters = document.getElementById('filter-reset');
 function appendResult(container, item) {{
   const link = document.createElement('a');
   link.href = item.url;
+  if (item.image) {{
+    const img = document.createElement('img');
+    img.src = item.image;
+    img.className = 'result-thumb';
+    img.alt = '';
+    img.loading = 'lazy';
+    link.append(img);
+  }}
+  const info = document.createElement('div');
   const title = document.createElement('strong');
   title.textContent = item.title;
   const meta = document.createElement('span');
   meta.textContent = `${{item.category}} · ${{item.country}} · ${{item.era}}`;
-  link.append(title, meta);
+  info.append(title, meta);
+  link.append(info);
   container.append(link);
 }}
 
