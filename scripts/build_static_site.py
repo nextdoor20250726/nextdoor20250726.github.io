@@ -265,8 +265,21 @@ def read_instruments():
                 "is_popular": meta.get("is_popular", "").lower() == "true",
                 "is_uncommon": meta.get("is_uncommon", "").lower() == "true",
                 "html": body_html,
+                "tutorial": "",
             }
         )
+        # Extract tutorial section from raw body
+        tut_match = re.search(
+            r"^## 教學\s*\n(.*?)(?=\n## |\Z)",
+            body.strip(),
+            re.DOTALL | re.MULTILINE,
+        )
+        if tut_match:
+            instruments[-1]["tutorial"] = markdown.markdown(
+                tut_match.group(1).strip(),
+                extensions=["extra"],
+                output_format="html5",
+            )
     return instruments
 
 
@@ -601,7 +614,14 @@ def build_detail_pages(instruments):
             {f'<div class="header-image">{img_html}{img_credit_html}</div>' if img_url else ""}
           </header>
           {"<dl class='meta-grid'>" + meta_grid + "</dl>" if meta_grid else ""}
-          <article class="markdown-body">{body_html}</article>
+          {f'''
+          <div class="tab-bar">
+            <button class="tab-btn is-active" data-tab="intro">介紹</button>
+            <button class="tab-btn" data-tab="tutorial">教學</button>
+          </div>
+          <div id="tab-intro" class="tab-pane is-active"><article class="markdown-body">{body_html}</article></div>
+          <div id="tab-tutorial" class="tab-pane"><article class="markdown-body">{item["tutorial"]}</article></div>
+          ''' if item.get("tutorial") else f'<article class="markdown-body">{body_html}</article>'}
           {related_html}
         </main>
         """
@@ -819,6 +839,19 @@ h2 { margin:0; font-weight:700; }
 .listen-button:hover { background:var(--accent2); }
 .source-note { color:var(--muted); font-size:14px; line-height:1.6; word-break:break-word; }
 .source-note a { color:var(--blue); }
+
+/* ── Tab bar ─────────────────────────────────────────────────── */
+.tab-bar { display:flex; gap:4px; margin:0 0 20px; border-bottom:2px solid var(--line); padding-bottom:0; }
+.tab-btn {
+  padding:10px 20px; border:1px solid var(--line); border-bottom:none;
+  border-radius:8px 8px 0 0; background:var(--soft); color:var(--muted);
+  font-weight:700; font-size:14px; cursor:pointer; transition:all .15s;
+  position:relative; top:2px;
+}
+.tab-btn:hover { color:var(--accent); }
+.tab-btn.is-active { background:var(--surface); color:var(--accent); border-color:var(--line); border-bottom-color:var(--surface); }
+.tab-pane { display:none; }
+.tab-pane.is-active { display:block; }
 
 /* ── Related instruments ─────────────────────────────────────── */
 .related-section { margin-top:48px; padding-top:32px; border-top:1px solid var(--line); }
@@ -1110,6 +1143,17 @@ if (backTop) {{
   }}, {{passive: true}});
   backTop.addEventListener('click', () => window.scrollTo({{top:0, behavior:'smooth'}}));
 }}
+
+/* ── Tab switching ──────────────────────────────────────────── */
+document.querySelectorAll('.tab-btn').forEach(btn => {{
+  btn.addEventListener('click', () => {{
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('is-active'));
+    document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('is-active'));
+    btn.classList.add('is-active');
+    const pane = document.getElementById('tab-' + btn.dataset.tab);
+    if (pane) pane.classList.add('is-active');
+  }});
+}});
 """
     write(OUTPUT_DIR / "assets" / "site.css", css.strip() + "\n")
     write(OUTPUT_DIR / "assets" / "search.js", js.strip() + "\n")
@@ -1264,11 +1308,37 @@ def build_manager_page(instruments):
         cell2.alignment = Alignment(horizontal="center")
     ws.freeze_panes = "A3"
 
+    # Parse body sections from markdown files for Excel export
+    body_keys = {"introduction": "## \u4ecb\u7d39", "history": "## \u6b77\u53f2\u80cc\u666f",
+                 "timbre": "## \u97f3\u8272\u63cf\u8ff0",
+                 "listen": "## \u8046\u807d\u793a\u7bc4",
+                 "representative": "## \u4ee3\u8868\u6027\u4f5c\u54c1",
+                 "material": "## \u6a02\u5668\u6750\u8cea"}
+
+    md_files = sorted(OUTPUT_DIR.parent.parent.glob("content/instruments/*.md"))
+    md_body_cache = {}
+    for mf in md_files:
+        slug = mf.stem
+        md_text = mf.read_text(encoding="utf-8")
+        # Split frontmatter from body
+        fm_match = re.match(r"^---\s*\n.*?\n---", md_text, re.DOTALL)
+        raw_body = md_text[fm_match.end():].strip() if fm_match else md_text.strip()
+        sections = {}
+        for key, heading in body_keys.items():
+            pattern = re.compile(rf"^{re.escape(heading)}\s*\n(.*?)(?=\n## |\Z)", re.DOTALL | re.MULTILINE)
+            m = pattern.search(raw_body)
+            if m:
+                sections[key] = m.group(1).strip()
+        md_body_cache[slug] = sections
+
     for row_idx, item in enumerate(instruments, 3):
+        slug = item.get("slug", "")
+        body_sections = md_body_cache.get(slug, {})
         for col_idx, key in enumerate(field_keys, 1):
             val = item.get(key, "")
+            # For body keys, get from parsed markdown
             if key in ("introduction", "history", "timbre"):
-                continue
+                val = body_sections.get(key, "")
             if val:
                 cell = ws.cell(row=row_idx, column=col_idx, value=str(val))
                 if key in ("site_url", "image") and str(val).startswith("http"):
@@ -1326,7 +1396,16 @@ def build_manager_page(instruments):
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
 <script>
 (function() {
-  var PASSWORD = '5201314';
+  var PASSWORD_HASH = 'c04d6e34aab689c5c0e68eb51753c843e032efa7c16427f8642ee07ab946e981';
+  var SALT = 'wmie2024';
+
+  async function hashCheck(input) {
+    var encoder = new TextEncoder();
+    var data = encoder.encode(input + SALT);
+    var hashBuffer = await crypto.subtle.digest('SHA-256', data);
+    var hashArray = Array.from(new Uint8Array(hashBuffer));
+    return hashArray.map(function(b) { return b.toString(16).padStart(2, '0'); }).join('');
+  }
 
   function unlockApp() {
     document.getElementById('manage-app').style.display = 'block';
@@ -1347,9 +1426,10 @@ def build_manager_page(instruments):
     showLock();
   }
 
-  document.getElementById('password-submit')?.addEventListener('click', function() {
+  document.getElementById('password-submit')?.addEventListener('click', async function() {
     var pw = document.getElementById('password-input').value;
-    if (pw === PASSWORD) {
+    var h = await hashCheck(pw);
+    if (h === PASSWORD_HASH) {
       unlockApp();
     } else {
       document.getElementById('password-error').textContent = '密碼錯誤，請再試一次。';

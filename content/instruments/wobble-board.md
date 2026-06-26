@@ -6,6 +6,7 @@ original_name: Wobble board
 category: 打擊樂器
 country: 大洋洲／澳洲
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/1892_wobble_board_precursor_by_William_Madsen.png/500px-1892_wobble_board_precursor_by_William_Madsen.png
 region_type: 單一地區／文化圈
 soundscape: 手裡搖動的節奏星塵（沙鈴、刮器、鈴串與身體小打擊）
 body_listening: 手腕、腳踝、短音、節奏對齊

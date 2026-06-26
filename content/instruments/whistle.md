@@ -6,6 +6,7 @@ original_name: Whistle
 category: 管樂器
 country: 全球／多地
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Tin_Whistles.jpg/500px-Tin_Whistles.jpg
 region_type: 跨文化／多地
 soundscape: 一口氣走過山谷（竹管、陶管、長音與世界笛聲）
 body_listening: 氣息、胸腔、長音、空間
