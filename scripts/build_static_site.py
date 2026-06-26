@@ -1187,7 +1187,8 @@ def build_sitemap(instruments):
             f"<url><loc>{base}/countries/</loc></url>",
             f"<url><loc>{base}/eras/</loc></url>",
             f"<url><loc>{base}/popular/</loc></url>",
-            f"<url><loc>{base}/uncommon/</loc></url>"]
+            f"<url><loc>{base}/uncommon/</loc></url>",
+            f"<url><loc>{base}/map/</loc></url>"]
     for item in instruments:
         urls.append(f"<url><loc>{base}/instruments/{item['slug']}/</loc></url>")
     xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
@@ -1502,8 +1503,13 @@ def build_manager_page(instruments):
   });
 })();
 </script>"""
-    write(page_dir_ / "index.html", page("管理者頁面", body, page_dir_ / "index.html"))
+    write(page_dir_ / "index.html", page("管理者頁面", body, page_dir_ / "index.html", meta_extra='<meta name="robots" content="noindex">'))
 
+
+def build_robots(instruments):
+    """Generate robots.txt allowing all crawlers and referencing sitemap."""
+    robots_txt = "User-agent: *\nAllow: /\nSitemap: " + site_url("/sitemap.xml") + "\n"
+    write(OUTPUT_DIR / "robots.txt", robots_txt)
 def main():
     global _TOTAL_INSTRUMENTS
     instruments = read_instruments()
@@ -1524,6 +1530,7 @@ def main():
     build_facet_pages(instruments, "era", "eras", "年代")
     build_404(instruments)
     build_sitemap(instruments)
+    build_robots(instruments)
     write(OUTPUT_DIR / ".nojekyll", "")
     print(f"Built {len(instruments)} instruments into {OUTPUT_DIR}")
 
