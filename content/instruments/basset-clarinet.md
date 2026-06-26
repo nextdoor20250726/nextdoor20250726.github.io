@@ -1,6 +1,7 @@
 ---
 is_popular: true
 site_url: https://soundweavers-music.github.io/instruments/basset-clarinet/
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/3_Bassett-Klarinetten.jpg/500px-3_Bassett-Klarinetten.jpg
 title: 巴塞單簧管
 original_name: Basset clarinet
 category: 管樂器

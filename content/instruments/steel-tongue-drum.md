@@ -6,6 +6,7 @@ original_name: Steel Tongue Drum
 category: 打擊樂器
 country: 全球／非洲／現代
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Whale_drum_%28from_Emil_Richards_Collection%29.jpg/500px-Whale_drum_%28from_Emil_Richards_Collection%29.jpg
 sound_class: 體鳴
 range: 中高音區（約2至3個8度）
 instrument_key: 多調性

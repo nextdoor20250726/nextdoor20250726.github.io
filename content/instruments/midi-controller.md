@@ -5,6 +5,7 @@ original_name: MIDI Controller
 category: 鍵盤樂器
 country: 歐洲／美國／全球現代錄音室
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Evolution_X-Session_MIDI_controller_%28cropped%29.jpg/500px-Evolution_X-Session_MIDI_controller_%28cropped%29.jpg
 sound_class: 鍵盤／電鳴／機械混合
 range: 全音域
 instrument_key: 全調性

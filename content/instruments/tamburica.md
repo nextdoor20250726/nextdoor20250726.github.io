@@ -5,6 +5,7 @@ original_name: Tamburica
 category: 弦樂器
 country: 中東／歐洲／亞洲／美洲
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/NLC416-03jh004376-19754_%E8%8B%B1%E5%9C%8B%E5%8F%B2.pdf/page1-500px-NLC416-03jh004376-19754_%E8%8B%B1%E5%9C%8B%E5%8F%B2.pdf.jpg
 sound_class: 弦鳴
 range: 中高音區（約2個8度）
 instrument_key: 全調性

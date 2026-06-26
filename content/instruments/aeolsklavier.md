@@ -6,6 +6,7 @@ original_name: Aeolsklavier
 category: 打擊樂器
 country: 德國
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Stokes%27_encyclopedia_of_music_and_musicians%2C_covering_the_entire_period_of_musical_history_from_the_earliest_times_to_the_season_of_1908-09_%28IA_cu31924022228385%29.pdf/page1-500px-thumbnail.pdf.jpg
 region_type: 單一地區／文化圈
 soundscape: 按鍵、機械與現代耳朵（風箱鍵盤、鋼琴、合成器與取樣）
 body_listening: 手指、機械距離、記憶、電聲

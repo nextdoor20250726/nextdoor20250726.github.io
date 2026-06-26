@@ -6,6 +6,7 @@ original_name: Martinshorn
 category: 管樂器
 country: 歐洲
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Souffle_et_fleurs_%283316237250%29.jpg/500px-Souffle_et_fleurs_%283316237250%29.jpg
 region_type: 單一地區／文化圈
 soundscape: 吹向遠方的號角（天然號、宗教號角、山谷長號與銅管）
 body_listening: 嘴唇、遠方、召喚、空間方向

@@ -5,6 +5,7 @@ original_name: Spanish Laúd
 category: 弦樂器
 country: 中東／歐洲／亞洲／美洲
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/b/b4/La%C3%BAd_espa%C3%B1ol.jpg
 sound_class: 弦鳴
 range: 約3個8度
 instrument_key: 全調性

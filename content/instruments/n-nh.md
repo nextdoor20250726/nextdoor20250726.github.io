@@ -5,6 +5,7 @@ original_name: Đàn Nhị
 category: 弦樂器
 country: 越南
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Dan_nhi-_ken-_trong.jpg/500px-Dan_nhi-_ken-_trong.jpg
 sound_class: 弦鳴
 range: 約3個8度
 instrument_key: 多調性

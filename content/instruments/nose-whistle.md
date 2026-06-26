@@ -5,6 +5,7 @@ original_name: Nose Whistle
 category: 管樂器
 country: 全球／亞洲／歐洲／美洲／大洋洲
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Nose_whistle.jpg/500px-Nose_whistle.jpg
 sound_class: 氣鳴
 range: 中高音區（約2個8度）
 instrument_key: 全調性

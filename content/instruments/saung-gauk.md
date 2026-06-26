@@ -5,6 +5,7 @@ original_name: Saung Gauk
 category: 弦樂器
 country: 非洲／歐洲／美洲／亞洲
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Burmese_Harp_in_Manihoto.jpg/500px-Burmese_Harp_in_Manihoto.jpg
 sound_class: 弦鳴
 range: 跨越3個八度以上
 instrument_key: 多調性

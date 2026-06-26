@@ -5,6 +5,7 @@ original_name: Afoxé
 category: 打擊樂器
 country: 拉丁美洲／非洲／歐洲／亞洲／全球
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Abe_agbe_afoxe.jpg/500px-Abe_agbe_afoxe.jpg
 sound_class: 體鳴
 range: 中高頻（約2個8度）
 instrument_key: 無固定調性

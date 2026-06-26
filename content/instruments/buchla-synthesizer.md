@@ -6,6 +6,7 @@ original_name: Buchla Synthesizer
 category: 鍵盤樂器
 country: 歐洲／美國／全球現代錄音室
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Deadmau5_Buchla_synthesizer%2C_National_Music_Centre_%28clip%29.jpg/500px-Deadmau5_Buchla_synthesizer%2C_National_Music_Centre_%28clip%29.jpg
 sound_class: 鍵盤／電鳴／機械混合
 range: 全音域（低沉重低音至高亮尖銳音域）
 instrument_key: 全調性

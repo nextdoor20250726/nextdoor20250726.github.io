@@ -5,6 +5,7 @@ original_name: Buchla Music Easel
 category: 鍵盤樂器
 country: 美國
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Deadmau5_Buchla_synthesizer%2C_National_Music_Centre_%28clip%29.jpg/500px-Deadmau5_Buchla_synthesizer%2C_National_Music_Centre_%28clip%29.jpg
 sound_class: 複合／電鳴
 range: 全音域（可覆蓋多個八度音程）
 instrument_key: 無固定調性

@@ -6,6 +6,7 @@ original_name: Cuatro Venezolano
 category: 弦樂器
 country: 中東／歐洲／亞洲／美洲
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hombre_cantando_por_dinero_en_las_cercan%C3%ADas_del_Hotel_Humbodlt.jpg/500px-Hombre_cantando_por_dinero_en_las_cercan%C3%ADas_del_Hotel_Humbodlt.jpg
 sound_class: 弦鳴
 range: 中高音區（約2個8度）
 instrument_key: 全調性

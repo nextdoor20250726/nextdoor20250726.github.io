@@ -6,6 +6,7 @@ original_name: Violino Piccolo
 category: 弦樂器
 country: 亞洲／歐洲／中東／南亞／中亞
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Piccolo-violin-met.jpg/500px-Piccolo-violin-met.jpg
 sound_class: 弦鳴
 range: G3–E6（約3個8度半）
 instrument_key: 全調性

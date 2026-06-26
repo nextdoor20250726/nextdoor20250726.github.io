@@ -1,6 +1,7 @@
 ---
 is_popular: true
 site_url: https://soundweavers-music.github.io/instruments/erhu/
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Erhu_in_the_Mets.jpg/500px-Erhu_in_the_Mets.jpg
 title: 二胡
 original_name: Erhu
 category: 弦樂器

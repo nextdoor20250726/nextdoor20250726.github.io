@@ -1,6 +1,7 @@
 ---
 is_uncommon: true
 site_url: https://soundweavers-music.github.io/instruments/alboka/
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Alboka._Euskal_Herria.jpg/500px-Alboka._Euskal_Herria.jpg
 title: 阿爾博卡雙管笛
 original_name: Alboka
 category: 管樂器

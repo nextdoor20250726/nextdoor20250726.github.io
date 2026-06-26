@@ -5,6 +5,7 @@ original_name: Slapstick (musical instrument)
 category: 打擊樂器
 country: 歐洲／劇場
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Ludwig_Slapstick.JPG/500px-Ludwig_Slapstick.JPG
 sound_class: 體鳴
 range: 中高頻域（約2個8度）
 instrument_key: 無固定調性

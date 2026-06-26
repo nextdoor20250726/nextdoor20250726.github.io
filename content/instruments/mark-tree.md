@@ -6,6 +6,7 @@ original_name: Mark Tree
 category: 打擊樂器
 country: 拉丁美洲／非洲／歐洲／亞洲／全球
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Mark-twain-tree-4.jpg/500px-Mark-twain-tree-4.jpg
 sound_class: 體鳴
 range: 高音區（約1至2個8度）
 instrument_key: 無固定調性

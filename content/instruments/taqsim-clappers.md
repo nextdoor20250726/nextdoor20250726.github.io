@@ -5,6 +5,7 @@ original_name: Taqsim Clappers
 category: 打擊樂器
 country: 中東／北非
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/2/26/Tahyea05.jpg
 sound_class: 體鳴
 range: 中高頻段（具體音域範圍因製造工藝而異）
 instrument_key: 無固定調性

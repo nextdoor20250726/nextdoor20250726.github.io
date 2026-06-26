@@ -5,6 +5,7 @@ original_name: Tarka
 category: 管樂器
 country: 美洲／南美（安地斯）
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/20131205_Istanbul_321_cropped.jpg/500px-20131205_Istanbul_321_cropped.jpg
 sound_class: 氣鳴
 range: 約2至3個8度
 instrument_key: 無固定調性

@@ -5,6 +5,7 @@ original_name: Karimba
 category: 打擊樂器
 country: 全球／非洲／亞洲／現代療癒與街頭音樂
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/African_teacher_teaching_under_a_tree.jpg/500px-African_teacher_teaching_under_a_tree.jpg
 sound_class: 體鳴
 range: 約3至4個八度
 instrument_key: 全調性

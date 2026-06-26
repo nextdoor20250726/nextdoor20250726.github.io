@@ -1,6 +1,7 @@
 ---
 is_popular: true
 site_url: https://soundweavers-music.github.io/instruments/bowed-psaltery/
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Streichpsalter-spielerin.jpg/500px-Streichpsalter-spielerin.jpg
 title: 弓形詩篇琴
 original_name: Bowed Psaltery
 category: 鍵盤樂器

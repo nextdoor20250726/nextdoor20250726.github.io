@@ -5,6 +5,7 @@ original_name: Litungu
 category: 弦樂器
 country: 肯亞
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/CADAL09009962_%E5%B4%87%E6%96%87%E7%B8%BD%E7%9B%AE%C2%B7%EF%BC%88%E4%B8%80%EF%BC%89.djvu/page1-500px-CADAL09009962_%E5%B4%87%E6%96%87%E7%B8%BD%E7%9B%AE%C2%B7%EF%BC%88%E4%B8%80%EF%BC%89.djvu.jpg
 sound_class: 弦鳴
 range: 約2個8度
 instrument_key: 無固定調性

@@ -5,6 +5,7 @@ original_name: Nagado-daiko
 category: 打擊樂器
 country: 非洲／中東／亞洲／歐洲／美洲
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Miya_Daiko_drum_-_Taiko_drums.jpg/500px-Miya_Daiko_drum_-_Taiko_drums.jpg
 sound_class: 膜鳴
 range: 約2個8度
 instrument_key: 無固定調性

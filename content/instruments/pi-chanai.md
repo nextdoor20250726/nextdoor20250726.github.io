@@ -5,6 +5,7 @@ original_name: Pi Chanai
 category: 管樂器
 country: 全球／亞洲／中東／歐洲
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Taepyeongso.jpg/500px-Taepyeongso.jpg
 sound_class: 氣鳴
 range: 約3個八度以上
 instrument_key: 降B大調

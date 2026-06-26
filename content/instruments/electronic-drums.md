@@ -5,6 +5,7 @@ original_name: Electronic Drums
 category: 電子樂器
 country: 非洲／中東／亞洲／歐洲／美洲
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Digital_Drum_%284715894559%29.jpg/500px-Digital_Drum_%284715894559%29.jpg
 sound_class: 膜鳴
 range: 全音域
 instrument_key: 全調性

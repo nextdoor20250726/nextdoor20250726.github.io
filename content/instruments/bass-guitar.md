@@ -6,6 +6,7 @@ original_name: Bass Guitar
 category: 電子樂器
 country: 中東／歐亞／東亞／美洲／全球
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Fender_Precision_Bass.jpg/500px-Fender_Precision_Bass.jpg
 sound_class: 弦鳴
 range: E1–G4（約3個半8度）
 instrument_key: 無固定調性

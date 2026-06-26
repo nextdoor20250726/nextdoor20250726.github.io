@@ -1,6 +1,7 @@
 ---
 is_popular: true
 site_url: https://soundweavers-music.github.io/instruments/celtic-harp/
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Trinity_College_harp%2C_Dublin%2C_Ireland%2C_2017_%28cropped2%29.jpg/500px-Trinity_College_harp%2C_Dublin%2C_Ireland%2C_2017_%28cropped2%29.jpg
 title: 凱爾特豎琴
 original_name: Celtic Harp
 category: 弦樂器

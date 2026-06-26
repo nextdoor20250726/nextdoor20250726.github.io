@@ -5,6 +5,7 @@ original_name: Board Lamellophone
 category: 打擊樂器
 country: 非洲
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Traunwalchen%2C_Zungenklavier_b_Marienkirche%2C_2.jpeg/500px-Traunwalchen%2C_Zungenklavier_b_Marienkirche%2C_2.jpeg
 sound_class: 體鳴
 range: 約2–3個八度
 instrument_key: 全調性

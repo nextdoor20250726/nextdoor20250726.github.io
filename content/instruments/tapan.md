@@ -5,6 +5,7 @@ original_name: Tapan
 category: 打擊樂器
 country: 非洲／中東／亞洲／歐洲／美洲
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Mehter_davul.jpg/500px-Mehter_davul.jpg
 sound_class: 膜鳴
 range: 約2個8度
 instrument_key: 無固定調性

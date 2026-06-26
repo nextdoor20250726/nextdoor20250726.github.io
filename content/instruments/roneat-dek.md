@@ -5,6 +5,7 @@ original_name: Roneat Dek
 category: 打擊樂器
 country: 東南亞／東亞／非洲／歐洲／全球
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Cambodia_xylophone_by_%C3%89mile_Gsell_from_his_book_Voyage_de_l%27%C3%89gypte_%C3%A0_l%27Indochine.jpg/500px-Cambodia_xylophone_by_%C3%89mile_Gsell_from_his_book_Voyage_de_l%27%C3%89gypte_%C3%A0_l%27Indochine.jpg
 sound_class: 體鳴
 range: 中音域（約2個8度）
 instrument_key: 全調性

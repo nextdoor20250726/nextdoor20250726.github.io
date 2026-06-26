@@ -5,6 +5,7 @@ original_name: Nyonganyonga
 category: 打擊樂器
 country: 全球／非洲／現代
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/AMB_Japanese_Verbs.pdf/page1-500px-AMB_Japanese_Verbs.pdf.jpg
 sound_class: 體鳴
 range: 中高音區
 instrument_key: 無固定調性

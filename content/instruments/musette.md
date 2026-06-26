@@ -5,6 +5,7 @@ original_name: Musette
 category: 管樂器
 country: 法國
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Musette_MIM_5262.jpg/500px-Musette_MIM_5262.jpg
 sound_class: 氣鳴
 range: 約2個8度（中高音區為主）
 instrument_key: 全調性

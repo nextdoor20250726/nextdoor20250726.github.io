@@ -6,6 +6,7 @@ original_name: Frog Guiro
 category: 打擊樂器
 country: 加勒比／拉丁美洲
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Duo_Carillon_II.png/500px-Duo_Carillon_II.png
 sound_class: 體鳴
 range: 中高頻段（約2個8度）
 instrument_key: 無固定調性

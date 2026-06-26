@@ -5,6 +5,7 @@ original_name: Halo
 category: 打擊樂器
 country: 歐洲／美國／全球現代
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Halo_HUD.svg/500px-Halo_HUD.svg.png
 sound_class: 體鳴
 range: 約2個8度（中高音域）
 instrument_key: 無固定調性

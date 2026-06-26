@@ -5,6 +5,7 @@ original_name: Greek Lyre
 category: 弦樂器
 country: 非洲／歐洲／亞洲／美洲
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Mousai_Helikon_Staatliche_Antikensammlungen_Schoen80_n1.jpg/500px-Mousai_Helikon_Staatliche_Antikensammlungen_Schoen80_n1.jpg
 sound_class: 弦鳴
 range: 約2個8度
 instrument_key: 全調性

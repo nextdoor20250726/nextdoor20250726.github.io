@@ -6,6 +6,7 @@ original_name: Snare drum
 category: 打擊樂器
 country: 歐洲
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Drum_set.svg/500px-Drum_set.svg.png
 region_type: 單一地區／文化圈
 soundscape: 手掌、皮膜與舞步（手鼓、框鼓、杯鼓、語言鼓與鼓組）
 body_listening: 手掌、腳底、低音、舞步

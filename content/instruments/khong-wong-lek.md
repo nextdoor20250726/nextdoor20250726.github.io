@@ -5,6 +5,7 @@ original_name: Khong Wong Lek
 category: 打擊樂器
 country: 泰國
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Khong_wong_lek.jpg/500px-Khong_wong_lek.jpg
 sound_class: 體鳴
 range: 中高音區
 instrument_key: 無固定調性

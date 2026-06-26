@@ -5,6 +5,7 @@ original_name: Khim Wong
 category: 打擊樂器
 country: 東南亞／東亞／非洲／歐洲／全球
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/20131205_Istanbul_321_cropped.jpg/500px-20131205_Istanbul_321_cropped.jpg
 sound_class: 體鳴
 range: 全音域（約3個8度以上）
 instrument_key: 全調性

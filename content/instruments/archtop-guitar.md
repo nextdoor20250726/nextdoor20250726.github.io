@@ -6,6 +6,7 @@ original_name: Archtop guitar
 category: 弦樂器
 country: 歐洲／意大利
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/c/c8/Super400ces.png
 region_type: 地區／文化圈
 soundscape: 旅人手中的撥弦故事（魯特琴、短頸長頸撥弦與民謠弦聲）
 body_listening: 懷抱、手指、腳步、敘事

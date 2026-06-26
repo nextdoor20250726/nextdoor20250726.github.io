@@ -6,6 +6,7 @@ original_name: Seaboard
 category: 鍵盤樂器
 country: 英國／全球
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/20131205_Istanbul_321_cropped.jpg/500px-20131205_Istanbul_321_cropped.jpg
 sound_class: 複合／電鳴
 range: 全音域（可自訂）
 instrument_key: 全調性

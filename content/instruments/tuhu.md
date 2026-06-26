@@ -5,6 +5,7 @@ original_name: Tuhu
 category: 弦樂器
 country: 亞洲／歐洲／中東／南亞／中亞
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Talpa_europaea_MHNT.jpg/500px-Talpa_europaea_MHNT.jpg
 sound_class: 弦鳴
 range: 中低音區（約2個8度）
 instrument_key: 無固定調性

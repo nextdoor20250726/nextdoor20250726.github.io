@@ -6,6 +6,7 @@ original_name: Jing
 category: 打擊樂器
 country: 東南亞／東亞／非洲／歐洲／全球
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Jing.jpg/500px-Jing.jpg
 sound_class: 體鳴
 range: 約2個8度
 instrument_key: 無固定調性

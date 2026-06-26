@@ -6,6 +6,7 @@ original_name: Banjo
 category: 弦樂器
 country: 中東／歐亞／東亞／美洲／全球
 era: 19 世紀
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Bluegrass_banjo.png/500px-Bluegrass_banjo.png
 sound_class: 弦鳴
 range: 約3個8度
 instrument_key: 全調性

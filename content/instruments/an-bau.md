@@ -1,5 +1,6 @@
 ---
 site_url: https://soundweavers-music.github.io/instruments/an-bau/
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Musicians_from_Hanoi.jpg/500px-Musicians_from_Hanoi.jpg
 title: 彈匏
 original_name: Đàn bầu
 category: 鍵盤樂器

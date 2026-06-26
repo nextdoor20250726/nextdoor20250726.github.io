@@ -6,6 +6,7 @@ original_name: Nose Flute
 category: 管樂器
 country: 大洋洲
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/b/b3/NoseFlute.jpg
 sound_class: 氣鳴
 range: 約1至2個八度
 instrument_key: 無固定調性

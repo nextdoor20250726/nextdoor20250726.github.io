@@ -6,6 +6,7 @@ original_name: Almglocken
 category: 打擊樂器
 country: 阿爾卑斯地區
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/4/46/Koebel.jpg
 sound_class: 體鳴
 range: 約2至3個8度
 instrument_key: 多調性

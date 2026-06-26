@@ -6,6 +6,7 @@ original_name: Divan Saz
 category: 弦樂器
 country: 土耳其／安納托利亞
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/IranianMusicGroup.jpg/500px-IranianMusicGroup.jpg
 sound_class: 弦鳴
 range: 中低至高音域（約2個半8度）
 instrument_key: 多調性

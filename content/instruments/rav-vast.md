@@ -5,6 +5,7 @@ original_name: Rav Vast
 category: 打擊樂器
 country: 歐洲／美國／全球現代
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Kama_River._Perm._Art_Gallery_%28former_Transfiguration_Cathedral%29_P6242387_2575.jpg/500px-Kama_River._Perm._Art_Gallery_%28former_Transfiguration_Cathedral%29_P6242387_2575.jpg
 sound_class: 體鳴
 range: 全音域（約3至4個8度）
 instrument_key: 全調性

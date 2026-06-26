@@ -5,6 +5,7 @@ original_name: Chitra Veena
 category: 弦樂器
 country: 中東／歐洲／亞洲／美洲
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Veena.png/500px-Veena.png
 sound_class: 弦鳴
 range: 低於E2至G5以上（約3個八度）
 instrument_key: 無固定調性

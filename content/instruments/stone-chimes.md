@@ -6,6 +6,7 @@ original_name: Stone Chimes
 category: 打擊樂器
 country: 東南亞／東亞／非洲／歐洲／全球
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/%E9%AD%9A%E5%BD%A2%E7%9F%B3%E7%A3%AC%EF%BC%88%E7%B7%A8%E7%A3%AC%EF%BC%89.jpg/500px-%E9%AD%9A%E5%BD%A2%E7%9F%B3%E7%A3%AC%EF%BC%88%E7%B7%A8%E7%A3%AC%EF%BC%89.jpg
 sound_class: 體鳴
 range: 約2至3個8度
 instrument_key: 無固定調性

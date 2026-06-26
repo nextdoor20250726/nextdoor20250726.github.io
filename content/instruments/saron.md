@@ -5,6 +5,7 @@ original_name: Saron
 category: 打擊樂器
 country: 亞洲／東南亞（印尼）
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Traditional_indonesian_instruments.jpg/500px-Traditional_indonesian_instruments.jpg
 sound_class: 體鳴
 range: 中高音域（約2個8度）
 instrument_key: 多調性

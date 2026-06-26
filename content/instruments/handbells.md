@@ -6,6 +6,7 @@ original_name: Handbells
 category: 打擊樂器
 country: 歐洲／英國
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Lewis_Carroll_-_Henry_Holiday_-_Hunting_of_the_Snark_-_Plate_1.jpg/500px-Lewis_Carroll_-_Henry_Holiday_-_Hunting_of_the_Snark_-_Plate_1.jpg
 sound_class: 體鳴
 range: 中高音區（約2至3個8度）
 instrument_key: 全調性

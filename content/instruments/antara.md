@@ -6,6 +6,7 @@ original_name: Antara
 category: 管樂器
 country: 伊朗／亞塞拜然／高加索
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Zampo%C3%B1a.jpg/500px-Zampo%C3%B1a.jpg
 sound_class: 氣鳴
 range: 約3個8度
 instrument_key: 多調性

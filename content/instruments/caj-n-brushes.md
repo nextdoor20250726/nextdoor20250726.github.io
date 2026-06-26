@@ -5,6 +5,7 @@ original_name: Cajón Brushes
 category: 打擊樂器
 country: 全球／現代
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Vea.cajon.jpg/500px-Vea.cajon.jpg
 sound_class: 體鳴
 range: 中低頻至中高頻（約2至2.5個8度）
 instrument_key: 無固定調性

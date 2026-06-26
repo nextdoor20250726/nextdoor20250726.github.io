@@ -6,6 +6,7 @@ original_name: Log Drum
 category: 打擊樂器
 country: 美洲／大洋洲
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/TamTam.jpg/500px-TamTam.jpg
 sound_class: 體鳴
 range: 約2個8度（中低音域）
 instrument_key: 無固定調性

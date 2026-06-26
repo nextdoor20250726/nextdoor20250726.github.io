@@ -6,6 +6,7 @@ original_name: Space Harp
 category: 打擊樂器
 country: 非洲
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/4/4e/Harp.png
 region_type: 單一地區／文化圈
 soundscape: 按鍵、機械與現代耳朵（風箱鍵盤、鋼琴、合成器與取樣）
 body_listening: 手指、機械距離、記憶、電聲

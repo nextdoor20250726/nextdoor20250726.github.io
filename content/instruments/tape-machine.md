@@ -5,6 +5,7 @@ original_name: Tape Machine
 category: 鍵盤樂器
 country: 歐洲／美國／全球現代錄音室
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/1/13/Women_in_Waldorf-Astoria.jpg
 sound_class: 鍵盤／電鳴／機械混合
 range: 寬廣音域（可覆蓋多個八度）
 instrument_key: 全調性

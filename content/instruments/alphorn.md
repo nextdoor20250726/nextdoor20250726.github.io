@@ -6,6 +6,7 @@ original_name: Alphorn
 category: 管樂器
 country: 歐洲／瑞士
 era: 16 世紀
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Musikinstrumenten-Museum_Berlin_-_Alphorn_in_Fis_-_1108187.jpg/500px-Musikinstrumenten-Museum_Berlin_-_Alphorn_in_Fis_-_1108187.jpg
 sound_class: 氣鳴
 range: 約2至3個八度
 instrument_key: 多調性

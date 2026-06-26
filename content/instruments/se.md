@@ -6,6 +6,7 @@ original_name: Se
 category: 鍵盤樂器
 country: 東亞／中亞／歐洲／東南亞／非洲／美洲
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/%E5%8F%B0%E5%8D%97%E5%B8%82%E5%AD%94%E5%BB%9F%E6%96%87%E7%89%A9%E6%94%B6%E8%97%8F_%E6%A8%82%E5%99%A8%E7%91%9F.JPG/500px-%E5%8F%B0%E5%8D%97%E5%B8%82%E5%AD%94%E5%BB%9F%E6%96%87%E7%89%A9%E6%94%B6%E8%97%8F_%E6%A8%82%E5%99%A8%E7%91%9F.JPG
 sound_class: 弦鳴
 range: 不適用
 instrument_key: 不適用

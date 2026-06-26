@@ -5,6 +5,7 @@ original_name: Ranat Thum
 category: 打擊樂器
 country: 泰國
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/%E7%90%B4%E6%9B%B8%E5%A4%A7%E5%85%A8%28%E5%85%AD%29.djvu/page1-500px-%E7%90%B4%E6%9B%B8%E5%A4%A7%E5%85%A8%28%E5%85%AD%29.djvu.jpg
 sound_class: 體鳴
 range: 約2至3個8度（中高音區）
 instrument_key: 多調性

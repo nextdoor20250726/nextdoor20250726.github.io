@@ -6,6 +6,7 @@ original_name: Hichiriki
 category: 管樂器
 country: 亞洲／歐洲／中東／全球
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/0/00/Hichiriki.JPG
 sound_class: 氣鳴
 range: 約2個8度（中高音區）
 instrument_key: 無固定調性

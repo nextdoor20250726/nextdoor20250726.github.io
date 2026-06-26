@@ -5,6 +5,7 @@ original_name: Khong Wong Yai
 category: 打擊樂器
 country: 泰國
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Khong_wong_yai.jpg/500px-Khong_wong_yai.jpg
 sound_class: 體鳴
 range: 低至中音區（約2個8度）
 instrument_key: 無固定調性

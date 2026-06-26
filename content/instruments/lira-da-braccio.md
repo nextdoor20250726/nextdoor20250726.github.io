@@ -5,6 +5,7 @@ original_name: Lira da Braccio
 category: 弦樂器
 country: 歐洲／義大利
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Lira_da_braccio_%281511%29.jpg/500px-Lira_da_braccio_%281511%29.jpg
 sound_class: 弦鳴
 range: 男中音至高音範圍（約3個8度）
 instrument_key: 全調性

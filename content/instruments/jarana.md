@@ -5,6 +5,7 @@ original_name: Jarana
 category: 弦樂器
 country: 中東／歐洲／亞洲／美洲
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/1/1a/Jarana_huasteca.jpg
 sound_class: 弦鳴
 range: 約2個8度（中高音區為主）
 instrument_key: 全調性

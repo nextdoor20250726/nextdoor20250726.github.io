@@ -5,6 +5,7 @@ original_name: Rhythm Sticks
 category: 打擊樂器
 country: 拉丁美洲／非洲／歐洲／亞洲／全球
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/NLC511-023031103010001-77718_%E7%9B%9B%E4%BA%AC%E6%99%82%E5%A0%B1_%E7%AC%AC416%E5%8D%B7.pdf/page1-500px-NLC511-023031103010001-77718_%E7%9B%9B%E4%BA%AC%E6%99%82%E5%A0%B1_%E7%AC%AC416%E5%8D%B7.pdf.jpg
 sound_class: 體鳴
 range: 約中高頻區域（音程不明確）
 instrument_key: 無固定調性

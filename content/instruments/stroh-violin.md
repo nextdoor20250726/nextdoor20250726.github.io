@@ -6,6 +6,7 @@ original_name: Stroh Violin
 category: 弦樂器
 country: 歐洲
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Violon_de_jazz_a_pavillon.JPG/500px-Violon_de_jazz_a_pavillon.JPG
 sound_class: 弦鳴
 range: G3–E7（與普通小提琴相同，約3個半8度）
 instrument_key: 全調性

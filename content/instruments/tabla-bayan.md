@@ -6,6 +6,7 @@ original_name: Tabla Bayan
 category: 打擊樂器
 country: 印度／南亞
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Instrument_perkusyjny_TABLA_firmy_Meinl.jpg/500px-Instrument_perkusyjny_TABLA_firmy_Meinl.jpg
 sound_class: 膜鳴
 range: 中高音至低音（約3個8度）
 instrument_key: 無固定調性

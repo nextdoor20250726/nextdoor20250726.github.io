@@ -6,6 +6,7 @@ original_name: Bamboo Xylophone
 category: 打擊樂器
 country: 東南亞／東亞／非洲／歐洲／全球
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/%E7%90%B4%E9%9A%B1%E5%9C%92%E8%A9%A9%E9%9B%86%28%E5%8D%81%E4%B8%80%29.djvu/page1-500px-%E7%90%B4%E9%9A%B1%E5%9C%92%E8%A9%A9%E9%9B%86%28%E5%8D%81%E4%B8%80%29.djvu.jpg
 sound_class: 體鳴
 range: 約2至3個八度
 instrument_key: 全調性

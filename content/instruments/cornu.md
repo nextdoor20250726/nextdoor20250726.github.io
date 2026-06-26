@@ -6,6 +6,7 @@ original_name: Cornu
 category: 管樂器
 country: 全球／中東／歐洲／亞洲／高山與宗教文化圈
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/2/24/Hydraulis_001.jpg
 sound_class: 氣鳴
 range: 約2個8度（中高音域）
 instrument_key: 無固定調性

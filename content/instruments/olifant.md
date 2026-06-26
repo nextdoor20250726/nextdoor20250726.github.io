@@ -5,6 +5,7 @@ original_name: Olifant
 category: 管樂器
 country: 全球／中東／歐洲／亞洲／高山與宗教文化圈
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Olifant%2C_Aachener_Domschatz.jpg/500px-Olifant%2C_Aachener_Domschatz.jpg
 sound_class: 氣鳴
 range: 中高音區（約1.5至2個8度）
 instrument_key: 無固定調性

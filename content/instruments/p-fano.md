@@ -5,6 +5,7 @@ original_name: Pífano
 category: 管樂器
 country: 全球／亞洲／歐洲／美洲／大洋洲
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Korea-Buk-01.jpg/500px-Korea-Buk-01.jpg
 sound_class: 氣鳴
 range: D5–C8（約3個半8度）
 instrument_key: 全調性

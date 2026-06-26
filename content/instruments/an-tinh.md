@@ -5,6 +5,7 @@ original_name: Đàn tính
 category: 弦樂器
 country: 越南
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/4/45/Thai_tinh_tau.png
 region_type: 單一地區／文化圈
 soundscape: 旅人手中的撥弦故事（魯特琴、短頸長頸撥弦與民謠弦聲）
 body_listening: 懷抱、手指、腳步、敘事

@@ -5,6 +5,7 @@ original_name: Spoons
 category: 打擊樂器
 country: 歐洲
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Moore_Theatre_100_Years_-_Artis_05B.jpg/500px-Moore_Theatre_100_Years_-_Artis_05B.jpg
 sound_class: 體鳴
 range: 約1個8度
 instrument_key: 無固定調性

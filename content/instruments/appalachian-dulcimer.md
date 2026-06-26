@@ -6,6 +6,7 @@ original_name: Appalachian Dulcimer
 category: 鍵盤樂器
 country: 東亞／中亞／歐洲／東南亞／非洲／美洲
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Dulcimer_%28UP%29.jpg/500px-Dulcimer_%28UP%29.jpg
 sound_class: 弦鳴
 range: 約2至3個8度
 instrument_key: 多調性

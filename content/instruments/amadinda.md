@@ -6,6 +6,7 @@ original_name: Amadinda
 category: 打擊樂器
 country: 東南亞／東亞／非洲／歐洲／全球
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Xylophone_%28PSF%29.svg/500px-Xylophone_%28PSF%29.svg.png
 sound_class: 體鳴
 range: 約3至4個8度
 instrument_key: 全調性

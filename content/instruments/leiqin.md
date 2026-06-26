@@ -5,6 +5,7 @@ original_name: Leiqin
 category: 弦樂器
 country: 亞洲／歐洲／中東／南亞／中亞
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Blind_street_musician_playing_%E6%93%82%E7%90%B4_%289451424508%29_%28cropped%29.jpg/500px-Blind_street_musician_playing_%E6%93%82%E7%90%B4_%289451424508%29_%28cropped%29.jpg
 sound_class: 弦鳴
 range: 約3個音域（低、中、高音域）
 instrument_key: 全調性

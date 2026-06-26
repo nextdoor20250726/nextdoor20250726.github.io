@@ -5,6 +5,7 @@ original_name: Pantam
 category: 打擊樂器
 country: 歐洲／美國／全球現代
 era: 傳統／年代待考
+image: https://commons.wikimedia.org/w/resources/assets/file-type-icons/fileicon-ogg.png
 sound_class: 體鳴
 range: 中低音至中高音（約2個8度）
 instrument_key: 多調性

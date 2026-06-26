@@ -5,6 +5,7 @@ original_name: Kabuli Rubab
 category: 弦樂器
 country: 中東／歐洲／亞洲／美洲
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/f/f7/Rubab.jpg
 sound_class: 弦鳴
 range: 約3個8度以上
 instrument_key: 多調性

@@ -6,6 +6,7 @@ original_name: Duxianqin
 category: 弦樂器
 country: 中國
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/%E7%84%A1%E7%B5%83%E7%90%B4%E8%AD%9C.djvu/page1-500px-%E7%84%A1%E7%B5%83%E7%90%B4%E8%AD%9C.djvu.jpg
 region_type: 單一地區／文化圈
 soundscape: 旅人手中的撥弦故事（魯特琴、短頸長頸撥弦與民謠弦聲）
 body_listening: 懷抱、手指、腳步、敘事

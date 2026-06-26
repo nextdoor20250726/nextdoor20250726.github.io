@@ -6,6 +6,7 @@ original_name: Paraguayan Harp
 category: 弦樂器
 country: 非洲／歐洲／美洲／亞洲
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Paraguayan_harp.jpg/500px-Paraguayan_harp.jpg
 sound_class: 弦鳴
 range: 約3個8度
 instrument_key: 全調性

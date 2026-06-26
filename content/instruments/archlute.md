@@ -6,6 +6,7 @@ original_name: Archlute
 category: 弦樂器
 country: 西班牙
 era: 文藝復興
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Archlute_MET_DT5914.jpg/500px-Archlute_MET_DT5914.jpg
 region_type: 單一地區／文化圈
 soundscape: 旅人手中的撥弦故事（魯特琴、短頸長頸撥弦與民謠弦聲）
 body_listening: 懷抱、手指、腳步、敘事

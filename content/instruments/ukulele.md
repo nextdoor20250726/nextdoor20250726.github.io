@@ -1,6 +1,7 @@
 ---
 is_popular: true
 site_url: https://soundweavers-music.github.io/instruments/ukulele/
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Kumalae_ukulele_of_c._1910.webm/500px--Kumalae_ukulele_of_c._1910.webm.jpg
 title: 烏克麗麗
 original_name: Ukulele
 category: 弦樂器

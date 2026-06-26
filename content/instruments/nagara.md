@@ -6,6 +6,7 @@ original_name: Nagara
 category: 打擊樂器
 country: 中東
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/8/8e/%D0%97%D1%83%D1%80%D0%BD%D0%B0_%D0%B3%D0%BE%D1%88%D0%B0_%D0%BD%D0%B0%D0%B3%D0%B0%D1%80%D0%B0_%D0%BD%D0%B0%D0%B3%D0%B0%D1%80%D0%B0.jpg
 sound_class: 膜鳴
 range: 約2個8度（音域偏高）
 instrument_key: 無固定調性

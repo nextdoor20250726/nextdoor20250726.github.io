@@ -6,6 +6,7 @@ original_name: Alto sarrusophone
 category: 管樂器
 country: 德國
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/%E9%AD%AF%E4%B9%8B%E6%98%A5%E7%A7%8B%28%E5%9B%9B%29.djvu/page1-500px-%E9%AD%AF%E4%B9%8B%E6%98%A5%E7%A7%8B%28%E5%9B%9B%29.djvu.jpg
 region_type: 單一地區／文化圈
 soundscape: 簧片裡的鼻音與歌聲（口簧、自由簧、單簧雙簧與風袋聲音）
 body_listening: 口腔、舌頭、簧片震動、鼻音

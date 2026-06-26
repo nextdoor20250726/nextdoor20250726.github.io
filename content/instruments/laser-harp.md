@@ -6,6 +6,7 @@ original_name: Laser Harp
 category: 鍵盤樂器
 country: 全球／現代
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Jean_Michel_Jarre_playing_a_laser_harp_1%2C_2009-05-12.JPG/500px-Jean_Michel_Jarre_playing_a_laser_harp_1%2C_2009-05-12.JPG
 sound_class: 複合／電鳴
 range: 約3至4個8度
 instrument_key: 全調性

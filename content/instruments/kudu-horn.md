@@ -5,6 +5,7 @@ original_name: Kudu Horn
 category: 管樂器
 country: 全球／中東／歐洲／亞洲／高山與宗教文化圈
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Kudu_%2817418137574%29.jpg/500px-Kudu_%2817418137574%29.jpg
 sound_class: 氣鳴
 range: 約1個8度（中高音區）
 instrument_key: 無固定調性

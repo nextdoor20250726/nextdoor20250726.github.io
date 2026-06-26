@@ -5,6 +5,7 @@ original_name: Sansula
 category: 打擊樂器
 country: 全球／非洲／亞洲／現代療癒與街頭音樂
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Santi_Cazorla%2C_2012-08-18.jpg/500px-Santi_Cazorla%2C_2012-08-18.jpg
 sound_class: 體鳴
 range: 約2個8度
 instrument_key: 全調性

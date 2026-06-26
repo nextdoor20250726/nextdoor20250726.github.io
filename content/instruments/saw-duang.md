@@ -5,6 +5,7 @@ original_name: Saw Duang
 category: 弦樂器
 country: 亞洲／東南亞（泰國）
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Saw_duang_%28back%29.png/500px-Saw_duang_%28back%29.png
 sound_class: 弦鳴
 range: 約3個8度
 instrument_key: 全調性

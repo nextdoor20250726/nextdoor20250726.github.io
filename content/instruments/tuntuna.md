@@ -5,6 +5,7 @@ original_name: Tuntuna
 category: 鍵盤樂器
 country: 亞洲／歐洲／全球
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Pulluvan_pattu_in_Ashtamudi_temple1.JPG/500px-Pulluvan_pattu_in_Ashtamudi_temple1.JPG
 sound_class: 弦鳴
 range: 約數個八度
 instrument_key: 多調性

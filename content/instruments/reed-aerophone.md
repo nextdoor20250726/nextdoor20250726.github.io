@@ -5,6 +5,7 @@ original_name: Reed aerophone
 category: 打擊樂器
 country: 全球／多地
 era: 古代
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Onde_stationnaire_vitesse_anche_faible_trois_modes.svg/500px-Onde_stationnaire_vitesse_anche_faible_trois_modes.svg.png
 region_type: 單一地區／文化圈
 soundscape: 簧片裡的鼻音與歌聲（口簧、自由簧、單簧雙簧與風袋聲音）
 body_listening: 口腔、舌頭、簧片震動、鼻音

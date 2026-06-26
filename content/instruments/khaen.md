@@ -6,6 +6,7 @@ original_name: Khaen
 category: 管樂器
 country: 亞洲／歐洲／中東／全球
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/5/58/Khene.jpg
 sound_class: 氣鳴
 range: 約2個8度
 instrument_key: 無固定調性

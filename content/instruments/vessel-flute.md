@@ -6,6 +6,7 @@ original_name: Vessel Flute
 category: 管樂器
 country: 全球／亞洲／歐洲／美洲／大洋洲
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Ocarina_shops.jpg/500px-Ocarina_shops.jpg
 sound_class: 氣鳴
 range: 約2個八度
 instrument_key: 全調性

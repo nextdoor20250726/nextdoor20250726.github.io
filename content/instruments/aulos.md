@@ -1,5 +1,6 @@
 ---
 site_url: https://soundweavers-music.github.io/instruments/aulos/
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Banquet_Euaion_Louvre_G467_n2_cropped.jpg/500px-Banquet_Euaion_Louvre_G467_n2_cropped.jpg
 title: 阿夫洛斯管
 original_name: Aulos
 category: 管樂器

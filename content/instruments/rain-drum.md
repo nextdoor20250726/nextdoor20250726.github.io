@@ -6,6 +6,7 @@ original_name: Rain Drum
 category: 打擊樂器
 country: 全球／非洲／亞洲／現代療癒與街頭音樂
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/1990_Thailand_art_Rattonokosin_Style_rain_drums_bronce_statue_%281%29.jpg/500px-1990_Thailand_art_Rattonokosin_Style_rain_drums_bronce_statue_%281%29.jpg
 sound_class: 體鳴
 range: 中高音域，約2個8度
 instrument_key: 無固定調性

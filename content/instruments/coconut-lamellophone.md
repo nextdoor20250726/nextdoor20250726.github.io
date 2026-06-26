@@ -5,6 +5,7 @@ original_name: Coconut Lamellophone
 category: 打擊樂器
 country: 全球／非洲／亞洲／現代療癒與街頭音樂
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/NLC511-023031103010001-77628_%E7%9B%9B%E4%BA%AC%E6%99%82%E5%A0%B1_%E7%AC%AC379%E5%8D%B7.pdf/page1-500px-NLC511-023031103010001-77628_%E7%9B%9B%E4%BA%AC%E6%99%82%E5%A0%B1_%E7%AC%AC379%E5%8D%B7.pdf.jpg
 sound_class: 體鳴
 range: 中高音區（約2至2.5個8度）
 instrument_key: 全調性

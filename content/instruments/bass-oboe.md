@@ -1,6 +1,7 @@
 ---
 is_popular: true
 site_url: https://soundweavers-music.github.io/instruments/bass-oboe/
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Bass_oboe_-_St_Cecilia%27s_Hall.webm/500px--Bass_oboe_-_St_Cecilia%27s_Hall.webm.jpg
 title: 低音雙簧管
 original_name: Bass oboe
 category: 管樂器

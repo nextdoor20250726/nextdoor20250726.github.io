@@ -5,6 +5,7 @@ original_name: Mey
 category: 管樂器
 country: 全球／亞洲／中東／歐洲
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/CADAL11100305_%E4%BE%9D%E6%96%90%E6%A0%BC%E7%B4%8D%E4%BA%9E.djvu/page1-500px-CADAL11100305_%E4%BE%9D%E6%96%90%E6%A0%BC%E7%B4%8D%E4%BA%9E.djvu.jpg
 sound_class: 氣鳴
 range: 約3個8度（低音域至高音域）
 instrument_key: 無固定調性

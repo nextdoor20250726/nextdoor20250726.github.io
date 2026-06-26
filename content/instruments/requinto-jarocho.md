@@ -5,6 +5,7 @@ original_name: Requinto Jarocho
 category: 弦樂器
 country: 中東／歐洲／亞洲／美洲
 era: 傳統／年代待考
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Guitarra_de_son_o_requinto_jarocho_de_cuatro_cuerdas_01.jpg/500px-Guitarra_de_son_o_requinto_jarocho_de_cuatro_cuerdas_01.jpg
 sound_class: 弦鳴
 range: 約2個半8度（高把位活動範圍）
 instrument_key: 全調性

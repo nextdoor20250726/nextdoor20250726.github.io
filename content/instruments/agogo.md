@@ -1,6 +1,7 @@
 ---
 is_popular: true
 site_url: https://soundweavers-music.github.io/instruments/agogo/
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Modern-Agogo.jpg/500px-Modern-Agogo.jpg
 title: 阿果果雙鈴
 original_name: Agogo
 category: 打擊樂器
