@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/kkwaenggwari/
 title: 小鑼（農樂）
 original_name: Kkwaenggwari
 category: 打擊樂器

@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/thunder-sheet/
 title: 雷鳴板
 original_name: Thunder sheet
 category: 打擊樂器

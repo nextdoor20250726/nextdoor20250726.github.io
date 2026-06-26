@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/mizmar/
 title: 米茲瑪爾
 original_name: Mizmar
 category: 管樂器

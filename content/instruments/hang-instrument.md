@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/hang-instrument/
 title: 手碟
 original_name: Hang (instrument)
 category: 打擊樂器

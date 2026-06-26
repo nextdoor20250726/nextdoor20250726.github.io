@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/suling-sunda/
 title: 巽他蘇林笛
 original_name: Suling Sunda
 category: 管樂器

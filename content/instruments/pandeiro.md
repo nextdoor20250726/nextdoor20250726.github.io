@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/pandeiro/
 title: 潘德羅框鼓
 original_name: Pandeiro
 category: 打擊樂器

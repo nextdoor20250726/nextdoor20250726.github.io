@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/duxianqin/
 title: 獨絃琴
 original_name: Duxianqin
 category: 弦樂器

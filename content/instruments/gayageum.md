@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/gayageum/
 title: 伽倻琴
 original_name: Gayageum
 category: 鍵盤樂器

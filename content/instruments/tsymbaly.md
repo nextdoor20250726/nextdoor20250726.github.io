@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/tsymbaly/
 title: 奇姆巴利琴
 original_name: Tsymbaly
 category: 鍵盤樂器

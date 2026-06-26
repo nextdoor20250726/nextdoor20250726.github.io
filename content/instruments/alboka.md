@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/alboka/
 title: 阿爾博卡雙管笛
 original_name: Alboka
 category: 管樂器

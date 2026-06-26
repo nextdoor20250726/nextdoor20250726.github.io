@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/agidigbo/
 title: Agidigbo（暫譯）
 original_name: Agidigbo
 category: 打擊樂器

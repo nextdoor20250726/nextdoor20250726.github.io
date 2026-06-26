@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/lesiba/
 title: Lesiba（暫譯）
 original_name: Lesiba
 category: 弦樂器

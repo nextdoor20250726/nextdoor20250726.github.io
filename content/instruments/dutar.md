@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/dutar/
 title: 都塔爾
 original_name: Dutar
 category: 弦樂器

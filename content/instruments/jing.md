@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/jing/
 title: 京鑼
 original_name: Jing
 category: 打擊樂器

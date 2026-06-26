@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/balalaika/
 title: 巴拉萊卡琴
 original_name: Balalaika
 category: 弦樂器

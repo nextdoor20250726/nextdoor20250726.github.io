@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/zabumba/
 title: 扎布巴大鼓
 original_name: Zabumba
 category: 打擊樂器

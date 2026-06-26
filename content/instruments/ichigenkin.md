@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/ichigenkin/
 title: 單弦樂器
 original_name: Ichigenkin
 category: 鍵盤樂器

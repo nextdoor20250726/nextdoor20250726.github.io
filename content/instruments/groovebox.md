@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/groovebox/
 title: 節拍合成器
 original_name: Groovebox
 category: 鍵盤樂器

@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/mrdanga/
 title: 姆爾丹加鼓
 original_name: Mrdanga
 category: 打擊樂器

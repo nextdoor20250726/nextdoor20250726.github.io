@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/domra/
 title: 多姆拉
 original_name: Domra
 category: 弦樂器

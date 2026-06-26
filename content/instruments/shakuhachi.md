@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/shakuhachi/
 title: 尺八
 original_name: Shakuhachi
 category: 管樂器

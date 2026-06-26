@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/gusle/
 title: 古斯拉琴
 original_name: Gusle
 category: 弦樂器

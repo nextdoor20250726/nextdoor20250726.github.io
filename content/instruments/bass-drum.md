@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/bass-drum/
 title: 大鼓
 original_name: Bass drum
 category: 打擊樂器

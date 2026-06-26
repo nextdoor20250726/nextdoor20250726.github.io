@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/launeddas/
 title: 撒丁島三管笛
 original_name: Launeddas
 category: 管樂器

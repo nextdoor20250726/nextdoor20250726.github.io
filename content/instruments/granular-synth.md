@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/granular-synth/
 title: 顆粒合成器
 original_name: Granular Synth
 category: 鍵盤樂器

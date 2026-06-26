@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/claves/
 title: 擊木
 original_name: Claves
 category: 打擊樂器

@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/otamatone/
 title: 音樂蝌蚪
 original_name: Otamatone
 category: 鍵盤樂器

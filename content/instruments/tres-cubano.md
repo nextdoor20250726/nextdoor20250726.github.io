@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/tres-cubano/
 title: 特雷斯吉他
 original_name: Tres Cubano
 category: 弦樂器

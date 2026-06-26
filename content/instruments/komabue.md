@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/komabue/
 title: 高麗笛
 original_name: Komabue
 category: 管樂器

@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/fundamental-frequency/
 title: 基本頻率
 original_name: Fundamental frequency
 category: 弦樂器

@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/hosho-instrument/
 title: 荷索鼓
 original_name: Hosho (instrument)
 category: 打擊樂器

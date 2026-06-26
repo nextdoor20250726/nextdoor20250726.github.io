@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/saz/
 title: 薩茲琴
 original_name: Saz
 category: 弦樂器

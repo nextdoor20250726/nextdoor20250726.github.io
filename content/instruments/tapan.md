@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/tapan/
 title: 塔潘鼓
 original_name: Tapan
 category: 打擊樂器

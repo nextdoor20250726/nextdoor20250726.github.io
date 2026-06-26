@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/vibraslap/
 title: 振音拍
 original_name: Vibraslap
 category: 打擊樂器

@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/simbi/
 title: 辛比琴
 original_name: Simbi
 category: 弦樂器

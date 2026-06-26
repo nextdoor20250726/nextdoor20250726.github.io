@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/daguangxian/
 title: 大廣弦
 original_name: Daguangxian
 category: 弦樂器

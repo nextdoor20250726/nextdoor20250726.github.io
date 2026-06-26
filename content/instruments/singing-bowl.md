@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/singing-bowl/
 title: 磬 (法器)
 original_name: Singing bowl
 category: 打擊樂器

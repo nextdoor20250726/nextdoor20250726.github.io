@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/taiko/
 title: 和太鼓
 original_name: Taiko
 category: 打擊樂器

@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/jouhikko/
 title: 約伊希科弓琴
 original_name: Jouhikko
 category: 弦樂器

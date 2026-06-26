@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/bar-zither/
 title: 板箏
 original_name: Bar zither
 category: 弦樂器

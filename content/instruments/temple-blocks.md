@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/temple-blocks/
 title: 寺廟木魚
 original_name: Temple Blocks
 category: 打擊樂器

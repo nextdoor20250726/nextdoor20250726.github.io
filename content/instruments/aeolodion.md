@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/aeolodion/
 title: 風力鋼琴
 original_name: Aeolodion
 category: 打擊樂器

@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/rudra-veena/
 title: 魯德拉維納琴
 original_name: Rudra Veena
 category: 弦樂器

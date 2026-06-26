@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/akai-mpc/
 title: Akai MPC取樣機
 original_name: Akai MPC
 category: 鍵盤樂器

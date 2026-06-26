@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/trumpet/
 title: 小號
 original_name: Trumpet
 category: 管樂器

@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/psalmodikon/
 title: 薩爾莫迪康琴
 original_name: Psalmodikon
 category: 鍵盤樂器

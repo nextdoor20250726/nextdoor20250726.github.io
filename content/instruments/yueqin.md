@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/yueqin/
 title: 月琴
 original_name: Yueqin
 category: 弦樂器

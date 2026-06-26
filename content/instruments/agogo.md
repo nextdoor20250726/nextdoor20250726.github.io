@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/agogo/
 title: 阿果果雙鈴
 original_name: Agogo
 category: 打擊樂器

@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/kora-instrument/
 title: 科拉琴
 original_name: Kora (instrument)
 category: 弦樂器

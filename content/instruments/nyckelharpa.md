@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/nyckelharpa/
 title: 鍵鈕弓琴
 original_name: Nyckelharpa
 category: 弦樂器

@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/prepared-piano/
 title: 準備鋼琴
 original_name: Prepared Piano
 category: 鍵盤樂器

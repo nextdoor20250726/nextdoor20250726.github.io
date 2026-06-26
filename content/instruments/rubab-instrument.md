@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/rubab-instrument/
 title: 熱瓦甫
 original_name: Rubab (instrument)
 category: 弦樂器

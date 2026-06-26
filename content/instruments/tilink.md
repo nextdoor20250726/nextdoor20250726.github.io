@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/tilink/
 title: 蒂林科
 original_name: Tilinkó
 category: 管樂器

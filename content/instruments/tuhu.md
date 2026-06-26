@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/tuhu/
 title: 土胡
 original_name: Tuhu
 category: 弦樂器

@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/piccolo/
 title: 短笛
 original_name: Piccolo
 category: 管樂器

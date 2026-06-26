@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/cumbus/
 title: 坎布什琴
 original_name: Cümbüş
 category: 弦樂器

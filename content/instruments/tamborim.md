@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/tamborim/
 title: 塔博林鼓
 original_name: Tamborim
 category: 打擊樂器

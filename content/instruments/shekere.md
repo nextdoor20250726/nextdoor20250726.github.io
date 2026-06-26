@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/shekere/
 title: 謝科雷葫蘆鈴
 original_name: Shekere
 category: 打擊樂器

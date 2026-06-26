@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/darbuka/
 title: 達布卡鼓
 original_name: Darbuka
 category: 打擊樂器

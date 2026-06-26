@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/lavta/
 title: 拉夫塔琴
 original_name: Lavta
 category: 弦樂器

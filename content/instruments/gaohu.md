@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/gaohu/
 title: 高胡
 original_name: Gaohu
 category: 弦樂器

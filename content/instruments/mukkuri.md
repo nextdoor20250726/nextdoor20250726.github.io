@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/mukkuri/
 title: Mukkuri（暫譯）
 original_name: Mukkuri
 category: 打擊樂器

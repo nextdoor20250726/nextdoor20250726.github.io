@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/monochord/
 title: 單弦樂器
 original_name: Monochord
 category: 鍵盤樂器

@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/kettle-drum/
 title: 鍋鼓
 original_name: Kettle drum
 category: 打擊樂器

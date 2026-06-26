@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/cornett/
 title: 辛克號／木號
 original_name: Cornett
 category: 管樂器

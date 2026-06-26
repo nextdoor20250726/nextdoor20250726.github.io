@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/kwintangan-kayo/
 title: Kwintangan kayo（暫譯）
 original_name: Kwintangan kayo
 category: 打擊樂器

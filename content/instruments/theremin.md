@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/theremin/
 title: 特雷門
 original_name: Theremin
 category: 鍵盤樂器

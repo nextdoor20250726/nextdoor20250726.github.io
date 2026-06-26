@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/contrabassoon/
 title: 低音巴松管
 original_name: Contrabassoon
 category: 管樂器

@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/paraguayan-harp/
 title: 巴拉圭豎琴
 original_name: Paraguayan Harp
 category: 弦樂器

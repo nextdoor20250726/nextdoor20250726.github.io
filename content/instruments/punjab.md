@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/punjab/
 title: 旁遮普地區
 original_name: Punjab
 category: 弦樂器

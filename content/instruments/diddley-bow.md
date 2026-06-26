@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/diddley-bow/
 title: 迪德里一弦
 original_name: Diddley bow
 category: 弦樂器

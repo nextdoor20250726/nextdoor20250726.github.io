@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/mpe-controller/
 title: 多維觸控鍵盤
 original_name: MPE Controller
 category: 鍵盤樂器

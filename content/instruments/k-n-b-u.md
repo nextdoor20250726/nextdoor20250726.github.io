@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/k-n-b-u/
 title: 越南雙簧管
 original_name: Kèn bầu
 category: 管樂器

@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/vihuela-mexicana/
 title: 墨西哥維瑞拉琴
 original_name: Vihuela Mexicana
 category: 弦樂器

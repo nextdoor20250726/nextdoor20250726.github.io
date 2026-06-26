@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/liuqin/
 title: 柳琴
 original_name: Liuqin
 category: 弦樂器

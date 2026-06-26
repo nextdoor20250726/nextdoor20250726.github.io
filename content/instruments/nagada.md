@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/nagada/
 title: 納加達鼓
 original_name: Nagada
 category: 打擊樂器

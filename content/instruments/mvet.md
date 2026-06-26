@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/mvet/
 title: Mvet（暫譯）
 original_name: Mvet
 category: 弦樂器

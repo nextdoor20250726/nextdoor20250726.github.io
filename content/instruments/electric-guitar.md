@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/electric-guitar/
 title: 電吉他
 original_name: Electric guitar
 category: 電子樂器

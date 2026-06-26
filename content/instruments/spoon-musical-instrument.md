@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/spoon-musical-instrument/
 title: 勺子
 original_name: Spoon (musical instrument)
 category: 打擊樂器

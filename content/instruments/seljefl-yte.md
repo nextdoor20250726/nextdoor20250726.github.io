@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/seljefl-yte/
 title: 柳笛
 original_name: Seljefløyte
 category: 管樂器

@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/balaban/
 title: 巴拉班管
 original_name: Balaban
 category: 管樂器

@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/sound-board-music/
 title: 音板
 original_name: Sound board (music)
 category: 弦樂器

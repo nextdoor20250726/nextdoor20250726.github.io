@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/janggu/
 title: 杖鼓
 original_name: Janggu
 category: 打擊樂器

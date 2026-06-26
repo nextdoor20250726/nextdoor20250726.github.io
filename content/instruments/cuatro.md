@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/cuatro/
 title: 夸特羅
 original_name: Cuatro
 category: 弦樂器

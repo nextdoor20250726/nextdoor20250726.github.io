@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/naqareh/
 title: 納卡雷鼓
 original_name: Naqareh
 category: 打擊樂器

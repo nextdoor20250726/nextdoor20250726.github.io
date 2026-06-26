@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/nyatiti/
 title: 尼亞蒂蒂琴
 original_name: Nyatiti
 category: 弦樂器

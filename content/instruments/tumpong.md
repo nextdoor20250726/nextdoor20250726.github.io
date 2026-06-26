@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/tumpong/
 title: Tumpong（暫譯）
 original_name: Tumpong
 category: 管樂器

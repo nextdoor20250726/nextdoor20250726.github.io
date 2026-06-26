@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/gottuvadyam/
 title: 葛圖瓦賈姆琴
 original_name: Gottuvadyam
 category: 弦樂器

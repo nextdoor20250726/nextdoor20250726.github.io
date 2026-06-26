@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/archtop-guitar/
 title: 拱頂吉他
 original_name: Archtop guitar
 category: 弦樂器

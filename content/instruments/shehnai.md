@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/shehnai/
 title: 謝海笛
 original_name: Shehnai
 category: 管樂器

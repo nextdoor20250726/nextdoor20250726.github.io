@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/drum/
 title: 鼓
 original_name: Drum
 category: 打擊樂器

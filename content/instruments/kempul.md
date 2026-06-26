@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/kempul/
 title: 克姆普爾鑼
 original_name: Kempul
 category: 打擊樂器

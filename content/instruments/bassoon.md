@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/bassoon/
 title: 低音管
 original_name: Bassoon
 category: 管樂器

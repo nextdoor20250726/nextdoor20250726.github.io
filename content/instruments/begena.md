@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/begena/
 title: 貝格納豎琴
 original_name: Begena
 category: 弦樂器

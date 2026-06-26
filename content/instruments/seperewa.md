@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/seperewa/
 title: 塞佩雷瓦琴
 original_name: Seperewa
 category: 弦樂器

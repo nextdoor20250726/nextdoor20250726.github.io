@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/arghul/
 title: 阿爾胡爾雙管
 original_name: Arghul
 category: 管樂器

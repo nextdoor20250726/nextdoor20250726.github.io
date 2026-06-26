@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/xylophone/
 title: 木琴
 original_name: Xylophone
 category: 打擊樂器

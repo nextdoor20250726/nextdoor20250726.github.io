@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/rain-drum/
 title: 雨鼓
 original_name: Rain Drum
 category: 打擊樂器

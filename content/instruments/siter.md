@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/siter/
 title: 西特爾
 original_name: Siter
 category: 鍵盤樂器

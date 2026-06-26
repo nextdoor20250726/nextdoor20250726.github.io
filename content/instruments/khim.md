@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/khim/
 title: 克因揚琴
 original_name: Khim
 category: 鍵盤樂器

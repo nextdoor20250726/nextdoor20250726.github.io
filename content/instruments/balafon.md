@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/balafon/
 title: 巴拉風
 original_name: Balafon
 category: 打擊樂器

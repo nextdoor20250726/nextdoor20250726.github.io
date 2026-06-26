@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/hi-hat-cymbal/
 title: 踩鈸
 original_name: Hi-hat cymbal
 category: 打擊樂器

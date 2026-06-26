@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/trough-zither/
 title: 槽形齊特琴
 original_name: Trough zither
 category: 打擊樂器

@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/ching-musical-instrument/
 title: 指鈸
 original_name: Ching (musical instrument)
 category: 打擊樂器

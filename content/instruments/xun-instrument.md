@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/xun-instrument/
 title: 塤
 original_name: Xun (instrument)
 category: 管樂器

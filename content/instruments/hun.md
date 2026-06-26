@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/hun/
 title: 匈人
 original_name: Hun
 category: 管樂器

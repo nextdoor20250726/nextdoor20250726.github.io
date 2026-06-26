@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/stone-chimes/
 title: 石磬
 original_name: Stone Chimes
 category: 打擊樂器

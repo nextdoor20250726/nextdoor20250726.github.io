@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/baglamas/
 title: 希臘巴格拉馬琴
 original_name: Baglamas
 category: 弦樂器

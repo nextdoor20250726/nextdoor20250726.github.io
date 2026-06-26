@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/whirly-tube/
 title: 旋轉管
 original_name: Whirly tube
 category: 管樂器

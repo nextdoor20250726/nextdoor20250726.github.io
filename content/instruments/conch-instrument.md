@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/conch-instrument/
 title: 海螺號
 original_name: Conch (instrument)
 category: 管樂器

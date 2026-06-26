@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/chitra-veena/
 title: 齊特拉維那琴
 original_name: Chitra Veena
 category: 弦樂器

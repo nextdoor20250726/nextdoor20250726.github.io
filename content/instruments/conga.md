@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/conga/
 title: 康加鼓
 original_name: Conga
 category: 打擊樂器

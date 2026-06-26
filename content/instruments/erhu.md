@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/erhu/
 title: 二胡
 original_name: Erhu
 category: 弦樂器

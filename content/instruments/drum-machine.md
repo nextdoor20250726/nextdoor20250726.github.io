@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/drum-machine/
 title: 鼓機
 original_name: Drum Machine
 category: 鍵盤樂器

@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/xiao/
 title: 簫
 original_name: Xiao
 category: 管樂器

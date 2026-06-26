@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/mandocello/
 title: 曼陀大提琴
 original_name: Mandocello
 category: 弦樂器

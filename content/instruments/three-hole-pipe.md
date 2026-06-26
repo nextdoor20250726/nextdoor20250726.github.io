@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/three-hole-pipe/
 title: 三孔笛
 original_name: Three-hole Pipe
 category: 管樂器

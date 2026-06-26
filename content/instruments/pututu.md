@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/pututu/
 title: 普圖圖海螺號
 original_name: Pututu
 category: 管樂器

@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/gabon/
 title: 加彭
 original_name: Gabon
 category: 弦樂器

@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/wood-blocks/
 title: 木魚
 original_name: Wood Blocks
 category: 打擊樂器

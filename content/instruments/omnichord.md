@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/omnichord/
 title: 全音絃琴
 original_name: Omnichord
 category: 鍵盤樂器

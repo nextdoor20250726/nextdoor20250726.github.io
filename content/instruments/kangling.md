@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/kangling/
 title: 脛骨號
 original_name: Kangling
 category: 管樂器

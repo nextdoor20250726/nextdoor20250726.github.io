@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/flutes-with-duct/
 title: 有導管長笛
 original_name: Flutes with duct
 category: 管樂器

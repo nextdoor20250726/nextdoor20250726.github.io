@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/psaltery/
 title: 薩泰裡琴
 original_name: Psaltery
 category: 鍵盤樂器

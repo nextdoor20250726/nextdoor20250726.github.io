@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/euphonium/
 title: 上低音號
 original_name: Euphonium
 category: 管樂器

@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/langeleik/
 title: 朗格萊克琴
 original_name: Langeleik
 category: 鍵盤樂器

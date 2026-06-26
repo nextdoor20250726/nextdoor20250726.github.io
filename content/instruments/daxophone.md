@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/daxophone/
 title: Daxophone（暫譯）
 original_name: Daxophone
 category: 打擊樂器

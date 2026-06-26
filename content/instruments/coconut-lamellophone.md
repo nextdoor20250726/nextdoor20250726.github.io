@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/coconut-lamellophone/
 title: 椰子木琴
 original_name: Coconut Lamellophone
 category: 打擊樂器

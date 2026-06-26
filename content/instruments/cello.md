@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/cello/
 title: 大提琴
 original_name: Cello
 category: 弦樂器

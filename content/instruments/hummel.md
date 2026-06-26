@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/hummel/
 title: 胡梅爾琴
 original_name: Hummel
 category: 鍵盤樂器

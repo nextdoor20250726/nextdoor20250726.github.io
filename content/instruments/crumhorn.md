@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/crumhorn/
 title: 彎管號
 original_name: Crumhorn
 category: 管樂器

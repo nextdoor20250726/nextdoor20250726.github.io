@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/ocean-drum/
 title: 海浪鼓
 original_name: Ocean Drum
 category: 打擊樂器

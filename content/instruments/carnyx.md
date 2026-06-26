@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/carnyx/
 title: 卡爾尼克斯號
 original_name: Carnyx
 category: 管樂器

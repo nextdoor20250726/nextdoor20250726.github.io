@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/electric-violin/
 title: 電小提琴
 original_name: Electric Violin
 category: 弦樂器

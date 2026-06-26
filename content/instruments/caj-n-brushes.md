@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/caj-n-brushes/
 title: 卡洪刷棒
 original_name: Cajón Brushes
 category: 打擊樂器

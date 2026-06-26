@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/tabla-bayan/
 title: 塔布拉鼓
 original_name: Tabla Bayan
 category: 打擊樂器

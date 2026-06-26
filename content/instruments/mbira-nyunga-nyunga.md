@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/mbira-nyunga-nyunga/
 title: 姆比拉
 original_name: Mbira Nyunga Nyunga
 category: 打擊樂器

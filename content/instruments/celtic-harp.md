@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/celtic-harp/
 title: 凱爾特豎琴
 original_name: Celtic Harp
 category: 弦樂器

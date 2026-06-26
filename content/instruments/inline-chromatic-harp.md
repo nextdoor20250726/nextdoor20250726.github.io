@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/inline-chromatic-harp/
 title: 直列半音豎琴
 original_name: Inline chromatic harp
 category: 弦樂器

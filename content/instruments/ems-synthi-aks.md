@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/ems-synthi-aks/
 title: EMS合成器
 original_name: EMS Synthi AKS
 category: 鍵盤樂器

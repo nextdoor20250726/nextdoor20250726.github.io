@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/temir-komuz/
 title: 鐵口琴
 original_name: Temir komuz
 category: 管樂器

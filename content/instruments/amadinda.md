@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/amadinda/
 title: 阿馬丁達木琴
 original_name: Amadinda
 category: 打擊樂器

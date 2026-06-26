@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/ten-string-guitar/
 title: 十弦吉他
 original_name: Ten-string guitar
 category: 弦樂器

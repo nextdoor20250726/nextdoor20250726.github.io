@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/shime-daiko/
 title: 締太鼓
 original_name: Shime-daiko
 category: 打擊樂器

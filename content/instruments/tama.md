@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/tama/
 title: 塔馬變音鼓
 original_name: Tama
 category: 打擊樂器

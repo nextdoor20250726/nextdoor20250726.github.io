@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/an-tranh/
 title: 越南箏
 original_name: Đàn tranh
 category: 鍵盤樂器

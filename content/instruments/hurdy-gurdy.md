@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/hurdy-gurdy/
 title: 手搖琴
 original_name: Hurdy-Gurdy
 category: 弦樂器

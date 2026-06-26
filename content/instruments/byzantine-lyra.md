@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/byzantine-lyra/
 title: 拜占庭里拉琴
 original_name: Byzantine Lyra
 category: 弦樂器

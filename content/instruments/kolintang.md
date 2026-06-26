@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/kolintang/
 title: 科林當木琴
 original_name: Kolintang
 category: 打擊樂器

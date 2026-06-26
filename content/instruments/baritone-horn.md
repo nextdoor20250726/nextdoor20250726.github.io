@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/baritone-horn/
 title: 細管上低音號
 original_name: Baritone horn
 category: 管樂器

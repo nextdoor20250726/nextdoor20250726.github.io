@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/diple/
 title: 克羅埃西亞雙管笛
 original_name: Diple
 category: 管樂器

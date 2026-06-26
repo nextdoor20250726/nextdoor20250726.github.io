@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/karimba/
 title: 卡林巴（辛巴威）
 original_name: Karimba
 category: 打擊樂器

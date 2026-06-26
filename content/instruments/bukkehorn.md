@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/bukkehorn/
 title: 布克號角
 original_name: Bukkehorn
 category: 管樂器

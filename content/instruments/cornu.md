@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/cornu/
 title: 科爾奴號
 original_name: Cornu
 category: 管樂器

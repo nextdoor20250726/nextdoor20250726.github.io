@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/r/
 title: 柯古爾
 original_name: Çöğür
 category: 弦樂器

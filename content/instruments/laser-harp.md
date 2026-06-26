@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/laser-harp/
 title: 雷射豎琴
 original_name: Laser Harp
 category: 鍵盤樂器

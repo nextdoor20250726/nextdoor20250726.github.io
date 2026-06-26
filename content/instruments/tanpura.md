@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/tanpura/
 title: 坦布拉琴
 original_name: Tanpura
 category: 弦樂器

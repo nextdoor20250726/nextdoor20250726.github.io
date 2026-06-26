@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/fortepiano/
 title: 早期鋼琴
 original_name: Fortepiano
 category: 鍵盤樂器

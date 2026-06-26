@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/harpsichord/
 title: 大鍵琴
 original_name: Harpsichord
 category: 鍵盤樂器

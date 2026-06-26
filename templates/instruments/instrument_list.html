@@ -1,14 +1,15 @@
 {% extends "base.html" %}
 
-{% block title %}樂器列表｜世界樂器百科{% endblock %}
+{% block title %}{{ list_title|default:"樂器列表" }}｜世界樂器百科{% endblock %}
 
 {% block content %}
 <main class="page">
   <section class="list-toolbar">
     <div>
       <p class="eyebrow">Browse</p>
-      <h1>樂器列表</h1>
+      <h1>{{ list_title|default:"樂器列表" }}</h1>
     </div>
+    {% if not list_title %}
     <form class="filter-form" method="get">
       <input name="q" value="{{ query }}" type="search" placeholder="搜尋樂器、音色、歷史...">
       <select name="category">
@@ -21,6 +22,7 @@
       </select>
       <button type="submit">篩選</button>
     </form>
+    {% endif %}
   </section>
 
   <div class="instrument-grid">

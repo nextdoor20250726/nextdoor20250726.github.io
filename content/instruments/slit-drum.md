@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/slit-drum/
 title: 裂縫鼓
 original_name: Slit drum
 category: 打擊樂器

@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/maraca/
 title: 沙槌
 original_name: Maraca
 category: 打擊樂器

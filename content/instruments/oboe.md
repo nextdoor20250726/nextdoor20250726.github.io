@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/oboe/
 title: 雙簧管
 original_name: Oboe
 category: 管樂器

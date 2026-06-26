@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/siku/
 title: 西庫排笛
 original_name: Siku
 category: 管樂器

@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/haegum/
 title: 奚琴
 original_name: Haegum
 category: 弦樂器

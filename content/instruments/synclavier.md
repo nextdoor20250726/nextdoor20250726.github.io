@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/synclavier/
 title: 辛克拉維耶取樣合成器
 original_name: Synclavier
 category: 鍵盤樂器

@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/antara/
 title: 安塔拉排笛
 original_name: Antara
 category: 管樂器

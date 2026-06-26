@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/drum-machine-hybrid/
 title: 動物試驗
 original_name: Drum Machine Hybrid
 category: 電子樂器

@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/hyoshigi/
 title: 拍子木
 original_name: Hyoshigi
 category: 打擊樂器

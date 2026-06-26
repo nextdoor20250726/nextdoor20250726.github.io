@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/kanjira/
 title: 坎吉拉鼓
 original_name: Kanjira
 category: 打擊樂器

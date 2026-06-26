@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/devil-chase/
 title: 驅魔竹
 original_name: Devil chase
 category: 打擊樂器

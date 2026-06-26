@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/dulce-melos/
 title: 甜蜜琴
 original_name: Dulce melos
 category: 鍵盤樂器

@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/cylindrical-drum/
 title: 圓柱鼓
 original_name: Cylindrical drum
 category: 打擊樂器

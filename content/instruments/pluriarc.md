@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/pluriarc/
 title: Pluriarc（暫譯）
 original_name: Pluriarc
 category: 打擊樂器

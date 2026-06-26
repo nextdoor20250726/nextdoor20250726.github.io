@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/koky/
 title: 胡弓
 original_name: Kokyū
 category: 弦樂器

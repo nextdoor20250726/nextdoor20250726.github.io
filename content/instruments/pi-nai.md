@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/pi-nai/
 title: 鼻笛
 original_name: Pi Nai
 category: 管樂器

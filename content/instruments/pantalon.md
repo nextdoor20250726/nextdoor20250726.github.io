@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/pantalon/
 title: 潘塔隆琴
 original_name: Pantalon
 category: 弦樂器

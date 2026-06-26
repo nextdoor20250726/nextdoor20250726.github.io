@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/suona/
 title: 嗩吶
 original_name: Suona
 category: 管樂器

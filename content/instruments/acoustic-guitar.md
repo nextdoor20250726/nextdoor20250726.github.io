@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/acoustic-guitar/
 title: 原聲吉他
 original_name: Acoustic guitar
 category: 電子樂器

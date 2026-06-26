@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/kashaka/
 title: 卡沙卡連珠搖響器
 original_name: Kashaka
 category: 打擊樂器

@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/glass-harp/
 title: 玻璃豎琴
 original_name: Glass harp
 category: 打擊樂器

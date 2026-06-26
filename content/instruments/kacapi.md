@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/kacapi/
 title: 卡恰皮琴
 original_name: Kacapi
 category: 鍵盤樂器

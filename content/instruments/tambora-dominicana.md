@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/tambora-dominicana/
 title: 坦博拉鼓
 original_name: Tambora Dominicana
 category: 打擊樂器

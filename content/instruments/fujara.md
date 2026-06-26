@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/fujara/
 title: 富亞拉大笛
 original_name: Fujara
 category: 管樂器

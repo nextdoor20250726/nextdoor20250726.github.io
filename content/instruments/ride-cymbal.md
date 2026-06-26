@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/ride-cymbal/
 title: 疊音鈸
 original_name: Ride cymbal
 category: 打擊樂器

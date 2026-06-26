@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/triangle-musical-instrument/
 title: 三角鐵
 original_name: Triangle (musical instrument)
 category: 打擊樂器

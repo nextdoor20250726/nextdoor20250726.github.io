@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/electrophone/
 title: 電子樂器
 original_name: Electrophone
 category: 打擊樂器

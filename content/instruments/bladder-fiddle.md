@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/bladder-fiddle/
 title: 豬膀胱提琴
 original_name: Bladder fiddle
 category: 弦樂器

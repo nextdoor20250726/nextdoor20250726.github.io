@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/waldzither/
 title: 森林齊特琴
 original_name: Waldzither
 category: 弦樂器

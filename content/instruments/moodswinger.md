@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/moodswinger/
 title: 噪音搖滾
 original_name: Moodswinger
 category: 弦樂器

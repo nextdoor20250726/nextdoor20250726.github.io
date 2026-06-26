@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/mandolin/
 title: 曼陀林
 original_name: Mandolin
 category: 弦樂器

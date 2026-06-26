@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/gangsa/
 title: 甘薩琴
 original_name: Gangsa
 category: 打擊樂器

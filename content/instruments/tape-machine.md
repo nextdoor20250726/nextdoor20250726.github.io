@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/tape-machine/
 title: 磁帶機
 original_name: Tape Machine
 category: 鍵盤樂器

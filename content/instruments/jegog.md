@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/jegog/
 title: 傑歌克
 original_name: Jegog
 category: 打擊樂器

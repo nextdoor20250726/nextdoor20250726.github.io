@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/continuum-fingerboard/
 title: 連續指板
 original_name: Continuum Fingerboard
 category: 鍵盤樂器

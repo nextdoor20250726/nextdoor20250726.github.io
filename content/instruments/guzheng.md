@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/guzheng/
 title: 古箏
 original_name: Guzheng
 category: 鍵盤樂器

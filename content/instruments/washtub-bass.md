@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/washtub-bass/
 title: 低音
 original_name: Washtub bass
 category: 弦樂器

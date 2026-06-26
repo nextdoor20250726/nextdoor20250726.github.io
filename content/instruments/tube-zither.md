@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/tube-zither/
 title: 管絃琴
 original_name: Tube zither
 category: 打擊樂器

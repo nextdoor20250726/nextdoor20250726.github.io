@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/rattle-percussion-instrument/
 title: 搖鈴（打擊樂器）
 original_name: Rattle (percussion instrument)
 category: 打擊樂器

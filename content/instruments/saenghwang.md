@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/saenghwang/
 title: 笙簧
 original_name: Saenghwang
 category: 管樂器

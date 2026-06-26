@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/metallophone/
 title: 鐵琴
 original_name: Metallophone
 category: 打擊樂器

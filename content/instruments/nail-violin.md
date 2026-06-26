@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/nail-violin/
 title: 釘子提琴
 original_name: Nail violin
 category: 打擊樂器

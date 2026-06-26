@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/pakhawaj/
 title: 帕卡瓦吉鼓
 original_name: Pakhawaj
 category: 打擊樂器

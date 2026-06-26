@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/gaida/
 title: 蓋達風笛
 original_name: Gaida
 category: 管樂器

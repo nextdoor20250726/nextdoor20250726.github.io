@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/fangxiang/
 title: 方響
 original_name: Fangxiang
 category: 打擊樂器

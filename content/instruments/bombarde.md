@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/bombarde/
 title: 布列塔尼轟炸管
 original_name: Bombarde
 category: 管樂器

@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/kamaycha/
 title: 卡馬伊恰琴
 original_name: Kamaycha
 category: 弦樂器

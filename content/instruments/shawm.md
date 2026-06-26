@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/shawm/
 title: 雙簧管
 original_name: Shawm
 category: 管樂器

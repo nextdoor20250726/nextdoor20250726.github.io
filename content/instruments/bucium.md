@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/bucium/
 title: 布奇烏姆號
 original_name: Bucium
 category: 管樂器

@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/reed-mouthpiece/
 title: 簧片
 original_name: Reed (mouthpiece)
 category: 打擊樂器

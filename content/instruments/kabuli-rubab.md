@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/kabuli-rubab/
 title: 卡布裡魯巴卜琴
 original_name: Kabuli Rubab
 category: 弦樂器

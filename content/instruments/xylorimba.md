@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/xylorimba/
 title: 木琴馬林巴
 original_name: Xylorimba
 category: 打擊樂器

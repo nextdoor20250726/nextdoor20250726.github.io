@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/piston-flute/
 title: 活塞長笛
 original_name: Piston flute
 category: 管樂器

@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/kagura-suzu/
 title: 神樂鈴
 original_name: Kagura Suzu
 category: 打擊樂器

@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/vietnam/
 title: 越南
 original_name: Vietnam
 category: 弦樂器

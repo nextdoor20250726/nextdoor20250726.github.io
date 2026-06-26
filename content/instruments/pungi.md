@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/pungi/
 title: 蛇笛
 original_name: Pungi
 category: 管樂器

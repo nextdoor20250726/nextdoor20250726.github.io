@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/mellotron/
 title: 梅樂頓
 original_name: Mellotron
 category: 鍵盤樂器

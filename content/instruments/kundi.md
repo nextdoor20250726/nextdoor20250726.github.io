@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/kundi/
 title: 孔迪豎琴
 original_name: Kundi
 category: 弦樂器

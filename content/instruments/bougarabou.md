@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/bougarabou/
 title: 布加拉布鼓
 original_name: Bougarabou
 category: 打擊樂器

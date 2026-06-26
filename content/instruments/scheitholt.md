@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/scheitholt/
 title: 無
 original_name: Scheitholt
 category: 鍵盤樂器

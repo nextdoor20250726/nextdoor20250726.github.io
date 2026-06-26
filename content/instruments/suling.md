@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/suling/
 title: 蘇林笛
 original_name: Suling
 category: 管樂器

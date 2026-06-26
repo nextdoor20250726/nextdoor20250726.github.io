@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/bombo-leg-ero/
 title: 邦博鼓
 original_name: Bombo Legüero
 category: 打擊樂器

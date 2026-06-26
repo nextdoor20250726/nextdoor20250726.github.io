@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/suspended-cymbal/
 title: 懸吊鈸
 original_name: Suspended Cymbal
 category: 打擊樂器

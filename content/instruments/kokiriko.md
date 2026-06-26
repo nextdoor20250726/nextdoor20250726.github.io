@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/kokiriko/
 title: 小切子
 original_name: Kokiriko
 category: 打擊樂器

@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/cimbalom/
 title: 匈牙利揚琴
 original_name: Cimbalom
 category: 鍵盤樂器

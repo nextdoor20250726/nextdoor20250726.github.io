@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/zither/
 title: 齊特琴
 original_name: Zither
 category: 鍵盤樂器

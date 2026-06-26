@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/oopoochawa/
 title: Oopoochawa（暫譯）
 original_name: Oopoochawa
 category: 打擊樂器

@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/tembur/
 title: 庫爾德坦布林琴
 original_name: Tembûr
 category: 弦樂器

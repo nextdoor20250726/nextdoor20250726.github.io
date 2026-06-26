@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/rattle-drum/
 title: 搖鼓
 original_name: Rattle drum
 category: 打擊樂器

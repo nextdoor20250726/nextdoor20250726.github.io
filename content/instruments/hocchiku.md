@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/hocchiku/
 title: 法竹笛
 original_name: Hocchiku
 category: 管樂器

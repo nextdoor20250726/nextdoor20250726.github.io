@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/celesta/
 title: 鋼片琴
 original_name: Celesta
 category: 打擊樂器

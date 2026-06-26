@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/glockenspiel/
 title: 鐘琴
 original_name: Glockenspiel
 category: 打擊樂器

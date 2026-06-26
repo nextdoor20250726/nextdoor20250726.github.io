@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/bagpipe/
 title: 風笛
 original_name: Bagpipe
 category: 管樂器

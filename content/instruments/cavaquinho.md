@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/cavaquinho/
 title: 卡瓦基紐琴
 original_name: Cavaquinho
 category: 弦樂器

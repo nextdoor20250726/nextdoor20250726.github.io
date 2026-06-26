@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/shruti-box/
 title: 施魯蒂箱
 original_name: Shruti Box
 category: 管樂器

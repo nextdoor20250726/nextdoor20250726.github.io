@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/caxixi/
 title: 卡西西搖響器
 original_name: Caxixi
 category: 打擊樂器

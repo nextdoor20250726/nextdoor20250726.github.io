@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/bass-likembe/
 title: 低音利肯貝
 original_name: Bass Likembe
 category: 打擊樂器

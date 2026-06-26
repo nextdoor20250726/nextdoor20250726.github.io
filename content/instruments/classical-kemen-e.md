@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/classical-kemen-e/
 title: 古典肯曼切琴
 original_name: Classical Kemençe
 category: 弦樂器

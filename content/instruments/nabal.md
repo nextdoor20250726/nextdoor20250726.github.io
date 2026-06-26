@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/nabal/
 title: 納巴爾號
 original_name: Nabal
 category: 管樂器

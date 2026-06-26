@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/verrophone/
 title: 玻璃音管琴
 original_name: Verrophone
 category: 打擊樂器

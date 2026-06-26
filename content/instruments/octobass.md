@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/octobass/
 title: 低音提琴
 original_name: Octobass
 category: 弦樂器

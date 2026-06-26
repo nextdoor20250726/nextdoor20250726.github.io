@@ -6,16 +6,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% block title %}世界樂器百科{% endblock %}</title>
   <link rel="stylesheet" href="{% static 'css/site.css' %}">
+  {% block extra_head %}{% endblock %}
 </head>
 <body>
   <header class="site-header">
     <a class="brand" href="{% url 'home' %}">世界樂器百科</a>
     <nav class="site-nav">
       <a href="{% url 'instrument_list' %}">全部樂器</a>
+      <a href="{% url 'popular_instruments' %}">熱門</a>
+      <a href="{% url 'uncommon_instruments' %}">冷門</a>
+      <a href="{% url 'random_instrument' %}">隨選</a>
       <a href="/admin/">管理後台</a>
     </nav>
   </header>
 
   {% block content %}{% endblock %}
+
+  <footer class="site-footer">
+    <p>
+      作者：<a href="https://www.youtube.com/@NextDoorSoundWeavers/" target="_blank" rel="noopener">隔壁織音人</a>
+      ｜資料來源：<a href="https://www.wikipedia.org/" target="_blank" rel="noopener">Wikipedia</a>
+      ｜<a href="https://www.youtube.com/@NextDoorSoundWeavers/" target="_blank" rel="noopener">訂閱 YouTube 頻道</a>
+    </p>
+  </footer>
+
+  {% block extra_js %}{% endblock %}
 </body>
 </html>

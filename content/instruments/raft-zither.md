@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/raft-zither/
 title: 筏狀箏
 original_name: Raft zither
 category: 鍵盤樂器

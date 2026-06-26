@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/tzouras/
 title: 齊塔拉琴
 original_name: Tzouras
 category: 弦樂器

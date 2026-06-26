@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/qanbus/
 title: 卡姆布斯琴
 original_name: Qanbus
 category: 弦樂器

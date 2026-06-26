@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/kubing/
 title: 庫賓琴
 original_name: Kubing
 category: 打擊樂器

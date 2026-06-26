@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/suikinkutsu/
 title: 水琴窟
 original_name: Suikinkutsu
 category: 打擊樂器

@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/zampogna/
 title: 義大利風笛
 original_name: Zampogna
 category: 管樂器

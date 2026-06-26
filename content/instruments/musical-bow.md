@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/musical-bow/
 title: 樂弓
 original_name: Musical bow
 category: 弦樂器

@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/waterphone/
 title: 水琴
 original_name: Waterphone
 category: 打擊樂器

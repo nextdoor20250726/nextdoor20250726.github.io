@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/laouto/
 title: 希臘拉烏託琴
 original_name: Laouto
 category: 弦樂器

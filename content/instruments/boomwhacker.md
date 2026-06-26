@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/boomwhacker/
 title: 音律管
 original_name: Boomwhacker
 category: 管樂器

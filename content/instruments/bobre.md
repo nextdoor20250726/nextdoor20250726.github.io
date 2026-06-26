@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/bobre/
 title: 博佈雷弓樂器
 original_name: Bobre
 category: 鍵盤樂器

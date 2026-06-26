@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/steel-drum/
 title: 鋼鼓
 original_name: Steel drum
 category: 打擊樂器

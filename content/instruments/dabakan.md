@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/dabakan/
 title: 達巴幹鼓
 original_name: Dabakan
 category: 打擊樂器

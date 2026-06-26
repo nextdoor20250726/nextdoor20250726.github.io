@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/buccina/
 title: 布奇那號
 original_name: Buccina
 category: 管樂器

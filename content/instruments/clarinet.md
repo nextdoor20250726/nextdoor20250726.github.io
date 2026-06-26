@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/clarinet/
 title: 單簧管
 original_name: Clarinet
 category: 管樂器

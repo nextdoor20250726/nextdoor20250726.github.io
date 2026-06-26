@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/celempung/
 title: 切倫蓬琴
 original_name: Celempung
 category: 鍵盤樂器

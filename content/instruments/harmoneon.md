@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/harmoneon/
 title: 和聲手風琴
 original_name: Harmoneon
 category: 管樂器

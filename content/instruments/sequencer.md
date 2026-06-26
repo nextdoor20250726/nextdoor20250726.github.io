@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/sequencer/
 title: 音序器
 original_name: Sequencer
 category: 鍵盤樂器

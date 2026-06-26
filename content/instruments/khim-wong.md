@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/khim-wong/
 title: 泰國揚琴
 original_name: Khim Wong
 category: 打擊樂器

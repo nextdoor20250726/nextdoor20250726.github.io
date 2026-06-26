@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/yatga/
 title: 雅託格琴
 original_name: Yatga
 category: 鍵盤樂器

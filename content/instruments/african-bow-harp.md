@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/african-bow-harp/
 title: 非洲弓豎琴
 original_name: African Bow Harp
 category: 弦樂器

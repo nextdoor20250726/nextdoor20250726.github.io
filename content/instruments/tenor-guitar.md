@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/tenor-guitar/
 title: 次中音吉他
 original_name: Tenor guitar
 category: 弦樂器

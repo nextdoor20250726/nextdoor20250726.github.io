@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/psalmodicon/
 title: 詩篇琴
 original_name: Psalmodicon
 category: 弦樂器

@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/cuatro-venezolano/
 title: 委內瑞拉四絃琴
 original_name: Cuatro Venezolano
 category: 弦樂器

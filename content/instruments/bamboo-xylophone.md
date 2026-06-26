@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/bamboo-xylophone/
 title: 竹木琴
 original_name: Bamboo Xylophone
 category: 打擊樂器

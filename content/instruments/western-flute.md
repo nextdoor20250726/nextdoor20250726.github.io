@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/western-flute/
 title: 西洋長笛
 original_name: Western Flute
 category: 管樂器

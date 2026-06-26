@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/tambura/
 title: 坦布拉琴
 original_name: Tambura
 category: 弦樂器

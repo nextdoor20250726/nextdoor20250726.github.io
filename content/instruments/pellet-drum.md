@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/pellet-drum/
 title: 圓珠鼓
 original_name: Pellet drum
 category: 打擊樂器

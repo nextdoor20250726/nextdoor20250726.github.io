@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/p-fano/
 title: 短笛
 original_name: Pífano
 category: 管樂器

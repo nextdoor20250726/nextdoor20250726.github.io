@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/ghatam/
 title: 手碟
 original_name: Ghatam
 category: 打擊樂器

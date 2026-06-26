@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/berimbau/
 title: 伯林巴烏琴
 original_name: Berimbau
 category: 弦樂器

@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/bass-flute/
 title: 低音長笛
 original_name: Bass Flute
 category: 管樂器

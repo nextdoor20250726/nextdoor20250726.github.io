@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/sitar/
 title: 錫塔琴
 original_name: Sitar
 category: 弦樂器

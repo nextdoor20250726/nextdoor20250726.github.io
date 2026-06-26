@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/gandingan-a-kayo/
 title: 木製甘汀安鼓
 original_name: Gandingan a kayo
 category: 打擊樂器

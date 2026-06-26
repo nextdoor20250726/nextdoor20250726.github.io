@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/khol/
 title: 科爾鼓
 original_name: Khol
 category: 打擊樂器

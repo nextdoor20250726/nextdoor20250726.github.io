@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/trembita/
 title: 特倫比塔長號
 original_name: Trembita
 category: 管樂器

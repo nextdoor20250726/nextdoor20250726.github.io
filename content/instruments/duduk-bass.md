@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/duduk-bass/
 title: 杜德克低音管
 original_name: Duduk Bass
 category: 管樂器

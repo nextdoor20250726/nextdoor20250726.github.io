@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/adjalin/
 title: Adjalin（暫譯）
 original_name: Adjalin
 category: 弦樂器

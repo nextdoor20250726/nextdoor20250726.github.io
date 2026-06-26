@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/guanzi/
 title: 管子
 original_name: Guanzi
 category: 管樂器

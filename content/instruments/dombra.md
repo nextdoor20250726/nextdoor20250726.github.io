@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/dombra/
 title: 冬不拉
 original_name: Dombra
 category: 弦樂器

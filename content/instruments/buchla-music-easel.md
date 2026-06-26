@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/buchla-music-easel/
 title: 布赫拉音樂盒合成器
 original_name: Buchla Music Easel
 category: 鍵盤樂器

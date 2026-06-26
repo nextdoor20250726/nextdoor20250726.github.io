@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/tarogato/
 title: 塔羅蓋託管
 original_name: Tarogato
 category: 管樂器

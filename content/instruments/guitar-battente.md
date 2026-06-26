@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/guitar-battente/
 title: 巴坦特吉他
 original_name: Guitar battente
 category: 弦樂器

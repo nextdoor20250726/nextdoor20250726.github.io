@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/luntang/
 title: Luntang（暫譯）
 original_name: Luntang
 category: 打擊樂器

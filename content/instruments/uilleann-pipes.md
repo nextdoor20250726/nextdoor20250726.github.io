@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/uilleann-pipes/
 title: 愛爾蘭風笛
 original_name: Uilleann pipes
 category: 管樂器

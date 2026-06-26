@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/dayereh/
 title: 達葉雷框鼓
 original_name: Dayereh
 category: 打擊樂器

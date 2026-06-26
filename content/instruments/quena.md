@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/quena/
 title: 克納笛
 original_name: Quena
 category: 管樂器

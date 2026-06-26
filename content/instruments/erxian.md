@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/erxian/
 title: 二絃琴
 original_name: Erxian
 category: 弦樂器

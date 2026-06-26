@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/piri/
 title: 觱篥
 original_name: Piri
 category: 管樂器

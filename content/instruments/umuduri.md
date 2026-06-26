@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/umuduri/
 title: 烏姆杜裡琴
 original_name: Umuduri
 category: 弦樂器

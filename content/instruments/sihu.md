@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/sihu/
 title: 四胡
 original_name: Sihu
 category: 弦樂器

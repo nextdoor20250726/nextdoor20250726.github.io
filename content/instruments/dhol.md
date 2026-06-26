@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/dhol/
 title: 卓爾鼓
 original_name: Dhol
 category: 打擊樂器

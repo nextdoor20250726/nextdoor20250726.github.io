@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/krar/
 title: 克拉爾里拉琴
 original_name: Krar
 category: 弦樂器

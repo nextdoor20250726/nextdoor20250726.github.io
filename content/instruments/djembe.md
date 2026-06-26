@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/djembe/
 title: 金貝鼓
 original_name: Djembe
 category: 打擊樂器

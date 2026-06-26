@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/bendir/
 title: 本迪爾框鼓
 original_name: Bendir
 category: 打擊樂器

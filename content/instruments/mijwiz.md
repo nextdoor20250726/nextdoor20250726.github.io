@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/mijwiz/
 title: 米日維茲雙管
 original_name: Mijwiz
 category: 管樂器

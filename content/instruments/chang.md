@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/chang/
 title: 箏
 original_name: Chang
 category: 弦樂器

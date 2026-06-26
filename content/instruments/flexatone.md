@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/flexatone/
 title: 彈音器
 original_name: Flexatone
 category: 打擊樂器

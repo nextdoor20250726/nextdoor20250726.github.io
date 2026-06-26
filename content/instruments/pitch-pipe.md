@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/pitch-pipe/
 title: 音高笛
 original_name: Pitch pipe
 category: 管樂器

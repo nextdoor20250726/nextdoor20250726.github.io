@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/jug-musical-instrument/
 title: 陶罐
 original_name: Jug (musical instrument)
 category: 管樂器

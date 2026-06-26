@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/dunun/
 title: 杜農鼓
 original_name: Dunun
 category: 打擊樂器

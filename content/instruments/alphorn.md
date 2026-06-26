@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/alphorn/
 title: 阿爾卑斯長號
 original_name: Alphorn
 category: 管樂器

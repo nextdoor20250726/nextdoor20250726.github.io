@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/bell-tree/
 title: 樹鈴
 original_name: Bell tree
 category: 打擊樂器

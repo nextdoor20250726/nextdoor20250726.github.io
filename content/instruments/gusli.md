@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/gusli/
 title: 古斯里琴
 original_name: Gusli
 category: 鍵盤樂器

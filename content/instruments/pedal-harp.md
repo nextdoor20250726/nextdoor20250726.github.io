@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/pedal-harp/
 title: 踏板豎琴
 original_name: Pedal harp
 category: 弦樂器

@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/bongo/
 title: 邦戈鼓
 original_name: Bongo
 category: 打擊樂器

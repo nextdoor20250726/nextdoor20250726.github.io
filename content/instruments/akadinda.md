@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/akadinda/
 title: 阿卡丁達木琴
 original_name: Akadinda
 category: 打擊樂器

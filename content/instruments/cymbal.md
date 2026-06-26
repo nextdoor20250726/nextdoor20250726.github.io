@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/cymbal/
 title: 銅鈸
 original_name: Cymbal
 category: 打擊樂器

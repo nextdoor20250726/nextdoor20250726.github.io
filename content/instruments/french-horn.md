@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/french-horn/
 title: 法國號
 original_name: French horn
 category: 管樂器

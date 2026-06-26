@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/ruan/
 title: 阮
 original_name: Ruan
 category: 弦樂器

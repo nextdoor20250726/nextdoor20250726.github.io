@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/valiha/
 title: 瓦麗哈琴
 original_name: Valiha
 category: 鍵盤樂器

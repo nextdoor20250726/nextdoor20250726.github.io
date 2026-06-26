@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/flamenco-guitar/
 title: 佛朗明哥吉他
 original_name: Flamenco guitar
 category: 電子樂器

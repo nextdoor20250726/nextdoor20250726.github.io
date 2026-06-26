@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/rhaita/
 title: 萊塔管
 original_name: Rhaita
 category: 管樂器

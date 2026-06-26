@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/irish-bouzouki/
 title: 愛爾蘭布祖基琴
 original_name: Irish bouzouki
 category: 弦樂器

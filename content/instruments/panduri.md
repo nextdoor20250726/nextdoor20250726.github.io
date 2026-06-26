@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/panduri/
 title: 潘杜裡琴
 original_name: Panduri
 category: 弦樂器

@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/harpejji/
 title: 豎琴吉他
 original_name: Harpejji
 category: 弦樂器

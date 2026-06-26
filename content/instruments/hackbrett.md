@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/hackbrett/
 title: 哈克佈雷特敲擊琴
 original_name: Hackbrett
 category: 鍵盤樂器

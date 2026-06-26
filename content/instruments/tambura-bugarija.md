@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/tambura-bugarija/
 title: 布加利亞坦布拉琴
 original_name: Tambura Bugarija
 category: 弦樂器

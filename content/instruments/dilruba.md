@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/dilruba/
 title: 迪爾魯巴琴
 original_name: Dilruba
 category: 弦樂器

@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/cornet/
 title: 短號
 original_name: Cornet
 category: 管樂器

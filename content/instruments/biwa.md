@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/biwa/
 title: 琵琶
 original_name: Biwa
 category: 弦樂器

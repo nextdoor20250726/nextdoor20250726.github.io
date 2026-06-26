@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/paixiao/
 title: 排簫
 original_name: Paixiao
 category: 管樂器

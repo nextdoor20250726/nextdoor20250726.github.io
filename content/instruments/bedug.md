@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/bedug/
 title: 貝杜格鼓
 original_name: Bedug
 category: 打擊樂器

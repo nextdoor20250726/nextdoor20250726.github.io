@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/ranat-ek-lek/
 title: 泰國金屬琴
 original_name: Ranat ek lek
 category: 打擊樂器

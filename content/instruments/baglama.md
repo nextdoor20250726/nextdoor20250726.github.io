@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/baglama/
 title: 薩茲琴
 original_name: Bağlama
 category: 弦樂器

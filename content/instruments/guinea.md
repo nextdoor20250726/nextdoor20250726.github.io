@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/guinea/
 title: 幾內亞
 original_name: Guinea
 category: 弦樂器

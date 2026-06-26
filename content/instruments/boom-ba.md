@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/boom-ba/
 title: 膀胱提琴
 original_name: Boom-ba
 category: 弦樂器

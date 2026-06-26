@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/oboe-damore/
 title: 愛之雙簧管
 original_name: Oboe d'amore
 category: 管樂器

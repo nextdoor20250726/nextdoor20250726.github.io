@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/steelpan/
 title: 鋼鐵鼓
 original_name: Steelpan
 category: 打擊樂器

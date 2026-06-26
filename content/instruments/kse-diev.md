@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/kse-diev/
 title: Kse diev（暫譯）
 original_name: Kse diev
 category: 打擊樂器

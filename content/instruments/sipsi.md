@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/sipsi/
 title: 希普西笛
 original_name: Sipsi
 category: 管樂器

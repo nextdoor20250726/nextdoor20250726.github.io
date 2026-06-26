@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/khong-wong-yai/
 title: 大鑼圈
 original_name: Khong Wong Yai
 category: 打擊樂器

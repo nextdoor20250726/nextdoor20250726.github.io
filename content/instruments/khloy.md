@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/khloy/
 title: 克洛伊笛
 original_name: Khloy
 category: 管樂器

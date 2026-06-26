@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/barbat-lute/
 title: 巴爾巴特琴
 original_name: Barbat (lute)
 category: 弦樂器

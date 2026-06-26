@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/bomba-drum/
 title: 邦巴鼓
 original_name: Bomba Drum
 category: 打擊樂器

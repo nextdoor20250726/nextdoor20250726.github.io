@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/dotar/
 title: 多塔爾琴
 original_name: Dotar
 category: 弦樂器

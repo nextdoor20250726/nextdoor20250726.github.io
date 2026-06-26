@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/repinique/
 title: 雷皮尼克鼓
 original_name: Repinique
 category: 打擊樂器

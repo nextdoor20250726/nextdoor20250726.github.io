@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/extended-range-classical-guitar/
 title: 擴充套件音域古典吉他
 original_name: Extended-range classical guitar
 category: 弦樂器

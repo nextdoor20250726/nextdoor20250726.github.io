@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/woodblock-instrument/
 title: 木魚
 original_name: Woodblock (instrument)
 category: 打擊樂器

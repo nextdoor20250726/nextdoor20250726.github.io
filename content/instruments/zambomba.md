@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/zambomba/
 title: 摩擦鼓
 original_name: Zambomba
 category: 打擊樂器

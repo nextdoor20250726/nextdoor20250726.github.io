@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/pan-pipes/
 title: 排簫
 original_name: Pan pipes
 category: 管樂器

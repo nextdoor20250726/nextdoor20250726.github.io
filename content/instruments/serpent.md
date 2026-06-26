@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/serpent/
 title: 蛇形管號
 original_name: Serpent
 category: 管樂器

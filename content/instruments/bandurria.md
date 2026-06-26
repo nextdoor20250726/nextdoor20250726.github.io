@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/bandurria/
 title: 班杜裡亞琴
 original_name: Bandurria
 category: 弦樂器

@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/tumbi/
 title: 圖姆比琴
 original_name: Tumbi
 category: 鍵盤樂器

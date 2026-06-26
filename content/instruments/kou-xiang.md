@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/kou-xiang/
 title: 口弦
 original_name: Kou Xiang
 category: 管樂器

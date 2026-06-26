@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/lira-calabrese/
 title: 卡拉布裡亞琴
 original_name: Lira Calabrese
 category: 弦樂器

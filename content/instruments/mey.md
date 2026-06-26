@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/mey/
 title: 梅依管
 original_name: Mey
 category: 管樂器

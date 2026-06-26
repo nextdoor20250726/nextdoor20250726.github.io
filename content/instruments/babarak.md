@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/babarak/
 title: 蘇林笛
 original_name: Babarak
 category: 管樂器

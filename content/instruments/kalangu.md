@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/kalangu/
 title: 卡朗古鼓
 original_name: Kalangu
 category: 打擊樂器

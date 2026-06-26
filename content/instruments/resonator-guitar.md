@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/resonator-guitar/
 title: 諧振吉他
 original_name: Resonator guitar
 category: 弦樂器

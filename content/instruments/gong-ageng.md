@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/gong-ageng/
 title: 鑼王
 original_name: Gong Ageng
 category: 打擊樂器

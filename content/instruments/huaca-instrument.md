@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/huaca-instrument/
 title: 陶笛
 original_name: Huaca (instrument)
 category: 管樂器

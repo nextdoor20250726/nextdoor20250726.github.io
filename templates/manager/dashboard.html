@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>管理者頁面｜世界樂器百科</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: #f5f7fb;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: #111827;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 18px 28px;
+      background: #fff;
+      border-bottom: 1px solid #d7dde8;
+    }
+    .header h1 {
+      font-size: 20px;
+      margin: 0;
+    }
+    .header a {
+      color: #1d4ed8;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .container {
+      max-width: 720px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      border: 1px solid #d7dde8;
+      padding: 28px;
+      margin-bottom: 24px;
+    }
+    .card h2 {
+      font-size: 18px;
+      margin: 0 0 8px;
+    }
+    .card p {
+      color: #667085;
+      font-size: 14px;
+      line-height: 1.6;
+      margin: 0 0 18px;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      padding: 10px 20px;
+      border: 0;
+      border-radius: 6px;
+      font-size: 15px;
+      font-weight: 700;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .btn-primary {
+      background: #0f766e;
+      color: #fff;
+    }
+    .btn-primary:hover { background: #115e59; }
+    .btn-outline {
+      background: #fff;
+      color: #0f766e;
+      border: 2px solid #0f766e;
+    }
+    .btn-outline:hover { background: #f0fdfa; }
+    .error {
+      background: #fef2f0;
+      color: #c2410c;
+      padding: 8px 12px;
+      border-radius: 6px;
+      font-size: 14px;
+      margin-bottom: 16px;
+      border: 1px solid #fed7c5;
+    }
+    .file-input-wrap {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    input[type="file"] {
+      flex: 1;
+      min-width: 200px;
+      padding: 6px 0;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>管理者頁面</h1>
+    <div>
+      <a href="{% url 'home' %}" style="margin-right:16px;">返回首頁</a>
+      <a href="{% url 'manager_logout' %}">登出</a>
+    </div>
+  </div>
+
+  <div class="container">
+    {% if error %}
+      <div class="error">{{ error }}</div>
+    {% endif %}
+
+    <div class="card">
+      <h2>下載 Excel 樂器總資料庫</h2>
+      <p>
+        將所有樂器的 Markdown 檔案匯出為 Excel 格式。每個欄位對應 frontmatter 的資料鍵值，
+        第一列為英文欄位名稱，第二列為中文說明。<br>
+        包含所有樂器的基本資料（名稱、分類、地區、圖片等）以及介紹、歷史、音色描述內容。
+      </p>
+      <a class="btn btn-primary" href="{% url 'manager_download_excel' %}">下載 Excel</a>
+    </div>
+
+    <div class="card">
+      <h2>上傳 Excel 還原 Markdown</h2>
+      <p>
+        上傳一個 Excel 檔案（格式需與下載的版本相同），系統會自動將每一列的資料還原為
+        獨立的 Markdown 檔案，並打包成 ZIP 壓縮檔供下載。
+      </p>
+      <form method="post" action="{% url 'manager_upload_excel' %}" enctype="multipart/form-data">
+        {% csrf_token %}
+        <div class="file-input-wrap">
+          <input type="file" name="excel_file" accept=".xlsx" required>
+          <button class="btn btn-primary" type="submit">上傳並下載 ZIP</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

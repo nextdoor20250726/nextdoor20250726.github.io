@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/babendil/
 title: 巴班迪爾鑼
 original_name: Babendil
 category: 打擊樂器

@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/komuz/
 title: 庫姆茲琴
 original_name: Komuz
 category: 弦樂器

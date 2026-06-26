@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/soprano-sarrusophone/
 title: 高音薩魯梭風
 original_name: Soprano sarrusophone
 category: 管樂器

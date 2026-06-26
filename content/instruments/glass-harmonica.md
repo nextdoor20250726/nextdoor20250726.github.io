@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/glass-harmonica/
 title: 玻璃琴
 original_name: Glass harmonica
 category: 打擊樂器

@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/russian-guitar/
 title: 俄羅斯吉他
 original_name: Russian guitar
 category: 鍵盤樂器

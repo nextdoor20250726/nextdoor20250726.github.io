@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/khomus/
 title: 克和木斯口絃琴
 original_name: Khomus
 category: 管樂器

@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/kaval/
 title: 卡瓦爾笛
 original_name: Kaval
 category: 管樂器

@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/frame-zither/
 title: 框式箏
 original_name: Frame zither
 category: 打擊樂器

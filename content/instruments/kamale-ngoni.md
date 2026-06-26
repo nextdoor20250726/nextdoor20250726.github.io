@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/kamale-ngoni/
 title: 卡瑪萊恩貢尼
 original_name: Kamale Ngoni
 category: 弦樂器

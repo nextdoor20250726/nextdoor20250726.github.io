@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/likembe/
 title: 姆比拉
 original_name: Likembe
 category: 打擊樂器

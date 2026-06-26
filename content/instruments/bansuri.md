@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/bansuri/
 title: 班蘇裡笛
 original_name: Bansuri
 category: 管樂器

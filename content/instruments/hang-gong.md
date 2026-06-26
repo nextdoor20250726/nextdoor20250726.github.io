@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/hang-gong/
 title: 手碟
 original_name: Hang Gong
 category: 打擊樂器

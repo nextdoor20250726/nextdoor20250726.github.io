@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/electric-pipa/
 title: 電琵琶
 original_name: Electric pipa
 category: 弦樂器

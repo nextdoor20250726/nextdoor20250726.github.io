@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/harp-lute/
 title: 魯特豎琴
 original_name: Harp lute
 category: 打擊樂器

@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/santur/
 title: 桑圖爾
 original_name: Santur
 category: 鍵盤樂器

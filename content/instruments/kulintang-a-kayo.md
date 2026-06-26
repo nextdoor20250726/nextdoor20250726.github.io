@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/kulintang-a-kayo/
 title: 木質庫林塘琴
 original_name: Kulintang a kayo
 category: 打擊樂器

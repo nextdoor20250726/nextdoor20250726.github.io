@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/modular-synth/
 title: 模組化合成器
 original_name: Modular Synth
 category: 鍵盤樂器

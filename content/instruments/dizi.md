@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/dizi/
 title: 笛子
 original_name: Dizi
 category: 管樂器

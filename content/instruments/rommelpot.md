@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/rommelpot/
 title: 摩擦鼓
 original_name: Rommelpot
 category: 打擊樂器

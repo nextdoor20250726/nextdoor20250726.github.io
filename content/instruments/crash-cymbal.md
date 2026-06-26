@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/crash-cymbal/
 title: 碎音鈸
 original_name: Crash cymbal
 category: 打擊樂器

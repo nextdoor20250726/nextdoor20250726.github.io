@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/jap-fiddle/
 title: 日本胡琴
 original_name: Jap fiddle
 category: 弦樂器

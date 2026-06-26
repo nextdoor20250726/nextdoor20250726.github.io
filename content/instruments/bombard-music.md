@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/bombard-music/
 title: 邦巴德管
 original_name: Bombard (music)
 category: 管樂器

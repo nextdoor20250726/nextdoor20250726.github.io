@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/paiban/
 title: 拍板
 original_name: Paiban
 category: 打擊樂器

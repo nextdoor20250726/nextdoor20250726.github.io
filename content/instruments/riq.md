@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/riq/
 title: 裡格手鼓
 original_name: Riq
 category: 打擊樂器

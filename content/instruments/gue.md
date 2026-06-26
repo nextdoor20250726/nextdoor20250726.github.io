@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/gue/
 title: 格弓琴
 original_name: Gue
 category: 弦樂器

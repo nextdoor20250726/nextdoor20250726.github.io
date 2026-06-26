@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/bugle/
 title: 軍號
 original_name: Bugle
 category: 管樂器

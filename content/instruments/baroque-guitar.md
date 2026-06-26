@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/baroque-guitar/
 title: 巴洛克吉他
 original_name: Baroque guitar
 category: 弦樂器

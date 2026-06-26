@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/bawu/
 title: 巴烏
 original_name: Bawu
 category: 管樂器

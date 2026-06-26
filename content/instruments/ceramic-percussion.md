@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/ceramic-percussion/
 title: 陶土打擊樂器
 original_name: Ceramic Percussion
 category: 打擊樂器

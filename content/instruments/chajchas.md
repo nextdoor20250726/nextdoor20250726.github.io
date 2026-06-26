@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/chajchas/
 title: 查查斯蹄鈴
 original_name: Chajchas
 category: 打擊樂器

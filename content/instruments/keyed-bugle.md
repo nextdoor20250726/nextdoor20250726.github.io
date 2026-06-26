@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/keyed-bugle/
 title: 鍵盤軍號
 original_name: Keyed Bugle
 category: 管樂器

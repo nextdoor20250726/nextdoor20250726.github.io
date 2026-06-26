@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/sheng-instrument/
 title: 笙
 original_name: Sheng (instrument)
 category: 管樂器

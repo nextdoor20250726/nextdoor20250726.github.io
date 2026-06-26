@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/fipple/
 title: 豎笛
 original_name: Fipple
 category: 打擊樂器

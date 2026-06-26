@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/galoubet/
 title: 加羅笛
 original_name: Galoubet
 category: 管樂器

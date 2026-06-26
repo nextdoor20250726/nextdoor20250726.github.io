@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/kudu-horn/
 title: 童軍活動
 original_name: Kudu Horn
 category: 管樂器

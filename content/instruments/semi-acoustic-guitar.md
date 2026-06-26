@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/semi-acoustic-guitar/
 title: 半空心吉他
 original_name: Semi-acoustic guitar
 category: 弦樂器

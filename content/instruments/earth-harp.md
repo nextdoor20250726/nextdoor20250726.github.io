@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/earth-harp/
 title: 地球豎琴
 original_name: Earth Harp
 category: 弦樂器

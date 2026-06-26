@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/slit-gong/
 title: 裂縫鑼
 original_name: Slit gong
 category: 打擊樂器

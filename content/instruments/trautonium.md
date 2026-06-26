@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/trautonium/
 title: 特勞託尼琴
 original_name: Trautonium
 category: 鍵盤樂器

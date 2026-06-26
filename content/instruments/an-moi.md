@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/an-moi/
 title: 唇琴
 original_name: Đàn môi
 category: 打擊樂器

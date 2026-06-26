@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/instrument/
 title: 琵琶
 original_name: 琵琶
 category: 弦樂器

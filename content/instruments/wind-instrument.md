@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/wind-instrument/
 title: 管樂器
 original_name: Wind instrument
 category: 管樂器

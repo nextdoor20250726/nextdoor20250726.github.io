@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/madal/
 title: 馬達爾鼓
 original_name: Madal
 category: 打擊樂器

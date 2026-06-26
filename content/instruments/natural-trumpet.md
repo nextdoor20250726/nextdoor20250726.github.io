@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/natural-trumpet/
 title: 自然小號
 original_name: Natural trumpet
 category: 管樂器

@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/kenong/
 title: 克農鑼
 original_name: Kenong
 category: 打擊樂器

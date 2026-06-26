@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/basset-clarinet/
 title: 巴塞單簧管
 original_name: Basset clarinet
 category: 管樂器

@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/slapstick-musical-instrument/
 title: 拍板
 original_name: Slapstick (musical instrument)
 category: 打擊樂器

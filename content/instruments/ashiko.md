@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/ashiko/
 title: 阿希科錐形鼓
 original_name: Ashiko
 category: 打擊樂器

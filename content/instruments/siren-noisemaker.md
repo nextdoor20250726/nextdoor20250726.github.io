@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/siren-noisemaker/
 title: 警報器
 original_name: Siren (noisemaker)
 category: 管樂器

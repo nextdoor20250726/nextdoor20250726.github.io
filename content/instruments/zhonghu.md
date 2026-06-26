@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/zhonghu/
 title: 中胡
 original_name: Zhonghu
 category: 弦樂器

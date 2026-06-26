@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/chromatic-trumpet/
 title: 半音小號
 original_name: Chromatic trumpet
 category: 打擊樂器

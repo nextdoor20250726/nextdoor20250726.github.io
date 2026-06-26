@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/shamisen/
 title: 三味線
 original_name: Shamisen
 category: 弦樂器

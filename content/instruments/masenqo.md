@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/masenqo/
 title: 馬辛可琴
 original_name: Masenqo
 category: 弦樂器

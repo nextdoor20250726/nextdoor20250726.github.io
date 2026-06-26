@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/cornemuse-du-centre/
 title: 中部法國風笛
 original_name: Cornemuse du Centre
 category: 管樂器

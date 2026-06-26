@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/ophicleide/
 title: 奧菲克萊德號
 original_name: Ophicleide
 category: 管樂器

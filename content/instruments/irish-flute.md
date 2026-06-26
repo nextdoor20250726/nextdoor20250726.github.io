@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/irish-flute/
 title: 笛
 original_name: Irish Flute
 category: 管樂器

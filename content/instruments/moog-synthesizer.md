@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/moog-synthesizer/
 title: 穆格合成器
 original_name: Moog Synthesizer
 category: 鍵盤樂器

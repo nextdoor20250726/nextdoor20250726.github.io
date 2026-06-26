@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/finger-cymbals/
 title: 指鈸
 original_name: Finger Cymbals
 category: 打擊樂器

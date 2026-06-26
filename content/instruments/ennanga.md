@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/ennanga/
 title: 恩南加弓豎琴
 original_name: Ennanga
 category: 弦樂器

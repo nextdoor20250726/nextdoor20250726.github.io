@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/sralai/
 title: 斯拉萊管
 original_name: Sralai
 category: 管樂器

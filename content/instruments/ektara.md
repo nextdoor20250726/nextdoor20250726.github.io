@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/ektara/
 title: 一弦琴
 original_name: Ektara
 category: 鍵盤樂器

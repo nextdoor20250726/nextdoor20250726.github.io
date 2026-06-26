@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/guiro/
 title: 刮瓜
 original_name: Güiro
 category: 打擊樂器

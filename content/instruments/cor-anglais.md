@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/cor-anglais/
 title: 英國管
 original_name: Cor anglais
 category: 管樂器

@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/long-string-instrument/
 title: 長弦樂器
 original_name: Long-string instrument
 category: 弦樂器

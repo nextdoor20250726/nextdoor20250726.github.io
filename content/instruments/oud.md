@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/oud/
 title: 烏德琴
 original_name: Oud
 category: 弦樂器

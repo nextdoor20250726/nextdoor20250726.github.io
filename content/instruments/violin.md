@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/violin/
 title: 小提琴
 original_name: Violin
 category: 弦樂器

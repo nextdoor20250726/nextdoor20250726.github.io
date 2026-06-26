@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/kalimba/
 title: 卡林巴
 original_name: Kalimba
 category: 打擊樂器

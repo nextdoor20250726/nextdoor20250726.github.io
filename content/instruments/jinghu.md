@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/jinghu/
 title: 京胡
 original_name: Jinghu
 category: 弦樂器

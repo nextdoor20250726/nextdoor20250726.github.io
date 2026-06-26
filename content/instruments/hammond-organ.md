@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/hammond-organ/
 title: 哈蒙德電風琴
 original_name: Hammond Organ
 category: 鍵盤樂器

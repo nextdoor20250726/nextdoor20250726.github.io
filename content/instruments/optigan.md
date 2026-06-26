@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/optigan/
 title: 光學風琴
 original_name: Optigan
 category: 鍵盤樂器

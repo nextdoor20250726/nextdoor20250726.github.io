@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/rhodes/
 title: 羅茲電鋼琴
 original_name: Rhodes
 category: 鍵盤樂器

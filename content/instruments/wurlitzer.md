@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/wurlitzer/
 title: 武利澤電鋼琴
 original_name: Wurlitzer
 category: 鍵盤樂器

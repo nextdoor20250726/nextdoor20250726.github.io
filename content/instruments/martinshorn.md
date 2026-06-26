@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/martinshorn/
 title: 號角
 original_name: Martinshorn
 category: 管樂器

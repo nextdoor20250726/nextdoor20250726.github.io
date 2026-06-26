@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/sanshin/
 title: 三線
 original_name: Sanshin
 category: 弦樂器

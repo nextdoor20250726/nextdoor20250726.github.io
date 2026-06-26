@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/log-drum/
 title: 木槽鼓
 original_name: Log Drum
 category: 打擊樂器

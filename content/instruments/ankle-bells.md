@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/ankle-bells/
 title: 踝鈴
 original_name: Ankle Bells
 category: 打擊樂器

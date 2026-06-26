@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/goblet-drum/
 title: 高腳鼓
 original_name: Goblet drum
 category: 打擊樂器

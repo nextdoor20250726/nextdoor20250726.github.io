@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/kaffir-piano/
 title: 南非鐵片琴
 original_name: Kaffir piano
 category: 鍵盤樂器

@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/ranat-thum/
 title: 拉納特通琴
 original_name: Ranat Thum
 category: 打擊樂器

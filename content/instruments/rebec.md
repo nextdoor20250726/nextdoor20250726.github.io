@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/rebec/
 title: 雷貝克弓琴
 original_name: Rebec
 category: 弦樂器

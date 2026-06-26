@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/yoke-lutes/
 title: 軛型魯特琴
 original_name: Yoke lutes
 category: 打擊樂器

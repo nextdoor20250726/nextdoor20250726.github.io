@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/carillon/
 title: 鐘琴 (銅鐘)
 original_name: Carillon
 category: 鍵盤樂器

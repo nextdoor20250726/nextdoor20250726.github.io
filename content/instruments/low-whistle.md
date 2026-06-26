@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/low-whistle/
 title: 低音哨笛
 original_name: Low Whistle
 category: 管樂器

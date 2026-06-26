@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/bell-instrument/
 title: 鈴鐺
 original_name: Bell (instrument)
 category: 打擊樂器

@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/divan-saz/
 title: 迪凡薩茲琴
 original_name: Divan Saz
 category: 弦樂器

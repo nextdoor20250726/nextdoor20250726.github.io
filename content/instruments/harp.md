@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/harp/
 title: 豎琴
 original_name: Harp
 category: 打擊樂器

@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/dvojnice/
 title: 雙管笛
 original_name: Dvojnice
 category: 管樂器

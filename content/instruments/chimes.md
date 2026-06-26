@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/chimes/
 title: 鐘琴
 original_name: Chimes
 category: 打擊樂器

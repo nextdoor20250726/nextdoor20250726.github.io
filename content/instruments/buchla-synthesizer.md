@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/buchla-synthesizer/
 title: 布克拉合成器
 original_name: Buchla Synthesizer
 category: 鍵盤樂器

@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/almglocken/
 title: 牛鈴組
 original_name: Almglocken
 category: 打擊樂器

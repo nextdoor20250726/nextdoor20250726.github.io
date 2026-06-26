@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/bolon/
 title: 博隆豎琴
 original_name: Bolon
 category: 弦樂器

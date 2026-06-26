@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/balkan-tambura/
 title: 坦伯拉琴
 original_name: Balkan tambura
 category: 弦樂器

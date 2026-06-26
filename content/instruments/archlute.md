@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/archlute/
 title: 拱魯特琴
 original_name: Archlute
 category: 弦樂器

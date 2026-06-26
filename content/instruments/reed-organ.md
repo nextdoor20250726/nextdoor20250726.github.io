@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/reed-organ/
 title: 簧風琴
 original_name: Reed organ
 category: 鍵盤樂器

@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/buhai/
 title: 布海鼓
 original_name: Buhai
 category: 打擊樂器

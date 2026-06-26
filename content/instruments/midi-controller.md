@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/midi-controller/
 title: MIDI控制器
 original_name: MIDI Controller
 category: 鍵盤樂器

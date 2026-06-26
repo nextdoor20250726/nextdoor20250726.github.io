@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/caixa/
 title: 卡伊沙小鼓
 original_name: Caixa
 category: 打擊樂器

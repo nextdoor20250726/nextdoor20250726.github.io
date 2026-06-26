@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/kantele/
 title: 坎泰萊琴
 original_name: Kantele
 category: 鍵盤樂器

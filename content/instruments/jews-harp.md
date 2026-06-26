@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/jews-harp/
 title: 口簧琴
 original_name: Jew's harp
 category: 打擊樂器

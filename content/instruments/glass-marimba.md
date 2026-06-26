@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/glass-marimba/
 title: 玻璃馬林巴琴
 original_name: Glass Marimba
 category: 打擊樂器

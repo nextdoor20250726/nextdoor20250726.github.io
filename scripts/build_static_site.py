@@ -7,6 +7,7 @@ import os
 import random
 import re
 import shutil
+import time
 from collections import Counter, defaultdict
 from html import escape
 from pathlib import Path
@@ -19,6 +20,80 @@ CONTENT_DIR = BASE_DIR / "content" / "instruments"
 OUTPUT_DIR = BASE_DIR / "outputs" / "world-instruments-static"
 SITE_BASE_PATH = os.environ.get("SITE_BASE_PATH", "").strip()
 _TOTAL_INSTRUMENTS = 0  # set in main()
+
+COUNTRY_COORDS = {
+    "非洲": (5.0, 20.0), "非洲／西非": (8.0, -5.0), "非洲／中非": (0.0, 20.0),
+    "非洲／東非": (0.0, 35.0), "非洲／南非": (-25.0, 25.0), "非洲／北非": (25.0, 10.0),
+    "非洲／辛巴威": (-19.0, 30.0),
+    "亞洲": (35.0, 100.0), "亞洲／東亞": (35.0, 115.0), "亞洲／東南亞": (10.0, 105.0),
+    "亞洲／南亞": (20.0, 78.0), "亞洲／中亞": (45.0, 65.0), "亞洲／西亞": (30.0, 45.0),
+    "歐洲": (50.0, 10.0), "歐洲／西歐": (50.0, 0.0), "歐洲／南歐": (42.0, 12.0),
+    "歐洲／北歐": (60.0, 15.0), "歐洲／中歐": (50.0, 10.0), "歐洲／東歐": (52.0, 25.0),
+    "美洲": (40.0, -100.0), "美洲／北美": (45.0, -100.0), "美洲／中美": (15.0, -90.0),
+    "美洲／南美": (-15.0, -60.0), "美洲／加勒比": (20.0, -75.0),
+    "大洋洲": (-25.0, 135.0), "大洋洲／澳洲": (-25.0, 135.0),
+    "中東": (28.0, 45.0), "印度": (20.0, 78.0), "中國": (35.0, 105.0),
+    "日本": (36.0, 138.0), "韓國": (37.0, 127.5), "臺灣": (23.5, 121.0),
+    "台灣": (23.5, 121.0), "印尼": (-5.0, 120.0), "泰國": (15.0, 101.0),
+    "越南": (16.0, 108.0), "菲律賓": (12.0, 122.0), "緬甸": (22.0, 96.0),
+    "柬埔寨": (12.0, 105.0), "馬來西亞": (4.0, 102.0), "尼泊爾": (28.0, 84.0),
+    "蒙古": (46.0, 105.0), "土耳其": (39.0, 35.0), "伊朗": (32.0, 53.0),
+    "俄羅斯": (60.0, 40.0), "希臘": (39.0, 22.0), "義大利": (42.0, 12.0),
+    "西班牙": (40.0, -3.0), "葡萄牙": (39.5, -8.0), "法國": (46.0, 2.0),
+    "德國": (51.0, 10.0), "英國": (55.0, -3.0), "愛爾蘭": (53.0, -8.0),
+    "荷蘭": (52.0, 5.0), "比利時": (50.5, 4.5), "瑞士": (47.0, 8.0),
+    "奧地利": (47.5, 14.0), "波蘭": (52.0, 20.0), "捷克": (50.0, 15.0),
+    "匈牙利": (47.0, 20.0), "羅馬尼亞": (46.0, 25.0), "保加利亞": (43.0, 25.0),
+    "挪威": (62.0, 10.0), "瑞典": (62.0, 15.0), "丹麥": (56.0, 10.0),
+    "芬蘭": (64.0, 26.0), "冰島": (65.0, -18.0),
+    "埃及": (27.0, 30.0), "摩洛哥": (32.0, -6.0), "衣索比亞": (9.0, 38.0),
+    "肯亞": (0.0, 38.0), "坦尚尼亞": (-6.0, 35.0), "奈及利亞": (8.0, 8.0),
+    "迦納": (8.0, -2.0), "塞內加爾": (14.0, -14.0), "南非": (-30.0, 25.0),
+    "澳洲": (-25.0, 135.0), "加拿大": (56.0, -106.0), "美國": (40.0, -100.0),
+    "墨西哥": (23.0, -102.0), "巴西": (-14.0, -53.0), "阿根廷": (-38.0, -63.0),
+    "祕魯": (-9.0, -75.0), "哥倫比亞": (4.0, -73.0), "古巴": (22.0, -79.0),
+}
+
+GLOBAL_KEYWORDS = {"全球", "全球／多地", "跨文化／多地", "全球現代", "多地", "國際"}
+
+
+def get_region_coords(country_str):
+    if not country_str:
+        return None
+    parts = [p.strip() for p in country_str.replace("／", "/").split("/")]
+    for part in parts:
+        if part in COUNTRY_COORDS:
+            return COUNTRY_COORDS[part]
+    for part in parts:
+        for key, coord in COUNTRY_COORDS.items():
+            if part in key or key in part:
+                return coord
+    return None
+
+
+def build_map_data(instruments):
+    region_counts = {}
+    region_samples = {}
+    for item in instruments:
+        country = item.get("country", "")
+        if not country or country in GLOBAL_KEYWORDS:
+            continue
+        skip = any(country.startswith(gk) for gk in GLOBAL_KEYWORDS)
+        if skip:
+            continue
+        coords = get_region_coords(country)
+        if not coords:
+            continue
+        key = (round(coords[0], 1), round(coords[1], 1))
+        region_counts[key] = region_counts.get(key, 0) + 1
+        if key not in region_samples:
+            region_samples[key] = []
+        if len(region_samples[key]) < 5:
+            region_samples[key].append(item["title"])
+    features = []
+    for (lat, lng), count in sorted(region_counts.items(), key=lambda x: -x[1]):
+        features.append({"lat": lat, "lng": lng, "count": count, "samples": region_samples.get((lat, lng), [])[:5]})
+    return features
 
 
 def normalize_base_path(value):
@@ -147,6 +222,8 @@ def read_instruments():
                 "youtube_ids": parse_youtube_ids(meta.get("youtube_ids", "")),
                 "instrument_key": meta.get("instrument_key", ""),
                 "range": meta.get("range", ""),
+                "is_popular": meta.get("is_popular", "").lower() == "true",
+                "is_uncommon": meta.get("is_uncommon", "").lower() == "true",
                 "html": body_html,
             }
         )
@@ -158,43 +235,58 @@ def write(path, content):
     path.write_text(content, encoding="utf-8")
 
 
-def page(title, body, page_path=None, meta_extra=""):
+def page(title, body, page_path=None, meta_extra="", extra_head=""):
+    csp = (
+        "default-src 'self'; "
+        "img-src 'self' https: data:; "
+        "style-src 'self' 'unsafe-inline' https://unpkg.com; "
+        "script-src 'self' https://unpkg.com; "
+        "connect-src 'self'; "
+        "frame-src https://www.youtube-nocookie.com https://www.youtube.com; "
+        "base-uri 'self'; form-action 'none'; object-src 'none'"
+    )
     return f"""<!doctype html>
 <html lang="zh-Hant">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="referrer" content="no-referrer-when-downgrade">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https: data:; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self'; frame-src https://www.youtube-nocookie.com https://www.youtube.com; base-uri 'self'; form-action 'none'; object-src 'none'">
+  <meta http-equiv="Content-Security-Policy" content="{escape(csp)}">
   <title>{escape(title)}｜世界樂器百科</title>
   {meta_extra}
   <link rel="stylesheet" href="{resolve_url(page_path, '/assets/site.css')}">
+  {extra_head}
 </head>
 <body>
   <header class="site-header">
     <a class="brand" href="{resolve_url(page_path, '/')}">🌍 世界樂器百科</a>
     <nav>
       <a href="{resolve_url(page_path, '/instruments/')}">全部樂器</a>
+      <a href="{resolve_url(page_path, '/popular/')}">熱門</a>
+      <a href="{resolve_url(page_path, '/uncommon/')}">冷門</a>
       <a href="{resolve_url(page_path, '/categories/')}">分類</a>
-      <a href="{resolve_url(page_path, '/sound-classes/')}">發聲</a>
       <a href="{resolve_url(page_path, '/countries/')}">國家</a>
-      <a href="{resolve_url(page_path, '/eras/')}">年代</a>
     </nav>
   </header>
   {body}
   <footer class="site-footer">
     <div class="footer-inner">
       <span>世界樂器百科 — 收錄 {_TOTAL_INSTRUMENTS} 件世界樂器</span>
+      <span>作者：<a href="https://www.youtube.com/@NextDoorSoundWeavers/" target="_blank" rel="noopener">隔壁織音人</a></span>
       <nav class="footer-nav">
         <a href="{resolve_url(page_path, '/')}">首頁</a>
         <a href="{resolve_url(page_path, '/categories/')}">分類</a>
         <a href="{resolve_url(page_path, '/countries/')}">國家</a>
-        <a href="{resolve_url(page_path, '/eras/')}">年代</a>
+        <a href="{resolve_url(page_path, '/popular/')}">熱門</a>
+        <a href="{resolve_url(page_path, '/uncommon/')}">冷門</a>
+        <a href="https://www.youtube.com/@NextDoorSoundWeavers/" target="_blank" rel="noopener">訂閱 YouTube</a>
       </nav>
     </div>
   </footer>
   <button id="back-top" class="back-top" aria-label="回頂部">↑</button>
   <script src="{resolve_url(page_path, '/assets/search.js')}"></script>
+  <script src="{resolve_url(page_path, '/assets/map-init.js')}"></script>
+  <script src="{resolve_url(page_path, '/assets/random-instrument.js')}"></script>
 </body>
 </html>
 """
@@ -255,6 +347,20 @@ def build_index(instruments):
         featured.extend(shuffled[:2])
     rng.shuffle(featured)
     sample_cards = "\n".join(card(item, index_path) for item in featured[:12])
+
+    # Map data
+    map_features = build_map_data(instruments)
+    map_json = json.dumps(map_features, ensure_ascii=False)
+
+    # Popular/uncommon counts
+    pop_count = sum(1 for i in instruments if i.get("is_popular"))
+    un_count = sum(1 for i in instruments if i.get("is_uncommon"))
+
+    # Extra head for Leaflet CSS on homepage only
+    extra_head = """
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+"""
+
     body = f"""
     <main class="page">
       <section class="hero">
@@ -272,6 +378,29 @@ def build_index(instruments):
         <div class="stat-item"><strong>{len(categories)}</strong><span>分類</span></div>
         <div class="stat-item"><strong>{len(countries)}</strong><span>國家/地區</span></div>
         <div class="stat-item"><strong>{len(eras)}</strong><span>年代</span></div>
+      </section>
+
+      <section class="section map-section">
+        <div class="section-heading"><h2>地圖分類</h2></div>
+        <div id="world-map" class="world-map"></div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading"><h2>精選分類</h2></div>
+        <div class="featured-links">
+          <a class="featured-card hot" href="{resolve_url(index_path, '/popular/')}">
+            <strong>熱門樂器</strong>
+            <span>{pop_count} 件熱門樂器，探索世界知名樂器</span>
+          </a>
+          <a class="featured-card cold" href="{resolve_url(index_path, '/uncommon/')}">
+            <strong>冷門樂器</strong>
+            <span>{un_count} 件冷門樂器，發掘稀有珍品</span>
+          </a>
+          <a class="featured-card random" href="#" id="random-link-home">
+            <strong>隨選樂器</strong>
+            <span>每次點選都隨機產生一個樂器，驚喜不斷</span>
+          </a>
+        </div>
       </section>
 
       <section class="view-switch" aria-label="瀏覽模式">
@@ -318,7 +447,43 @@ def build_index(instruments):
       </div>
     </main>
     """
-    write(index_path, page("首頁", body, index_path))
+    write(index_path, page("首頁", body, index_path, extra_head=extra_head))
+
+    # Write map data JS for inline usage
+    map_js = f"""
+(function() {{
+  var mapData = {map_json};
+  var container = document.getElementById('world-map');
+  if (!container || !mapData.length) return;
+  var script = document.createElement('script');
+  script.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
+  script.onload = function() {{
+    var map = L.map('world-map', {{ center: [20, 30], zoom: 2, minZoom: 1, maxZoom: 6, zoomControl: true, attributionControl: true }});
+    L.tileLayer('https://{{s}}.tile.openstreetmap.org/{{z}}/{{x}}/{{y}}.png', {{ maxZoom: 18, attribution: '&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a>' }}).addTo(map);
+    var bounds = [];
+    mapData.forEach(function(item) {{
+      var marker = L.circleMarker([item.lat, item.lng], {{ radius: Math.min(8 + item.count * 1.5, 30), fillColor: '#0d766b', color: '#0a5c53', weight: 2, opacity: 1, fillOpacity: 0.6 }}).addTo(map);
+      var sampleList = item.samples.length > 0 ? '<br><small>' + item.samples.join('、') + (item.count > 5 ? '…' : '') + '</small>' : '';
+      marker.bindTooltip('<strong>' + item.count + ' 件樂器</strong>' + sampleList, {{ direction: 'top', offset: [0, -8] }});
+      bounds.push([item.lat, item.lng]);
+    }});
+    if (bounds.length > 0) map.fitBounds(bounds, {{ padding: [30, 30], maxZoom: 4 }});
+  }};
+  document.head.appendChild(script);
+}})();
+"""
+    # Write random-instrument JS for the random link
+    slugs_json = json.dumps([item["slug"] for item in instruments], ensure_ascii=False)
+    rand_js = f"""
+document.getElementById('random-link-home')?.addEventListener('click', function(e) {{
+  e.preventDefault();
+  var slugs = {slugs_json};
+  var idx = Math.floor(Math.random() * slugs.length);
+  window.location.href = '{resolve_url(index_path, '/instruments/')}' + slugs[idx] + '/';
+}});
+"""
+    write(OUTPUT_DIR / "assets" / "map-init.js", map_js.strip() + "\n")
+    write(OUTPUT_DIR / "assets" / "random-instrument.js", rand_js.strip() + "\n")
 
 
 def meta_row(label, value):
@@ -379,7 +544,14 @@ def build_detail_pages(instruments):
         soundscape_html = f'<p class="soundscape-tag">{escape(soundscape_val)}</p>' if soundscape_val else ""
         img_url = safe_external_url(item.get("image", ""))
         img_html = f'<img class="instrument-image" src="{img_url}" alt="{escape(item["title"])}" loading="lazy" onerror="this.style.display=\'none\'">' if img_url else ""
+        img_credit_html = '<p class="image-credit">圖片來源：Wikimedia Commons</p>' if img_url else ""
         header_class = "instrument-header has-image" if img_url else "instrument-header"
+        # Popularity badges
+        badges = ""
+        if item.get("is_popular"):
+            badges += '<span class="badge badge-hot">熱門</span>'
+        if item.get("is_uncommon"):
+            badges += '<span class="badge badge-cold">冷門</span>'
         # Inject YouTube iframes into the 聆聽示範 section in the article body
         body_html = inject_youtube_into_body(item['html'], item.get("youtube_ids", []))
         # Extract plain-text description from first paragraph of HTML body
@@ -412,8 +584,9 @@ def build_detail_pages(instruments):
               <h1>{escape(item['title'])}</h1>
               {orig}
               {soundscape_html}
+              <p class="badge-row">{badges}</p>
             </div>
-            {f'<div class="header-image">{img_html}</div>' if img_url else ""}
+            {f'<div class="header-image">{img_html}{img_credit_html}</div>' if img_url else ""}
           </header>
           {"<dl class='meta-grid'>" + meta_grid + "</dl>" if meta_grid else ""}
           <article class="markdown-body">{body_html}</article>
@@ -649,9 +822,38 @@ h2 { margin:0; font-weight:700; }
   display:flex; justify-content:space-between; align-items:center;
   flex-wrap:wrap; gap:12px; color:var(--muted); font-size:13px;
 }
+.footer-inner a { color:var(--blue); text-decoration:none; }
 .footer-nav { display:flex; gap:16px; }
 .footer-nav a { color:var(--muted); text-decoration:none; }
 .footer-nav a:hover { color:var(--accent); }
+
+/* ── Image credit ───────────────────────────────────────────── */
+.image-credit { font-size:12px; color:var(--muted); text-align:center; margin-top:6px; }
+
+/* ── Badges ──────────────────────────────────────────────────── */
+.badge-row { margin:8px 0 0; display:flex; gap:6px; }
+.badge {
+  display:inline-flex; padding:3px 8px; border-radius:4px;
+  font-size:11px; font-weight:700;
+}
+.badge-hot { background:#fef2f0; color:#c2410c; border:1px solid #fed7c5; }
+.badge-cold { background:#f0f5ff; color:#1e40af; border:1px solid #c5ddfd; }
+
+/* ── Featured links ──────────────────────────────────────────── */
+.featured-links { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; margin:0 0 40px; }
+.featured-card {
+  display:flex; flex-direction:column; gap:10px; border-radius:10px; padding:22px;
+  text-decoration:none; transition:transform .15s,box-shadow .15s;
+}
+.featured-card:hover { transform:translateY(-2px); box-shadow:0 6px 20px rgba(0,0,0,.08); }
+.featured-card.hot { background:linear-gradient(135deg,#fff5f0,#ffe8e0); border:1px solid #fdd4c5; }
+.featured-card.cold { background:linear-gradient(135deg,#f0f7ff,#e0efff); border:1px solid #c5ddfd; }
+.featured-card.random { background:linear-gradient(135deg,#f5f0ff,#ebe0ff); border:1px solid #d5c5fd; }
+.featured-card strong { font-size:18px; }
+.featured-card span { color:var(--muted); line-height:1.5; font-size:14px; }
+
+/* ── Map section ─────────────────────────────────────────────── */
+.world-map { width:100%; height:420px; border-radius:10px; border:1px solid var(--line); overflow:hidden; background:var(--soft); margin-bottom:8px; }
 
 /* ── Back to top ─────────────────────────────────────────────── */
 .back-top {
@@ -672,17 +874,19 @@ h2 { margin:0; font-weight:700; }
   .dropdown-browser button { grid-column:1 / -1; }
   .dropdown-results { grid-template-columns:repeat(2,minmax(0,1fr)); }
   .stats { grid-template-columns:repeat(2,1fr); }
+  .featured-links { grid-template-columns:repeat(2,minmax(0,1fr)); }
   .yt-grid { grid-template-columns:1fr !important; }
 }
 @media (max-width:700px) {
   .site-header { flex-direction:column; align-items:flex-start; gap:10px; padding:14px 18px; }
   .site-header nav { flex-wrap:wrap; gap:2px; }
   h1 { font-size:28px; }
-  .instrument-grid,.stats,.meta-grid,.dropdown-browser,.dropdown-results { grid-template-columns:1fr; }
+  .instrument-grid,.stats,.meta-grid,.dropdown-browser,.dropdown-results,.featured-links { grid-template-columns:1fr !important; }
   .instrument-header,.instrument-header.has-image { grid-template-columns:1fr; }
   .header-image { position:static; }
   .page,.instrument-page { padding:20px 16px 60px; }
   .facet-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .world-map { height:280px; }
 }
 """
     search_index = [
@@ -905,12 +1109,30 @@ def build_sitemap(instruments):
             f"<url><loc>{base}/instruments/</loc></url>",
             f"<url><loc>{base}/categories/</loc></url>",
             f"<url><loc>{base}/countries/</loc></url>",
-            f"<url><loc>{base}/eras/</loc></url>"]
+            f"<url><loc>{base}/eras/</loc></url>",
+            f"<url><loc>{base}/popular/</loc></url>",
+            f"<url><loc>{base}/uncommon/</loc></url>"]
     for item in instruments:
         urls.append(f"<url><loc>{base}/instruments/{item['slug']}/</loc></url>")
     xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     xml += "\n".join(urls) + "\n</urlset>\n"
     write(OUTPUT_DIR / "sitemap.xml", xml)
+
+
+def build_special_pages(instruments):
+    """Build popular and uncommon list pages."""
+    popular = [i for i in instruments if i.get("is_popular")]
+    uncommon = [i for i in instruments if i.get("is_uncommon")]
+
+    if popular:
+        page_dir = OUTPUT_DIR / "popular"
+        page_dir.mkdir(parents=True, exist_ok=True)
+        write(page_dir / "index.html", list_page("熱門樂器", popular, page_dir / "index.html"))
+
+    if uncommon:
+        page_dir = OUTPUT_DIR / "uncommon"
+        page_dir.mkdir(parents=True, exist_ok=True)
+        write(page_dir / "index.html", list_page("冷門樂器", uncommon, page_dir / "index.html"))
 
 
 def main():
@@ -923,6 +1145,7 @@ def main():
     build_assets(instruments)
     build_index(instruments)
     build_detail_pages(instruments)
+    build_special_pages(instruments)
     write(OUTPUT_DIR / "instruments" / "index.html", list_page("全部樂器", instruments))
     build_facet_pages(instruments, "category", "categories", "分類")
     build_facet_pages(instruments, "sound_class", "sound-classes", "發聲分類")

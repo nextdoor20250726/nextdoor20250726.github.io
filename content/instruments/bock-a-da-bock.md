@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/bock-a-da-bock/
 title: Bock-a-da-bock（暫譯）
 original_name: Bock-a-da-bock
 category: 打擊樂器

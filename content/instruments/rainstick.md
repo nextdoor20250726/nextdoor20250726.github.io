@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/rainstick/
 title: 雨聲器
 original_name: Rainstick
 category: 打擊樂器

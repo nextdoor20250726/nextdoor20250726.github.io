@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/board-lamellophone/
 title: 木琴
 original_name: Board Lamellophone
 category: 打擊樂器

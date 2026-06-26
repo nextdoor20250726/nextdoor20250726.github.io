@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/harmonica/
 title: 口琴
 original_name: Harmonica
 category: 管樂器

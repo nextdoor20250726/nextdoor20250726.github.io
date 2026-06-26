@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/naqqara/
 title: 納卡拉鼓
 original_name: Naqqara
 category: 打擊樂器

@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/lur/
 title: 盧爾號
 original_name: Lur
 category: 管樂器

@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/tres/
 title: 三絃古巴吉他
 original_name: Tres
 category: 弦樂器

@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/ground-zither/
 title: 地絃琴
 original_name: Ground zither
 category: 弦樂器

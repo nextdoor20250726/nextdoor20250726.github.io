@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/bow-harp/
 title: 弓形豎琴
 original_name: Bow Harp
 category: 弦樂器

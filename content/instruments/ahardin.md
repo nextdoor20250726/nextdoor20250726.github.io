@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/ahardin/
 title: 阿哈迪恩琴
 original_name: Ahardin
 category: 弦樂器

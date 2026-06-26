@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/field-recorder/
 title: Field Recorder
 original_name: Field Recorder
 category: 鍵盤樂器

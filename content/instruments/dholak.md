@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/dholak/
 title: 卓拉克鼓
 original_name: Dholak
 category: 打擊樂器

@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/comb-and-paper/
 title: 紙梳
 original_name: Comb and paper
 category: 打擊樂器

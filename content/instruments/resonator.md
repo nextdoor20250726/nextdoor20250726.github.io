@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/resonator/
 title: 共鳴管
 original_name: Resonator
 category: 電子樂器

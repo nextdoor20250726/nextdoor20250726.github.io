@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/nagado-daiko/
 title: 長胴太鼓
 original_name: Nagado-daiko
 category: 打擊樂器

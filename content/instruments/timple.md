@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/timple/
 title: 加那利小吉他
 original_name: Timple
 category: 弦樂器

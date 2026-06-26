@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/baritone-oboe/
 title: 中低音雙簧管
 original_name: Baritone oboe
 category: 管樂器

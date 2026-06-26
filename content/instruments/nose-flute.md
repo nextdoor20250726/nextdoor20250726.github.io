@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/nose-flute/
 title: 鼻笛
 original_name: Nose Flute
 category: 管樂器

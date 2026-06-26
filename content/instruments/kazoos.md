@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/kazoos/
 title: 卡祖笛
 original_name: Kazoos
 category: 打擊樂器

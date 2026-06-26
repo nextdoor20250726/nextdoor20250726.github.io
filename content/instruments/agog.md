@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/agog/
 title: 阿哥哥鈴
 original_name: Agogô
 category: 打擊樂器

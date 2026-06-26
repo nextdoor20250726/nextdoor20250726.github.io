@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/cretan-lyra/
 title: 克里特琴
 original_name: Cretan Lyra
 category: 弦樂器

@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/slide-whistle/
 title: 滑音哨笛
 original_name: Slide whistle
 category: 管樂器

@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/pinkillu/
 title: 平基優笛
 original_name: Pinkillu
 category: 管樂器

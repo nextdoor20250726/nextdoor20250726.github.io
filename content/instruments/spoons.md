@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/spoons/
 title: 湯匙樂器
 original_name: Spoons
 category: 打擊樂器

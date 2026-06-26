@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/cristal-baschet/
 title: 水晶琴
 original_name: Cristal Baschet
 category: 打擊樂器

@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/taish-goto/
 title: 大正琴
 original_name: Taishōgoto
 category: 鍵盤樂器

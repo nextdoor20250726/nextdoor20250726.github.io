@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/duduk/
 title: 都杜克管
 original_name: Duduk
 category: 管樂器

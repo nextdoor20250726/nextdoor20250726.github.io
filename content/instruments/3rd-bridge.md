@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/3rd-bridge/
 title: 第三琴橋
 original_name: 3rd bridge
 category: 弦樂器

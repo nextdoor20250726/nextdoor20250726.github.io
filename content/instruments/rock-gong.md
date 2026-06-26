@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/rock-gong/
 title: 石鑼
 original_name: Rock gong
 category: 打擊樂器

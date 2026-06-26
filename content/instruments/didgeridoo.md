@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/didgeridoo/
 title: 迪吉里杜管
 original_name: Didgeridoo
 category: 管樂器

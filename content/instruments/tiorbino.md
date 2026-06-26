@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/tiorbino/
 title: 小西奧爾博琴
 original_name: Tiorbino
 category: 弦樂器

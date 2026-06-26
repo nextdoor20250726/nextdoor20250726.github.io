@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/tanbur-turkish/
 title: 坦布林琴
 original_name: Tanbur (Turkish)
 category: 弦樂器

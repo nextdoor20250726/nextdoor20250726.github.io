@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/electric-acoustic-guitar/
 title: 電插原聲吉他
 original_name: Electric-acoustic guitar
 category: 弦樂器

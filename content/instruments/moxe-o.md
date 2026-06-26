@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/moxe-o/
 title: 莫克塞尼管
 original_name: Moxeño
 category: 管樂器

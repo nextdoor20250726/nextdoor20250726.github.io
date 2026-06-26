@@ -1,4 +1,15 @@
 <a class="instrument-card" href="{{ instrument.get_absolute_url }}">
+  {% if instrument.exploded_view_image %}
+    <div class="card-image-wrapper">
+      <img
+        class="card-image"
+        src="{{ instrument.exploded_view_image }}"
+        alt="{{ instrument.name }}"
+        loading="lazy"
+        onerror="this.style.display='none'"
+      >
+    </div>
+  {% endif %}
   <span>{{ instrument.category.name }}</span>
   <strong>{{ instrument.name }}</strong>
   {% if instrument.timbre_description %}

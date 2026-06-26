@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/clavioline/
 title: 克拉維奧林電子琴
 original_name: Clavioline
 category: 鍵盤樂器

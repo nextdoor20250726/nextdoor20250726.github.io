@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/bass-guitar/
 title: 貝斯吉他
 original_name: Bass Guitar
 category: 電子樂器

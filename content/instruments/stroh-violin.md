@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/stroh-violin/
 title: 斯特羅小提琴
 original_name: Stroh Violin
 category: 弦樂器

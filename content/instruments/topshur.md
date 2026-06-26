@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/topshur/
 title: 託布秀爾
 original_name: Topshur
 category: 弦樂器

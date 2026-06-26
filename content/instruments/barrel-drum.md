@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/barrel-drum/
 title: 桶鼓
 original_name: Barrel drum
 category: 打擊樂器

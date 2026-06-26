@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/eight-string-guitar/
 title: 八弦吉他
 original_name: Eight-string guitar
 category: 弦樂器

@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/cajita/
 title: 卡吉塔
 original_name: Cajita
 category: 打擊樂器

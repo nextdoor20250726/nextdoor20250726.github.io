@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/music-on-a-long-thin-wire/
 title: Music On A Long Thin Wire（暫譯）
 original_name: Music On A Long Thin Wire
 category: 弦樂器

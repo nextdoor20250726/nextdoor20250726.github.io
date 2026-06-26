@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/cornett-zink/
 title: 短笛
 original_name: Cornett / Zink
 category: 管樂器

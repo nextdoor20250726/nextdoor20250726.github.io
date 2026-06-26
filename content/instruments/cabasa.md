@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/cabasa/
 title: 卡巴薩搖響器
 original_name: Cabasa
 category: 打擊樂器

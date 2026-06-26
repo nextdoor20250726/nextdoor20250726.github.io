@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/shahi-baaja/
 title: 沙希巴傑琴
 original_name: Shahi baaja
 category: 弦樂器

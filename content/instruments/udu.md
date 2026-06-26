@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/udu/
 title: 巫毒鼓
 original_name: Udu
 category: 打擊樂器

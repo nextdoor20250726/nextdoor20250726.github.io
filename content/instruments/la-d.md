@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/la-d/
 title: 西班牙琉特琴
 original_name: Laúd
 category: 弦樂器

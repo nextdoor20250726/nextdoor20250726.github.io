@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/violin-family/
 title: 提琴族
 original_name: Violin family
 category: 弦樂器

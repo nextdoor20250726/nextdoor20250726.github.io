@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/cowbell-instrument/
 title: 牛鈴
 original_name: Cowbell (instrument)
 category: 打擊樂器

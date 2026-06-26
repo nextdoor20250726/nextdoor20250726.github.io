@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/snare-drum/
 title: 小鼓
 original_name: Snare drum
 category: 打擊樂器

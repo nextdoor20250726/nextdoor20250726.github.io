@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/marxophone/
 title: 馬克索風琴
 original_name: Marxophone
 category: 鍵盤樂器

@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/shofar/
 title: 羊角號
 original_name: Shofar
 category: 管樂器

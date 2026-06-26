@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/bajo-sexto/
 title: 低音六弦琴
 original_name: Bajo sexto
 category: 弦樂器

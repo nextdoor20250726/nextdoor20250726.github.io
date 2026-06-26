@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/timbales/
 title: 蒂姆巴雷斯鼓
 original_name: Timbales
 category: 打擊樂器

@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/angklung/
 title: 安克隆竹琴
 original_name: Angklung
 category: 打擊樂器

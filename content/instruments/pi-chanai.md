@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/pi-chanai/
 title: 嗩吶
 original_name: Pi Chanai
 category: 管樂器

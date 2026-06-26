@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/autoharp/
 title: 自動豎琴
 original_name: Autoharp
 category: 鍵盤樂器

@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/kankl-s/
 title: 坎克萊琴
 original_name: Kanklės
 category: 鍵盤樂器

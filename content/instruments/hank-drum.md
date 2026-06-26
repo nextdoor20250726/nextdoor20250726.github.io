@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/hank-drum/
 title: 手鼓
 original_name: Hank Drum
 category: 打擊樂器

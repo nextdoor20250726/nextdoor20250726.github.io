@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/viola-caipira/
 title: 卡伊皮拉維奧拉
 original_name: Viola Caipira
 category: 弦樂器

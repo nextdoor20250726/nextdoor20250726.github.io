@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/reyong/
 title: 雷翁鑼
 original_name: Reyong
 category: 打擊樂器

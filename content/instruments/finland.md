@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/finland/
 title: 芬蘭
 original_name: Finland
 category: 弦樂器

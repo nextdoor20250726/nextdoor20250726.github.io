@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/dulcimer/
 title: 德西馬琴
 original_name: Dulcimer
 category: 弦樂器

@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/rebab/
 title: 熱巴普
 original_name: Rebab
 category: 弦樂器

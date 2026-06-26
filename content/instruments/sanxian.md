@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/sanxian/
 title: 三絃
 original_name: Sanxian
 category: 弦樂器

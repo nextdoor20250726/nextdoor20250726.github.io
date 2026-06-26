@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/atabaque/
 title: 阿塔巴克鼓
 original_name: Atabaque
 category: 打擊樂器

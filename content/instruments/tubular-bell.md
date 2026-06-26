@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/tubular-bell/
 title: 管鐘
 original_name: Tubular bell
 category: 打擊樂器

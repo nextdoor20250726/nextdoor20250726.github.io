@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/glasschord/
 title: 玻璃絃琴
 original_name: Glasschord
 category: 打擊樂器

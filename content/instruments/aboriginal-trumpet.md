@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/aboriginal-trumpet/
 title: 迪吉里杜管
 original_name: Aboriginal Trumpet
 category: 管樂器

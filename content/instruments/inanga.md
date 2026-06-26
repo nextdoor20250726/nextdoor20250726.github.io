@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/inanga/
 title: 伊南加筒琴
 original_name: Inanga
 category: 鍵盤樂器

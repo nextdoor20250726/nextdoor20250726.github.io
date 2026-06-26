@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/frog-guiro/
 title: 青蛙刮鼓
 original_name: Frog Guiro
 category: 打擊樂器

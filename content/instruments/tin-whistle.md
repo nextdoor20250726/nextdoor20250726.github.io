@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/tin-whistle/
 title: 高音哨笛
 original_name: Tin whistle
 category: 管樂器

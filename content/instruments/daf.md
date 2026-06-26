@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/daf/
 title: 達夫框鼓
 original_name: Daf
 category: 打擊樂器

@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/morin-khuur/
 title: 馬頭琴
 original_name: Morin khuur
 category: 弦樂器

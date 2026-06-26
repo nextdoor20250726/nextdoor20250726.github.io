@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/bongo-drum/
 title: 邦哥鼓
 original_name: Bongo drum
 category: 打擊樂器

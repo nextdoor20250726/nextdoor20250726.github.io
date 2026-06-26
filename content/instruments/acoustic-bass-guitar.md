@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/acoustic-bass-guitar/
 title: 原聲低音吉他
 original_name: Acoustic bass guitar
 category: 弦樂器

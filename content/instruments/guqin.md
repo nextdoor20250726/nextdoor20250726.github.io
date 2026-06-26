@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/guqin/
 title: 古琴
 original_name: Guqin
 category: 鍵盤樂器

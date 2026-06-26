@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/pan-flute/
 title: 排簫
 original_name: Pan Flute
 category: 管樂器

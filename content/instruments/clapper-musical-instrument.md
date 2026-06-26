@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/clapper-musical-instrument/
 title: 拍板
 original_name: Clapper (musical instrument)
 category: 打擊樂器

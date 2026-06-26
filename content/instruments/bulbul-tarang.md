@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/bulbul-tarang/
 title: 夜鶯琴
 original_name: Bulbul tarang
 category: 鍵盤樂器

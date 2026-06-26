@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/morsing/
 title: 聖巴泰勒米行政長官列表
 original_name: Morsing
 category: 管樂器

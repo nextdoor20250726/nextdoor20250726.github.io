@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/kokyu/
 title: 胡弓
 original_name: Kokyu
 category: 弦樂器

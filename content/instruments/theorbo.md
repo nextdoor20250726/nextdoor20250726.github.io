@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/theorbo/
 title: 西奧爾博琴
 original_name: Theorbo
 category: 弦樂器

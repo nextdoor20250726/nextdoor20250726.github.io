@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/ney/
 title: 奈伊笛
 original_name: Ney
 category: 管樂器

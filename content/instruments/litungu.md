@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/litungu/
 title: 利通古琴
 original_name: Litungu
 category: 弦樂器

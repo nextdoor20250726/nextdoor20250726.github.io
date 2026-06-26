@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/northumbrian-smallpipes/
 title: 諾桑伯蘭小風笛
 original_name: Northumbrian smallpipes
 category: 管樂器

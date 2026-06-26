@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/pipe-organ/
 title: 管風琴
 original_name: Pipe organ
 category: 鍵盤樂器

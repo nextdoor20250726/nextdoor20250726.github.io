@@ -14,7 +14,27 @@
     <div>
       <h1 class="instrument-title">{{ instrument.name }}</h1>
       <span class="category-badge">{{ instrument.category.name }}</span>
+      {% if instrument.is_popular %}
+        <span class="badge badge-hot">熱門</span>
+      {% endif %}
+      {% if instrument.is_uncommon %}
+        <span class="badge badge-cold">冷門</span>
+      {% endif %}
     </div>
+    {% if instrument.exploded_view_image %}
+    <figure class="instrument-figure">
+      <img
+        class="instrument-image"
+        src="{{ instrument.exploded_view_image }}"
+        alt="{{ instrument.name }}"
+        loading="lazy"
+        onerror="this.closest('figure').style.display='none'"
+      >
+      {% if instrument.image_source %}
+        <figcaption class="image-credit">圖片來源：{{ instrument.image_source }}</figcaption>
+      {% endif %}
+    </figure>
+    {% endif %}
   </header>
 
   <section class="instrument-section">
@@ -23,5 +43,25 @@
       {{ introduction_html|safe }}
     </article>
   </section>
+
+  {% if instrument.timbre_description %}
+  <section class="instrument-section">
+    <h2>音色描述</h2>
+    <div class="timbre-box">{{ instrument.timbre_description|linebreaks }}</div>
+  </section>
+  {% endif %}
+
+  {% if instrument.listen_link %}
+  <section class="instrument-section">
+    <h2>聆聽</h2>
+    <a class="listen-button" href="{{ instrument.listen_link }}" target="_blank" rel="noopener">聆聽 {{ instrument.name }} 的聲音</a>
+  </section>
+  {% endif %}
+
+  {% if instrument.source_url %}
+  <p class="source-note">
+    資料來源：<a href="{{ instrument.source_url }}" target="_blank" rel="noopener">{{ instrument.source_url }}</a>
+  </p>
+  {% endif %}
 </main>
 {% endblock %}

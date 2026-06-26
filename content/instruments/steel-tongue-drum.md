@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/steel-tongue-drum/
 title: 鋼舌鼓
 original_name: Steel Tongue Drum
 category: 打擊樂器

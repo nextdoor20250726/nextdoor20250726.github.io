@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/toy-piano/
 title: 玩具鋼琴
 original_name: Toy piano
 category: 打擊樂器

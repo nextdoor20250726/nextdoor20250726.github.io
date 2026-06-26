@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/sampler/
 title: 取樣器
 original_name: Sampler
 category: 鍵盤樂器

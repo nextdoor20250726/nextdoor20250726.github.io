@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/idiochord/
 title: 自鳴絃琴
 original_name: Idiochord
 category: 弦樂器

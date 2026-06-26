@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/ry-teki/
 title: 龍笛
 original_name: Ryūteki
 category: 管樂器

@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/tenoroon/
 title: 次中音巴松
 original_name: Tenoroon
 category: 管樂器

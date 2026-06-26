@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/ugal/
 title: 烏格
 original_name: Ugal
 category: 打擊樂器

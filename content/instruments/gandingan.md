@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/gandingan/
 title: 甘丁甘鑼
 original_name: Gandingan
 category: 打擊樂器

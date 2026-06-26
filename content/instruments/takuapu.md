@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/takuapu/
 title: 塔誇普鼓
 original_name: Takuapu
 category: 打擊樂器

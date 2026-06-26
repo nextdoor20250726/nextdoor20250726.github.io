@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/violino-piccolo/
 title: 小提琴
 original_name: Violino Piccolo
 category: 弦樂器

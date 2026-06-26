@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/tagutok/
 title: Tagutok（暫譯）
 original_name: Tagutok
 category: 打擊樂器

@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/crotales/
 title: 古鈸
 original_name: Crotales
 category: 打擊樂器

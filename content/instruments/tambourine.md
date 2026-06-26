@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/tambourine/
 title: 鈴鼓
 original_name: Tambourine
 category: 打擊樂器

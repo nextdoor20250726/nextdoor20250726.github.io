@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/pandura/
 title: 潘杜拉琴
 original_name: Pandura
 category: 弦樂器

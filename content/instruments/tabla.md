@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/tabla/
 title: 塔布拉鼓
 original_name: Tabla
 category: 打擊樂器

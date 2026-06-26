@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/khong-wong-lek/
 title: 小鑼圈
 original_name: Khong Wong Lek
 category: 打擊樂器

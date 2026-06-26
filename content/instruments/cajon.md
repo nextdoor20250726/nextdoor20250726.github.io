@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/cajon/
 title: 箱鼓
 original_name: Cajón
 category: 打擊樂器

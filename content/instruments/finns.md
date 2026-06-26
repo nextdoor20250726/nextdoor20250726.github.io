@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/finns/
 title: Finns（暫譯）
 original_name: Finns
 category: 弦樂器

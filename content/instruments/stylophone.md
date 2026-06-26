@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/stylophone/
 title: 電子筆琴
 original_name: Stylophone
 category: 鍵盤樂器

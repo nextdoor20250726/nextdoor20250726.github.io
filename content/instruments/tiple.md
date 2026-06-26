@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/tiple/
 title: 蒂普勒
 original_name: Tiple
 category: 弦樂器

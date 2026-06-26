@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/party-horn/
 title: 派對號角
 original_name: Party horn
 category: 管樂器

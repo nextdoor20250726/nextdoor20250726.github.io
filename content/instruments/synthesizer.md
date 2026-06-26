@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/synthesizer/
 title: 合成器
 original_name: Synthesizer
 category: 鍵盤樂器

@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/standing-wave/
 title: 駐波
 original_name: Standing wave
 category: 弦樂器

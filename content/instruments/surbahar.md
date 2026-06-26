@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/surbahar/
 title: 蘇巴哈爾琴
 original_name: Surbahar
 category: 弦樂器

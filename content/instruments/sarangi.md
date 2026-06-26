@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/sarangi/
 title: 薩朗吉琴
 original_name: Sarangi
 category: 弦樂器

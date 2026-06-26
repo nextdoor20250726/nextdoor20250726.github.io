@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/electronic-drums/
 title: 電子鼓
 original_name: Electronic Drums
 category: 電子樂器

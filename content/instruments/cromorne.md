@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/cromorne/
 title: 克羅姆管
 original_name: Cromorne
 category: 管樂器

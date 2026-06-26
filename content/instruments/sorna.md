@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/sorna/
 title: 索爾納嗩吶
 original_name: Sorna
 category: 管樂器

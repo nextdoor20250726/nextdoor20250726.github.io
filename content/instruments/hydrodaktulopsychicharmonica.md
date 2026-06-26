@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/hydrodaktulopsychicharmonica/
 title: 水鍵口琴
 original_name: Hydrodaktulopsychicharmonica
 category: 打擊樂器

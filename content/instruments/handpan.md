@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/handpan/
 title: 手鼓
 original_name: Handpan
 category: 打擊樂器

@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/hourglass-drum/
 title: 沙漏鼓
 original_name: Hourglass drum
 category: 打擊樂器

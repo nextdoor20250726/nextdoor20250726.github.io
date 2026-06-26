@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/piccolo-oboe/
 title: 高音雙簧管
 original_name: Piccolo oboe
 category: 管樂器

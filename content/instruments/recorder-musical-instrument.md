@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/recorder-musical-instrument/
 title: 直笛
 original_name: Recorder (musical instrument)
 category: 管樂器

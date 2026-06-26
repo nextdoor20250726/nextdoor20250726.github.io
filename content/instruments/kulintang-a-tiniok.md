@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/kulintang-a-tiniok/
 title: 庫林坦鼓
 original_name: Kulintang a tiniok
 category: 打擊樂器

@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/great-highland-bagpipe/
 title: Great Highland 風笛
 original_name: Great Highland Bagpipe
 category: 管樂器

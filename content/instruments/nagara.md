@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/nagara/
 title: 納加拉鼓
 original_name: Nagara
 category: 打擊樂器

@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/vibraphone/
 title: 顫音琴
 original_name: Vibraphone
 category: 打擊樂器

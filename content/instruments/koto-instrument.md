@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/koto-instrument/
 title: 日本箏
 original_name: Koto (instrument)
 category: 鍵盤樂器

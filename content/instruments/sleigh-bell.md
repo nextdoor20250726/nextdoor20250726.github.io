@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/sleigh-bell/
 title: 鈴鐺
 original_name: Sleigh bell
 category: 打擊樂器

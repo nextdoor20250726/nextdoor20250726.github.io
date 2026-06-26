@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/novachord/
 title: 諾瓦科德電子琴
 original_name: Novachord
 category: 鍵盤樂器

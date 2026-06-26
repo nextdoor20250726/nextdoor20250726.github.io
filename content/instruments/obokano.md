@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/obokano/
 title: 奧博卡諾琴
 original_name: Obokano
 category: 弦樂器

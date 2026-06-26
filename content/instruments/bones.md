@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/bones/
 title: 骨頭響板
 original_name: Bones
 category: 打擊樂器

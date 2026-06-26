@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/setar/
 title: 塞特琴
 original_name: Setar
 category: 弦樂器

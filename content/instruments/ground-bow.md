@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/ground-bow/
 title: 地弓琴
 original_name: Ground bow
 category: 弦樂器

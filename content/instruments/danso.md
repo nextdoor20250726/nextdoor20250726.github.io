@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/danso/
 title: 短簫
 original_name: Danso
 category: 管樂器

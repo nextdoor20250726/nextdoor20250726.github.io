@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/guitarron-mexicano/
 title: 墨西哥大吉他
 original_name: Guitarrón mexicano
 category: 弦樂器

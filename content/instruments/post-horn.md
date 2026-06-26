@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/post-horn/
 title: 郵號
 original_name: Post Horn
 category: 管樂器

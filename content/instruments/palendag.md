@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/palendag/
 title: 帕倫達格笛
 original_name: Palendag
 category: 管樂器

@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/agung-a-tamlang/
 title: 竹製鑼鼓
 original_name: Agung a tamlang
 category: 打擊樂器

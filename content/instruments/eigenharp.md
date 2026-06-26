@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/eigenharp/
 title: 艾根豎琴
 original_name: Eigenharp
 category: 鍵盤樂器

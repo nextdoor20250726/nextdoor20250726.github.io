@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/brass-instrument/
 title: 銅管樂器
 original_name: Brass instrument
 category: 鍵盤樂器

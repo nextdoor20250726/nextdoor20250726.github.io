@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/kagul/
 title: 卡古爾鼓
 original_name: Kagul
 category: 打擊樂器

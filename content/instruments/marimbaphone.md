@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/marimbaphone/
 title: 馬林巴手機琴
 original_name: Marimbaphone
 category: 打擊樂器

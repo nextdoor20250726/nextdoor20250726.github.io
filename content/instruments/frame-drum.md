@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/frame-drum/
 title: 框架鼓
 original_name: Frame drum
 category: 打擊樂器

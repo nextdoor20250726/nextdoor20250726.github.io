@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/blue-man-group/
 title: 藍人樂團
 original_name: Blue Man Group
 category: 管樂器

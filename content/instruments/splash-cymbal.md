@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/splash-cymbal/
 title: 濺鈸
 original_name: Splash cymbal
 category: 打擊樂器

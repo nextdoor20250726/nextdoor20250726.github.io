@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/castanets/
 title: 響板
 original_name: Castanets
 category: 打擊樂器

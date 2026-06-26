@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/agong/
 title: A鑼
 original_name: Agong
 category: 打擊樂器

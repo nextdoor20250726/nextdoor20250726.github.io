@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/lap-steel/
 title: 夏威夷吉他
 original_name: Lap Steel
 category: 電子樂器

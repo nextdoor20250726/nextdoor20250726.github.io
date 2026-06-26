@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/mazhar/
 title: 馬扎爾框鼓
 original_name: Mazhar
 category: 打擊樂器

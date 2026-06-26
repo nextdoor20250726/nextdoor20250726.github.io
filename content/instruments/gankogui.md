@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/gankogui/
 title: 岡科圭雙鐘
 original_name: Gankogui
 category: 打擊樂器

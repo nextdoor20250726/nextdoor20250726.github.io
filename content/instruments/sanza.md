@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/sanza/
 title: 桑薩
 original_name: Sanza
 category: 打擊樂器

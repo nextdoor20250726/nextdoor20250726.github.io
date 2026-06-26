@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/harp-guitar/
 title: 豎琴吉他
 original_name: Harp guitar
 category: 弦樂器

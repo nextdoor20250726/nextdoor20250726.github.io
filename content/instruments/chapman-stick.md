@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/chapman-stick/
 title: 查普曼觸絃琴
 original_name: Chapman Stick
 category: 弦樂器

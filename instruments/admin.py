@@ -14,8 +14,8 @@ class CategoryAdmin(admin.ModelAdmin):
 
 @admin.register(Instrument)
 class InstrumentAdmin(admin.ModelAdmin):
-    list_display = ("name", "category", "wikidata_id", "source_url", "created_at", "updated_at")
-    list_filter = ("category", "created_at", "updated_at")
+    list_display = ("name", "category", "country", "is_popular", "is_uncommon", "created_at")
+    list_filter = ("category", "is_popular", "is_uncommon", "country", "created_at")
     search_fields = (
         "name",
         "wikidata_id",
@@ -31,7 +31,9 @@ class InstrumentAdmin(admin.ModelAdmin):
 
     fieldsets = (
         ("基本資料", {"fields": ("name", "category")}),
+        ("來源地區", {"fields": ("country",)}),
+        ("標籤設定", {"fields": ("is_popular", "is_uncommon")}),
         ("百科內容 Markdown", {"fields": ("introduction_md", "history_md")}),
-        ("媒體、聲音與來源", {"fields": ("wikidata_id", "source_url", "exploded_view_image", "timbre_description", "listen_link")}),
+        ("媒體、聲音與來源", {"fields": ("wikidata_id", "source_url", "exploded_view_image", "image_source", "timbre_description", "listen_link")}),
         ("時間資訊", {"fields": ("created_at", "updated_at")}),
     )

@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/gemshorn/
 title: 寶石角笛
 original_name: Gemshorn
 category: 管樂器

@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/rauschpfeife/
 title: 勞施普費夫管
 original_name: Rauschpfeife
 category: 管樂器

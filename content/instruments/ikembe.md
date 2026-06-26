@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/ikembe/
 title: 鐵舌琴
 original_name: Ikembe
 category: 打擊樂器

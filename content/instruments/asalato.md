@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/asalato/
 title: 阿薩拉託
 original_name: Asalato
 category: 打擊樂器

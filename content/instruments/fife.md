@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/fife/
 title: 六孔橫笛
 original_name: Fife
 category: 管樂器

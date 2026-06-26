@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/leiqin/
 title: 擂琴
 original_name: Leiqin
 category: 弦樂器

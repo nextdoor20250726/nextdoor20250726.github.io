@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/octoban/
 title: 八音桶鼓
 original_name: Octoban
 category: 打擊樂器

@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/wobble-board/
 title: 搖晃板
 original_name: Wobble board
 category: 打擊樂器

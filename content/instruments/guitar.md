@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/guitar/
 title: 吉他
 original_name: Guitar
 category: 弦樂器

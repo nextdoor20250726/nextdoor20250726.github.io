@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/ghungroo/
 title: 腳鈴
 original_name: Ghungroo
 category: 打擊樂器

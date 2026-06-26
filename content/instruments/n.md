@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/n/
 title: 石琴
 original_name: Đàn đá
 category: 打擊樂器

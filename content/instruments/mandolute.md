@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/mandolute/
 title: 曼陀魯特琴
 original_name: Mandolute
 category: 弦樂器

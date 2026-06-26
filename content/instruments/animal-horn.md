@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/animal-horn/
 title: 動物號角
 original_name: Animal Horn
 category: 管樂器

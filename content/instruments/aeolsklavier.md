@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/aeolsklavier/
 title: 風琴鋼琴
 original_name: Aeolsklavier
 category: 打擊樂器

@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/kong-vong/
 title: 鑼圈
 original_name: Kong Vong
 category: 打擊樂器

@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/fairlight-cmi/
 title: 費爾萊特CMI
 original_name: Fairlight CMI
 category: 鍵盤樂器

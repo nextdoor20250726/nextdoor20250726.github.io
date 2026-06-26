@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/mandola/
 title: 曼陀
 original_name: Mandola
 category: 弦樂器

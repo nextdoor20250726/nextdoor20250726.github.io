@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/teponaztli/
 title: 特波那茲特鼓
 original_name: Teponaztli
 category: 打擊樂器

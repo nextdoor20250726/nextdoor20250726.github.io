@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/ranat-thum-lek/
 title: 泰國低音金屬琴
 original_name: Ranat thum lek
 category: 打擊樂器

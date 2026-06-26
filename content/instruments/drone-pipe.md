@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/drone-pipe/
 title: 低音管
 original_name: Drone Pipe
 category: 管樂器

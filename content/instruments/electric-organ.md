@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/electric-organ/
 title: 電子琴
 original_name: Electric Organ
 category: 鍵盤樂器

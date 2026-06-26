@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/malimbe/
 title: 馬林貝琴
 original_name: Malimbe
 category: 打擊樂器

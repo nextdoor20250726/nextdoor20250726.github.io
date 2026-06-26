@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/pong-lang/
 title: 橫衝直闖
 original_name: Pong lang
 category: 打擊樂器

@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/veena/
 title: 維納琴
 original_name: Veena
 category: 弦樂器

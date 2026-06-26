@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/khlui/
 title: 克魯伊笛
 original_name: Khlui
 category: 管樂器

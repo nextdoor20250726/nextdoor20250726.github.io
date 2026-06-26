@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/banhu/
 title: 板胡
 original_name: Banhu
 category: 弦樂器

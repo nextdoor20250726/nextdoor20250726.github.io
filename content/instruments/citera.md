@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/citera/
 title: 奇特拉琴
 original_name: Citera
 category: 鍵盤樂器

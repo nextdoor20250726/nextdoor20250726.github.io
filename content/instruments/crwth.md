@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/crwth/
 title: 克魯斯弓琴
 original_name: Crwth
 category: 弦樂器

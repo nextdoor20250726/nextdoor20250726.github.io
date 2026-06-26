@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/clavichord/
 title: 古鍵琴
 original_name: Clavichord
 category: 鍵盤樂器

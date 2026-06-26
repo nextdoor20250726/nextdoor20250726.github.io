@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/gadulka/
 title: 保加利亞弓琴
 original_name: Gadulka
 category: 弦樂器

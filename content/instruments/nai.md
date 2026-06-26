@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/nai/
 title: 奈依笛
 original_name: Nai
 category: 管樂器

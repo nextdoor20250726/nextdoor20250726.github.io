@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/thunder-tube/
 title: 雷鳴管
 original_name: Thunder Tube
 category: 打擊樂器

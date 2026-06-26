@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/bat-drum/
 title: 非洲鼓
 original_name: Batá Drum
 category: 打擊樂器

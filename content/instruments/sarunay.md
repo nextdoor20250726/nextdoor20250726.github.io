@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/sarunay/
 title: 庫林當鐵琴
 original_name: Sarunay
 category: 打擊樂器

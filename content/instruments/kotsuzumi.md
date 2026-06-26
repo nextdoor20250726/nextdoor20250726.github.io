@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/kotsuzumi/
 title: 小鼓／鼓胴
 original_name: Kotsuzumi
 category: 打擊樂器

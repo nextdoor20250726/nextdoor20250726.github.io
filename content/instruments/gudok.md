@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/gudok/
 title: 古多克弓琴
 original_name: Gudok
 category: 弦樂器

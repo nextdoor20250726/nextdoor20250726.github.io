@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/kulintang-a-putao/
 title: 庫林坦鼓
 original_name: Kulintang a putao
 category: 打擊樂器

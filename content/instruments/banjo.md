@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/banjo/
 title: 班卓琴
 original_name: Banjo
 category: 弦樂器

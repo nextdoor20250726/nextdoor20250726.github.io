@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/putipu/
 title: 普蒂普鼓
 original_name: Putipù
 category: 打擊樂器

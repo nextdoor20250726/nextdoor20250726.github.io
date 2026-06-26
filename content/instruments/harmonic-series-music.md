@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/harmonic-series-music/
 title: 泛音列
 original_name: Harmonic series (music)
 category: 弦樂器

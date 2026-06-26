@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/eunuch-flute/
 title: 噶噶笛
 original_name: Eunuch flute
 category: 打擊樂器

@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/telharmonium/
 title: 泰爾哈莫尼琴
 original_name: Telharmonium
 category: 鍵盤樂器

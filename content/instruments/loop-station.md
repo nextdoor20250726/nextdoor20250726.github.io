@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/loop-station/
 title: 迴圈站
 original_name: Loop Station
 category: 鍵盤樂器

@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/kulintang/
 title: 索科斯克薩爾根
 original_name: Kulintang
 category: 打擊樂器

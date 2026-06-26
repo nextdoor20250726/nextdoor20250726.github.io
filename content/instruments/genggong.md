@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/genggong/
 title: 根貢
 original_name: Genggong
 category: 打擊樂器

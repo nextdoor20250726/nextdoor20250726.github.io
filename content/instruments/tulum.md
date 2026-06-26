@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/tulum/
 title: 圖盧姆風笛
 original_name: Tulum
 category: 管樂器

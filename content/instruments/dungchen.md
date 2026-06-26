@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/dungchen/
 title: 藏傳長號
 original_name: Dungchen
 category: 管樂器

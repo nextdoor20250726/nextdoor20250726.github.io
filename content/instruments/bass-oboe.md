@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/bass-oboe/
 title: 低音雙簧管
 original_name: Bass oboe
 category: 管樂器

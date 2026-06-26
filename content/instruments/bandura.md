@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/bandura/
 title: 班杜拉琴
 original_name: Bandura
 category: 弦樂器

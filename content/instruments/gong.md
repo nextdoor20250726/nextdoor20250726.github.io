@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/gong/
 title: 鑼
 original_name: Gong
 category: 打擊樂器

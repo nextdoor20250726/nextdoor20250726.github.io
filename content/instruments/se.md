@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/se/
 title: 小米9 SE
 original_name: Se
 category: 鍵盤樂器

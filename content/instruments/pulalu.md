@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/pulalu/
 title: 帕倫達格竹笛
 original_name: Pulalu
 category: 管樂器

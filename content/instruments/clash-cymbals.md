@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/clash-cymbals/
 title: 對鈸
 original_name: Clash cymbals
 category: 打擊樂器

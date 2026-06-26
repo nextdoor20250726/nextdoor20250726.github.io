@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/chalumeau/
 title: 夏呂莫單簧管
 original_name: Chalumeau
 category: 管樂器

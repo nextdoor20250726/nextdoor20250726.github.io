@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/qanun-instrument/
 title: 卡龍琴
 original_name: Qanun (instrument)
 category: 鍵盤樂器

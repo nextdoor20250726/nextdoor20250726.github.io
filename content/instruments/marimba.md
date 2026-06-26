@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/marimba/
 title: 馬林巴
 original_name: Marimba
 category: 打擊樂器

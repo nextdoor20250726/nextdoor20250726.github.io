@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/hulusi/
 title: 葫蘆絲
 original_name: Hulusi
 category: 管樂器

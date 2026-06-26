@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/quijada/
 title: 頜骨鼓
 original_name: Quijada
 category: 打擊樂器

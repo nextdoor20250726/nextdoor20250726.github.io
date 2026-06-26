@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/comb/
 title: 梳子琴
 original_name: Comb
 category: 打擊樂器

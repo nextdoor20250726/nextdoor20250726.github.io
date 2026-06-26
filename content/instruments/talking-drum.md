@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/talking-drum/
 title: 會說話的鼓
 original_name: Talking Drum
 category: 打擊樂器

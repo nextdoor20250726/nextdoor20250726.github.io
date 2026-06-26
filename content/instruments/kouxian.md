@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/kouxian/
 title: 口弦
 original_name: Kouxian
 category: 打擊樂器

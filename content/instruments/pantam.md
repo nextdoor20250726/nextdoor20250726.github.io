@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/pantam/
 title: 潘塔姆手碟
 original_name: Pantam
 category: 打擊樂器

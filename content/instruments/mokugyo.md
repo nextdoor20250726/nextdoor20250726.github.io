@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/mokugyo/
 title: 木魚（日本）
 original_name: Mokugyo
 category: 打擊樂器

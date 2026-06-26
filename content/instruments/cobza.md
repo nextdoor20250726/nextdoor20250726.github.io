@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/cobza/
 title: 科布扎魯特琴
 original_name: Cobza
 category: 弦樂器

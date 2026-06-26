@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/lyre/
 title: 里拉琴
 original_name: Lyre
 category: 弦樂器

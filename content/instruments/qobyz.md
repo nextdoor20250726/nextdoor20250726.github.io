@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/qobyz/
 title: 海琴／庫布茲
 original_name: Qobyz
 category: 弦樂器

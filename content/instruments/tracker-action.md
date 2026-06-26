@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/tracker-action/
 title: 運動相機
 original_name: Tracker action
 category: 打擊樂器

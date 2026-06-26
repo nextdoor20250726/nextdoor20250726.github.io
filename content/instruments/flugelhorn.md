@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/flugelhorn/
 title: 翼號
 original_name: Flugelhorn
 category: 管樂器

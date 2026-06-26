@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/afox/
 title: 阿弗歇鼓
 original_name: Afoxé
 category: 打擊樂器

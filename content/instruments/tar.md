@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/tar/
 title: 塔爾琴
 original_name: Tar
 category: 打擊樂器

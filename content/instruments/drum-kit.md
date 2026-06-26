@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/drum-kit/
 title: 爵士鼓
 original_name: Drum Kit
 category: 電子樂器

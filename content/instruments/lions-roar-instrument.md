@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/lions-roar-instrument/
 title: 獅子吼
 original_name: Lion's roar (instrument)
 category: 打擊樂器

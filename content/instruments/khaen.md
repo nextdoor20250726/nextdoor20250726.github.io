@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/khaen/
 title: 笙（寮國）
 original_name: Khaen
 category: 管樂器

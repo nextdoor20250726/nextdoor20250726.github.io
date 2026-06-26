@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/sho/
 title: 笙（日本）
 original_name: Sho
 category: 管樂器

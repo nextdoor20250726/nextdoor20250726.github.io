@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/lithophone/
 title: 石琴
 original_name: Lithophone
 category: 打擊樂器

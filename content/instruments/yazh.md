@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/yazh/
 title: 亞茲琴
 original_name: Yazh
 category: 弦樂器

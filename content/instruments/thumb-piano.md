@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/thumb-piano/
 title: 拇指鋼琴
 original_name: Thumb piano
 category: 鍵盤樂器

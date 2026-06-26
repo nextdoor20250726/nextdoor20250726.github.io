@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/ukulele/
 title: 烏克麗麗
 original_name: Ukulele
 category: 弦樂器

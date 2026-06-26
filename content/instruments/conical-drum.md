@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/conical-drum/
 title: 錐形鼓
 original_name: Conical drum
 category: 打擊樂器

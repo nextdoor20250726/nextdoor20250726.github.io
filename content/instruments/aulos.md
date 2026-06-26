@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/aulos/
 title: 阿夫洛斯管
 original_name: Aulos
 category: 管樂器

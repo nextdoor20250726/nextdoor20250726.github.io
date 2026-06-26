@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/hirtenschalmei/
 title: 牧羊人雙簧管
 original_name: Hirtenschalmei
 category: 管樂器

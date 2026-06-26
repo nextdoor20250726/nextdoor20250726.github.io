@@ -54,6 +54,10 @@ class Instrument(models.Model):
         max_length=500,
         blank=True,
     )
+    image_source = models.CharField("圖片來源", max_length=500, blank=True)
+    country = models.CharField("來源地區", max_length=200, blank=True)
+    is_popular = models.BooleanField("熱門樂器", default=False)
+    is_uncommon = models.BooleanField("冷門樂器", default=False)
     timbre_description = models.TextField("音色文字描述", blank=True)
     listen_link = models.URLField("聆聽連結", max_length=500, blank=True)
     source_url = models.URLField("資料來源", max_length=500, blank=True)

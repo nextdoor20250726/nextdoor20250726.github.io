@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/classical-guitar/
 title: 古典吉他
 original_name: Classical guitar
 category: 電子樂器

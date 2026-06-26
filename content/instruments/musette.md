@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/musette/
 title: 穆塞特小風笛
 original_name: Musette
 category: 管樂器

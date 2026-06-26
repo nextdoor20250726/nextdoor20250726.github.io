@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/twelve-string-guitar/
 title: 十二絃吉他
 original_name: Twelve-string guitar
 category: 弦樂器

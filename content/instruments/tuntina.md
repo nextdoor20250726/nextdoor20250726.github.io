@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/tuntina/
 title: 一弦琴
 original_name: Tuntina
 category: 鍵盤樂器

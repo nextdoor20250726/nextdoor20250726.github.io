@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/powwow-drum/
 title: 國家影片登記表
 original_name: Powwow Drum
 category: 打擊樂器

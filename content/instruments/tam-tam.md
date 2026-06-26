@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/tam-tam/
 title: 大鑼
 original_name: Tam-tam
 category: 打擊樂器

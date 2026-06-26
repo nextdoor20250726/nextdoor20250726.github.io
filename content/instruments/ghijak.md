@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/ghijak/
 title: 吉賈克琴
 original_name: Ghijak
 category: 弦樂器

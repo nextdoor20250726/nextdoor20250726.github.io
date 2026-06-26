@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/tuba/
 title: 大號
 original_name: Tuba
 category: 管樂器

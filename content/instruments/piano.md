@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/piano/
 title: 鋼琴
 original_name: Piano
 category: 鍵盤樂器

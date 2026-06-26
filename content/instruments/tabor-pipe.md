@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/tabor-pipe/
 title: 笛
 original_name: Tabor Pipe
 category: 管樂器

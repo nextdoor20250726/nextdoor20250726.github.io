@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/halo/
 title: 光環鼓
 original_name: Halo
 category: 打擊樂器

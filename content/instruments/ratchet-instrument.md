@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/ratchet-instrument/
 title: 棘輪（樂器）
 original_name: Ratchet (instrument)
 category: 打擊樂器

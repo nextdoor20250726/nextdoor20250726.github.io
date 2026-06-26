@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/egg-shaker/
 title: 蛋形沙鈴
 original_name: Egg Shaker
 category: 打擊樂器

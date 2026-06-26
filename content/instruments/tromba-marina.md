@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/tromba-marina/
 title: 海號琴
 original_name: Tromba marina
 category: 弦樂器

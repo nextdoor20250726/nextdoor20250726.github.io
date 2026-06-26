@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/lyre-guitar/
 title: 里拉吉他
 original_name: Lyre Guitar
 category: 弦樂器

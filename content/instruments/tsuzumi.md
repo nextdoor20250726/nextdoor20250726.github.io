@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/tsuzumi/
 title: 鼓（日本）
 original_name: Tsuzumi
 category: 打擊樂器

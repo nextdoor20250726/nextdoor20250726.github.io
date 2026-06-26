@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/cornamuse/
 title: 角笛
 original_name: Cornamuse
 category: 管樂器

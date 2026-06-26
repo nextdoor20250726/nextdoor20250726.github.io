@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/tambal/
 title: 揚琴
 original_name: Tambal
 category: 鍵盤樂器

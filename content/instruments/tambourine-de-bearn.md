@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/tambourine-de-bearn/
 title: 貝亞恩手鼓
 original_name: Tambourine de Bearn
 category: 弦樂器

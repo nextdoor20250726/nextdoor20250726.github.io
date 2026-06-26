@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/cricri/
 title: 拇指琴
 original_name: Cricri
 category: 打擊樂器

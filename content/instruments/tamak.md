@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/tamak/
 title: 塔馬克鼓
 original_name: Tamak'
 category: 打擊樂器

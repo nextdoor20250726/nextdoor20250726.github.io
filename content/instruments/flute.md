@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/flute/
 title: 笛
 original_name: Flute
 category: 打擊樂器

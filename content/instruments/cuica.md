@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/cuica/
 title: 奎卡鼓
 original_name: Cuíca
 category: 打擊樂器

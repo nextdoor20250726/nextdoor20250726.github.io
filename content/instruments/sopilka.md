@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/sopilka/
 title: 索皮爾卡笛
 original_name: Sopilka
 category: 管樂器

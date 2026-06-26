@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/cithara/
 title: 奇薩拉琴
 original_name: Cithara
 category: 弦樂器

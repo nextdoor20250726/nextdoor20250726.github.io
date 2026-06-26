@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/adungu/
 title: 阿杜古弓形豎琴
 original_name: Adungu
 category: 弦樂器

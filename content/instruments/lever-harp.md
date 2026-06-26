@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/lever-harp/
 title: 拉桿豎琴
 original_name: Lever harp
 category: 弦樂器

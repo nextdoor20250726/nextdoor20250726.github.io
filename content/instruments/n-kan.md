@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/n-kan/
 title: 能管
 original_name: Nōkan
 category: 管樂器

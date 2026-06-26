@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/clavinet/
 title: 電鋼琴
 original_name: Clavinet
 category: 鍵盤樂器

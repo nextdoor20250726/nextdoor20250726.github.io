@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/wheel-fiddle/
 title: 手搖琴
 original_name: Wheel Fiddle
 category: 弦樂器

@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/guban-instrument/
 title: 鼓板
 original_name: Guban (instrument)
 category: 打擊樂器

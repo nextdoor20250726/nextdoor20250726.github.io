@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/friction-drum/
 title: 摩擦鼓
 original_name: Friction drum
 category: 打擊樂器

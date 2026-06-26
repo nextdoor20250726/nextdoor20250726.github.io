@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/whistle/
 title: 哨子（樂器）
 original_name: Whistle
 category: 管樂器

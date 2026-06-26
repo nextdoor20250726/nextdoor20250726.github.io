@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/donso-ngoni/
 title: 頓索恩戈尼琴
 original_name: Donso Ngoni
 category: 弦樂器

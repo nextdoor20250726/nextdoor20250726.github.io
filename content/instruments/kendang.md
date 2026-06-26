@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/kendang/
 title: 肯當鼓
 original_name: Kendang
 category: 打擊樂器

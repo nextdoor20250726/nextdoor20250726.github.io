@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/vessel-flute/
 title: 陶笛
 original_name: Vessel Flute
 category: 管樂器

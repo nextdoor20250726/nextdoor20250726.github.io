@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/timbal/
 title: 蒂姆巴爾鼓
 original_name: Timbal
 category: 打擊樂器

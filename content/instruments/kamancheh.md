@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/kamancheh/
 title: 卡曼賈
 original_name: Kamancheh
 category: 弦樂器

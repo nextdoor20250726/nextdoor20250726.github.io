@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/onavillu/
 title: Onavillu（暫譯）
 original_name: Onavillu
 category: 弦樂器

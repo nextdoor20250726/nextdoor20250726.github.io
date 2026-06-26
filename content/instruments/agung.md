@@ -1,4 +1,6 @@
 ---
+is_uncommon: true
+site_url: https://soundweavers-music.github.io/instruments/agung/
 title: 阿貢鑼
 original_name: Agung
 category: 打擊樂器

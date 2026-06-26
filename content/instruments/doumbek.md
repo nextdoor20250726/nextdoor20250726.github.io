@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/doumbek/
 title: 多姆貝克鼓
 original_name: Doumbek
 category: 打擊樂器

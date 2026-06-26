@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/appalachian-dulcimer/
 title: 阿帕拉契亞揚琴
 original_name: Appalachian Dulcimer
 category: 鍵盤樂器

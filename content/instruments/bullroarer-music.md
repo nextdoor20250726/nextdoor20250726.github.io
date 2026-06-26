@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/bullroarer-music/
 title: 牛吼器
 original_name: Bullroarer (music)
 category: 管樂器

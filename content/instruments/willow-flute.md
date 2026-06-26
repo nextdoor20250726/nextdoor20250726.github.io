@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/willow-flute/
 title: 柳木長笛
 original_name: Willow flute
 category: 管樂器

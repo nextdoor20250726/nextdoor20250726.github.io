@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/tanbur/
 title: 彈撥爾
 original_name: Tanbur
 category: 弦樂器

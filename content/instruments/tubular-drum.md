@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/tubular-drum/
 title: 管狀鼓
 original_name: Tubular drum
 category: 打擊樂器

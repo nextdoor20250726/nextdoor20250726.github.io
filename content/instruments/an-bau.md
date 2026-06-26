@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/an-bau/
 title: 彈匏
 original_name: Đàn bầu
 category: 鍵盤樂器

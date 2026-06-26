@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/rhythm-sticks/
 title: 節奏棒
 original_name: Rhythm Sticks
 category: 打擊樂器

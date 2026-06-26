@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/bodhran/
 title: 愛爾蘭手鼓
 original_name: Bodhrán
 category: 打擊樂器

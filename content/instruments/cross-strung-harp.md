@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/cross-strung-harp/
 title: 交叉弦豎琴
 original_name: Cross-strung harp
 category: 弦樂器

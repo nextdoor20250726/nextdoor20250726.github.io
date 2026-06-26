@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/santoor/
 title: 桑圖爾琴
 original_name: Santoor
 category: 鍵盤樂器

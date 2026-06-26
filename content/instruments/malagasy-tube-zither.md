@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/malagasy-tube-zither/
 title: 馬達加斯加管狀齊特琴
 original_name: Malagasy Tube Zither
 category: 鍵盤樂器

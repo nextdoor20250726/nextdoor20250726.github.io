@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/hawaiian-nose-flute/
 title: 夏威夷鼻笛
 original_name: Hawaiian Nose Flute
 category: 管樂器

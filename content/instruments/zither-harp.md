@@ -1,4 +1,6 @@
 ---
+is_popular: true
+site_url: https://soundweavers-music.github.io/instruments/zither-harp/
 title: 古箏
 original_name: Zither Harp
 category: 鍵盤樂器

@@ -1,4 +1,5 @@
 ---
+site_url: https://soundweavers-music.github.io/instruments/buhay/
 title: 烏克蘭摩擦鼓
 original_name: Buhay
 category: 打擊樂器
