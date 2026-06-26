@@ -1396,7 +1396,7 @@ def build_manager_page(instruments):
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
 <script>
 (function() {
-  var PASSWORD_HASH = 'c04d6e34aab689c5c0e68eb51753c843e032efa7c16427f8642ee07ab946e981';
+  var PASSWORD_HASH = '2233189ca1209e21444a84869660aea98b9afc75d859a63e0b2b70892948775d';
   var SALT = 'wmie2024';
 
   async function hashCheck(input) {
