@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/saw-u/
 title: 椰胡
 original_name: Saw U
 category: 弦樂器
-country: 全球
+country: 亞洲／東南亞（泰國）
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Saw_u.jpg/500px-Saw_u.jpg
 sound_class: 弦鳴

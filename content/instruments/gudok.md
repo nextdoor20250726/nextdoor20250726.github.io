@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/gudok/
 title: 古多克弓琴
 original_name: Gudok
 category: 弦樂器
-country: 全球
+country: 歐洲／俄羅斯
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/3/35/Russ_instr_gudok.gif
 sound_class: 弦鳴

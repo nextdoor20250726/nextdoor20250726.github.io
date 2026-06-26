@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/pipe-organ/
 title: 管風琴
 original_name: Pipe organ
 category: 鍵盤樂器
-country: 全球
+country: 歐洲／希臘
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Organ_Range.svg/500px-Organ_Range.svg.png
 sound_class: 鍵盤／電鳴／機械混合

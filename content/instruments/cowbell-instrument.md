@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/cowbell-instrument/
 title: 牛鈴
 original_name: Cowbell (instrument)
 category: 打擊樂器
-country: 全球
+country: 歐洲
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/4/46/Koebel.jpg
 sound_class: 體鳴

@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/ukulele/
 title: 烏克麗麗
 original_name: Ukulele
 category: 弦樂器
-country: 中東／歐亞／東亞／美洲／全球
+country: 大洋洲／夏威夷
 era: 19 世紀
 sound_class: 弦鳴
 range: 約2個8度

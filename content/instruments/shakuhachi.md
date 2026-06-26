@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/shakuhachi/
 title: 尺八
 original_name: Shakuhachi
 category: 管樂器
-country: 全球
+country: 亞洲／東亞（日本）
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/9/93/JapaneseShakuhachiSection.jpg
 sound_class: 氣鳴

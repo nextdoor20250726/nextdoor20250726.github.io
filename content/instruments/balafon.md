@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/balafon/
 title: 巴拉風
 original_name: Balafon
 category: 打擊樂器
-country: 全球
+country: 非洲／西非
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/African_Balafon_in_Museu_Oscar_Niemeyer.jpg/500px-African_Balafon_in_Museu_Oscar_Niemeyer.jpg
 sound_class: 體鳴

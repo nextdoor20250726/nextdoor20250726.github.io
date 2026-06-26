@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/chang/
 title: 箏
 original_name: Chang
 category: 弦樂器
-country: 瑞士／歐洲／全球現代
+country: 歐洲／瑞士
 era: 傳統／年代待考
 sound_class: 弦鳴
 range: 約3個八度以上

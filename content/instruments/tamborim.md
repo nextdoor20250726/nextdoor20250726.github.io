@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/tamborim/
 title: 塔博林鼓
 original_name: Tamborim
 category: 打擊樂器
-country: 全球
+country: 美洲／巴西
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tamborim.JPG/500px-Tamborim.JPG
 sound_class: 膜鳴

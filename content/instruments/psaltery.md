@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/psaltery/
 title: 薩泰裡琴
 original_name: Psaltery
 category: 鍵盤樂器
-country: 全球
+country: 中東
 era: 古代
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/AlaBohemicaPsaltery.jpg/500px-AlaBohemicaPsaltery.jpg
 sound_class: 弦鳴

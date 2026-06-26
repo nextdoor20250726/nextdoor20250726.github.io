@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/tzouras/
 title: 齊塔拉琴
 original_name: Tzouras
 category: 弦樂器
-country: 全球
+country: 歐洲／希臘
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Tzouras.jpg/500px-Tzouras.jpg
 sound_class: 弦鳴

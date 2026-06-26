@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/rainstick/
 title: 雨聲器
 original_name: Rainstick
 category: 打擊樂器
-country: 全球
+country: 美洲／南美
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Cactus_rain_sticks.jpg/500px-Cactus_rain_sticks.jpg
 sound_class: 體鳴

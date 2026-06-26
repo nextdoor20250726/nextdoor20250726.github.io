@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/musical-bow/
 title: 樂弓
 original_name: Musical bow
 category: 弦樂器
-country: 東亞／中亞／歐洲／東南亞／非洲／美洲
+country: 非洲／南非
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/2/2e/MusicalBow.gif
 sound_class: 弦鳴

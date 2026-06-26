@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/great-highland-bagpip
 title: Great Highland 風笛
 original_name: Great Highland Bagpipe
 category: 管樂器
-country: 蘇格蘭
+country: 歐洲／英國（蘇格蘭）
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/f/f4/HighlandersPiperMajor.jpg
 sound_class: 氣鳴

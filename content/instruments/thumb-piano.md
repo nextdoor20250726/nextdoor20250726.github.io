@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/thumb-piano/
 title: 拇指鋼琴
 original_name: Thumb piano
 category: 鍵盤樂器
-country: 非洲南部（津巴布韋）
+country: 非洲
 era: 傳統／年代待考
 region_type: 單一地區／文化圈
 soundscape: 手邊發光的小宇宙（近身體鳴、舌片琴與手奏金屬共鳴）

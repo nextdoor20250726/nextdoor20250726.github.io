@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/french-horn/
 title: 法國號
 original_name: French horn
 category: 管樂器
-country: 全球
+country: 歐洲／法國
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/French_horn_front.png/500px-French_horn_front.png
 sound_class: 氣鳴

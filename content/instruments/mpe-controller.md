@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/mpe-controller/
 title: 多維觸控鍵盤
 original_name: MPE Controller
 category: 鍵盤樂器
-country: 全球
+country: 美洲／北美
 era: 傳統／年代待考
 sound_class: 鍵盤／電鳴／機械混合
 range: C0–C8（88鍵標準音域，約7個8度）

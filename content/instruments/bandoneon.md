@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/bandoneon/
 title: 班東尼琴
 original_name: Bandoneon
 category: 鍵盤樂器
-country: 全球
+country: 歐洲／德國／美洲／阿根廷
 era: 19 世紀
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Buenos_Aires_-_Bandoneon_tango_player_-_7435.jpg/500px-Buenos_Aires_-_Bandoneon_tango_player_-_7435.jpg
 sound_class: 氣鳴

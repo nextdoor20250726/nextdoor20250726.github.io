@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/moxe-o/
 title: 莫克塞尼管
 original_name: Moxeño
 category: 管樂器
-country: 全球
+country: 美洲／北美
 era: 傳統／年代待考
 sound_class: 氣鳴
 range: 中高音區（約2個8度）

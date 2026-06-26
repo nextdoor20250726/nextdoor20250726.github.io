@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/fortepiano/
 title: 早期鋼琴
 original_name: Fortepiano
 category: 鍵盤樂器
-country: 全球
+country: 歐洲／義大利
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/FortepianoByMcNultyAfterWalter1805.jpg/500px-FortepianoByMcNultyAfterWalter1805.jpg
 sound_class: 鍵盤／電鳴／機械混合

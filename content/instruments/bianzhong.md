@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/bianzhong/
 title: 編鐘
 original_name: Bianzhong
 category: 打擊樂器
-country: 全球
+country: 亞洲／東亞（中國）
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Wuhanbells.jpg/500px-Wuhanbells.jpg
 sound_class: 體鳴

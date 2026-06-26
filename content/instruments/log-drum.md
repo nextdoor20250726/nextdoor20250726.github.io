@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/log-drum/
 title: 木槽鼓
 original_name: Log Drum
 category: 打擊樂器
-country: 全球
+country: 美洲／大洋洲
 era: 傳統／年代待考
 sound_class: 體鳴
 range: 約2個8度（中低音域）

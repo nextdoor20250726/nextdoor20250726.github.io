@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/concertina/
 title: 六角手風琴
 original_name: Concertina
 category: 鍵盤樂器
-country: 歐洲／西方古典與民俗
+country: 歐洲／英國
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Wheatstone_English_Concertina.jpg/500px-Wheatstone_English_Concertina.jpg
 sound_class: 氣鳴

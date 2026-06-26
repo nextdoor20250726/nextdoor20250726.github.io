@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/talharpa/
 title: 塔爾哈帕弓琴
 original_name: Talharpa
 category: 弦樂器
-country: 全球
+country: 歐洲
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Talharpa%2C_by_Charlie_Bynum%2C_Silver_Spoon_Music%2C_NL_2014.jpg/500px-Talharpa%2C_by_Charlie_Bynum%2C_Silver_Spoon_Music%2C_NL_2014.jpg
 sound_class: 弦鳴

@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/mridangam/
 title: 姆裡丹加鼓
 original_name: Mridangam
 category: 打擊樂器
-country: 全球
+country: 亞洲／南亞（印度）
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/1/16/Wiki-mridangam.jpg
 sound_class: 膜鳴

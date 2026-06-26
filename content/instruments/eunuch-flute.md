@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/eunuch-flute/
 title: 噶噶笛
 original_name: Eunuch flute
 category: 打擊樂器
-country: 歐洲（16-17世紀）
+country: 歐洲
 era: 傳統／年代待考
 region_type: 單一地區／文化圈
 soundscape: 手掌、皮膜與舞步（手鼓、框鼓、杯鼓、語言鼓與鼓組）

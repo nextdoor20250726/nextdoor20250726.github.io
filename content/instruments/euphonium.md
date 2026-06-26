@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/euphonium/
 title: 上低音號
 original_name: Euphonium
 category: 管樂器
-country: 全球
+country: 歐洲／德國
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Euphonium_Boosey_and_hawkes.jpg/500px-Euphonium_Boosey_and_hawkes.jpg
 sound_class: 氣鳴

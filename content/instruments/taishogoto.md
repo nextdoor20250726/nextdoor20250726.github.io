@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/taishogoto/
 title: 大正琴
 original_name: Taishogoto
 category: 鍵盤樂器
-country: 全球
+country: 亞洲／東亞（日本）
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Taishogoto.jpg/500px-Taishogoto.jpg
 sound_class: 弦鳴

@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/blue-man-group/
 title: 藍人樂團
 original_name: Blue Man Group
 category: 管樂器
-country: 美國
+country: 美洲／北美
 era: 傳統／年代待考
 region_type: 單一地區／文化圈
 soundscape: 眾聲相遇的廣場（合奏系統、地域編制與現代混合）

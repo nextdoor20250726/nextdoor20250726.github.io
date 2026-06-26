@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/toy-piano/
 title: 玩具鋼琴
 original_name: Toy piano
 category: 打擊樂器
-country: 全球
+country: 美洲／北美
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Schoenhut_379_Concert_Grand.jpg/500px-Schoenhut_379_Concert_Grand.jpg
 sound_class: 體鳴

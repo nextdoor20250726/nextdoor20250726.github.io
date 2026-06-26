@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/alphorn/
 title: 阿爾卑斯長號
 original_name: Alphorn
 category: 管樂器
-country: 全球
+country: 歐洲／瑞士
 era: 16 世紀
 sound_class: 氣鳴
 range: 約2至3個八度

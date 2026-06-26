@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/flugelhorn/
 title: 翼號
 original_name: Flugelhorn
 category: 管樂器
-country: 全球
+country: 歐洲／德國
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Yamaha_Flugelhorn_YFH-8310Z.jpg/500px-Yamaha_Flugelhorn_YFH-8310Z.jpg
 sound_class: 氣鳴

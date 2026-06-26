@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/continuum-fingerboard
 title: 連續指板
 original_name: Continuum Fingerboard
 category: 鍵盤樂器
-country: 美國／全球
+country: 歐洲
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Continuum-Side-view.jpg/500px-Continuum-Side-view.jpg
 sound_class: 複合／電鳴

@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/galoubet/
 title: 加羅笛
 original_name: Galoubet
 category: 管樂器
-country: 全球
+country: 歐洲／法國
 era: 傳統／年代待考
 sound_class: 氣鳴
 range: 約2至3個8度

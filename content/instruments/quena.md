@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/quena/
 title: 克納笛
 original_name: Quena
 category: 管樂器
-country: 全球
+country: 美洲／南美（安地斯）
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Quena01.jpg/500px-Quena01.jpg
 sound_class: 氣鳴

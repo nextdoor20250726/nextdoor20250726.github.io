@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/handpan/
 title: 手鼓
 original_name: Handpan
 category: 打擊樂器
-country: 全球／非洲／現代
+country: 歐洲／瑞士
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Handpans_2020_by_Glenn_Francis.jpg/500px-Handpans_2020_by_Glenn_Francis.jpg
 sound_class: 體鳴

@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/angklung/
 title: 安克隆竹琴
 original_name: Angklung
 category: 打擊樂器
-country: 全球
+country: 亞洲／東南亞（印尼）
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Eight-pitch_Angklung%2C_Mitchell_Park%2C_Milwaukee.jpg/500px-Eight-pitch_Angklung%2C_Mitchell_Park%2C_Milwaukee.jpg
 sound_class: 體鳴

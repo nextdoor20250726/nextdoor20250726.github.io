@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/zither/
 title: 齊特琴
 original_name: Zither
 category: 鍵盤樂器
-country: 中歐
+country: 歐洲
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/2012-03-04-Trachselwald_%28Foto_Dietrich_Michael_Weidmann%29_002.JPG/500px-2012-03-04-Trachselwald_%28Foto_Dietrich_Michael_Weidmann%29_002.JPG
 sound_class: 弦鳴

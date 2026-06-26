@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/dholak/
 title: 卓拉克鼓
 original_name: Dholak
 category: 打擊樂器
-country: 非洲／中東／亞洲／歐洲／美洲
+country: 亞洲／南亞（印度）
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Dholak_dhol_drum%2C_one_of_many_percussion_instruments_of_South_Asia.jpg/500px-Dholak_dhol_drum%2C_one_of_many_percussion_instruments_of_South_Asia.jpg
 sound_class: 膜鳴

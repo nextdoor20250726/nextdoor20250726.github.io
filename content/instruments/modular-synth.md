@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/modular-synth/
 title: 模組化合成器
 original_name: Modular Synth
 category: 鍵盤樂器
-country: 全球
+country: 美洲／北美
 era: 傳統／年代待考
 sound_class: 鍵盤／電鳴／機械混合
 range: 全音域（通常涵蓋5至8個8度）

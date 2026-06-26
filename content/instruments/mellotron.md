@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/mellotron/
 title: 梅樂頓
 original_name: Mellotron
 category: 鍵盤樂器
-country: 全球
+country: 歐洲／英國
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Mellotron.jpg/500px-Mellotron.jpg
 sound_class: 鍵盤／電鳴／機械混合

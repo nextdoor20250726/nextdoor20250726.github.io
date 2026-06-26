@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/nyckelharpa/
 title: 鍵鈕弓琴
 original_name: Nyckelharpa
 category: 弦樂器
-country: 亞洲／歐洲／中東／全球
+country: 歐洲／瑞典
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Nyckelharpa_0930_%28cropped%29.jpg/500px-Nyckelharpa_0930_%28cropped%29.jpg
 sound_class: 弦鳴

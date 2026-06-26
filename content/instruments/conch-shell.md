@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/conch-shell/
 title: 螺貝號
 original_name: Conch shell
 category: 管樂器
-country: 全球
+country: 全球／多地
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Queen_Conch_%28Lobatus_gigas%29.jpg/500px-Queen_Conch_%28Lobatus_gigas%29.jpg
 sound_class: 氣鳴

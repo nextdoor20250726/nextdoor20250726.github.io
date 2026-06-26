@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/yangqin/
 title: 揚琴
 original_name: Yangqin
 category: 鍵盤樂器
-country: 東亞／中亞／歐洲／東南亞／非洲／美洲
+country: 亞洲／東亞（中國）
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Yangqin1.jpg/500px-Yangqin1.jpg
 sound_class: 弦鳴

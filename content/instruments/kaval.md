@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/kaval/
 title: 卡瓦爾笛
 original_name: Kaval
 category: 管樂器
-country: 全球
+country: 歐洲／巴爾幹
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Bulgarian_kaval_in_key_of_D%2C_African_blackwood.jpg/500px-Bulgarian_kaval_in_key_of_D%2C_African_blackwood.jpg
 sound_class: 氣鳴

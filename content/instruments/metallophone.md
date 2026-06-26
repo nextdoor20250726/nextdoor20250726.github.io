@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/metallophone/
 title: 鐵琴
 original_name: Metallophone
 category: 打擊樂器
-country: 全球
+country: 亞洲／東南亞
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Traditional_indonesian_instruments.jpg/500px-Traditional_indonesian_instruments.jpg
 sound_class: 體鳴

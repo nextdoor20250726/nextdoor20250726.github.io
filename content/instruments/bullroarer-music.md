@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/bullroarer-music/
 title: 牛吼器
 original_name: Bullroarer (music)
 category: 管樂器
-country: 全球
+country: 大洋洲／澳洲
 era: 傳統／年代待考
 region_type: 跨文化／多地
 soundscape: 手裡搖動的節奏星塵（沙鈴、刮器、鈴串與身體小打擊）

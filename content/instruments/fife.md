@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/fife/
 title: 六孔橫笛
 original_name: Fife
 category: 管樂器
-country: 全球
+country: 歐洲
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Crail%2C_Fife%2C_Scotland.jpg/500px-Crail%2C_Fife%2C_Scotland.jpg
 sound_class: 氣鳴

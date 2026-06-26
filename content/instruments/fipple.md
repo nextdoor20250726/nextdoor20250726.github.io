@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/fipple/
 title: 豎笛
 original_name: Fipple
 category: 打擊樂器
-country: 歐洲／地中海地區
+country: 歐洲
 era: 傳統／年代待考
 region_type: 地區／文化圈
 soundscape: 一口氣走過山谷（竹管、陶管、長音與世界笛聲）

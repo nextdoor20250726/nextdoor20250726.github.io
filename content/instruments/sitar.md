@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/sitar/
 title: 錫塔琴
 original_name: Sitar
 category: 弦樂器
-country: 中東／歐亞／東亞／美洲／全球
+country: 亞洲／南亞（印度）
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Sitar%2C_late_19th_Century.jpg/500px-Sitar%2C_late_19th_Century.jpg
 sound_class: 弦鳴

@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/resonator/
 title: 共鳴管
 original_name: Resonator
 category: 電子樂器
-country: 非洲／印度尼西亞
+country: 全球／多地
 era: 現代
 region_type: 地區／文化圈
 soundscape: 木石金屬的回聲城市（木琴、石琴、編鐘、鑼群與甘美朗）

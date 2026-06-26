@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/egg-shaker/
 title: 蛋形沙鈴
 original_name: Egg Shaker
 category: 打擊樂器
-country: 全球
+country: 全球／多地
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Ganza_10cm.JPG/500px-Ganza_10cm.JPG
 sound_class: 體鳴

@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/lute/
 title: 魯特琴
 original_name: Lute
 category: 打擊樂器
-country: 中國
+country: 中東／歐洲
 era: 中世紀
 region_type: 單一地區／文化圈
 soundscape: 旅人手中的撥弦故事（魯特琴、短頸長頸撥弦與民謠弦聲）

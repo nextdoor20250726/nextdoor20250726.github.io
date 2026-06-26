@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/quijada/
 title: 頜骨鼓
 original_name: Quijada
 category: 打擊樂器
-country: 全球
+country: 美洲
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Quijada.jpg/500px-Quijada.jpg
 sound_class: 體鳴

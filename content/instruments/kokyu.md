@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/kokyu/
 title: 胡弓
 original_name: Kokyu
 category: 弦樂器
-country: 全球
+country: 亞洲／東亞（日本）
 era: 傳統／年代待考
 sound_class: 弦鳴
 range: 中低音區（約2個8度）

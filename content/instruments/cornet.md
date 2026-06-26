@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/cornet/
 title: 短號
 original_name: Cornet
 category: 管樂器
-country: 全球
+country: 歐洲／法國
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Cornet-Bb-large.jpg/500px-Cornet-Bb-large.jpg
 sound_class: 氣鳴

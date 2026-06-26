@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/janggu/
 title: 杖鼓
 original_name: Janggu
 category: 打擊樂器
-country: 全球
+country: 亞洲／東亞（韓國）
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Janggu.jpg/500px-Janggu.jpg
 sound_class: 膜鳴

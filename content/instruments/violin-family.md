@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/violin-family/
 title: 提琴族
 original_name: Violin family
 category: 弦樂器
-country: 義大利
+country: 歐洲／義大利
 era: 傳統／年代待考
 region_type: 單一地區／文化圈
 soundscape: 像人聲一樣哭與唱（擦弦、輪弦、鍵弓琴與提琴家族）

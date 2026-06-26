@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/bansuri/
 title: 班蘇裡笛
 original_name: Bansuri
 category: 管樂器
-country: 全球
+country: 亞洲／南亞（印度）
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Bansuri_bamboo_flute_23inch.jpg/500px-Bansuri_bamboo_flute_23inch.jpg
 sound_class: 氣鳴

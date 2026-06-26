@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/castanets/
 title: 響板
 original_name: Castanets
 category: 打擊樂器
-country: 全球
+country: 歐洲／西班牙
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Castagnetten%2C_BK-NM-11430-78.jpg/500px-Castagnetten%2C_BK-NM-11430-78.jpg
 sound_class: 體鳴

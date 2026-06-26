@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/tubular-drum/
 title: 管狀鼓
 original_name: Tubular drum
 category: 打擊樂器
-country: 全球
+country: 大洋洲
 era: 傳統／年代待考
 region_type: 跨文化／多地
 soundscape: 手掌、皮膜與舞步（手鼓、框鼓、杯鼓、語言鼓與鼓組）

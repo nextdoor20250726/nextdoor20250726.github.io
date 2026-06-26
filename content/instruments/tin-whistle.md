@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/tin-whistle/
 title: 高音哨笛
 original_name: Tin whistle
 category: 管樂器
-country: 全球
+country: 歐洲／愛爾蘭
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Tin_Whistles.jpg/500px-Tin_Whistles.jpg
 sound_class: 氣鳴

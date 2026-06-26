@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/oboe/
 title: 雙簧管
 original_name: Oboe
 category: 管樂器
-country: 歐洲／西方古典與民俗
+country: 歐洲／法國
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/e/e1/Oboj.jpg
 sound_class: 氣鳴

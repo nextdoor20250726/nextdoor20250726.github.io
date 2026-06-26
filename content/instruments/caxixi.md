@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/caxixi/
 title: 卡西西搖響器
 original_name: Caxixi
 category: 打擊樂器
-country: 全球
+country: 非洲／美洲／巴西
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Caxixi.jpg/500px-Caxixi.jpg
 sound_class: 體鳴

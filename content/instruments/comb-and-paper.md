@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/comb-and-paper/
 title: 紙梳
 original_name: Comb and paper
 category: 打擊樂器
-country: 全球
+country: 全球／多地
 era: 傳統／年代待考
 region_type: 跨文化／多地
 soundscape: 簧片裡的鼻音與歌聲（口簧、自由簧、單簧雙簧與風袋聲音）

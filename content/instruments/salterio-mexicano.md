@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/salterio-mexicano/
 title: 墨西哥揚琴
 original_name: Salterio Mexicano
 category: 鍵盤樂器
-country: 全球
+country: 美洲／墨西哥
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/8/89/MexSalterio.jpg
 sound_class: 弦鳴

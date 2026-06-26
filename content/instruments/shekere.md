@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/shekere/
 title: 謝科雷葫蘆鈴
 original_name: Shekere
 category: 打擊樂器
-country: 全球
+country: 非洲
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Shekere.jpg/500px-Shekere.jpg
 sound_class: 體鳴

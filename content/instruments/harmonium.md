@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/harmonium/
 title: 手風琴
 original_name: Harmonium
 category: 鍵盤樂器
-country: 全球
+country: 歐洲／法國
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/e/e8/John_Church_and_Co._reed_organ.jpg
 sound_class: 氣鳴

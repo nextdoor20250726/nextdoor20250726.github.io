@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/splash-cymbal/
 title: 濺鈸
 original_name: Splash cymbal
 category: 打擊樂器
-country: 土耳其／中東地區
+country: 歐洲
 era: 傳統／年代待考
 region_type: 地區／文化圈
 soundscape: 手邊發光的小宇宙（近身體鳴、舌片琴與手奏金屬共鳴）

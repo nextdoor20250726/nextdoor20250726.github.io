@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/washboard-musical-ins
 title: 米蘭達·蘭伯特
 original_name: Washboard (musical instrument)
 category: 打擊樂器
-country: 拉丁美洲／非洲／歐洲／亞洲／全球
+country: 美洲／北美
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/2/27/WashboardPiano.JPG
 sound_class: 體鳴

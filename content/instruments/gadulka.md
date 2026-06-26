@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/gadulka/
 title: 保加利亞弓琴
 original_name: Gadulka
 category: 弦樂器
-country: 全球
+country: 歐洲／保加利亞
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Toulouse_musician.jpg/500px-Toulouse_musician.jpg
 sound_class: 弦鳴

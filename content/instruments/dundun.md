@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/dundun/
 title: 敦敦鼓
 original_name: Dundun
 category: 打擊樂器
-country: 全球
+country: 非洲／西非
 era: 傳統／年代待考
 sound_class: 膜鳴
 range: 低頻範圍（約1-2個8度）

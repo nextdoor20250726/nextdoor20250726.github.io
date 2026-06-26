@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/bones/
 title: 骨頭響板
 original_name: Bones
 category: 打擊樂器
-country: 全球
+country: 非洲／美洲
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Left_femur_of_extinct_elephant%2C_Alaska%2C_Ice_Age_Wellcome_L0057714.jpg/500px-Left_femur_of_extinct_elephant%2C_Alaska%2C_Ice_Age_Wellcome_L0057714.jpg
 sound_class: 體鳴

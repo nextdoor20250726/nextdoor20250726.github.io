@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/kettle-drum/
 title: 鍋鼓
 original_name: Kettle drum
 category: 打擊樂器
-country: 非洲／中東／亞洲／歐洲／美洲
+country: 中東／歐洲
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Nagara%2C_a_percussion_instrument%2C_Rajasthan.jpg/500px-Nagara%2C_a_percussion_instrument%2C_Rajasthan.jpg
 sound_class: 膜鳴

@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/sound-board-music/
 title: 音板
 original_name: Sound board (music)
 category: 弦樂器
-country: 全球
+country: 歐洲
 era: 傳統／年代待考
 region_type: 跨文化／多地
 soundscape: 平放在大地上的弦（齊特琴、箏類、擊弦與鍵盤化弦鳴）

@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/vibraslap/
 title: 振音拍
 original_name: Vibraslap
 category: 打擊樂器
-country: 拉丁美洲／非洲／歐洲／亞洲／全球
+country: 美洲／北美
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/en/3/37/Vibraslap.JPG
 sound_class: 體鳴

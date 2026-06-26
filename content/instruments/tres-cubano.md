@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/tres-cubano/
 title: 特雷斯吉他
 original_name: Tres Cubano
 category: 弦樂器
-country: 全球
+country: 美洲／古巴
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Tres_cubano.jpg/500px-Tres_cubano.jpg
 sound_class: 弦鳴

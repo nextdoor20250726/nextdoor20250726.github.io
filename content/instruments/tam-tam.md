@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/tam-tam/
 title: 大鑼
 original_name: Tam-tam
 category: 打擊樂器
-country: 全球
+country: 亞洲／東亞
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/COLLECTIE_TROPENMUSEUM_Gong_hangend_in_een_standaard_onderdeel_van_gamelan_Semar_Pagulingan_TMnr_1340-13.jpg/500px-COLLECTIE_TROPENMUSEUM_Gong_hangend_in_een_standaard_onderdeel_van_gamelan_Semar_Pagulingan_TMnr_1340-13.jpg
 sound_class: 體鳴

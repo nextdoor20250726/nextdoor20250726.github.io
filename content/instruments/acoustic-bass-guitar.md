@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/acoustic-bass-guitar/
 title: 原聲低音吉他
 original_name: Acoustic bass guitar
 category: 弦樂器
-country: 全球
+country: 美洲／北美
 era: 傳統／年代待考
 region_type: 跨文化／多地
 soundscape: 旅人手中的撥弦故事（魯特琴、短頸長頸撥弦與民謠弦聲）

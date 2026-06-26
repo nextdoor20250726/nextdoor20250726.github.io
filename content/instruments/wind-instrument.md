@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/wind-instrument/
 title: 管樂器
 original_name: Wind instrument
 category: 管樂器
-country: 全球
+country: 全球／多地
 era: 傳統／年代待考
 region_type: 跨文化／多地
 soundscape: 吹向遠方的號角（天然號、宗教號角、山谷長號與銅管）

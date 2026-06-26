@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/daf/
 title: 達夫框鼓
 original_name: Daf
 category: 打擊樂器
-country: 全球
+country: 中東
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Pair_of_dafs.jpg/500px-Pair_of_dafs.jpg
 sound_class: 膜鳴

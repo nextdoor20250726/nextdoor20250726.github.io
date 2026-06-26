@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/timpani/
 title: 定音鼓
 original_name: Timpani
 category: 打擊樂器
-country: 全球
+country: 中東／歐洲
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/0/02/USAFE_Band_timpanist.jpg
 sound_class: 膜鳴

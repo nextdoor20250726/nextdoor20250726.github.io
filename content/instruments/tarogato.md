@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/tarogato/
 title: 塔羅蓋託管
 original_name: Tarogato
 category: 管樂器
-country: 中東／西亞／北非
+country: 歐洲／匈牙利
 era: 傳統／年代待考
 region_type: 跨文化／多地
 soundscape: 簧片裡的鼻音與歌聲（口簧、自由簧、單簧雙簧與風袋聲音）

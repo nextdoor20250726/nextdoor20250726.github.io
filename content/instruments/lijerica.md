@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/lijerica/
 title: 克羅埃西亞弓琴
 original_name: Lijerica
 category: 弦樂器
-country: 全球
+country: 歐洲／克羅埃西亞
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Lirica_Dalmacija_EMZ_300109.jpg/500px-Lirica_Dalmacija_EMZ_300109.jpg
 sound_class: 弦鳴

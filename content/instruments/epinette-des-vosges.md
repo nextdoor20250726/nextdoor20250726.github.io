@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/epinette-des-vosges/
 title: 沃日山區撥絃琴
 original_name: Epinette des Vosges
 category: 鍵盤樂器
-country: 全球
+country: 歐洲／法國
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Epinette.PNG/500px-Epinette.PNG
 sound_class: 弦鳴

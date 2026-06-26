@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/steel-drum/
 title: 鋼鼓
 original_name: Steel drum
 category: 打擊樂器
-country: 千里達及托巴哥
+country: 美洲／加勒比
 era: 傳統／年代待考
 region_type: 單一地區／文化圈
 soundscape: 木石金屬的回聲城市（木琴、石琴、編鐘、鑼群與甘美朗）

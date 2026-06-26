@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/shruti-box/
 title: 施魯蒂箱
 original_name: Shruti Box
 category: 管樂器
-country: 全球
+country: 亞洲／南亞（印度）
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/e/e1/Shruti_box_top_quality.jpg
 sound_class: 氣鳴

@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/enharmonic/
 title: Enharmonic（暫譯）
 original_name: Enharmonic
 category: 弦樂器
-country: 全球
+country: 歐洲／希臘
 era: 傳統／年代待考
 region_type: 跨文化／多地
 youtube_ids: jPoJb2Af9NI IGsgdLcOpzM

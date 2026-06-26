@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/udu/
 title: 巫毒鼓
 original_name: Udu
 category: 打擊樂器
-country: 非洲／中東／亞洲／歐洲／美洲
+country: 非洲／西非（奈及利亞）
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/c/c0/Udu.jpg
 sound_class: 膜鳴

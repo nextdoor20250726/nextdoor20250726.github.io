@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/veena/
 title: 維納琴
 original_name: Veena
 category: 弦樂器
-country: 印度／南亞
+country: 亞洲／南亞（印度）
 era: 傳統／年代待考
 region_type: 地區／文化圈
 soundscape: 旅人手中的撥弦故事（魯特琴、短頸長頸撥弦與民謠弦聲）

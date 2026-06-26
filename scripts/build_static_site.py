@@ -71,6 +71,30 @@ def get_region_coords(country_str):
     return None
 
 
+def get_all_region_coords(country_str):
+    """Return ALL matching coordinates for multi-region country strings."""
+    if not country_str:
+        return []
+    parts = [p.strip() for p in country_str.replace("／", "/").split("/")]
+    found = []
+    seen = set()
+    for part in parts:
+        if part in COUNTRY_COORDS:
+            coord = COUNTRY_COORDS[part]
+            key = (round(coord[0], 1), round(coord[1], 1))
+            if key not in seen:
+                seen.add(key)
+                found.append(coord)
+    for part in parts:
+        for key, coord in COUNTRY_COORDS.items():
+            if part in key or key in part:
+                ckey = (round(coord[0], 1), round(coord[1], 1))
+                if ckey not in seen:
+                    seen.add(ckey)
+                    found.append(coord)
+    return found
+
+
 def normalize_base_path(value):
     if not value or value == "/":
         return ""
@@ -154,46 +178,40 @@ def slugify(value):
 
 
 def build_map_data(instruments):
-    """Return features with lat, lng, name, count, url, samples."""
+    """Return features with lat, lng, name, count, url, samples.
+    Multi-region instruments (e.g. '亞洲／歐洲') are counted in ALL matching regions."""
     from collections import defaultdict
-    country_groups = defaultdict(list)
+    coord_counts = defaultdict(int)
+    coord_samples = defaultdict(list)
+    coord_country_names = defaultdict(set)
+
     for item in instruments:
         country = item.get("country", "")
         if not country or country in GLOBAL_KEYWORDS:
             continue
         if any(country.startswith(gk) for gk in GLOBAL_KEYWORDS):
             continue
-        coords = get_region_coords(country)
-        if not coords:
+        all_coords = get_all_region_coords(country)
+        if not all_coords:
             continue
-        country_groups[country].append(item)
-
-    # Coalesce countries that map to the same coordinate into one marker
-    coord_groups = defaultdict(list)
-    for country, items in country_groups.items():
-        coords = get_region_coords(country)
-        key = (round(coords[0], 1), round(coords[1], 1))
-        coord_groups[key].append((country, items))
+        for coords in all_coords:
+            key = (round(coords[0], 1), round(coords[1], 1))
+            coord_counts[key] += 1
+            if len(coord_samples[key]) < 5:
+                coord_samples[key].append(item["title"])
+            coord_country_names[key].add(country)
 
     features = []
-    for (lat, lng), entries in sorted(coord_groups.items(), key=lambda x: -sum(len(v) for _, v in x[1])):
-        total_count = sum(len(v) for _, v in entries)
-        # Use the most populous country as the primary name
-        primary = max(entries, key=lambda e: len(e[1]))[0]
-        urls = [f"/countries/{slugify(c)}/" for c, _ in entries]
-        all_samples = []
-        for _, items in entries:
-            for item in items:
-                if len(all_samples) < 5:
-                    all_samples.append(item["title"])
+    for (lat, lng), count in sorted(coord_counts.items(), key=lambda x: -x[1]):
+        countries_list = sorted(coord_country_names.get((lat, lng), []))
+        primary = max(countries_list, key=len) if countries_list else "未知地區"
         features.append({
             "lat": lat,
             "lng": lng,
             "name": primary,
-            "count": total_count,
+            "count": count,
             "url": f"/countries/{slugify(primary)}/",
-            "urls": urls,
-            "samples": all_samples,
+            "samples": coord_samples.get((lat, lng), [])[:5],
         })
     return features
 

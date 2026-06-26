@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/siku/
 title: 西庫排笛
 original_name: Siku
 category: 管樂器
-country: 全球
+country: 美洲／南美（安地斯）
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/POL_COA_Trzaska.svg/500px-POL_COA_Trzaska.svg.png
 sound_class: 氣鳴

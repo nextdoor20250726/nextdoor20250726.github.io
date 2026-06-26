@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/pan-flute/
 title: 排簫
 original_name: Pan Flute
 category: 管樂器
-country: 全球
+country: 美洲／南美
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Flute_de_pan_MHNT_ETH_AC_NH_31_Sav%C3%A8s.jpg/500px-Flute_de_pan_MHNT_ETH_AC_NH_31_Sav%C3%A8s.jpg
 sound_class: 氣鳴

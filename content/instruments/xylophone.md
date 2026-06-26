@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/xylophone/
 title: 木琴
 original_name: Xylophone
 category: 打擊樂器
-country: 全球
+country: 亞洲／東南亞／非洲
 era: 9 世紀
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Xylophone.jpg/500px-Xylophone.jpg
 sound_class: 體鳴

@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/timbales/
 title: 蒂姆巴雷斯鼓
 original_name: Timbales
 category: 打擊樂器
-country: 全球
+country: 美洲／古巴
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Timbalesy_HLTBR-1011_firmy_Hayman.jpg/500px-Timbalesy_HLTBR-1011_firmy_Hayman.jpg
 sound_class: 膜鳴

@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/bongo/
 title: 邦戈鼓
 original_name: Bongo
 category: 打擊樂器
-country: 全球
+country: 非洲／美洲／古巴
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Bongos_Meinl_HB100-NT.jpg/500px-Bongos_Meinl_HB100-NT.jpg
 sound_class: 膜鳴

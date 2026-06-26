@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/electric-organ/
 title: 電子琴
 original_name: Electric Organ
 category: 鍵盤樂器
-country: 歐洲／美國／全球現代錄音室
+country: 歐洲／希臘
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Yamaha_GX-1_%28clip%29_%40_Yamaha_Design_Masterworks.png/500px-Yamaha_GX-1_%28clip%29_%40_Yamaha_Design_Masterworks.png
 sound_class: 鍵盤／電鳴／機械混合

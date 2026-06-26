@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/trumpet/
 title: 小號
 original_name: Trumpet
 category: 管樂器
-country: 全球
+country: 全球／多地
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Yamaha_Trumpet_YTR-8335LA_crop.jpg/500px-Yamaha_Trumpet_YTR-8335LA_crop.jpg
 sound_class: 氣鳴

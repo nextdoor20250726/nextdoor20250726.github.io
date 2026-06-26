@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/viola/
 title: 中提琴
 original_name: Viola
 category: 弦樂器
-country: 亞洲／歐洲／中東／全球
+country: 歐洲／義大利
 era: 18 世紀
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Bratsche.jpg/500px-Bratsche.jpg
 sound_class: 弦鳴

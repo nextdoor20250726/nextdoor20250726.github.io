@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/nagara/
 title: 納加拉鼓
 original_name: Nagara
 category: 打擊樂器
-country: 全球
+country: 中東
 era: 傳統／年代待考
 sound_class: 膜鳴
 range: 約2個8度（音域偏高）

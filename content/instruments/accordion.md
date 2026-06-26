@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/accordion/
 title: 手風琴
 original_name: Accordion
 category: 鍵盤樂器
-country: 全球
+country: 歐洲／德國／奧地利
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/MeguRee%2C_The_Duo_of_Piano_Accordion_%26_Chromatic_Button_Accordion_at_Musical_Instruments_Fair_Japan_2018-10-20_%E3%83%94%E3%82%A2%E3%83%8E%E3%83%BB%E3%82%A2%E3%82%B3%E3%83%BC%E3%83%87%E3%82%A3%E3%82%AA%E3%83%B3_%E3%82%AF%E3%83%AD%E3%83%9E%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%83%BB%E3%82%A2%E3%82%B3%E3%83%BC%E3%83%87%E3%82%A3%E3%82%AA%E3%83%B3.jpg/500px-thumbnail.jpg
 sound_class: 氣鳴

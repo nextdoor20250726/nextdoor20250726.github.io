@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/cello/
 title: 大提琴
 original_name: Cello
 category: 弦樂器
-country: 亞洲／歐洲／中東／全球
+country: 歐洲／義大利
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/8/8c/Cello_front_side.jpg
 sound_class: 弦鳴

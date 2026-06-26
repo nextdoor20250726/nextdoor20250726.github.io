@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/goblet-drum/
 title: 高腳鼓
 original_name: Goblet drum
 category: 打擊樂器
-country: 非洲
+country: 中東／非洲／北非
 era: 傳統／年代待考
 region_type: 單一地區／文化圈
 soundscape: 手掌、皮膜與舞步（手鼓、框鼓、杯鼓、語言鼓與鼓組）

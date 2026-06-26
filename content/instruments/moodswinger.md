@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/moodswinger/
 title: 噪音搖滾
 original_name: Moodswinger
 category: 弦樂器
-country: 美國
+country: 歐洲／荷蘭
 era: 傳統／年代待考
 region_type: 單一地區／文化圈
 soundscape: 平放在大地上的弦（齊特琴、箏類、擊弦與鍵盤化弦鳴）

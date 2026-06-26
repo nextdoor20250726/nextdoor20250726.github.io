@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/gong/
 title: 鑼
 original_name: Gong
 category: 打擊樂器
-country: 全球
+country: 亞洲／東亞（中國）
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/%E6%A1%83%E5%9C%92%E6%85%88%E8%AD%B7%E5%AE%AE%E5%A4%A7%E9%91%BC.jpg/500px-%E6%A1%83%E5%9C%92%E6%85%88%E8%AD%B7%E5%AE%AE%E5%A4%A7%E9%91%BC.jpg
 sound_class: 體鳴

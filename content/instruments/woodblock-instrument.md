@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/woodblock-instrument/
 title: 木魚
 original_name: Woodblock (instrument)
 category: 打擊樂器
-country: 全球
+country: 亞洲／東亞
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Dos_bloques.JPG/500px-Dos_bloques.JPG
 sound_class: 體鳴

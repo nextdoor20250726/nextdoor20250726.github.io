@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/sousaphone/
 title: 低音大號
 original_name: Sousaphone
 category: 管樂器
-country: 全球
+country: 美洲／北美
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Yamaha_Sousaphone_YSH-411.jpg/500px-Yamaha_Sousaphone_YSH-411.jpg
 sound_class: 氣鳴

@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/harmonic-series-music
 title: 泛音列
 original_name: Harmonic series (music)
 category: 弦樂器
-country: 義大利
+country: 歐洲／希臘
 era: 傳統／年代待考
 region_type: 單一地區／文化圈
 soundscape: 木石金屬的回聲城市（木琴、石琴、編鐘、鑼群與甘美朗）

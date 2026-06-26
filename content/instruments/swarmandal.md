@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/swarmandal/
 title: 比伯軍曹寂寞芳心俱樂部
 original_name: Swarmandal
 category: 鍵盤樂器
-country: 全球
+country: 亞洲／南亞（印度）
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Jasraj_001.jpg/500px-Jasraj_001.jpg
 sound_class: 弦鳴

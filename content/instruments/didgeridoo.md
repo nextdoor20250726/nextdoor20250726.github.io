@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/didgeridoo/
 title: 迪吉里杜管
 original_name: Didgeridoo
 category: 管樂器
-country: 全球
+country: 大洋洲／澳洲
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Australiandidgeridoos.jpg/500px-Australiandidgeridoos.jpg
 sound_class: 氣鳴

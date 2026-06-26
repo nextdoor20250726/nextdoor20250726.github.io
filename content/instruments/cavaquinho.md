@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/cavaquinho/
 title: 卡瓦基紐琴
 original_name: Cavaquinho
 category: 弦樂器
-country: 全球
+country: 歐洲／葡萄牙／美洲／巴西
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Vea.cavaquinho.png/500px-Vea.cavaquinho.png
 sound_class: 弦鳴

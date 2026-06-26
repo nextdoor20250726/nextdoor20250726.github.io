@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/sampler/
 title: 取樣器
 original_name: Sampler
 category: 鍵盤樂器
-country: 全球
+country: 美洲／北美
 era: 傳統／年代待考
 sound_class: 鍵盤／電鳴／機械混合
 range: 全音域（理論上涵蓋整個可聽頻率範圍）

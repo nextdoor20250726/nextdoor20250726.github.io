@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/welsh-triple-harp/
 title: 父輩的土地
 original_name: Welsh Triple Harp
 category: 弦樂器
-country: 全球
+country: 歐洲／英國（威爾斯）
 era: 傳統／年代待考
 sound_class: 弦鳴
 range: 約3個八度

@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/hi-hat-cymbal/
 title: 踩鈸
 original_name: Hi-hat cymbal
 category: 打擊樂器
-country: 美國
+country: 美洲／北美
 era: 傳統／年代待考
 region_type: 單一地區／文化圈
 soundscape: 手邊發光的小宇宙（近身體鳴、舌片琴與手奏金屬共鳴）

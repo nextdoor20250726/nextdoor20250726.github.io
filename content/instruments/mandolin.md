@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/mandolin/
 title: 曼陀林
 original_name: Mandolin
 category: 弦樂器
-country: 中東／歐亞／東亞／美洲／全球
+country: 歐洲／義大利
 era: 文藝復興
 image: https://upload.wikimedia.org/wikipedia/commons/1/1b/Gibson-mandolin-orchestra.jpg
 sound_class: 弦鳴

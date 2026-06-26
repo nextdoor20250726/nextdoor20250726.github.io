@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/spoons/
 title: 湯匙樂器
 original_name: Spoons
 category: 打擊樂器
-country: 全球
+country: 歐洲
 era: 傳統／年代待考
 sound_class: 體鳴
 range: 約1個8度

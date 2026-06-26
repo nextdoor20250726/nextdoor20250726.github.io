@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/wurlitzer/
 title: 武利澤電鋼琴
 original_name: Wurlitzer
 category: 鍵盤樂器
-country: 全球
+country: 美洲／北美
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Rudolph_Wurlitzer_label.jpg/500px-Rudolph_Wurlitzer_label.jpg
 sound_class: 鍵盤／電鳴／機械混合

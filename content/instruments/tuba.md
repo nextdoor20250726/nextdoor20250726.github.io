@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/tuba/
 title: 大號
 original_name: Tuba
 category: 管樂器
-country: 全球
+country: 歐洲／德國
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Yamaha_Bass_tuba_YFB-822.tif/lossy-page1-500px-Yamaha_Bass_tuba_YFB-822.tif.jpg
 sound_class: 氣鳴

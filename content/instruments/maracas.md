@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/maracas/
 title: 沙鈴
 original_name: Maracas
 category: 打擊樂器
-country: 全球
+country: 美洲
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Colorful_Maracas.JPG/500px-Colorful_Maracas.JPG
 sound_class: 體鳴

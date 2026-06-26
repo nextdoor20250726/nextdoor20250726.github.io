@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/superball/
 title: 超級彈力球
 original_name: Superball
 category: 打擊樂器
-country: 美國
+country: 美洲／北美
 era: 傳統／年代待考
 region_type: 單一地區／文化圈
 soundscape: 手裡搖動的節奏星塵（沙鈴、刮器、鈴串與身體小打擊）

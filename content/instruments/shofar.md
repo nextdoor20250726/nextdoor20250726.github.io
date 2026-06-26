@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/shofar/
 title: 羊角號
 original_name: Shofar
 category: 管樂器
-country: 全球
+country: 中東
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Shofar-16-Zachi-Evenor.jpg/500px-Shofar-16-Zachi-Evenor.jpg
 sound_class: 氣鳴

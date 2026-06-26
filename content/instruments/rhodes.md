@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/rhodes/
 title: 羅茲電鋼琴
 original_name: Rhodes
 category: 鍵盤樂器
-country: 全球
+country: 美洲／北美
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Rhodes_sentinel2_%28cropped%29.jpg/500px-Rhodes_sentinel2_%28cropped%29.jpg
 sound_class: 鍵盤／電鳴／機械混合

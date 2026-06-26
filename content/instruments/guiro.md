@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/guiro/
 title: 刮瓜
 original_name: Güiro
 category: 打擊樂器
-country: 全球
+country: 非洲／美洲
 era: 古代
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/180_Museu_de_la_M%C3%BAsica%2C_el_Bosc.jpg/500px-180_Museu_de_la_M%C3%BAsica%2C_el_Bosc.jpg
 sound_class: 體鳴

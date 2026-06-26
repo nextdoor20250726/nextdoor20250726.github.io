@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/ondes-martenot/
 title: 馬特諾電子波琴
 original_name: Ondes Martenot
 category: 鍵盤樂器
-country: 全球
+country: 歐洲／法國
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Ondes_martenot.jpg/500px-Ondes_martenot.jpg
 sound_class: 鍵盤／電鳴／機械混合

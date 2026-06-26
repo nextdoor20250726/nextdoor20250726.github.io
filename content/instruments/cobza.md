@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/cobza/
 title: 科布扎魯特琴
 original_name: Cobza
 category: 弦樂器
-country: 全球
+country: 歐洲／羅馬尼亞
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Kobza_001.jpg/500px-Kobza_001.jpg
 sound_class: 弦鳴

@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/naqareh/
 title: 納卡雷鼓
 original_name: Naqareh
 category: 打擊樂器
-country: 全球
+country: 中東
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/1/1f/Iraqi_Naqqarat.jpg
 sound_class: 膜鳴

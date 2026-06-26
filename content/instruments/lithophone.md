@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/lithophone/
 title: 石琴
 original_name: Lithophone
 category: 打擊樂器
-country: 全球
+country: 全球／多地
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/2/23/Organ_and_Chimes_-_Caverns_of_Luray_Va_1906_postcard.png
 sound_class: 體鳴

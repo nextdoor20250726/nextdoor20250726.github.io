@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/drum/
 title: 鼓
 original_name: Drum
 category: 打擊樂器
-country: 非洲
+country: 全球／多地
 era: 古代
 region_type: 單一地區／文化圈
 soundscape: 手掌、皮膜與舞步（手鼓、框鼓、杯鼓、語言鼓與鼓組）

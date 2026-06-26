@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/extended-range-classi
 title: 擴充套件音域古典吉他
 original_name: Extended-range classical guitar
 category: 弦樂器
-country: 全球
+country: 歐洲／西班牙
 era: 傳統／年代待考
 region_type: 跨文化／多地
 soundscape: 旅人手中的撥弦故事（魯特琴、短頸長頸撥弦與民謠弦聲）

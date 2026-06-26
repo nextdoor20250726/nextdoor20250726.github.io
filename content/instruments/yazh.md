@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/yazh/
 title: 亞茲琴
 original_name: Yazh
 category: 弦樂器
-country: 全球
+country: 亞洲／南亞（印度）
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/2024-03-22_Burmis_Swam%2C_Villadi_Yaaz%2C_Villadi_Naadmandal_in_Raja_Dinkar_Kelkar_Museum%2C_Pune.jpg/500px-2024-03-22_Burmis_Swam%2C_Villadi_Yaaz%2C_Villadi_Naadmandal_in_Raja_Dinkar_Kelkar_Museum%2C_Pune.jpg
 sound_class: 弦鳴

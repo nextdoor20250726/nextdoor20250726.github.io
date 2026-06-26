@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/flexatone/
 title: 彈音器
 original_name: Flexatone
 category: 打擊樂器
-country: 全球
+country: 歐洲／法國
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flexatone_2005.jpg/500px-Flexatone_2005.jpg
 sound_class: 體鳴

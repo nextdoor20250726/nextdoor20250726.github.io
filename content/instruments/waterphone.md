@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/waterphone/
 title: 水琴
 original_name: Waterphone
 category: 打擊樂器
-country: 東南亞／東亞／非洲／歐洲／全球
+country: 美洲／北美
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Thomas_Bloch_-_F%C3%A9n%C3%A9trange_-_19-09-2009_-_Waterphone.jpg/500px-Thomas_Bloch_-_F%C3%A9n%C3%A9trange_-_19-09-2009_-_Waterphone.jpg
 sound_class: 體鳴

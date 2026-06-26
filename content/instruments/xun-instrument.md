@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/xun-instrument/
 title: 塤
 original_name: Xun (instrument)
 category: 管樂器
-country: 全球
+country: 亞洲／東亞（中國）
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Xunfront.jpg/500px-Xunfront.jpg
 sound_class: 氣鳴

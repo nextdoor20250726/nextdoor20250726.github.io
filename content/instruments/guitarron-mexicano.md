@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/guitarron-mexicano/
 title: 墨西哥大吉他
 original_name: Guitarrón mexicano
 category: 弦樂器
-country: 全球
+country: 美洲／墨西哥
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Guitarron2.jpg/500px-Guitarron2.jpg
 sound_class: 弦鳴

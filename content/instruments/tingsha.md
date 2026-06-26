@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/tingsha/
 title: 銅鈴
 original_name: Tingsha
 category: 打擊樂器
-country: 全球
+country: 亞洲／西藏
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/a/a3/Tingsha1.jpg
 sound_class: 體鳴

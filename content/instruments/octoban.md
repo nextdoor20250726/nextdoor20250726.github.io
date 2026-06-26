@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/octoban/
 title: 八音桶鼓
 original_name: Octoban
 category: 打擊樂器
-country: 全球
+country: 亞洲／東亞（日本）
 era: 傳統／年代待考
 region_type: 跨文化／多地
 soundscape: 手掌、皮膜與舞步（手鼓、框鼓、杯鼓、語言鼓與鼓組）

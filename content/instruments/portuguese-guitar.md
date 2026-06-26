@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/portuguese-guitar/
 title: 葡萄牙吉他
 original_name: Portuguese guitar
 category: 弦樂器
-country: 全球
+country: 歐洲／葡萄牙
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/2_Portuguese_guitars.jpg/500px-2_Portuguese_guitars.jpg
 sound_class: 弦鳴

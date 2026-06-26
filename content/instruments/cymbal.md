@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/cymbal/
 title: 銅鈸
 original_name: Cymbal
 category: 打擊樂器
-country: 中東／地中海地區
+country: 亞洲／中東／歐洲
 era: 傳統／年代待考
 region_type: 地區／文化圈
 soundscape: 手邊發光的小宇宙（近身體鳴、舌片琴與手奏金屬共鳴）

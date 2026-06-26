@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/drum-machine/
 title: 鼓機
 original_name: Drum Machine
 category: 鍵盤樂器
-country: 全球
+country: 美洲／北美
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Elektron_Analog_RYTM_-_2014_NAMM_Show.jpg/500px-Elektron_Analog_RYTM_-_2014_NAMM_Show.jpg
 sound_class: 鍵盤／電鳴／機械混合

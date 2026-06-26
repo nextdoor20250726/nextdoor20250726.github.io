@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/bulbul-tarang/
 title: 夜鶯琴
 original_name: Bulbul tarang
 category: 鍵盤樂器
-country: 全球
+country: 亞洲／南亞（印度）
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/THE_KAMLESH_Bulbul_Tarang_TKB-29.jpg/500px-THE_KAMLESH_Bulbul_Tarang_TKB-29.jpg
 sound_class: 弦鳴

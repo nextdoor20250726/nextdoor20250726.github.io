@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/nose-flute/
 title: 鼻笛
 original_name: Nose Flute
 category: 管樂器
-country: 全球
+country: 大洋洲
 era: 傳統／年代待考
 sound_class: 氣鳴
 range: 約1至2個八度

@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/melodica/
 title: 口風琴
 original_name: Melodica
 category: 鍵盤樂器
-country: 全球
+country: 歐洲
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Melodica.jpg/500px-Melodica.jpg
 sound_class: 氣鳴

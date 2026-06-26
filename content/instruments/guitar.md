@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/guitar/
 title: 吉他
 original_name: Guitar
 category: 弦樂器
-country: 西班牙／地中海地區
+country: 歐洲／西班牙
 era: 傳統／年代待考
 region_type: 地區／文化圈
 soundscape: 旅人手中的撥弦故事（魯特琴、短頸長頸撥弦與民謠弦聲）

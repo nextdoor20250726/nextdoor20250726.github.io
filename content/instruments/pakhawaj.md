@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/pakhawaj/
 title: 帕卡瓦吉鼓
 original_name: Pakhawaj
 category: 打擊樂器
-country: 全球
+country: 亞洲／南亞（印度）
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Pakhavaj_Mrudang_Rathaava_Community_Gujrat.jpg/500px-Pakhavaj_Mrudang_Rathaava_Community_Gujrat.jpg
 sound_class: 膜鳴

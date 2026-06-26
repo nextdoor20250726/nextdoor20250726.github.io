@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/pochette/
 title: 袋形小提琴
 original_name: Pochette
 category: 弦樂器
-country: 全球
+country: 歐洲／法國
 era: 傳統／年代待考
 sound_class: 弦鳴
 range: 約2個8度（G3–E6）

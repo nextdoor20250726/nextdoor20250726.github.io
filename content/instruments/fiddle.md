@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/fiddle/
 title: 民俗小提琴
 original_name: Fiddle
 category: 弦樂器
-country: 全球
+country: 歐洲
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Morris_fiddler_-_Festivals_of_Winds%2C_2012.jpg/500px-Morris_fiddler_-_Festivals_of_Winds%2C_2012.jpg
 sound_class: 弦鳴

@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/clarinet/
 title: 單簧管
 original_name: Clarinet
 category: 管樂器
-country: 歐洲／西方古典與民俗
+country: 歐洲／德國
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/8/85/Range_clarinet.png
 sound_class: 氣鳴

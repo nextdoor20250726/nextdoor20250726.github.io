@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/shime-daiko/
 title: 締太鼓
 original_name: Shime-daiko
 category: 打擊樂器
-country: 日本
+country: 亞洲／東亞（日本）
 era: 中世紀
 region_type: 單一地區／文化圈
 soundscape: 手掌、皮膜與舞步（手鼓、框鼓、杯鼓、語言鼓與鼓組）

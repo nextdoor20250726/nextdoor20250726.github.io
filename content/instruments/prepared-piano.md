@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/prepared-piano/
 title: 準備鋼琴
 original_name: Prepared Piano
 category: 鍵盤樂器
-country: 全球
+country: 美洲／北美
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Prepared_piano_board_Neumann.jpg/500px-Prepared_piano_board_Neumann.jpg
 sound_class: 弦鳴

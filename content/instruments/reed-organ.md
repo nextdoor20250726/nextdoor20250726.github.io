@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/reed-organ/
 title: 簧風琴
 original_name: Reed organ
 category: 鍵盤樂器
-country: 歐洲／美國／全球現代錄音室
+country: 歐洲／美國
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/e/e8/John_Church_and_Co._reed_organ.jpg
 sound_class: 鍵盤／電鳴／機械混合

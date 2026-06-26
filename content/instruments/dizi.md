@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/dizi/
 title: 笛子
 original_name: Dizi
 category: 管樂器
-country: 全球
+country: 亞洲／東亞（中國）
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/e/e0/Dizi%28F%29.jpg
 sound_class: 氣鳴

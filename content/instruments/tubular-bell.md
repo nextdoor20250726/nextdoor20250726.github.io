@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/tubular-bell/
 title: 管鐘
 original_name: Tubular bell
 category: 打擊樂器
-country: 歐洲
+country: 亞洲／東亞
 era: 傳統／年代待考
 region_type: 單一地區／文化圈
 soundscape: 木石金屬的回聲城市（木琴、石琴、編鐘、鑼群與甘美朗）

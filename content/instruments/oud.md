@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/oud/
 title: 烏德琴
 original_name: Oud
 category: 弦樂器
-country: 中東／歐亞／東亞／美洲／全球
+country: 中東
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Oud2.jpg/500px-Oud2.jpg
 sound_class: 弦鳴

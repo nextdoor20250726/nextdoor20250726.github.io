@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/gemshorn/
 title: 寶石角笛
 original_name: Gemshorn
 category: 管樂器
-country: 全球
+country: 歐洲
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Gemshorn_Alt.jpg/500px-Gemshorn_Alt.jpg
 sound_class: 氣鳴

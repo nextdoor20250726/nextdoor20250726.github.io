@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/natural-trumpet/
 title: 自然小號
 original_name: Natural trumpet
 category: 管樂器
-country: 全球
+country: 歐洲
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Natural_Trumpet_in_D_MET_DP-12679-012.jpg/500px-Natural_Trumpet_in_D_MET_DP-12679-012.jpg
 sound_class: 氣鳴

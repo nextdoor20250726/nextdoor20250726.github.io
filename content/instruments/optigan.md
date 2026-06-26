@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/optigan/
 title: 光學風琴
 original_name: Optigan
 category: 鍵盤樂器
-country: 全球
+country: 美洲／北美
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Optigan_keyboard.jpg/500px-Optigan_keyboard.jpg
 sound_class: 鍵盤／電鳴／機械混合

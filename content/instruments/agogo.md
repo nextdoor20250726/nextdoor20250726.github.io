@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/agogo/
 title: 阿果果雙鈴
 original_name: Agogo
 category: 打擊樂器
-country: 全球
+country: 非洲／西非（奈及利亞）／巴西
 era: 傳統／年代待考
 sound_class: 體鳴
 range: 約小三度至大三度音程

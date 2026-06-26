@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/xiao/
 title: 簫
 original_name: Xiao
 category: 管樂器
-country: 全球
+country: 亞洲／東亞（中國）
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/%E7%90%B4%E8%95%AD%E8%88%87%E6%B4%9E%E8%95%AD.JPG/500px-%E7%90%B4%E8%95%AD%E8%88%87%E6%B4%9E%E8%95%AD.JPG
 sound_class: 氣鳴

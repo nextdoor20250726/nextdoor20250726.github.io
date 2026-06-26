@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/tom-tom-drum/
 title: 通通鼓
 original_name: Tom-tom drum
 category: 打擊樂器
-country: 印度／南亞
+country: 美洲／北美
 era: 傳統／年代待考
 region_type: 地區／文化圈
 soundscape: 手掌、皮膜與舞步（手鼓、框鼓、杯鼓、語言鼓與鼓組）

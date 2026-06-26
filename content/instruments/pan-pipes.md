@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/pan-pipes/
 title: 排簫
 original_name: Pan pipes
 category: 管樂器
-country: 全球
+country: 美洲／南美
 era: 傳統／年代待考
 region_type: 跨文化／多地
 soundscape: 一口氣走過山谷（竹管、陶管、長音與世界笛聲）

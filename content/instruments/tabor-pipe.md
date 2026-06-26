@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/tabor-pipe/
 title: 笛
 original_name: Tabor Pipe
 category: 管樂器
-country: 全球
+country: 歐洲
 era: 傳統／年代待考
 sound_class: 氣鳴
 range: 約2個8度（中高音區為主）

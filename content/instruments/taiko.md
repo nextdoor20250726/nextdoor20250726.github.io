@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/taiko/
 title: 和太鼓
 original_name: Taiko
 category: 打擊樂器
-country: 全球
+country: 亞洲／東亞（日本）
 era: 6 世紀
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Taiko_drum.jpg/500px-Taiko_drum.jpg
 sound_class: 膜鳴

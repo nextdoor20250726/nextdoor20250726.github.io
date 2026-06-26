@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/electric-violin/
 title: 電小提琴
 original_name: Electric Violin
 category: 弦樂器
-country: 全球
+country: 美洲／北美
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Electric_Violin_and_Electromagnetic_Pick_by_Leo_Fender_%281957%29.jpg/500px-Electric_Violin_and_Electromagnetic_Pick_by_Leo_Fender_%281957%29.jpg
 sound_class: 弦鳴

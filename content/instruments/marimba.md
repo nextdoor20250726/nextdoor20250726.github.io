@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/marimba/
 title: 馬林巴
 original_name: Marimba
 category: 打擊樂器
-country: 全球
+country: 非洲／美洲
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Marimba_One_4000_Series.jpg/500px-Marimba_One_4000_Series.jpg
 sound_class: 體鳴

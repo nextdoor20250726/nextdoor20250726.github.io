@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/crotales/
 title: 古鈸
 original_name: Crotales
 category: 打擊樂器
-country: 歐洲／全球
+country: 歐洲
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Crotales_-_Paiste_brand.jpg/500px-Crotales_-_Paiste_brand.jpg
 sound_class: 體鳴

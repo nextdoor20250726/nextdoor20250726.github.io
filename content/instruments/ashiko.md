@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/ashiko/
 title: 阿希科錐形鼓
 original_name: Ashiko
 category: 打擊樂器
-country: 全球
+country: 非洲／西非（奈及利亞）
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Ashiko.jpg/500px-Ashiko.jpg
 sound_class: 膜鳴

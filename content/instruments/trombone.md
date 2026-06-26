@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/trombone/
 title: 長號
 original_name: Trombone
 category: 管樂器
-country: 全球
+country: 歐洲
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/6/6d/Posaune.jpg
 sound_class: 氣鳴

@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/classical-guitar/
 title: 古典吉他
 original_name: Classical guitar
 category: 電子樂器
-country: 中東／歐亞／東亞／美洲／全球
+country: 歐洲／西班牙
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Range_guitar.png/500px-Range_guitar.png
 sound_class: 弦鳴

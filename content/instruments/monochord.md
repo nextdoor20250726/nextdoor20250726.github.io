@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/monochord/
 title: 單弦樂器
 original_name: Monochord
 category: 鍵盤樂器
-country: 古希臘／歐洲
+country: 歐洲／希臘
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Monochord_Jeans.svg/500px-Monochord_Jeans.svg.png
 sound_class: 弦鳴

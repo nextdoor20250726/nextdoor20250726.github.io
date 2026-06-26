@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/claves/
 title: 擊木
 original_name: Claves
 category: 打擊樂器
-country: 全球
+country: 非洲／美洲／古巴
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/4/44/Claves.jpg
 sound_class: 體鳴

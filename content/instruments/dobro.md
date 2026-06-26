@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/dobro/
 title: 多布羅吉他
 original_name: Dobro
 category: 弦樂器
-country: 美國
+country: 美洲／北美
 era: 20 世紀
 region_type: 單一地區／文化圈
 soundscape: 旅人手中的撥弦故事（魯特琴、短頸長頸撥弦與民謠弦聲）

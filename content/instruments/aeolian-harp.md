@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/aeolian-harp/
 title: 風鳴琴
 original_name: Aeolian Harp
 category: 弦樂器
-country: 全球
+country: 歐洲／希臘
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/BloomfieldAeolianHarp.JPG/500px-BloomfieldAeolianHarp.JPG
 sound_class: 弦鳴

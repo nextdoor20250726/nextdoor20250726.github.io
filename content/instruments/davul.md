@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/davul/
 title: 達烏爾鼓
 original_name: Davul
 category: 打擊樂器
-country: 全球
+country: 中東／歐洲／巴爾幹
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Mehter_davul.jpg/500px-Mehter_davul.jpg
 sound_class: 膜鳴

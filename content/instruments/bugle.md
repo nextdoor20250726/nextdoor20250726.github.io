@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/bugle/
 title: 軍號
 original_name: Bugle
 category: 管樂器
-country: 全球
+country: 歐洲
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Bugle_in_C_MET_DP-12679-123.jpg/500px-Bugle_in_C_MET_DP-12679-123.jpg
 sound_class: 氣鳴

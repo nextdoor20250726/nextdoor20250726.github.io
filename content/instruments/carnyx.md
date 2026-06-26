@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/carnyx/
 title: 卡爾尼克斯號
 original_name: Carnyx
 category: 管樂器
-country: 全球
+country: 歐洲（凱爾特）
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/CarnyxDeTintignac2.jpg/500px-CarnyxDeTintignac2.jpg
 sound_class: 氣鳴

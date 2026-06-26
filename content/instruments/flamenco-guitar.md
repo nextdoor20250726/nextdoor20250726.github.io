@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/flamenco-guitar/
 title: 佛朗明哥吉他
 original_name: Flamenco guitar
 category: 電子樂器
-country: 中東／歐亞／東亞／美洲／全球
+country: 歐洲／西班牙
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/e/e8/Tapplates1.jpg
 sound_class: 弦鳴

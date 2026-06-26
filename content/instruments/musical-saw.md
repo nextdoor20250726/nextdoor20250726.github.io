@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/musical-saw/
 title: 鋸琴
 original_name: Musical saw
 category: 打擊樂器
-country: 東南亞／東亞／非洲／歐洲／全球
+country: 美洲／北美
 era: 17 世紀
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Musical_saw_2.jpg/500px-Musical_saw_2.jpg
 sound_class: 體鳴

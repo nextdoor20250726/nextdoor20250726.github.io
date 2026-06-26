@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/tambourine/
 title: 鈴鼓
 original_name: Tambourine
 category: 打擊樂器
-country: 全球
+country: 中東／歐洲
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Tambourin_D%C3%A9tail.jpg/500px-Tambourin_D%C3%A9tail.jpg
 sound_class: 膜鳴

@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/lesiba/
 title: Lesiba（暫譯）
 original_name: Lesiba
 category: 弦樂器
-country: 非洲南部（波札那）
+country: 非洲／南非
 era: 傳統／年代待考
 region_type: 單一地區／文化圈
 soundscape: 開放弦的天空與河流（豎琴、里拉、科拉與跨文化開放弦）

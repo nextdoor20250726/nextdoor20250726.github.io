@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/bendir/
 title: 本迪爾框鼓
 original_name: Bendir
 category: 打擊樂器
-country: 全球
+country: 非洲／北非／中東
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Bendir.jpg/500px-Bendir.jpg
 sound_class: 膜鳴

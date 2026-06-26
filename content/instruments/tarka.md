@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/tarka/
 title: 塔爾卡笛
 original_name: Tarka
 category: 管樂器
-country: 全球
+country: 美洲／南美（安地斯）
 era: 傳統／年代待考
 sound_class: 氣鳴
 range: 約2至3個8度

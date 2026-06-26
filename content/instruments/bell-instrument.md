@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/bell-instrument/
 title: 鈴鐺
 original_name: Bell (instrument)
 category: 打擊樂器
-country: 東南亞／東亞／非洲／歐洲／全球
+country: 全球／多地
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Parts_of_a_Bell.svg/500px-Parts_of_a_Bell.svg.png
 sound_class: 體鳴

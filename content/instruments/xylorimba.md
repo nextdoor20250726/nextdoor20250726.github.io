@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/xylorimba/
 title: 木琴馬林巴
 original_name: Xylorimba
 category: 打擊樂器
-country: 非洲／馬林巴文化區域
+country: 非洲
 era: 傳統／年代待考
 region_type: 地區／文化圈
 soundscape: 木石金屬的回聲城市（木琴、石琴、編鐘、鑼群與甘美朗）

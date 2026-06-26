@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/cuica/
 title: 奎卡鼓
 original_name: Cuíca
 category: 打擊樂器
-country: 全球
+country: 美洲／巴西
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/7/79/Cuica.jpg
 sound_class: 膜鳴

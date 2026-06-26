@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/sheng-instrument/
 title: 笙
 original_name: Sheng (instrument)
 category: 管樂器
-country: 亞洲／歐洲／中東／全球
+country: 亞洲／東亞（中國）
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Sheng_MET_DP216617.jpg/500px-Sheng_MET_DP216617.jpg
 sound_class: 氣鳴

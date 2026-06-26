@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/saron/
 title: 薩隆
 original_name: Saron
 category: 打擊樂器
-country: 全球
+country: 亞洲／東南亞（印尼）
 era: 傳統／年代待考
 sound_class: 體鳴
 range: 中高音域（約2個8度）

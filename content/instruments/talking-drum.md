@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/talking-drum/
 title: 會說話的鼓
 original_name: Talking Drum
 category: 打擊樂器
-country: 全球
+country: 非洲／西非
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/TalkingDrum.jpg/500px-TalkingDrum.jpg
 sound_class: 膜鳴

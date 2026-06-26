@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/music-box/
 title: 八音盒
 original_name: Music box
 category: 打擊樂器
-country: 全球
+country: 歐洲／瑞士
 era: 18 世紀
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Caja_musica.jpg/500px-Caja_musica.jpg
 sound_class: 體鳴

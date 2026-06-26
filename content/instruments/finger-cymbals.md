@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/finger-cymbals/
 title: 指鈸
 original_name: Finger Cymbals
 category: 打擊樂器
-country: 全球
+country: 中東
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Finger_cymbals.jpg/500px-Finger_cymbals.jpg
 sound_class: 體鳴

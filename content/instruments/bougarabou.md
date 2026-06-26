@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/bougarabou/
 title: 布加拉布鼓
 original_name: Bougarabou
 category: 打擊樂器
-country: 全球
+country: 非洲／西非
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/e/ec/Bougarabou_der_Firma_www.djembe-shop_com.jpg
 sound_class: 膜鳴

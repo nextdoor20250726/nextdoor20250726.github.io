@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/piano/
 title: 鋼琴
 original_name: Piano
 category: 鍵盤樂器
-country: 全球
+country: 歐洲／義大利
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Two_pianos_-_grand_piano_and_upright_piano.jpg/500px-Two_pianos_-_grand_piano_and_upright_piano.jpg
 sound_class: 弦鳴

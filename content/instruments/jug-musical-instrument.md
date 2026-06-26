@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/jug-musical-instrumen
 title: 陶罐
 original_name: Jug (musical instrument)
 category: 管樂器
-country: 美國南方
+country: 美洲／北美
 era: 傳統／年代待考
 region_type: 單一地區／文化圈
 soundscape: 吹向遠方的號角（天然號、宗教號角、山谷長號與銅管）

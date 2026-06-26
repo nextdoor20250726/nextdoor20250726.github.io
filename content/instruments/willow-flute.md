@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/willow-flute/
 title: 柳木長笛
 original_name: Willow flute
 category: 管樂器
-country: 全球／亞洲／歐洲／美洲／大洋洲
+country: 歐洲
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Willow_whistle.jpg/500px-Willow_whistle.jpg
 sound_class: 氣鳴

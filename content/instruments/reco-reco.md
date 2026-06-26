@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/reco-reco/
 title: 雷科雷科竹刮器
 original_name: Reco-reco
 category: 打擊樂器
-country: 全球
+country: 美洲／巴西
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Reco-reco_metal.JPG/500px-Reco-reco_metal.JPG
 sound_class: 體鳴

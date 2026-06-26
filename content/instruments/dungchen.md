@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/dungchen/
 title: 藏傳長號
 original_name: Dungchen
 category: 管樂器
-country: 全球
+country: 亞洲／西藏
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Tibetian_Wheel.svg/500px-Tibetian_Wheel.svg.png
 sound_class: 氣鳴

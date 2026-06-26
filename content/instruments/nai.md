@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/nai/
 title: 奈依笛
 original_name: Nai
 category: 管樂器
-country: 全球
+country: 歐洲／羅馬尼亞
 era: 傳統／年代待考
 sound_class: 氣鳴
 range: 約2-3個8度

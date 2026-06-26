@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/ney/
 title: 奈伊笛
 original_name: Ney
 category: 管樂器
-country: 全球
+country: 中東
 era: 傳統／年代待考
 sound_class: 氣鳴
 range: 約2個8度

@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/atabaque/
 title: 阿塔巴克鼓
 original_name: Atabaque
 category: 打擊樂器
-country: 全球
+country: 非洲／巴西
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Atabaque_%28confeccionado_por_Pancho_Pi%C3%B1ones%29.JPG/500px-Atabaque_%28confeccionado_por_Pancho_Pi%C3%B1ones%29.JPG
 sound_class: 膜鳴

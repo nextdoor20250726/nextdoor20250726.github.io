@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/frame-zither/
 title: 框式箏
 original_name: Frame zither
 category: 打擊樂器
-country: 非洲／中東
+country: 全球／多地
 era: 傳統／年代待考
 region_type: 地區／文化圈
 soundscape: 開放弦的天空與河流（豎琴、里拉、科拉與跨文化開放弦）

@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/handbells/
 title: 手搖鈴
 original_name: Handbells
 category: 打擊樂器
-country: 全球
+country: 歐洲／英國
 era: 傳統／年代待考
 sound_class: 體鳴
 range: 中高音區（約2至3個8度）

@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/kora-instrument/
 title: 科拉琴
 original_name: Kora (instrument)
 category: 弦樂器
-country: 非洲／歐洲／美洲／亞洲
+country: 非洲／西非
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Kora_DSC_0355.JPG/500px-Kora_DSC_0355.JPG
 sound_class: 弦鳴

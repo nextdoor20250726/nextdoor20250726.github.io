@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/hosho-instrument/
 title: 荷索鼓
 original_name: Hosho (instrument)
 category: 打擊樂器
-country: 全球
+country: 非洲／南非
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Kofi%27s_Hosho_2008.jpg/500px-Kofi%27s_Hosho_2008.jpg
 sound_class: 體鳴

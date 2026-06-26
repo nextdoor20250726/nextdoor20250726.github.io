@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/electrophone/
 title: 電子樂器
 original_name: Electrophone
 category: 打擊樂器
-country: 全球
+country: 歐洲／美洲
 era: 傳統／年代待考
 region_type: 跨文化／多地
 soundscape: 按鍵、機械與現代耳朵（風箱鍵盤、鋼琴、合成器與取樣）

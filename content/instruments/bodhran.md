@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/bodhran/
 title: 愛爾蘭手鼓
 original_name: Bodhrán
 category: 打擊樂器
-country: 全球
+country: 歐洲／愛爾蘭
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/1/1a/Bodhran.jpg
 sound_class: 膜鳴

@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/ocarina/
 title: 陶笛
 original_name: Ocarina
 category: 管樂器
-country: 全球
+country: 全球／多地
 era: 6 世紀
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/2016-01_Ocarina_front.jpg/500px-2016-01_Ocarina_front.jpg
 sound_class: 氣鳴

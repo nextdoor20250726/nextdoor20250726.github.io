@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/harp/
 title: 豎琴
 original_name: Harp
 category: 打擊樂器
-country: 伊朗
+country: 全球／多地
 era: 古代
 region_type: 單一地區／文化圈
 soundscape: 開放弦的天空與河流（豎琴、里拉、科拉與跨文化開放弦）

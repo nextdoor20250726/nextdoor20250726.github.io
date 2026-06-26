@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/glass-harmonica/
 title: 玻璃琴
 original_name: Glass harmonica
 category: 打擊樂器
-country: 全球
+country: 歐洲
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/b/b5/Glassharmonica.png
 sound_class: 體鳴

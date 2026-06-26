@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/cretan-lyra/
 title: 克里特琴
 original_name: Cretan Lyra
 category: 弦樂器
-country: 全球
+country: 歐洲／希臘（克里特島）
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Lyres-creta.jpg/500px-Lyres-creta.jpg
 sound_class: 弦鳴

@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/octobass/
 title: 低音提琴
 original_name: Octobass
 category: 弦樂器
-country: 全球
+country: 歐洲
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Octobass-Paris-2016.png/500px-Octobass-Paris-2016.png
 sound_class: 弦鳴

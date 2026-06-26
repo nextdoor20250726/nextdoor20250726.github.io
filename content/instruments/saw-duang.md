@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/saw-duang/
 title: 鋸雙弦琴
 original_name: Saw Duang
 category: 弦樂器
-country: 全球
+country: 亞洲／東南亞（泰國）
 era: 傳統／年代待考
 sound_class: 弦鳴
 range: 約3個8度

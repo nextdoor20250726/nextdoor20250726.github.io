@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/tubular-bells/
 title: 管鍾
 original_name: Tubular bells
 category: 打擊樂器
-country: 全球
+country: 歐洲
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Tubular-bells.JPG/500px-Tubular-bells.JPG
 sound_class: 體鳴

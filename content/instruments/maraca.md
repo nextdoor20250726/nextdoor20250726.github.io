@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/maraca/
 title: 沙槌
 original_name: Maraca
 category: 打擊樂器
-country: 美國
+country: 非洲／美洲
 era: 古代
 region_type: 單一地區／文化圈
 soundscape: 手裡搖動的節奏星塵（沙鈴、刮器、鈴串與身體小打擊）

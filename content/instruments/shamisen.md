@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/shamisen/
 title: 三味線
 original_name: Shamisen
 category: 弦樂器
-country: 中東／歐亞／東亞／美洲／全球
+country: 亞洲／東亞（日本）
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Tokyo_Geisha_with_Shamisen_c1870s%2C.jpg/500px-Tokyo_Geisha_with_Shamisen_c1870s%2C.jpg
 sound_class: 弦鳴

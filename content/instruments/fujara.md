@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/fujara/
 title: 富亞拉大笛
 original_name: Fujara
 category: 管樂器
-country: 全球
+country: 歐洲／斯洛伐克
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Fujaro_ludado_tuta_bildo.jpg/500px-Fujaro_ludado_tuta_bildo.jpg
 sound_class: 氣鳴

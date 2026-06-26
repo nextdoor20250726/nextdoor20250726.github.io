@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/steelpan/
 title: 鋼鐵鼓
 original_name: Steelpan
 category: 打擊樂器
-country: 東南亞／東亞／非洲／歐洲／全球
+country: 美洲／加勒比（千里達）
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Steelpan_Instruments_at_Trinidad_and_Tobago_Carnival.jpg/500px-Steelpan_Instruments_at_Trinidad_and_Tobago_Carnival.jpg
 sound_class: 體鳴

@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/flutes-with-duct/
 title: 有導管長笛
 original_name: Flutes with duct
 category: 管樂器
-country: 全球
+country: 全球／多地
 era: 傳統／年代待考
 region_type: 跨文化／多地
 soundscape: 一口氣走過山谷（竹管、陶管、長音與世界笛聲）

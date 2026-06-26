@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/temple-blocks/
 title: 寺廟木魚
 original_name: Temple Blocks
 category: 打擊樂器
-country: 全球
+country: 亞洲／東亞
 era: 傳統／年代待考
 sound_class: 體鳴
 range: 中高音域（約2個8度）

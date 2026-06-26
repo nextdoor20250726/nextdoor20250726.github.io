@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/electric-guitar/
 title: 電吉他
 original_name: Electric guitar
 category: 電子樂器
-country: 中東／歐亞／東亞／美洲／全球
+country: 美洲／北美
 era: 20 世紀
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Fender_Highway_1_Stratocaster.jpg/500px-Fender_Highway_1_Stratocaster.jpg
 sound_class: 弦鳴

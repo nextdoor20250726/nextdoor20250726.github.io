@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/gyil/
 title: 吉爾木琴
 original_name: Gyil
 category: 打擊樂器
-country: 全球
+country: 非洲／西非
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Gyil.JPG/500px-Gyil.JPG
 sound_class: 體鳴

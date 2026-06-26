@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/cabasa/
 title: 卡巴薩搖響器
 original_name: Cabasa
 category: 打擊樂器
-country: 全球
+country: 非洲／美洲
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/6/62/Cabasa.jpg
 sound_class: 體鳴

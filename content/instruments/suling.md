@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/suling/
 title: 蘇林笛
 original_name: Suling
 category: 管樂器
-country: 印尼／馬來群島
+country: 亞洲／東南亞
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Kacapi-suling.JPG/500px-Kacapi-suling.JPG
 sound_class: 氣鳴

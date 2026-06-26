@@ -3,7 +3,7 @@ site_url: https://soundweavers-music.github.io/instruments/repinique/
 title: 雷皮尼克鼓
 original_name: Repinique
 category: 打擊樂器
-country: 全球
+country: 美洲／巴西
 era: 傳統／年代待考
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Repique.JPG/500px-Repique.JPG
 sound_class: 膜鳴

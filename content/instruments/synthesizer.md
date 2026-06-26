@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/synthesizer/
 title: 合成器
 original_name: Synthesizer
 category: 鍵盤樂器
-country: 歐洲／美國／全球現代錄音室
+country: 美洲／北美
 era: 傳統／年代待考
 sound_class: 鍵盤／電鳴／機械混合
 range: 極低低音至尖銳高音（約5-8個八度）

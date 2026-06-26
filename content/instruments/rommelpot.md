@@ -4,7 +4,7 @@ site_url: https://soundweavers-music.github.io/instruments/rommelpot/
 title: 摩擦鼓
 original_name: Rommelpot
 category: 打擊樂器
-country: 全球
+country: 歐洲
 era: 傳統／年代待考
 region_type: 跨文化／多地
 soundscape: 手掌、皮膜與舞步（手鼓、框鼓、杯鼓、語言鼓與鼓組）
