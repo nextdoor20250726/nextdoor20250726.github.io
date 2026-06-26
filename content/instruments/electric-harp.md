@@ -1,6 +1,7 @@
 ---
 is_popular: true
 site_url: https://soundweavers-music.github.io/instruments/electric-harp/
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Electric_harp.jpg/500px-Electric_harp.jpg
 title: 電豎琴
 original_name: Electric Harp
 category: 弦樂器

@@ -1,6 +1,7 @@
 ---
 is_uncommon: true
 site_url: https://soundweavers-music.github.io/instruments/arghul/
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Arghul_Egypt_Kopie.jpg/500px-Arghul_Egypt_Kopie.jpg
 title: 阿爾胡爾雙管
 original_name: Arghul
 category: 管樂器

@@ -1,5 +1,6 @@
 ---
 site_url: https://soundweavers-music.github.io/instruments/eurorack-modular/
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Eurorack_Modular_Synthesizer.jpg/500px-Eurorack_Modular_Synthesizer.jpg
 title: 歐系模組合成器
 original_name: Eurorack Modular
 category: 鍵盤樂器

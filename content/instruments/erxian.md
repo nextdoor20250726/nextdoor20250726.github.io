@@ -1,5 +1,6 @@
 ---
 site_url: https://soundweavers-music.github.io/instruments/erxian/
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Erxian_19th_century_Chinese%2C_possibly_Chaozhu_sub-culture%2C_from_the_Metropolitan_Museum_of_Art.jpg/500px-Erxian_19th_century_Chinese%2C_possibly_Chaozhu_sub-culture%2C_from_the_Metropolitan_Museum_of_Art.jpg
 title: 二絃琴
 original_name: Erxian
 category: 弦樂器
