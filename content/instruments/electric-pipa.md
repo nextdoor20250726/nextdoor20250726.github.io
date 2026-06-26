@@ -14,7 +14,7 @@ range: 約3個8度
 ---
 ## 介紹
 
-The pipa (Chinese: 琵琶; pinyin: pípá; Wade–Giles: p'i-p'a) is a traditional Chinese musical instrument belonging to the plucked category of instruments. Sometimes called the "Chinese lute", the instrument has a pear-shaped wooden body with a varying number of frets ranging from 12 to 31. Another Chinese four-string plucked lute is the liuqin, which looks like a smaller version of the pipa.
+電琵琶是在傳統中國四弦琵琶基礎上加裝拾音器與電子擴音系統的現代改良版本。琴身保留梨形木製共鳴腔，品位從傳統的12品增至24至31品，弦距設計也更貼近現代彈奏習慣。演奏者透過電子放大系統可接入效果器、音箱，大幅擴展音色可能性。電琵琶兼容傳統輪指、推拉弦、泛音等古典技法，同時可融入搖滾、爵士、電子音樂等現代風格，是當代跨界音樂家探索傳統樂器現代化的重要媒介。
 ## 聆聽示範
 
 ### 代表性作品
