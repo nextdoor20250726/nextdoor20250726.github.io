@@ -293,7 +293,7 @@ def page(title, body, page_path=None, meta_extra="", extra_head=""):
         "default-src 'self'; "
         "img-src 'self' https: data:; "
         "style-src 'self' 'unsafe-inline' https://unpkg.com https://cdnjs.cloudflare.com; "
-        "script-src 'self' 'unsafe-inline' https://unpkg.com https://cdnjs.cloudflare.com; "
+        "script-src 'self' 'unsafe-inline' https://unpkg.com https://cdnjs.cloudflare.com https://busuanzi.ibruce.info; "
         "connect-src 'self'; "
         "frame-src https://www.youtube-nocookie.com https://www.youtube.com; "
         "base-uri 'self'; form-action 'none'; object-src 'none'"
@@ -337,12 +337,14 @@ def page(title, body, page_path=None, meta_extra="", extra_head=""):
         <a href="{resolve_url(page_path, '/popular/')}">熱門</a>
         <a href="{resolve_url(page_path, '/uncommon/')}">冷門</a>
         <a href="https://www.youtube.com/@NextDoorSoundWeavers/" target="_blank" rel="noopener">訂閱 YouTube</a>
+      <span class="visit-counter">總瀏覽次數：<span id="busuanzi_value_site_pv"></span> ｜今日訪客：<span id="busuanzi_value_site_uv"></span></span>
       </nav>
     </div>
   </footer>
   <button id="back-top" class="back-top" aria-label="回頂部">↑</button>
   <script src="{resolve_url(page_path, '/assets/search.js')}"></script>
     <script src="{resolve_url(page_path, '/assets/random-instrument.js')}"></script>
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 </body>
 </html>
 """
@@ -868,6 +870,7 @@ h2 { margin:0; font-weight:700; }
   flex-wrap:wrap; gap:12px; color:var(--muted); font-size:13px;
 }
 .footer-inner a { color:var(--blue); text-decoration:none; }
+.visit-counter { font-size:12px; color:var(--muted); white-space:nowrap; }
 .footer-nav { display:flex; gap:16px; }
 .footer-nav a { color:var(--muted); text-decoration:none; }
 .footer-nav a:hover { color:var(--accent); }
