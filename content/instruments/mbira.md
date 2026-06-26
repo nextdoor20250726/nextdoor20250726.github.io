@@ -1,7 +1,7 @@
 ---
 is_popular: true
 site_url: https://soundweavers-music.github.io/instruments/mbira/
-title: 拇指琴
+title: 姆比拉
 original_name: Mbira
 category: 打擊樂器
 country: 非洲／辛巴威／剛果／全球現代

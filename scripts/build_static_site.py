@@ -260,7 +260,7 @@ def page(title, body, page_path=None, meta_extra="", extra_head=""):
         "default-src 'self'; "
         "img-src 'self' https: data:; "
         "style-src 'self' 'unsafe-inline' https://unpkg.com https://cdnjs.cloudflare.com; "
-        "script-src 'self' https://unpkg.com https://cdnjs.cloudflare.com; "
+        "script-src 'self' 'unsafe-inline' https://unpkg.com https://cdnjs.cloudflare.com; "
         "connect-src 'self'; "
         "frame-src https://www.youtube-nocookie.com https://www.youtube.com; "
         "base-uri 'self'; form-action 'none'; object-src 'none'"
@@ -1156,6 +1156,7 @@ def build_map_page(instruments):
 
     slugs_json = json.dumps([i["slug"] for i in instruments], ensure_ascii=False)
 
+    extra = '<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">'
     body = f"""<main class="page">
   <section class="compact-hero">
     <p class="eyebrow">Geography</p>
@@ -1165,38 +1166,28 @@ def build_map_page(instruments):
   <div id="world-map" class="world-map"></div>
   <p class="map-hint">每個圓點代表一個地區的樂器數量，點擊可查看該地區樂器列表。</p>
 </main>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""><\/script>
 <script>
 (function() {{
   var mapData = {map_json};
-  var slugs = {slugs_json};
   var container = document.getElementById('world-map');
   if (!container || !mapData.length) return;
-  var link = document.createElement('link');
-  link.rel = 'stylesheet';
-  link.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';
-  link.crossOrigin = '';
-  document.head.appendChild(link);
-  var script = document.createElement('script');
-  script.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
-  script.onload = function() {{
-    var map = L.map('world-map', {{ center: [20, 30], zoom: 2, minZoom: 1, maxZoom: 6, zoomControl: true }});
-    L.tileLayer('https://{{s}}.tile.openstreetmap.org/{{z}}/{{x}}/{{y}}.png', {{ maxZoom: 18, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>' }}).addTo(map);
-    var bounds = [];
-    mapData.forEach(function(item) {{
-      var marker = L.circleMarker([item.lat, item.lng], {{ radius: Math.min(8 + item.count * 1.5, 30), fillColor: '#0d766b', color: '#0a5c53', weight: 2, opacity: 1, fillOpacity: 0.6 }}).addTo(map);
-      var tooltipHtml = '<strong>' + item.name + '</strong><br>' + item.count + ' 件樂器';
-      if (item.samples.length) tooltipHtml += '<br><small>' + item.samples.join('、') + (item.count > 5 ? '…' : '') + '</small>';
-      marker.bindTooltip(tooltipHtml, {{ direction: 'top', offset: [0, -8] }});
-      marker.on('click', function() {{ window.location.href = item.url; }});
-      marker.on('dblclick', function() {{ window.location.href = item.url; }});
-      bounds.push([item.lat, item.lng]);
-    }});
-    if (bounds.length > 0) map.fitBounds(bounds, {{ padding: [30, 30], maxZoom: 4 }});
-  }};
-  document.head.appendChild(script);
+  var map = L.map('world-map', {{ center: [20, 30], zoom: 2, minZoom: 1, maxZoom: 6, zoomControl: true, attributionControl: true }});
+  L.tileLayer('https://{{s}}.tile.openstreetmap.org/{{z}}/{{x}}/{{y}}.png', {{ maxZoom: 18, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>' }}).addTo(map);
+  var bounds = [];
+  mapData.forEach(function(item) {{
+    var radius = Math.min(8 + item.count * 1.5, 30);
+    var marker = L.circleMarker([item.lat, item.lng], {{ radius: radius, fillColor: '#0d766b', color: '#0a5c53', weight: 2, opacity: 1, fillOpacity: 0.6 }}).addTo(map);
+    var tip = '<strong>' + item.name + '<\/strong><br>' + item.count + ' 件樂器';
+    if (item.samples.length) tip += '<br><small>' + item.samples.join('、') + (item.count > 5 ? '…' : '') + '<\/small>';
+    marker.bindTooltip(tip, {{ direction: 'top', offset: [0, -8] }});
+    marker.on('click', function() {{ window.location.href = item.url; }});
+    bounds.push([item.lat, item.lng]);
+  }});
+  if (bounds.length > 0) map.fitBounds(bounds, {{ padding: [30, 30], maxZoom: 4 }});
 }})();
-</script>"""
-    write(page_dir_ / "index.html", page("地圖導覽", body, page_dir_ / "index.html"))
+<\/script>"""
+    write(page_dir_ / "index.html", page("地圖導覽", body, page_dir_ / "index.html", extra_head=extra))
 
 
 def build_manager_page(instruments):
@@ -1207,7 +1198,6 @@ def build_manager_page(instruments):
     page_dir_ = OUTPUT_DIR / "manage"
     page_dir_.mkdir(parents=True, exist_ok=True)
 
-    # Build field definitions
     fm_fields = [
         ("title", "樂器名稱（繁體中文）"),
         ("original_name", "原文名稱（英文）"),
@@ -1222,7 +1212,7 @@ def build_manager_page(instruments):
         ("hs_class", "H-S 分類"),
         ("family", "家族"),
         ("playing_method", "演奏方式"),
-        ("body_listening", "身體聽聽"),
+        ("body_listening", "身體聆聽"),
         ("soundscape", "聲音景觀"),
         ("region_type", "區域類型"),
         ("youtube_ids", "YouTube ID"),
@@ -1256,16 +1246,13 @@ def build_manager_page(instruments):
     for row_idx, item in enumerate(instruments, 3):
         for col_idx, key in enumerate(field_keys, 1):
             val = item.get(key, "")
-            if not val:
-                # Check body keys
-                body_map = {"introduction": "introduction", "history": "history", "timbre": "timbre"}
-                if key in ("introduction", "history", "timbre"):
-                    continue  # These aren't in the dict, we'd need the full body text
+            if key in ("introduction", "history", "timbre"):
                 continue
-            cell = ws.cell(row=row_idx, column=col_idx, value=str(val))
-            if key in ("site_url", "image") and str(val).startswith("http"):
-                cell.font = link_font
-                cell.hyperlink = str(val)
+            if val:
+                cell = ws.cell(row=row_idx, column=col_idx, value=str(val))
+                if key in ("site_url", "image") and str(val).startswith("http"):
+                    cell.font = link_font
+                    cell.hyperlink = str(val)
 
     for col in ws.columns:
         max_len = 0
@@ -1278,27 +1265,39 @@ def build_manager_page(instruments):
     excel_path = OUTPUT_DIR / "assets" / "instruments_database.xlsx"
     wb.save(str(excel_path))
 
-    # Write the HTML page
     body = """<main class="page" style="max-width:720px;">
   <section class="compact-hero">
     <p class="eyebrow">Management</p>
-    <h1>管理者页面</h1>
+    <h1>管理者頁面</h1>
   </section>
 
-  <div class="manage-card">
-    <h2>下載 Excel 樂器總資料庫</h2>
-    <p>所有樂器的完整資料，包含 frontmatter 每個欄位與內容節段。第一列為英文欄位名稱，第二列為中文說明。</p>
-    <a class="btn btn-primary" href="../assets/instruments_database.xlsx" download>下載 Excel</a>
+  <div id="manage-app">
+    <div class="manage-card">
+      <h2>下載 Excel 樂器總資料庫</h2>
+      <p>將所有樂器的 Markdown 檔案匯出為 Excel 格式。包含所有 frontmatter 欄位與介紹、歷史、音色描述等內容。第一列為英文欄位名稱，第二列為中文說明。</p>
+      <a class="btn btn-primary" href="../assets/instruments_database.xlsx" download>下載 Excel</a>
+    </div>
+
+    <div class="manage-card">
+      <h2>上傳 Excel 還原 Markdown</h2>
+      <p>上傳一個 Excel 檔案（格式需與下載版本相同），系統會在瀏覽器中自動處理每一列資料，還原為獨立的 Markdown 檔案，並打包成 ZIP 壓縮檔供下載。</p>
+      <div class="upload-area">
+        <input type="file" id="excel-upload" accept=".xlsx">
+        <button class="btn btn-primary" id="process-excel">上傳並下載 ZIP</button>
+      </div>
+      <div id="upload-status" class="upload-status"></div>
+    </div>
   </div>
 
-  <div class="manage-card">
-    <h2>上載 Excel 還原 Markdown</h2>
-    <p>選擇一個 Excel 檔案（格式須與下載版本相同），系統會在瀏覽器端處理并包裝成 ZIP 供下載。</p>
-    <div class="upload-area">
-      <input type="file" id="excel-upload" accept=".xlsx">
-      <button class="btn btn-primary" id="process-excel">上載並下載 ZIP</button>
+  <div id="manage-locked" style="display:none;">
+    <div class="manage-card" style="text-align:center;">
+      <h2>請輸入密碼</h2>
+      <p>請輸入管理員密碼以存取此頁面。</p>
+      <input type="password" id="password-input" style="padding:10px 12px;border:1px solid var(--line);border-radius:6px;font-size:16px;width:200px;margin-bottom:12px;">
+      <br>
+      <button class="btn btn-primary" id="password-submit">確認</button>
+      <div id="password-error" style="color:#c2410c;margin-top:8px;font-size:14px;"></div>
     </div>
-    <div id="upload-status" class="upload-status"></div>
   </div>
 </main>
 
@@ -1306,12 +1305,44 @@ def build_manager_page(instruments):
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"><\/script>
 <script>
 (function() {
-  function slugify(name) {
-    return name.toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '') || 'instrument';
+  var PASSWORD = '5201314';
+
+  function unlockApp() {
+    document.getElementById('manage-app').style.display = 'block';
+    document.getElementById('manage-locked').style.display = 'none';
+    sessionStorage.setItem('manage_unlocked', 'true');
   }
-  function getBodyKey(key) {
-    var map = { 'introduction': '介紹', 'history': '歷史背景', 'timbre': '音色描述' };
-    return map[key] || '';
+
+  function showLock() {
+    document.getElementById('manage-app').style.display = 'none';
+    document.getElementById('manage-locked').style.display = 'block';
+    sessionStorage.removeItem('manage_unlocked');
+  }
+
+  // Check if already unlocked in this session
+  if (sessionStorage.getItem('manage_unlocked') === 'true') {
+    unlockApp();
+  } else {
+    showLock();
+  }
+
+  document.getElementById('password-submit')?.addEventListener('click', function() {
+    var pw = document.getElementById('password-input').value;
+    if (pw === PASSWORD) {
+      unlockApp();
+    } else {
+      document.getElementById('password-error').textContent = '密碼錯誤，請再試一次。';
+      document.getElementById('password-input').value = '';
+    }
+  });
+
+  document.getElementById('password-input')?.addEventListener('keypress', function(e) {
+    if (e.key === 'Enter') document.getElementById('password-submit').click();
+  });
+
+  function slugify(name) {
+    if (!name) return 'instrument';
+    return name.toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '') || 'instrument';
   }
 
   document.getElementById('process-excel')?.addEventListener('click', function() {
@@ -1331,11 +1362,11 @@ def build_manager_page(instruments):
         var sheet = workbook.Sheets[workbook.SheetNames[0]];
         var rows = XLSX.utils.sheet_to_json(sheet, {header: 1});
         if (rows.length < 3) {
-          status.textContent = '檔案沒有資料，至少需要標題列+資料列';
+          status.textContent = '檔案格式錯誤：缺少足夠的資料列（需要標題列 + 資料列）';
           status.className = 'upload-status error';
           return;
         }
-        var headers = rows[0];
+        var headers = rows[0] || [];
         var zip = new JSZip();
         var count = 0;
         for (var i = 2; i < rows.length; i++) {
@@ -1343,10 +1374,12 @@ def build_manager_page(instruments):
           if (!row || !row[0]) continue;
           var fmLines = ['---'];
           var sections = {};
+          var origName = '';
           for (var j = 0; j < headers.length; j++) {
             var key = String(headers[j] || '').trim();
             var val = row[j] !== undefined ? String(row[j]).trim() : '';
             if (!key || !val) continue;
+            if (key === 'original_name') origName = val;
             if (key === 'introduction' || key === 'history' || key === 'timbre') {
               sections[key] = val;
             } else {
@@ -1354,28 +1387,17 @@ def build_manager_page(instruments):
             }
           }
           fmLines.push('---');
-          for (var sk in sections) {
-            var heading = getBodyKey(sk);
-            if (heading) {
-              fmLines.push('');
-              fmLines.push('## ' + heading);
-              fmLines.push('');
-              fmLines.push(sections[sk]);
-            }
-          }
-          var origName = '';
-          for (var j = 0; j < headers.length; j++) {
-            if (String(headers[j]).trim() === 'original_name' && row[j]) {
-              origName = String(row[j]).trim();
-              break;
-            }
-          }
-          var filename = slugify(origName || ('instrument_' + (i+1))) + '.md';
-          zip.file(filename, fmLines.join('\n') + '\n');
+          var bodyParts = [];
+          if (sections.introduction) bodyParts.push('\n## 介紹\n\n' + sections.introduction);
+          if (sections.history) bodyParts.push('\n## 歷史背景\n\n' + sections.history);
+          if (sections.timbre) bodyParts.push('\n## 音色描述\n\n' + sections.timbre);
+          var fullContent = fmLines.join('\n') + bodyParts.join('\n') + '\n';
+          var filename = slugify(origName || ('instrument_' + (i + 1))) + '.md';
+          zip.file(filename, fullContent);
           count++;
         }
         if (count === 0) {
-          status.textContent = '找不到有效的樂器資料';
+          status.textContent = '找不到有效的樂器資料，請確認 Excel 格式是否正確。';
           status.className = 'upload-status error';
           return;
         }
@@ -1384,23 +1406,24 @@ def build_manager_page(instruments):
           var a = document.createElement('a');
           a.href = url;
           a.download = 'instruments_markdown.zip';
+          document.body.appendChild(a);
           a.click();
-          URL.revokeObjectURL(url);
+          document.body.removeChild(a);
+          setTimeout(function() { URL.revokeObjectURL(url); }, 10000);
           status.textContent = '成功生成 ' + count + ' 個 .md 檔案，已開始下載。';
           status.className = 'upload-status success';
         });
       } catch(err) {
         status.textContent = '處理失敗：' + err.message;
         status.className = 'upload-status error';
+        console.error(err);
       }
     };
     reader.readAsArrayBuffer(file);
   });
 })();
 <\/script>"""
-
-    write(page_dir_ / "index.html", page("管理者页面", body, page_dir_ / "index.html"))
-
+    write(page_dir_ / "index.html", page("管理者頁面", body, page_dir_ / "index.html"))
 
 def main():
     global _TOTAL_INSTRUMENTS
