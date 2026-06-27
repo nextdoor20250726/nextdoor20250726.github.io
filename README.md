@@ -1,45 +1,52 @@
 # 世界樂器百科
 
-這是一個以 Django 建立的樂器百科網站骨架，包含多層級分類、Markdown 內容欄位、搜尋篩選、分頁列表、詳情頁與 Django Admin 後台。
+收錄來自世界各地的傳統與現代樂器，探索人類音樂的多元面貌。
 
-## 安裝與啟動
+🌐 **網站：** <https://soundweavers-music.github.io/>
 
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py createsuperuser
-python manage.py runserver
+## 專案簡介
+
+世界樂器百科是一個靜態網站，收錄 912 件世界樂器的詳細資料，包含分類、國家／地區、年代、發聲原理、圖片、YouTube 示範影片等內容。每件樂器都有獨立的介紹頁面，可透過分類瀏覽、篩選搜尋、地圖導覽等方式探索。
+
+## 網站功能
+
+- **首頁篩選瀏覽** — 透過分類、國家、年代、發聲原理篩選樂器
+- **分類卡片瀏覽** — 以分類為單位瀏覽樂器
+- **地圖導覽** — 以 Leaflet 地圖標記各國樂器分布
+- **全文搜尋** — 即時搜尋中文名、原文名、分類、國家、年代
+- **分頁導覽**  — 全部樂器、分類、國家、年代、熱門、冷門
+- **樂理基礎** — 譜號、節拍、拍號、音調、音域、發聲原理
+- **隨選樂器** — 隨機推薦樂器
+- **LINE 回饋機器人** — 透過 LINE 送出建議
+- **響應式設計** — 支援手機與平板瀏覽
+
+## 導覽結構
+
+```
+全部樂器
+├── 分類
+├── 隨選
+├── 熱門
+├── 冷門
+├── 國家
+├── 年代
+└── 地圖
+樂理
+關於
 ```
 
-首頁：`http://127.0.0.1:8000/`
+## 資料維護
 
-後台：`http://127.0.0.1:8000/admin/`
-
-## 預設資料
-
-建立 Hornbostel-Sachs 大分類與 500 筆 Wikipedia/Wikidata 可追溯的樂器資料：
-
-```bash
-python manage.py seed_world_instruments --limit 500 --clear-seeded
-```
-
-若仍需本機 Django 後台，請自行建立管理員帳號：
-
-```bash
-python manage.py createsuperuser
-```
-
-## 靜態 Markdown 版本
-
-若要部署到 GitHub Pages，請改用 Markdown 靜態站流程。資料維護位置：
+所有樂器資料以 Markdown 檔案維護在 `content/instruments/` 目錄下：
 
 ```text
-content/instruments/*.md
+content/instruments/
+├── accordion.md
+├── piano.md
+└── ...
 ```
 
-每個 Markdown 檔案使用 front matter 維護中文名稱、原文名稱、分類、國家/地區、年代、圖片、聆聽連結與來源：
+每個檔案使用 front matter 定義中繼資料：
 
 ```markdown
 ---
@@ -48,73 +55,91 @@ original_name: "Accordion"
 category: "管樂器"
 country: "待考"
 era: "傳統／年代待考"
-source_url: "https://en.wikipedia.org/wiki/Accordion"
+sound_class: "氣鳴樂器"
+image: "https://upload.wikimedia.org/..."
+youtube_ids: "abc123def45"
 ---
 ```
 
-從目前 Django 資料庫重新匯出 Markdown：
+## 本機建置
+
+### 前置需求
+
+- Python 3.12+
+- pip
+
+### 安裝與建置
 
 ```bash
-python scripts/export_markdown_from_db.py
-```
-
-匯出流程會優先使用中文資料：
-
-- Wikidata `zh-hant` / `zh` 標籤
-- Wikidata 中文維基 sitelink
-- 英文維基條目的中文跨語言連結
-- 中文維基百科摘要作為介紹內容
-- Wikidata `P495` 原產國與 `P571` 等年代欄位
-- 中文/英文介紹文字中的國家與年代線索
-
-API 回應會快取在 `work/cache/`，避免反覆查詢時被 Wikidata 或 Wikipedia 限速。
-
-注意：靜態站會保留來源連結與摘要內容；若要大量引用維基百科全文，請確認頁面有完整 CC BY-SA 授權標示與來源歸屬。
-
-只根據 Markdown 產生靜態網站：
-
-```bash
+pip install Markdown openpyxl
 python scripts/build_static_site.py
 ```
 
-靜態網站輸出：
+靜態網站輸出至：
 
 ```text
 outputs/world-instruments-static/
 ```
 
-本機預覽：
+### 本機預覽
 
 ```bash
 cd outputs/world-instruments-static
-python3 -m http.server 8001
+python -m http.server 8001
 ```
 
-GitHub Pages 部署時，只需要把 `outputs/world-instruments-static/` 的內容發布出去。Django 後台與 SQLite 資料庫可視為舊版匯入工具，不再是內容維護的必要條件。
+開啟瀏覽器前往 `http://127.0.0.1:8001/`。
 
-## GitHub Pages 自動部署
+## 部署
 
-專案已包含 GitHub Actions workflow：
+靜態網站透過 GitHub Actions 自動部署。推送到 `main` 分支後，workflow 會自動執行：
 
-```text
-.github/workflows/deploy-github-pages.yml
-```
+1. 安裝相依套件
+2. 執行 `scripts/build_static_site.py`
+3. 上傳成品至 GitHub Pages
 
-建議部署方式：
-
-1. 在 GitHub 建立一個新 repository。
-2. 將此專案 push 到該 repository 的 `main` branch。
-3. 到 GitHub repository 的 `Settings -> Pages`。
-4. Source 選擇 `GitHub Actions`。
-5. push 後 workflow 會自動執行，並部署 `outputs/world-instruments-static/`。
-
-workflow 會自動偵測 GitHub Pages 路徑：
-
-- 若 repository 是 `username.github.io`，網站使用根路徑 `/`。
-- 若 repository 是一般 project site，例如 `world-musical-instrument`，網站使用 `/world-musical-instrument/`。
-
-若要本機模擬 project site 路徑：
+若需手動部署到 `gh-pages` 分支：
 
 ```bash
-SITE_BASE_PATH=/world-musical-instrument python scripts/build_static_site.py
+python scripts/build_static_site.py
+git worktree add ../gh-pages-deploy origin/gh-pages
+cp -r outputs/world-instruments-static/* ../gh-pages-deploy/
+cd ../gh-pages-deploy
+git add -A
+git commit -m "Deploy static site"
+git push origin HEAD:gh-pages
 ```
+
+## 從 Django 匯出資料
+
+專案最初使用 Django + SQLite 管理資料，現已轉為純 Markdown 靜態站。若需從 Django 資料庫重新匯出 Markdown：
+
+```bash
+pip install -r requirements.txt
+python manage.py migrate
+python scripts/export_markdown_from_db.py
+```
+
+Django 後台與 SQLite 資料庫視為舊版匯入工具，不再是內容維護的必要條件。
+
+## 技術棧
+
+- **靜態站生成：** Python + Markdown 套件
+- **樣式：** 原生 CSS（無框架）
+- **地圖：** Leaflet + OpenStreetMap
+- **影片：** YouTube nocookie 嵌入
+- **字型：** 系統字型（Noto Sans TC）
+- **圖示：** 純文字與 Unicode 符號
+- **部署：** GitHub Pages + GitHub Actions
+
+## 授權
+
+- 網站程式碼：MIT License
+- 樂器資料與說明文字：CC BY-SA（部分內容引用自 Wikipedia，依其授權條款使用）
+- 圖片：各圖片來源不一，請參照各頁面標示之來源
+
+## 回饋
+
+有任何建議或發現資料錯誤，歡迎透過 LINE 機器人告訴我們：
+
+<a href="https://line.me/R/ti/p/@971xnxql" target="_blank" rel="noopener">💬 透過 LINE 送出回饋</a>

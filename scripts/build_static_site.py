@@ -322,16 +322,20 @@ def page(title, body, page_path=None, meta_extra="", extra_head=""):
   <header class="site-header">
     <a class="brand" href="{resolve_url(page_path, '/')}">🌍 世界樂器百科</a>
     <nav>
-      <a href="{resolve_url(page_path, '/instruments/')}">全部樂器</a>
-      <a href="{resolve_url(page_path, '/popular/')}">熱門</a>
-      <a href="{resolve_url(page_path, '/uncommon/')}">冷門</a>
-      <a href="#" id="random-nav-link" class="random-link">隨選</a>
-      <a href="{resolve_url(page_path, '/categories/')}">分類</a>
-      <a href="{resolve_url(page_path, '/countries/')}">國家</a>
-      <a href="{resolve_url(page_path, '/eras/')}">年代</a>
+      <div class="nav-dropdown">
+        <a href="{resolve_url(page_path, '/instruments/')}" class="dropdown-trigger">全部樂器</a>
+        <div class="dropdown-menu">
+          <a href="{resolve_url(page_path, '/categories/')}">分類</a>
+          <a href="#" id="random-nav-link" class="random-link">隨選</a>
+          <a href="{resolve_url(page_path, '/popular/')}">熱門</a>
+          <a href="{resolve_url(page_path, '/uncommon/')}">冷門</a>
+          <a href="{resolve_url(page_path, '/countries/')}">國家</a>
+          <a href="{resolve_url(page_path, '/eras/')}">年代</a>
+          <a href="{resolve_url(page_path, '/map/')}">地圖</a>
+        </div>
+      </div>
       <a href="{resolve_url(page_path, '/theory/')}">樂理</a>
       <a href="{resolve_url(page_path, '/about/')}">關於</a>
-      <a href="{resolve_url(page_path, '/map/')}">地圖</a>
     </nav>
   </header>
   {body}
@@ -693,6 +697,22 @@ img { max-width:100%; }
 .site-header nav a { text-decoration:none; color:var(--muted); font-size:14px; font-weight:500; padding:6px 10px; border-radius:6px; transition:color .15s,background .15s; }
 .site-header nav a:hover { color:var(--ink); background:var(--soft); }
 
+/* ── Dropdown nav ─────────────────────────────────────────────── */
+.nav-dropdown { position:relative; display:inline-block; }
+.nav-dropdown .dropdown-trigger { cursor:pointer; }
+.dropdown-menu {
+  display:none; position:absolute; top:100%; left:0; z-index:200;
+  min-width:140px; background:#fff; border:1px solid var(--line);
+  border-radius:8px; box-shadow:var(--shadow-md); padding:4px 0;
+}
+.nav-dropdown:hover .dropdown-menu,
+.nav-dropdown .dropdown-menu:hover { display:block; }
+.dropdown-menu a {
+  display:block; padding:8px 16px; font-size:13px; color:var(--ink2);
+  text-decoration:none; border-radius:0; white-space:nowrap;
+}
+.dropdown-menu a:hover { background:var(--soft); color:var(--accent); }
+
 /* ── Page layout ─────────────────────────────────────────────── */
 .page,.instrument-page { max-width:1160px; margin:0 auto; padding:36px 24px 80px; }
 
@@ -911,6 +931,12 @@ h2 { margin:0; font-weight:700; }
 .contact-info p { margin:0 0 12px; font-size:16px; }
 .contact-info a { color:var(--blue); text-decoration:none; font-weight:600; }
 .contact-info a:hover { text-decoration:underline; }
+
+/* ── Feedback section ────────────────────────────────────────── */
+.feedback-actions { margin-top:20px; display:flex; gap:12px; flex-wrap:wrap; }
+.btn-line { display:inline-flex; align-items:center; gap:8px; padding:12px 24px; background:#06C755; color:#fff; border-radius:8px; text-decoration:none; font-weight:700; font-size:15px; transition:background .15s,transform .15s; box-shadow:0 2px 6px rgba(6,199,85,.3); }
+.btn-line:hover { background:#05a648; transform:translateY(-1px); box-shadow:0 4px 12px rgba(6,199,85,.35); }
+.btn-icon { font-size:20px; }
 
 /* ── Image credit ───────────────────────────────────────────── */
 .image-credit { font-size:12px; color:var(--muted); text-align:center; margin-top:6px; }
@@ -1634,6 +1660,18 @@ def build_about_page():
         </div>
       </section>
     </div>
+
+    <section class="about-section">
+      <h2>回饋建議 Feedback</h2>
+      <div class="about-text">
+        <p>如果您對本網站有任何建議、發現資料錯誤、或想推薦更多樂器資料，歡迎透過 LINE 機器人告訴我們！您的反饋是我們持續改善的重要動力。</p>
+        <div class="feedback-actions">
+          <a class="btn btn-line" href="https://line.me/R/ti/p/@971xnxql" target="_blank" rel="noopener">
+            <span class="btn-icon">💬</span>透過 LINE 送出回饋
+          </a>
+        </div>
+      </div>
+    </section>
   </div>
 </main>"""
     write(page_dir_ / "index.html", page("關於", body, page_dir_ / "index.html"))

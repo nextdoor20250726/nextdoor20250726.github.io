@@ -54,6 +54,22 @@ a {
   text-decoration: none;
 }
 
+/* ── Dropdown nav ─────────────────────────────────────────────── */
+.nav-dropdown { position:relative; display:inline-block; }
+.nav-dropdown .dropdown-trigger { cursor:pointer; }
+.dropdown-menu {
+  display:none; position:absolute; top:100%; left:0; z-index:200;
+  min-width:140px; background:#fff; border:1px solid var(--line);
+  border-radius:8px; box-shadow:0 4px 12px rgba(0,0,0,0.1); padding:4px 0;
+}
+.nav-dropdown:hover .dropdown-menu,
+.nav-dropdown .dropdown-menu:hover { display:block; }
+.dropdown-menu a {
+  display:block; padding:8px 16px; font-size:13px; color:var(--muted);
+  text-decoration:none; border-radius:0; white-space:nowrap;
+}
+.dropdown-menu a:hover { background:var(--soft); color:var(--accent); }
+
 .page,
 .instrument-page {
   max-width: 1120px;

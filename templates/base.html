@@ -12,10 +12,18 @@
   <header class="site-header">
     <a class="brand" href="{% url 'home' %}">世界樂器百科</a>
     <nav class="site-nav">
-      <a href="{% url 'instrument_list' %}">全部樂器</a>
-      <a href="{% url 'popular_instruments' %}">熱門</a>
-      <a href="{% url 'uncommon_instruments' %}">冷門</a>
-      <a href="{% url 'random_instrument' %}">隨選</a>
+      <div class="nav-dropdown">
+        <a href="{% url 'instrument_list' %}" class="dropdown-trigger">全部樂器</a>
+        <div class="dropdown-menu">
+          <a href="{% url 'category_list' %}">分類</a>
+          <a href="{% url 'random_instrument' %}">隨選</a>
+          <a href="{% url 'popular_instruments' %}">熱門</a>
+          <a href="{% url 'uncommon_instruments' %}">冷門</a>
+          <a href="{% url 'country_list' %}">國家</a>
+          <a href="{% url 'era_list' %}">年代</a>
+          <a href="{% url 'map_view' %}">地圖</a>
+        </div>
+      </div>
       <a href="{% url 'theory' %}">樂理</a>
       <a href="{% url 'about' %}">關於</a>
       <a href="/admin/">管理後台</a>
