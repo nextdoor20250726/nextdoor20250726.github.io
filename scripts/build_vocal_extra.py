@@ -529,12 +529,79 @@ def build_about_page_extra():
             print("  About page updated with contact link.")
 
 
+def build_theory_pages():
+    """Build music theory page from content/musictheory/*.md files."""
+    theory_dir = CONTENT_DIR / "musictheory"
+    out_dir = OUTPUT_DIR / "theory"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    import bleach as _bl
+    from bleach.sanitizer import ALLOWED_TAGS as _BT, ALLOWED_ATTRIBUTES as _BA
+    allowed_tags = _BT.union({"p","pre","code","h1","h2","h3","h4","ul","ol","li","blockquote","strong","em","table","thead","tbody","tr","th","td","hr","br","img"})
+    allowed_attrs = {**_BA, "a": ["href","title","target","rel"], "img": ["src","alt","title"]}
+
+    stages = []
+    for fpath in sorted(theory_dir.glob("*.md")):
+        raw = fpath.read_text(encoding="utf-8")
+        first = raw.strip().split("\n")[0]
+        title = first.lstrip("#").strip().strip("*")
+        num = fpath.stem.replace("musictheory", "")
+        stages.append({"num": num, "title": title, "raw": raw})
+    stages.sort(key=lambda s: int(s["num"]))
+
+    # Generate detail pages
+    for s in stages:
+        body_html = markdown.markdown(s["raw"], extensions=["extra","tables","fenced_code"], output_format="html5")
+        body_html = _bl.clean(body_html, tags=allowed_tags, attributes=allowed_attrs, protocols=["http","https","mailto"], strip=True)
+        s_dir = out_dir / s["num"]
+        s_dir.mkdir(parents=True, exist_ok=True)
+        sn = int(s["num"])
+        prev_l = f'<a class="vocal-nav-link" href="{resolve_url(s_dir / "index.html", f"/theory/{sn-1}/")}">← 上一階段</a>' if sn > 1 else '<span class="vocal-nav-link disabled">← 上一階段</span>'
+        next_l = f'<a class="vocal-nav-link" href="{resolve_url(s_dir / "index.html", f"/theory/{sn+1}/")}">下一階段 →</a>' if sn < len(stages) else '<span class="vocal-nav-link disabled">下一階段 →</span>'
+        detail = f"""<main class="page theory-page">
+  <nav class="breadcrumb" style="margin-bottom:24px;">
+    <a href="{resolve_url(s_dir / "index.html", "/theory/")}">← 樂理基礎</a> <span>/</span> <span>{escape(s["title"])}</span>
+  </nav>
+  <article class="markdown-body">{body_html}</article>
+  <div class="vocal-nav-links">{prev_l}{next_l}</div>
+  <a class="back-link" href="{resolve_url(s_dir / "index.html", "/theory/")}">← 返回樂理基礎</a>
+</main>"""
+        write(s_dir / "index.html", page(s["title"], detail, s_dir / "index.html", meta_description=escape(s["title"])))
+
+    # Generate index page with cards
+    extra_css = """
+<style>
+.theory-hero { padding:48px 0 28px; }
+.theory-page { max-width:860px; }
+.theory-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(200px,1fr)); gap:16px; margin-top:24px; }
+.theory-card { display:flex; flex-direction:column; gap:6px; border:1px solid var(--line); border-radius:10px; padding:20px 22px; background:var(--surface); text-decoration:none; transition:border-color.15s,box-shadow.15s; }
+.theory-card:hover { border-color:var(--accent); box-shadow:0 2px 8px rgba(0,0,0,.06); }
+.theory-card .card-label { font-weight:700; font-size:16px; color:var(--ink); }
+.theory-card .card-desc { color:var(--muted); font-size:13px; }
+</style>
+"""
+    def _card(s):
+        sn = s["num"]
+        return f'<a class="theory-card" href="{resolve_url(out_dir / "index.html", f"/theory/{sn}/")}"><span class="card-label">{escape(s["title"])}</span><span class="card-desc">第 {sn} 階段</span></a>'
+    cards = "".join(_card(s) for s in stages)
+    body = f"""<main class="page theory-page">
+  <section class="theory-hero">
+    <p class="eyebrow">Music Theory</p>
+    <h1>樂理基礎</h1>
+    <p class="lead">從聽覺啟蒙到綜合應用，五大階段系統性學習音樂理論基礎知識。</p>
+  </section>
+  <div class="theory-grid">{cards}</div>
+</main>"""
+    write(out_dir / "index.html", page("樂理基礎", body, out_dir / "index.html", extra_head=extra_css, meta_description="從聽覺啟蒙到綜合應用，五大階段系統性學習音樂理論基礎知識。"))
+    print(f"  Built theory page with {len(stages)} stages + detail pages")
+
+
 def main():
     instruments = read_instruments()
     print(f"Read {len(instruments)} instruments from content/instruments/")
     append_css()
     build_portal_homepage(instruments)
     build_vocal_pages()
+    build_theory_pages()
     build_contact_page()
     build_about_page_extra()
     print("\nPost-build complete.")
