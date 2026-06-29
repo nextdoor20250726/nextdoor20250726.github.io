@@ -296,7 +296,8 @@ def write(path, content):
     path.write_text(content, encoding="utf-8")
 
 
-def page(title, body, page_path=None, meta_extra="", extra_head=""):
+def page(title, body, page_path=None, meta_extra="", extra_head="", meta_description=""):
+    desc = meta_description or "世界聲音百科 — 收錄世界樂器、人聲歌唱教學、音樂理論與錄音製作知識的整合平台。循著聲音，走進不同文化的現場。"
     csp = (
         "default-src 'self'; "
         "img-src 'self' https: data:; "
@@ -306,6 +307,27 @@ def page(title, body, page_path=None, meta_extra="", extra_head=""):
         "frame-src https://www.youtube-nocookie.com https://www.youtube.com; "
         "base-uri 'self'; form-action 'none'; object-src 'none'"
     )
+    raw_canon = resolve_url(page_path, "/") if page_path else "/"
+    clean_canon = raw_canon.replace("./", "/").replace("../", "/").rstrip("/") or "/"
+    canonical_url = f"https://soundweavers-music.github.io{clean_canon}"
+    og_image = "https://yt3.googleusercontent.com/6nBZ7RVoXGMH2fuMPWiju_tpAET9D-qVkOhg1HjGqh8m9EaO-u9wO_oHVA12Sy0DzoKn7mGVmA=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj"
+    jsonld = f'''{{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "世界聲音百科",
+  "alternateName": "World Sound Encyclopedia",
+  "url": "https://soundweavers-music.github.io/",
+  "description": "{escape(desc)}"
+}}'''
+    seo_tags = f'''<meta name="description" content="{escape(desc)}">
+<link rel="canonical" href="{canonical_url}">
+<script type="application/ld+json">{jsonld}</script>'''''
+    if "og:title" not in meta_extra:
+        seo_tags += f'''
+<meta property="og:title" content="{escape(title)}｜世界聲音百科">
+<meta property="og:description" content="{escape(desc)}">
+<meta property="og:image" content="{og_image}">
+<meta property="og:type" content="website">'''
     return f"""<!doctype html>
 <html lang="zh-Hant">
 <head>
@@ -314,6 +336,7 @@ def page(title, body, page_path=None, meta_extra="", extra_head=""):
   <meta name="referrer" content="no-referrer-when-downgrade">
   <meta http-equiv="Content-Security-Policy" content="{csp}">
   <title>{escape(title)}｜世界聲音百科</title>
+  {seo_tags}
   {meta_extra}
   <link rel="stylesheet" href="{resolve_url(page_path, '/assets/site.css')}">
   {extra_head}
@@ -1329,7 +1352,9 @@ def build_sitemap(instruments):
             f"<url><loc>{base}/uncommon/</loc></url>",
             f"<url><loc>{base}/map/</loc></url>",
             f"<url><loc>{base}/about/</loc></url>",
-            f"<url><loc>{base}/theory/</loc></url>"]
+            f"<url><loc>{base}/theory/</loc></url>",
+            f"<url><loc>{base}/vocal/</loc></url>",
+            f"<url><loc>{base}/contact/</loc></url>"]
     for item in instruments:
         urls.append(f"<url><loc>{base}/instruments/{item['slug']}/</loc></url>")
     xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
@@ -1753,7 +1778,7 @@ def build_about_page():
     </section>
   </div>
 </main>"""
-    write(page_dir_ / "index.html", page("關於", body, page_dir_ / "index.html"))
+    write(page_dir_ / "index.html", page("關於", body, page_dir_ / "index.html", meta_description="世界聲音百科的創建理念、作者介紹與服務項目。收錄世界樂器、人聲歌唱教學、音樂理論與錄音製作知識。"))
 
 def get_theory_data():
     """Return a list of dicts with music theory content (label, icon, id, html_content)."""
@@ -1973,7 +1998,7 @@ def build_theory_page():
   </div>
 </main>
 """
-    write(page_dir_ / "index.html", page("樂理基礎", body, page_dir_ / "index.html", extra_head=extra_head))
+    write(page_dir_ / "index.html", page("樂理基礎", body, page_dir_ / "index.html", extra_head=extra_head, meta_description="認識音樂的構成要素：譜號、節拍、拍號、音調、音域與發聲原理，系統了解音樂理論基礎知識。"))
 
 
 def build_robots(instruments):

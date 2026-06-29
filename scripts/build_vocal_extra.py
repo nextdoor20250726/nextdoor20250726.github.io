@@ -86,20 +86,41 @@ def markdown_to_html(md_text):
     return raw
 
 
-def page(title, body, page_path=None, extra_head=""):
+def page(title, body, page_path=None, extra_head="", meta_description="", og_image=""):
+    desc = meta_description or "世界聲音百科 — 收錄世界樂器、人聲歌唱教學、音樂理論與錄音製作知識的整合平台。循著聲音，走進不同文化的現場。"
     csp = ("default-src 'self'; img-src 'self' https: data:; "
            "style-src 'self' 'unsafe-inline' https://unpkg.com https://cdnjs.cloudflare.com; "
            "script-src 'self' 'unsafe-inline' https://unpkg.com https://cdnjs.cloudflare.com https://busuanzi.ibruce.info; "
            "connect-src 'self'; frame-src https://www.youtube-nocookie.com https://www.youtube.com; "
            "base-uri 'self'; form-action 'none'; object-src 'none'")
+    raw_canon = resolve_url(page_path, "/") if page_path else "/"
+    clean_canon = raw_canon.replace("./", "/").replace("../", "/").rstrip("/") or "/"
+    canonical = f"https://soundweavers-music.github.io{clean_canon}"
+    og_img = og_image or "https://yt3.googleusercontent.com/6nBZ7RVoXGMH2fuMPWiju_tpAET9D-qVkOhg1HjGqh8m9EaO-u9wO_oHVA12Sy0DzoKn7mGVmA=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj"
+    jsonld = f'''{{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "世界聲音百科",
+  "alternateName": "World Sound Encyclopedia",
+  "url": "https://soundweavers-music.github.io/",
+  "description": "{escape(desc)}"
+}}'''
     return f"""<!doctype html>
 <html lang="zh-Hant">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{escape(desc)}">
+  <meta property="og:title" content="{escape(title)}｜世界聲音百科">
+  <meta property="og:description" content="{escape(desc)}">
+  <meta property="og:image" content="{og_img}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://soundweavers-music.github.io{escape(str(page_path.parent if page_path else '/'))}/">
+  <link rel="canonical" href="{canonical}">
   <meta http-equiv="Content-Security-Policy" content="{csp}">
   <title>{escape(title)}｜世界聲音百科</title>
   <link rel="stylesheet" href="{resolve_url(page_path, '/assets/site.css')}">
+  <script type="application/ld+json">{jsonld}</script>
   {extra_head}
 </head>
 <body>
@@ -235,7 +256,7 @@ def build_portal_homepage(instruments):
     <div class="instrument-grid">{sample_cards}</div>
   </section>
 </main>"""
-    write(index_path, page("首頁", body, index_path))
+    write(index_path, page("首頁", body, index_path, meta_description="世界聲音百科 — 收錄世界樂器、人聲歌唱教學、音樂理論與錄音製作知識的整合平台。循著聲音，走進不同文化的現場。"))
     print("  Portal homepage written.")
 
 
@@ -377,7 +398,7 @@ document.addEventListener('DOMContentLoaded', function() {{
   }});
 }});
 </script>"""
-    write(out_dir / "index.html", page("人聲與歌唱", idx_body, out_dir / "index.html"))
+    write(out_dir / "index.html", page("人聲與歌唱", idx_body, out_dir / "index.html", meta_description="從初階發聲啟蒙到進階混聲技術，系統化的流行歌唱教學體系。包含初階15堂、進階35堂與研究專欄。"))
 
     # ── Detail pages ──
     for c in chapters:
@@ -415,7 +436,7 @@ document.addEventListener('DOMContentLoaded', function() {{
   <div class="vocal-nav-links">{prev_link}{next_link}</div>
   <a class="back-link" href="{resolve_url(ch_dir / "index.html", "/vocal/")}">← 返回課程總覽</a>
 </main>"""
-        write(ch_dir / "index.html", page(escape(c["title"]), detail_body, ch_dir / "index.html"))
+        write(ch_dir / "index.html", page(escape(c["title"]), detail_body, ch_dir / "index.html", meta_description=escape(c["title"])))
 
     # ── Research article detail pages ──
     research_files = [
@@ -451,7 +472,7 @@ document.addEventListener('DOMContentLoaded', function() {{
   <div class="vocal-content markdown-body">{r_html}</div>
   <a class="back-link" href="{resolve_url(r_dir / "index.html", "/vocal/")}">← 返回課程總覽</a>
 </main>"""
-        write(r_dir / "index.html", page(escape(r_title), r_body, r_dir / "index.html"))
+        write(r_dir / "index.html", page(escape(r_title), r_body, r_dir / "index.html", meta_description=escape(r_title)))
         print(f"  Research article {r_idx} page written.")
 
     print(f"  Vocal index + {len(chapters)} chapter pages written.")
@@ -488,7 +509,7 @@ def build_contact_page():
     <p class="card-desc">我們會在 2-3 個工作日內回覆您的訊息。若您有商業合作、音樂製作相關需求，也歡迎來信洽談。</p>
   </div>
 </main>"""
-    write(page_dir / "index.html", page("聯絡我們", body, page_dir / "index.html"))
+    write(page_dir / "index.html", page("聯絡我們", body, page_dir / "index.html", meta_description="對世界聲音百科有任何建議、發現資料錯誤或想推薦內容？歡迎透過 LINE 官方帳號或 Email 與我們聯繫。"))
     print("  Contact page written.")
 
 
