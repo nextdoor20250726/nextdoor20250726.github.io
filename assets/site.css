@@ -408,6 +408,9 @@ h2 { margin:0; font-weight:700; }
 .chapter-item a { text-decoration:none; color:inherit; display:flex; align-items:center; gap:12px; flex:1; }
 .research-grid { display:grid; gap:12px; }
 .research-item { padding:18px 20px; border:1px solid var(--line); border-radius:10px; background:var(--surface); }
+.research-item.has-link { padding:0; transition:border-color .15s,box-shadow .15s; }
+.research-item.has-link:hover { border-color:var(--accent); box-shadow:0 2px 8px rgba(0,0,0,.06); }
+.research-link { display:block; padding:18px 20px; text-decoration:none; color:inherit; }
 .research-item .research-num { display:inline-block; padding:2px 10px; border-radius:20px; background:#e0e7ff; color:#3730a3; font-size:11px; font-weight:700; margin-bottom:6px; }
 .research-item .research-title { font-weight:600; font-size:15px; }
 .vocal-detail-page { max-width:800px; margin:0 auto; padding:32px 20px 80px; }
