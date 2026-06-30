@@ -120,6 +120,7 @@ def page(title, body, page_path=None, extra_head="", meta_description="", og_ima
   <meta property="og:url" content="https://soundweavers-music.github.io{escape(str(page_path.parent if page_path else '/'))}/">
   <link rel="canonical" href="{canonical}">
   <meta http-equiv="Content-Security-Policy" content="{csp}">
+  <meta name="google-site-verification" content="AzedQ-PxUmSW7_0jyEHmHCKgN2nIK0Bio5d6LCsJTtE">
   <title>{escape(title)}｜世界聲音百科</title>
   {_dm_head}
   <link rel="stylesheet" href="{resolve_url(page_path, '/assets/site.css')}">

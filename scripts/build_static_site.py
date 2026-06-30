@@ -338,6 +338,7 @@ def page(title, body, page_path=None, meta_extra="", extra_head="", meta_descrip
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="referrer" content="no-referrer-when-downgrade">
   <meta http-equiv="Content-Security-Policy" content="{csp}">
+  <meta name="google-site-verification" content="AzedQ-PxUmSW7_0jyEHmHCKgN2nIK0Bio5d6LCsJTtE">
   <title>{escape(title)}｜世界聲音百科</title>
   {seo_tags}
   {meta_extra}
