@@ -1847,6 +1847,10 @@ def main():
     build_sitemap(instruments)
     build_robots(instruments)
     write(OUTPUT_DIR / ".nojekyll", "")
+    # Copy Google Search Console verification file to output root
+    gsc_file = BASE_DIR / "googled81b331c3a5b66a0.html"
+    if gsc_file.exists():
+        shutil.copy2(gsc_file, OUTPUT_DIR / "googled81b331c3a5b66a0.html")
     print(f"Built {len(instruments)} instruments into {OUTPUT_DIR}")
 
 
