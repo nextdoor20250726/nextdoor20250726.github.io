@@ -318,7 +318,7 @@ def build_vocal_pages():
     research_columns = [
         ("人聲共鳴聲學分析研究.md", "人聲頻率與共鳴的聲學分析 (Formants & Harmonics)"),
         ("人聲修音聲學標準研究.md", "錄音室人聲後製與修音 (Vocal Tuning) 的聲學標準：歌手該如何配合？"),
-        (None, "當代流行音樂的和聲編排邏輯：從主旋律到多聲部交織"),
+        ("Contemporary Pop Harmony Research.md", "當代流行音樂的和聲編排邏輯：從主旋律到多聲部交織"),
         (None, "不同麥克風種類（動圈 vs 電容）對歌手發聲技巧的影響與反饋"),
         (None, "流行聲樂教學的系統化與個人化：如何為不同音色的歌手制定訓練菜單"),
     ]
@@ -442,6 +442,7 @@ document.addEventListener('DOMContentLoaded', function() {{
     research_files = [
         ("人聲共鳴聲學分析研究.md", 1),
         ("人聲修音聲學標準研究.md", 2),
+        ("Contemporary Pop Harmony Research.md", 3),
     ]
     for r_fname, r_idx in research_files:
         rf = vocal_dir / r_fname
