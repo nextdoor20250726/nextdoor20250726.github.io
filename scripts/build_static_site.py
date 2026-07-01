@@ -1895,29 +1895,7 @@ def build_about_page():
         </ul>
       </section>
 
-      <section class="about-section">
-        <h2>聯絡我們 Contact Us</h2>
-        <div class="contact-info">
-          <p>✉️ <a href="mailto:nextdoor20250726@gmail.com">nextdoor20250726@gmail.com</a></p>
-          <p>🔗 <a href="https://www.youtube.com/@NextDoorSoundWeavers/" target="_blank" rel="noopener">YouTube 頻道：隔壁織音人</a></p>
-        </div>
-      </section>
     </div>
-
-    <section class="about-section">
-      <h2>回饋建議 Feedback</h2>
-      <div class="about-text">
-        <p>如果您對本網站有任何建議、發現資料錯誤、或想推薦更多樂器資料，歡迎透過 LINE 官方帳號告訴我們！您的回饋是我們持續改善的重要動力。</p>
-        <div class="feedback-actions">
-          <a class="btn btn-line" href="https://line.me/R/ti/p/@971xnxql" target="_blank" rel="noopener">
-            <span class="btn-icon">💬</span>透過 LINE 送出回饋
-          </a>
-          <a class="btn" href="mailto:nextdoor20250726@gmail.com" style="display:inline-flex;align-items:center;gap:8px;padding:12px 24px;background:var(--blue);color:#fff;border-radius:8px;text-decoration:none;font-weight:700;font-size:15px;box-shadow:0 2px 6px rgba(29,78,216,.3);">
-            <span class="btn-icon">✉️</span>email：nextdoor20250726@gmail.com
-          </a>
-        </div>
-      </div>
-    </section>
   </div>
 </main>"""
     write(page_dir_ / "index.html", page("關於", body, page_dir_ / "index.html", meta_description="世界聲音百科的創建理念、作者介紹與服務項目。收錄世界樂器、人聲歌唱教學、音樂理論與錄音製作知識。"))
