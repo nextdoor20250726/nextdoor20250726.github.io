@@ -516,7 +516,8 @@ def build_digitalmusic_pages():
         import re as _re
         m = _re.search(r"第\s*(\d+)\s*堂[：:]\s*(.+)", h1)
         if m:
-            return int(m.group(1)), m.group(2).strip()
+            title = m.group(2).strip().replace("**", "").replace("#", "").strip()
+            return int(m.group(1)), title
         return None, None
 
     lessons = []
