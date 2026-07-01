@@ -296,8 +296,10 @@ def write(path, content):
     path.write_text(content, encoding="utf-8")
 
 
-def page(title, body, page_path=None, meta_extra="", extra_head="", meta_description=""):
-    desc = meta_description or "世界聲音百科 — 收錄世界樂器、人聲歌唱教學、音樂理論與錄音製作知識的整合平台。循著聲音，走進不同文化的現場。"
+def page(title, body, page_path=None, meta_extra="", extra_head="", meta_description="", meta_keywords=""):
+    keywords_default = "隔壁織音人,世界樂器,世界樂器百科,世界聲音百科,樂器教學,歌唱教學,錄音後製,吉他教學,鋼琴教學,基礎樂理,音樂知識,民族樂器,傳統樂器,電子樂器,打擊樂器,管樂器,弦樂器,鍵盤樂器"
+    kw = meta_keywords or keywords_default
+    desc = meta_description or "世界聲音百科 by 隔壁織音人 — 收錄世界各國樂器、人聲歌唱教學、錄音後製知識與基礎樂理。從傳統民族樂器到現代電子樂器，提供樂器介紹、聆賞示範、演奏教學與文化背景。循著聲音，走進不同文化的現場。"
     csp = (
         "default-src 'self'; "
         "img-src 'self' https: data:; "
@@ -317,9 +319,26 @@ def page(title, body, page_path=None, meta_extra="", extra_head="", meta_descrip
   "name": "世界聲音百科",
   "alternateName": "World Sound Encyclopedia",
   "url": "https://soundweavers-music.github.io/",
-  "description": "{escape(desc)}"
+  "description": "{escape(desc)}",
+  "author": {{
+    "@type": "Person",
+    "name": "隔壁織音人",
+    "url": "https://www.youtube.com/@NextDoorSoundWeavers/"
+  }},
+  "potentialAction": {{
+    "@type": "SearchAction",
+    "target": {{
+      "@type": "EntryPoint",
+      "urlTemplate": "https://soundweavers-music.github.io/?q={{search_term_string}}"
+    }},
+    "query-input": "required name=search_term_string"
+  }},
+  "sameAs": [
+    "https://www.youtube.com/@NextDoorSoundWeavers/"
+  ]
 }}'''
     seo_tags = f'''<meta name="description" content="{escape(desc)}">
+<meta name="keywords" content="{escape(kw)}">
 <link rel="canonical" href="{canonical_url}">
 <script type="application/ld+json">{jsonld}</script>'''''
     if "og:title" not in meta_extra:
@@ -412,7 +431,8 @@ def card(instrument, page_path=None):
     </a>"""
 
 
-def list_page(title, instruments, page_path=None):
+def list_page(title, instruments, page_path=None, meta_description=""):
+    desc = meta_description or f"{title} — {len(instruments)} 件樂器的完整列表，包含樂器介紹、聆賞示範、演奏教學與文化背景。世界聲音百科 by 隔壁織音人。"
     cards = "\n".join(card(item, page_path) for item in instruments) or '<p class="empty">目前沒有資料。</p>'
     return page(
         title,
@@ -427,6 +447,7 @@ def list_page(title, instruments, page_path=None):
         </main>
         """,
         page_path,
+        meta_description=desc,
     )
 
 
@@ -496,7 +517,7 @@ def build_instruments_list_page(instruments):
       </div>
     </main>
     """
-    write(page_path, page("全部樂器", body, page_path))
+    write(page_path, page("全部樂器", body, page_path, meta_description="世界樂器百科 — 收錄世界各國 897 件傳統與現代樂器，可按分類、國家、年代、發聲方式篩選。提供樂器介紹、音色描述、歷史背景、演奏教學與 YouTube 聆賞示範。由隔壁織音人整理。"))
 
 
 def build_index(instruments):
@@ -609,7 +630,7 @@ def build_index(instruments):
       </div>
     </main>
     """
-    write(index_path, page("首頁", body, index_path))
+    write(index_path, page("首頁", body, index_path, meta_description="世界聲音百科 by 隔壁織音人 — 收錄世界各國傳統與現代樂器（卡林巴、手碟、鋼琴、吉他、小提琴等）、人聲歌唱教學、錄音後製知識與基礎樂理。探索樂器分類、國家地區、年代與音色，適合音樂創作者、教育工作者與樂器愛好者。"))
 
     # Write map data as JSON for the map page
     map_features = build_map_data(instruments)
@@ -701,12 +722,18 @@ def build_detail_pages(instruments):
         # Extract plain-text description from first paragraph of HTML body
         desc_match = re.search(r'<p>(.*?)</p>', body_html, re.DOTALL)
         desc_text = re.sub(r'<[^>]+>', '', desc_match.group(1))[:160] if desc_match else ""
+        keywords = f"{item['title']},{item['original_name']},{item['category']},{item['country']},樂器教學,世界樂器,樂器介紹"
+        article_tags = "\n".join(
+            f'<meta property="article:tag" content="{escape(tag)}">'
+            for tag in [item['category'], item['country'], item.get('era', ''), item.get('sound_class', '')]
+            if tag
+        )
         og_tags = "\n".join(filter(None, [
-            f'<meta name="description" content="{escape(desc_text)}">' if desc_text else "",
             f'<meta property="og:title" content="{escape(item["title"])}｜世界聲音百科">',
             f'<meta property="og:description" content="{escape(desc_text)}">' if desc_text else "",
             f'<meta property="og:image" content="{img_url}">' if img_url else "",
             f'<meta property="og:type" content="article">',
+            article_tags if article_tags else "",
         ]))
         related_pool = [i for i in by_category[item["category"]] if i["slug"] != item["slug"]]
         seed = int(hashlib.md5(item["slug"].encode()).hexdigest(), 16)
@@ -744,7 +771,7 @@ def build_detail_pages(instruments):
           {related_html}
         </main>
         """
-        write(OUTPUT_DIR / "instruments" / item["slug"] / "index.html", page(item["title"], body, meta_extra=og_tags))
+        write(OUTPUT_DIR / "instruments" / item["slug"] / "index.html", page(item["title"], body, meta_extra=og_tags, meta_description=desc_text, meta_keywords=keywords))
 
 
 def build_facet_pages(instruments, field, folder, title):
@@ -757,9 +784,11 @@ def build_facet_pages(instruments, field, folder, title):
         f'<a class="facet-card" href="{site_url(f"/{folder}/{slugify(name)}/")}"><strong>{escape(name)}</strong><span>{len(items)} 筆</span></a>'
         for name, items in sorted(grouped.items())
     )
+    desc_map = {"category": "世界樂器分類一覽", "country": "世界樂器國家地區一覽", "era": "世界樂器年代一覽", "sound_class": "世界樂器發聲方式一覽"}
+    browse_desc = desc_map.get(field, f"{title}一覽")
     write(
         OUTPUT_DIR / folder / "index.html",
-        page(title, f'<main class="page"><section class="compact-hero"><h1>{escape(title)}</h1></section><div class="facet-grid">{facet_cards}</div></main>'),
+        page(title, f'<main class="page"><section class="compact-hero"><h1>{escape(title)}</h1></section><div class="facet-grid">{facet_cards}</div></main>', meta_description=f"{browse_desc} — 探索來自各{field}的樂器，包含樂器介紹、聆賞示範與文化背景。世界聲音百科 by 隔壁織音人。"),
     )
     for name, items in grouped.items():
         write(OUTPUT_DIR / folder / slugify(name) / "index.html", list_page(name, sorted(items, key=lambda item: item["title"])))
@@ -1380,25 +1409,26 @@ def build_404(instruments):
 
 def build_sitemap(instruments):
     base = SITE_BASE_PATH or ""
-    urls = [f"<url><loc>{base}/</loc></url>",
-            f"<url><loc>{base}/instruments/</loc></url>",
-            f"<url><loc>{base}/categories/</loc></url>",
-            f"<url><loc>{base}/countries/</loc></url>",
-            f"<url><loc>{base}/eras/</loc></url>",
-            f"<url><loc>{base}/popular/</loc></url>",
-            f"<url><loc>{base}/uncommon/</loc></url>",
-            f"<url><loc>{base}/map/</loc></url>",
-            f"<url><loc>{base}/about/</loc></url>",
-            f"<url><loc>{base}/theory/</loc></url>",
-            f"<url><loc>{base}/vocal/</loc></url>",
-            f"<url><loc>{base}/contact/</loc></url>",
-            f"<url><loc>{base}/theory/1/</loc></url>",
-            f"<url><loc>{base}/theory/2/</loc></url>",
-            f"<url><loc>{base}/theory/3/</loc></url>",
-            f"<url><loc>{base}/theory/4/</loc></url>",
-            f"<url><loc>{base}/theory/5/</loc></url>"]
+    today = "2026-07-01"
+    urls = [f"<url><loc>{base}/</loc><lastmod>{today}</lastmod></url>",
+            f"<url><loc>{base}/instruments/</loc><lastmod>{today}</lastmod></url>",
+            f"<url><loc>{base}/categories/</loc><lastmod>{today}</lastmod></url>",
+            f"<url><loc>{base}/countries/</loc><lastmod>{today}</lastmod></url>",
+            f"<url><loc>{base}/eras/</loc><lastmod>{today}</lastmod></url>",
+            f"<url><loc>{base}/popular/</loc><lastmod>{today}</lastmod></url>",
+            f"<url><loc>{base}/uncommon/</loc><lastmod>{today}</lastmod></url>",
+            f"<url><loc>{base}/map/</loc><lastmod>{today}</lastmod></url>",
+            f"<url><loc>{base}/about/</loc><lastmod>{today}</lastmod></url>",
+            f"<url><loc>{base}/theory/</loc><lastmod>{today}</lastmod></url>",
+            f"<url><loc>{base}/vocal/</loc><lastmod>{today}</lastmod></url>",
+            f"<url><loc>{base}/contact/</loc><lastmod>{today}</lastmod></url>",
+            f"<url><loc>{base}/theory/1/</loc><lastmod>{today}</lastmod></url>",
+            f"<url><loc>{base}/theory/2/</loc><lastmod>{today}</lastmod></url>",
+            f"<url><loc>{base}/theory/3/</loc><lastmod>{today}</lastmod></url>",
+            f"<url><loc>{base}/theory/4/</loc><lastmod>{today}</lastmod></url>",
+            f"<url><loc>{base}/theory/5/</loc><lastmod>{today}</lastmod></url>"]
     for item in instruments:
-        urls.append(f"<url><loc>{base}/instruments/{item['slug']}/</loc></url>")
+        urls.append(f"<url><loc>{base}/instruments/{item['slug']}/</loc><lastmod>{today}</lastmod></url>")
     xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     xml += "\n".join(urls) + "\n</urlset>\n"
     write(OUTPUT_DIR / "sitemap.xml", xml)
@@ -1412,12 +1442,12 @@ def build_special_pages(instruments):
     if popular:
         page_dir = OUTPUT_DIR / "popular"
         page_dir.mkdir(parents=True, exist_ok=True)
-        write(page_dir / "index.html", list_page("熱門樂器", popular, page_dir / "index.html"))
+        write(page_dir / "index.html", list_page("熱門樂器", popular, page_dir / "index.html", meta_description=f"熱門樂器 — {len(popular)} 件最受歡迎的世界樂器，包含鋼琴、吉他、小提琴、爵士鼓、卡林巴、手碟等知名樂器的介紹、聆賞與教學。世界聲音百科 by 隔壁織音人。"))
 
     if uncommon:
         page_dir = OUTPUT_DIR / "uncommon"
         page_dir.mkdir(parents=True, exist_ok=True)
-        write(page_dir / "index.html", list_page("冷門樂器", uncommon, page_dir / "index.html"))
+        write(page_dir / "index.html", list_page("冷門樂器", uncommon, page_dir / "index.html", meta_description=f"冷門樂器 — {len(uncommon)} 件稀有珍奇的世界樂器，發掘來自世界各地的獨特聲音。世界聲音百科 by 隔壁織音人。"))
 
 def build_map_page(instruments):
     """Build a standalone map page at /map/ with clickable markers."""
@@ -1461,7 +1491,7 @@ def build_map_page(instruments):
   if (bounds.length > 0) map.fitBounds(bounds, {{ padding: [30, 30], maxZoom: 4 }});
 }})();
 </script>"""
-    write(page_dir_ / "index.html", page("地圖導覽", body, page_dir_ / "index.html", extra_head=extra))
+    write(page_dir_ / "index.html", page("地圖導覽", body, page_dir_ / "index.html", extra_head=extra, meta_description="世界樂器地圖導覽 — 透過互動式世界地圖探索各國樂器，點擊標記瀏覽該地區的所有樂器。世界聲音百科 by 隔壁織音人。"))
 
 
 def build_manager_page(instruments):
