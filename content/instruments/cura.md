@@ -1,7 +1,7 @@
 ---
 is_popular: true
 site_url: https://soundweavers-music.github.io/instruments/cura/
-title: Cura
+title: 庫拉琴
 original_name: Cura
 category: 弦樂器
 country: 中東／歐洲／亞洲／美洲
