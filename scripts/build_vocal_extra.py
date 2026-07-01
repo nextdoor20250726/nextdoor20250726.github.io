@@ -248,6 +248,7 @@ def build_portal_homepage(instruments):
 	      <div class="card-icon">🎛</div>
 	      <div class="card-label">錄音後製</div>
 	      <div class="card-desc">從宅錄建置到專業混音母帶的系統化課程</div>
+	      <span class="card-badge badge-ready">已上線 30 堂</span>
 	    </a>
 
 	    <a class="portal-card card-vocal" href="{resolve_url(index_path, '/vocal/')}">
@@ -801,23 +802,66 @@ def append_css():
 .portal-hero .hero-sub { color:var(--muted); font-size:clamp(16px,2vw,19px); max-width:600px; margin:0 auto 28px; line-height:1.7; }
 .portal-hero .hero-desc { color:var(--muted); font-size:15px; max-width:660px; margin:0 auto; line-height:1.8; }
 .portal-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:20px; max-width:1100px; margin:48px auto 0; padding:0 20px; }
-.portal-card { display:flex; flex-direction:column; border:1px solid var(--line); border-radius:14px; padding:28px 24px; background:var(--surface); text-decoration:none; transition:transform .18s,box-shadow .18s; position:relative; overflow:hidden; }
-.portal-card:hover { transform:translateY(-4px); box-shadow:0 12px 28px rgba(0,0,0,.08); }
-.portal-card .card-icon { font-size:36px; margin-bottom:14px; line-height:1; }
-.portal-card .card-label { font-size:20px; font-weight:800; margin-bottom:8px; color:var(--ink); }
-.portal-card .card-desc { font-size:14px; color:var(--muted); line-height:1.6; flex:1; }
-.portal-card .card-badge { display:inline-block; margin-top:14px; padding:3px 10px; border-radius:20px; font-size:11px; font-weight:700; align-self:flex-start; }
-.badge-new { background:#fef3c7; color:#92400e; }
-.badge-ready { background:#d1fae5; color:#065f46; }
-.badge-soon { background:#e0e7ff; color:#3730a3; }
-.badge-info { background:#f3e8ff; color:#6b21a8; }
-.portal-card::before { content:''; position:absolute; top:0; left:0; right:0; height:4px; }
-.card-instruments::before { background:#0f766e; }
-.card-vocal::before { background:#d97706; }
-.card-theory::before { background:#7c3aed; }
-.card-recording::before { background:#0891b2; }
-.card-about::before { background:#4f46e5; }
-.card-contact::before { background:#dc2626; }
+.portal-card {
+  display:flex; flex-direction:column; border:1px solid var(--line); border-radius:16px;
+  padding:28px 24px; text-decoration:none; position:relative; overflow:hidden;
+  transition:transform .25s cubic-bezier(.4,0,.2,1), box-shadow .25s cubic-bezier(.4,0,.2,1);
+}
+.portal-card:hover { transform:translateY(-4px); }
+.portal-card .card-icon { font-size:36px; margin-bottom:14px; line-height:1; position:relative; z-index:1; }
+.portal-card .card-label { font-size:20px; font-weight:800; margin-bottom:8px; position:relative; z-index:1; }
+.portal-card .card-desc { font-size:14px; color:var(--muted); line-height:1.6; flex:1; position:relative; z-index:1; }
+.portal-card .card-badge { display:inline-block; margin-top:14px; padding:4px 12px; border-radius:20px; font-size:11px; font-weight:700; align-self:flex-start; position:relative; z-index:1; }
+.badge-new { background:rgba(217,119,6,.15); color:#b45309; }
+.badge-ready { background:rgba(15,118,110,.15); color:#0f766e; }
+.badge-soon { background:rgba(55,48,163,.12); color:#3730a3; }
+.badge-info { background:rgba(107,33,168,.12); color:#6b21a8; }
+.portal-card::before { content:''; position:absolute; top:0; left:0; right:0; height:5px; z-index:2; }
+.portal-card::after { content:''; position:absolute; inset:0; opacity:0; transition:opacity .35s ease; }
+.portal-card:hover::after { opacity:1; }
+.portal-card:hover { box-shadow:0 12px 32px rgba(0,0,0,.1); }
+
+/* ── Instrument card (#0f766e teal) ── */
+.card-instruments { background:linear-gradient(135deg,#f0fdfa 0%,#f8fafc 100%); }
+.card-instruments::before { background:linear-gradient(90deg,#0f766e,#14b8a6); }
+.card-instruments::after { background:linear-gradient(135deg,rgba(15,118,110,.06) 0%,transparent 60%); }
+.card-instruments:hover { box-shadow:0 12px 32px rgba(15,118,110,.15); }
+.card-instruments .card-label { color:#0f766e; }
+
+/* ── Digitalmusic card (#0891b2 cyan) ── */
+.card-digitalmusic { background:linear-gradient(135deg,#ecfeff 0%,#f8fafc 100%); }
+.card-digitalmusic::before { background:linear-gradient(90deg,#0891b2,#22d3ee); }
+.card-digitalmusic::after { background:linear-gradient(135deg,rgba(8,145,178,.06) 0%,transparent 60%); }
+.card-digitalmusic:hover { box-shadow:0 12px 32px rgba(8,145,178,.15); }
+.card-digitalmusic .card-label { color:#0891b2; }
+
+/* ── Vocal card (#d97706 amber) ── */
+.card-vocal { background:linear-gradient(135deg,#fffbeb 0%,#fefce8 100%); }
+.card-vocal::before { background:linear-gradient(90deg,#d97706,#f59e0b); }
+.card-vocal::after { background:linear-gradient(135deg,rgba(217,119,6,.06) 0%,transparent 60%); }
+.card-vocal:hover { box-shadow:0 12px 32px rgba(217,119,6,.15); }
+.card-vocal .card-label { color:#b45309; }
+
+/* ── Theory card (#7c3aed purple) ── */
+.card-theory { background:linear-gradient(135deg,#f5f3ff 0%,#faf5ff 100%); }
+.card-theory::before { background:linear-gradient(90deg,#7c3aed,#a78bfa); }
+.card-theory::after { background:linear-gradient(135deg,rgba(124,58,237,.06) 0%,transparent 60%); }
+.card-theory:hover { box-shadow:0 12px 32px rgba(124,58,237,.15); }
+.card-theory .card-label { color:#7c3aed; }
+
+/* ── About card (#4f46e5 indigo) ── */
+.card-about { background:linear-gradient(135deg,#eef2ff 0%,#f8faff 100%); }
+.card-about::before { background:linear-gradient(90deg,#4f46e5,#818cf8); }
+.card-about::after { background:linear-gradient(135deg,rgba(79,70,229,.06) 0%,transparent 60%); }
+.card-about:hover { box-shadow:0 12px 32px rgba(79,70,229,.15); }
+.card-about .card-label { color:#4f46e5; }
+
+/* ── Contact card (#dc2626 red) ── */
+.card-contact { background:linear-gradient(135deg,#fef2f2 0%,#fef8f8 100%); }
+.card-contact::before { background:linear-gradient(90deg,#dc2626,#f87171); }
+.card-contact::after { background:linear-gradient(135deg,rgba(220,38,38,.06) 0%,transparent 60%); }
+.card-contact:hover { box-shadow:0 12px 32px rgba(220,38,38,.15); }
+.card-contact .card-label { color:#dc2626; }
 .portal-content { max-width:1100px; margin:56px auto 0; padding:0 20px 64px; }
 @media (max-width:800px) { .portal-grid { grid-template-columns:repeat(2,1fr); } }
 @media (max-width:520px) { .portal-grid { grid-template-columns:1fr; } }
