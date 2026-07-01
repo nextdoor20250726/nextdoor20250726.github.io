@@ -2,7 +2,7 @@
 is_popular: true
 site_url: https://soundweavers-music.github.io/instruments/ney/
 title: 奈伊笛
-original_name: Ney
+original_name: Ney / Nai
 category: 管樂器
 country: 中東
 era: 傳統／年代待考
@@ -15,7 +15,7 @@ playing_method: 吹奏／端吹／橫吹／容器共鳴
 body_listening: 氣息、胸腔、長音、空間
 soundscape: 一口氣走過山谷（竹管、陶管、長音與世界笛聲）
 region_type: 跨文化／多地
-youtube_ids: MgKR6pfZocc ViZtpquGUM4
+youtube_ids: MgKR6pfZocc ViZtpquGUM4 uOIHHMnI_Ig 93wGaGFUnTs
 ---
 ## 介紹
 
