@@ -90,7 +90,7 @@ def page(title, body, page_path=None, extra_head="", meta_description="", og_ima
     desc = meta_description or "世界聲音百科 by 隔壁織音人 — 收錄世界各國樂器、人聲歌唱教學、錄音後製知識與基礎樂理。從傳統民族樂器到現代電子樂器，提供樂器介紹、聆賞示範、演奏教學與文化背景。循著聲音，走進不同文化的現場。"
     csp = ("default-src 'self'; img-src 'self' https: data:; "
            "style-src 'self' 'unsafe-inline' https://unpkg.com https://cdnjs.cloudflare.com; "
-           "script-src 'self' 'unsafe-inline' https://unpkg.com https://cdnjs.cloudflare.com https://busuanzi.ibruce.info; "
+           "script-src 'self' 'unsafe-inline' https://unpkg.com https://cdnjs.cloudflare.com https://busuanzi.ibruce.info https://pagead2.googlesyndication.com; "
            "connect-src 'self'; frame-src https://www.youtube-nocookie.com https://www.youtube.com; "
            "base-uri 'self'; form-action 'none'; object-src 'none'")
     raw_canon = resolve_url(page_path, "/") if page_path else "/"
@@ -138,6 +138,7 @@ def page(title, body, page_path=None, extra_head="", meta_description="", og_ima
   <link rel="canonical" href="{canonical}">
   <meta http-equiv="Content-Security-Policy" content="{csp}">
   <meta name="google-site-verification" content="AzedQ-PxUmSW7_0jyEHmHCKgN2nIK0Bio5d6LCsJTtE">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6561686484716387" crossorigin="anonymous"></script>
   <title>{escape(title) if "|" in title or "｜" in title else escape(title) + "｜世界聲音百科"}</title>
   {_dm_head}
   <link rel="stylesheet" href="{resolve_url(page_path, '/assets/site.css')}">
