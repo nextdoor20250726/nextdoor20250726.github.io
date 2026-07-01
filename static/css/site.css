@@ -1,5 +1,16 @@
 :root {
   color-scheme: light;
+  --ink: #3D3229;
+  --muted: #9C8F87;
+  --line: #E5DDD6;
+  --surface: #ffffff;
+  --soft: #F7F3EE;
+  --accent: #C4956A;
+  --accent-strong: #A67C52;
+  --blue: #6B8FBF;
+}
+
+[data-theme="light"] {
   --ink: #111827;
   --muted: #667085;
   --line: #d7dde8;
@@ -8,6 +19,18 @@
   --accent: #0f766e;
   --accent-strong: #115e59;
   --blue: #1d4ed8;
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+  --ink: #e2e8f0;
+  --muted: #94a3b8;
+  --line: #334155;
+  --surface: #1e293b;
+  --soft: #0f172a;
+  --accent: #5eead4;
+  --accent-strong: #14b8a6;
+  --blue: #60a5fa;
 }
 
 * {
@@ -52,6 +75,23 @@ a {
 
 .site-nav a {
   text-decoration: none;
+}
+
+.theme-toggle {
+  background: none;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1;
+  padding: 5px 8px;
+  color: var(--ink);
+  transition: border-color .15s;
+  flex-shrink: 0;
+  margin-left: 4px;
+}
+.theme-toggle:hover {
+  border-color: var(--accent);
 }
 
 /* ── Dropdown nav ─────────────────────────────────────────────── */

@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% block title %}世界樂器百科{% endblock %}</title>
   <link rel="stylesheet" href="{% static 'css/site.css' %}">
+  <script>!function(){try{var t=localStorage.getItem("theme");document.documentElement.setAttribute("data-theme",t||"nextdoor")}catch(e){}}()</script>
   {% block extra_head %}{% endblock %}
 </head>
 <body>
@@ -28,6 +29,7 @@
       <a href="{% url 'about' %}">關於</a>
       <a href="/admin/">管理後台</a>
     </nav>
+    <button id="theme-toggle" class="theme-toggle" aria-label="切換色調">🎋</button>
   </header>
 
   {% block content %}{% endblock %}
@@ -43,5 +45,9 @@
   </footer>
 
   {% block extra_js %}{% endblock %}
+
+  <script>
+  (function(){var t=document.getElementById("theme-toggle"),d=document.documentElement;var I={nextdoor:"🎋",light:"🌤",dark:"🌙"};function s(m){d.setAttribute("data-theme",m);if(t)t.textContent=I[m]||"🎋";try{localStorage.setItem("theme",m)}catch(e){}}var v=localStorage.getItem("theme")||"nextdoor";s(v);if(t)t.addEventListener("click",function(){var c=d.getAttribute("data-theme");s(c==="nextdoor"?"light":c==="light"?"dark":"nextdoor")});})();
+  </script>
 </body>
 </html>

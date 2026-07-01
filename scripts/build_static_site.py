@@ -328,8 +328,8 @@ def page(title, body, page_path=None, meta_extra="", extra_head="", meta_descrip
 <meta property="og:description" content="{escape(desc)}">
 <meta property="og:image" content="{og_image}">
 <meta property="og:type" content="website">'''
-    _dm_head = '<script>!function(){try{var t=localStorage.getItem("theme");if(t)document.documentElement.setAttribute("data-theme",t);else if(window.matchMedia("(prefers-color-scheme:dark)").matches)document.documentElement.setAttribute("data-theme","dark")}catch(e){}}()</script>'
-    _dm_foot = '<script>(function(){var t=document.getElementById("theme-toggle"),d=document.documentElement;function s(m){d.setAttribute("data-theme",m);if(t)t.textContent=m==="dark"?"☀️":"🌙";try{localStorage.setItem("theme",m)}catch(e){}}var v=(localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme:dark)").matches?"dark":"light"));s(v);if(t)t.addEventListener("click",function(){s(d.getAttribute("data-theme")==="dark"?"light":"dark")});})();</script>'
+    _dm_head = '<script>!function(){try{var t=localStorage.getItem("theme");if(t)document.documentElement.setAttribute("data-theme",t);else document.documentElement.setAttribute("data-theme","nextdoor")}catch(e){}}()</script>'
+    _dm_foot = '<script>(function(){var t=document.getElementById("theme-toggle"),d=document.documentElement;var I={nextdoor:"🎋",light:"🌤",dark:"🌙"};function s(m){d.setAttribute("data-theme",m);if(t)t.textContent=I[m]||"🎋";try{localStorage.setItem("theme",m)}catch(e){}}var v=(localStorage.getItem("theme")||"nextdoor");s(v);if(t)t.addEventListener("click",function(){var c=d.getAttribute("data-theme");s(c==="nextdoor"?"light":c==="light"?"dark":"nextdoor")});})();</script>'
 
     return f"""<!doctype html>
 <html lang="zh-Hant">
@@ -367,7 +367,7 @@ def page(title, body, page_path=None, meta_extra="", extra_head="", meta_descrip
       <a href="{resolve_url(page_path, '/about/')}">關於</a>
       <a href="{resolve_url(page_path, '/contact/')}">聯絡我們</a>
     </nav>
-    <button id="theme-toggle" class="theme-toggle" aria-label="切換深色模式">🌙</button>
+    <button id="theme-toggle" class="theme-toggle" aria-label="切換色調">🎋</button>
   </header>
   {body}
   <footer class="site-footer">
@@ -794,6 +794,19 @@ def build_assets(instruments):
   --blue: #60a5fa;
   --shadow: 0 1px 3px rgba(0,0,0,.3), 0 1px 2px rgba(0,0,0,.25);
   --shadow-md: 0 4px 6px -1px rgba(0,0,0,.35), 0 2px 4px -2px rgba(0,0,0,.3);
+}
+[data-theme="nextdoor"] {
+  --ink: #3D3229;
+  --ink2: #5D4E41;
+  --muted: #9C8F87;
+  --line: #E5DDD6;
+  --surface: #FFFFFF;
+  --soft: #F7F3EE;
+  --accent: #C4956A;
+  --accent2: #A67C52;
+  --blue: #6B8FBF;
+  --shadow: 0 1px 3px rgba(0,0,0,.05), 0 1px 2px rgba(0,0,0,.04);
+  --shadow-md: 0 4px 6px -1px rgba(0,0,0,.04), 0 2px 4px -2px rgba(0,0,0,.04);
 }
 *, *::before, *::after { box-sizing: border-box; }
 body { margin:0; color:var(--ink); background:var(--soft); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC",sans-serif; line-height:1.6; }
