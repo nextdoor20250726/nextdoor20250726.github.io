@@ -382,9 +382,34 @@ def page(title, body, page_path=None, meta_extra="", extra_head="", meta_descrip
           <a href="{resolve_url(page_path, '/map/')}">地圖</a>
         </div>
       </div>
-      <a href="{resolve_url(page_path, '/vocal/')}">人聲與歌唱</a>
-	      <a href="{resolve_url(page_path, '/digitalmusic/')}">錄音後製</a>
-      <a href="{resolve_url(page_path, '/theory/')}">樂理基礎</a>
+      <div class="nav-dropdown">
+        <a href="{resolve_url(page_path, '/vocal/')}" class="dropdown-trigger">人聲與歌唱</a>
+        <div class="dropdown-menu">
+          <a href="{resolve_url(page_path, '/vocal/')}">課程總覽</a>
+          <a href="{resolve_url(page_path, '/vocal/1/')}">初階篇</a>
+          <a href="{resolve_url(page_path, '/vocal/16/')}">進階篇</a>
+        </div>
+      </div>
+      <div class="nav-dropdown">
+        <a href="{resolve_url(page_path, '/digitalmusic/')}" class="dropdown-trigger">錄音後製</a>
+        <div class="dropdown-menu">
+          <a href="{resolve_url(page_path, '/digitalmusic/')}">課程總覽</a>
+          <a href="{resolve_url(page_path, '/digitalmusic/1/')}">基礎篇</a>
+          <a href="{resolve_url(page_path, '/digitalmusic/16/')}">進階篇</a>
+        </div>
+      </div>
+      <div class="nav-dropdown">
+        <a href="{resolve_url(page_path, '/theory/')}" class="dropdown-trigger">樂理基礎</a>
+        <div class="dropdown-menu">
+          <a href="{resolve_url(page_path, '/theory/')}">課程總覽</a>
+          <a href="{resolve_url(page_path, '/theory/0/')}">前言</a>
+          <a href="{resolve_url(page_path, '/theory/1/')}">階段一</a>
+          <a href="{resolve_url(page_path, '/theory/2/')}">階段二</a>
+          <a href="{resolve_url(page_path, '/theory/3/')}">階段三</a>
+          <a href="{resolve_url(page_path, '/theory/4/')}">階段四</a>
+          <a href="{resolve_url(page_path, '/theory/5/')}">階段五</a>
+        </div>
+      </div>
       <a href="{resolve_url(page_path, '/about/')}">關於</a>
       <a href="{resolve_url(page_path, '/contact/')}">聯絡我們</a>
     </nav>
