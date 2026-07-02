@@ -1,8 +1,8 @@
 ---
 is_popular: true
 site_url: https://soundweavers-music.github.io/instruments/tabla-bayan/
-title: 塔布拉鼓
-original_name: Tabla Bayan
+title: 塔布拉鼓(低音鼓)
+original_name: Tabla Bayan（低音鼓）
 category: 打擊樂器
 country: 印度／南亞
 era: 傳統／年代待考
