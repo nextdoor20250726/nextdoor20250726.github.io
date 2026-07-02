@@ -3,7 +3,7 @@
     "lat": 42.0,
     "lng": 12.0,
     "name": "東亞／中亞／歐洲／東南亞／非洲／美洲",
-    "count": 395,
+    "count": 389,
     "url": "/countries/中東-歐洲/",
     "urls": [
       "/countries/中東-歐洲/",
@@ -29,7 +29,7 @@
     "lat": 50.0,
     "lng": 10.0,
     "name": "歐洲西北部（凱爾特地區）／愛爾蘭、蘇格蘭、威爾士、布列塔尼",
-    "count": 393,
+    "count": 387,
     "url": "/countries/中東-歐洲/",
     "urls": [
       "/countries/中東-歐洲/",
@@ -55,7 +55,7 @@
     "lat": 50.0,
     "lng": 0.0,
     "name": "東亞／中亞／歐洲／東南亞／非洲／美洲",
-    "count": 385,
+    "count": 379,
     "url": "/countries/中世紀法國-西歐/",
     "urls": [
       "/countries/中世紀法國-西歐/",
@@ -81,7 +81,7 @@
     "lat": 60.0,
     "lng": 15.0,
     "name": "東亞／中亞／歐洲／東南亞／非洲／美洲",
-    "count": 385,
+    "count": 379,
     "url": "/countries/中東-歐洲/",
     "urls": [
       "/countries/中東-歐洲/",
@@ -107,7 +107,7 @@
     "lat": 52.0,
     "lng": 25.0,
     "name": "東亞／中亞／歐洲／東南亞／非洲／美洲",
-    "count": 383,
+    "count": 377,
     "url": "/countries/中東-歐洲/",
     "urls": [
       "/countries/中東-歐洲/",
@@ -133,18 +133,18 @@
     "lat": 10.0,
     "lng": 105.0,
     "name": "東亞／中亞／歐洲／東南亞／非洲／美洲",
-    "count": 274,
+    "count": 273,
     "url": "/countries/中東-南亞/",
     "urls": [
       "/countries/中東-南亞/",
       "/countries/中東-歐洲-亞洲-美洲/",
       "/countries/中東-歐洲-東南亞/",
       "/countries/亞洲-中東-歐洲/",
-      "/countries/亞洲-南亞-印度/",
+      "/countries/亞洲-南亞_印度/",
       "/countries/亞洲-東亞/",
-      "/countries/亞洲-東亞-中國/",
-      "/countries/亞洲-東亞-日本/",
-      "/countries/亞洲-東亞-韓國/",
+      "/countries/亞洲-東亞_中國/",
+      "/countries/亞洲-東亞_日本/",
+      "/countries/亞洲-東亞_韓國/",
       "/countries/亞洲-東南亞/"
     ],
     "samples": [
@@ -165,13 +165,13 @@
       "/countries/中東-歐亞-東亞-美洲-全球/",
       "/countries/中東-歐洲-亞洲-美洲/",
       "/countries/亞洲-中東-歐洲/",
-      "/countries/亞洲-南亞-印度/",
+      "/countries/亞洲-南亞_印度/",
       "/countries/亞洲-東亞/",
-      "/countries/亞洲-東亞-中國/",
-      "/countries/亞洲-東亞-日本/",
-      "/countries/亞洲-東亞-韓國/",
+      "/countries/亞洲-東亞_中國/",
+      "/countries/亞洲-東亞_日本/",
+      "/countries/亞洲-東亞_韓國/",
       "/countries/亞洲-東南亞/",
-      "/countries/亞洲-東南亞-印尼/"
+      "/countries/亞洲-東南亞_印尼/"
     ],
     "samples": [
       "原聲吉他",
@@ -185,14 +185,14 @@
     "lat": 40.0,
     "lng": -100.0,
     "name": "東亞／中亞／歐洲／東南亞／非洲／美洲",
-    "count": 262,
+    "count": 255,
     "url": "/countries/中東-歐亞-東亞-美洲-全球/",
     "urls": [
       "/countries/中東-歐亞-東亞-美洲-全球/",
       "/countries/中東-歐洲-亞洲-美洲/",
       "/countries/加勒比-拉丁美洲/",
       "/countries/南美洲/",
-      "/countries/南美洲-瓜拉尼人地區/",
+      "/countries/南美洲_瓜拉尼人地區/",
       "/countries/太平洋島嶼國家-南美洲-南亞地區/",
       "/countries/拉丁美洲-安地斯-加勒比/",
       "/countries/拉丁美洲-非洲-歐洲-亞洲-全球/",
@@ -217,13 +217,13 @@
       "/countries/中亞-波斯/",
       "/countries/中東-歐洲-亞洲-美洲/",
       "/countries/亞洲-中東-歐洲/",
-      "/countries/亞洲-南亞-印度/",
+      "/countries/亞洲-南亞_印度/",
       "/countries/亞洲-東亞/",
-      "/countries/亞洲-東亞-中國/",
-      "/countries/亞洲-東亞-日本/",
-      "/countries/亞洲-東亞-韓國/",
+      "/countries/亞洲-東亞_中國/",
+      "/countries/亞洲-東亞_日本/",
+      "/countries/亞洲-東亞_韓國/",
       "/countries/亞洲-東南亞/",
-      "/countries/亞洲-東南亞-印尼/"
+      "/countries/亞洲-東南亞_印尼/"
     ],
     "samples": [
       "阿弗歇鼓",
@@ -237,19 +237,19 @@
     "lat": 20.0,
     "lng": 78.0,
     "name": "拉丁美洲／非洲／歐洲／亞洲／全球",
-    "count": 226,
+    "count": 225,
     "url": "/countries/中東-南亞/",
     "urls": [
       "/countries/中東-南亞/",
       "/countries/中東-歐洲-亞洲-美洲/",
       "/countries/亞洲-中東-歐洲/",
-      "/countries/亞洲-南亞-印度/",
+      "/countries/亞洲-南亞_印度/",
       "/countries/亞洲-東亞/",
-      "/countries/亞洲-東亞-中國/",
-      "/countries/亞洲-東亞-日本/",
-      "/countries/亞洲-東亞-韓國/",
+      "/countries/亞洲-東亞_中國/",
+      "/countries/亞洲-東亞_日本/",
+      "/countries/亞洲-東亞_韓國/",
       "/countries/亞洲-東南亞/",
-      "/countries/亞洲-東南亞-印尼/"
+      "/countries/亞洲-東南亞_印尼/"
     ],
     "samples": [
       "阿弗歇鼓",
@@ -268,14 +268,14 @@
     "urls": [
       "/countries/中東-歐洲-亞洲-美洲/",
       "/countries/亞洲-中東-歐洲/",
-      "/countries/亞洲-南亞-印度/",
+      "/countries/亞洲-南亞_印度/",
       "/countries/亞洲-東亞/",
-      "/countries/亞洲-東亞-中國/",
-      "/countries/亞洲-東亞-日本/",
-      "/countries/亞洲-東亞-韓國/",
+      "/countries/亞洲-東亞_中國/",
+      "/countries/亞洲-東亞_日本/",
+      "/countries/亞洲-東亞_韓國/",
       "/countries/亞洲-東南亞/",
-      "/countries/亞洲-東南亞-印尼/",
-      "/countries/亞洲-東南亞-泰國/"
+      "/countries/亞洲-東南亞_印尼/",
+      "/countries/亞洲-東南亞_泰國/"
     ],
     "samples": [
       "阿弗歇鼓",
@@ -294,14 +294,14 @@
     "urls": [
       "/countries/中東-歐洲-亞洲-美洲/",
       "/countries/亞洲-中東-歐洲/",
-      "/countries/亞洲-南亞-印度/",
+      "/countries/亞洲-南亞_印度/",
       "/countries/亞洲-東亞/",
-      "/countries/亞洲-東亞-中國/",
-      "/countries/亞洲-東亞-日本/",
-      "/countries/亞洲-東亞-韓國/",
+      "/countries/亞洲-東亞_中國/",
+      "/countries/亞洲-東亞_日本/",
+      "/countries/亞洲-東亞_韓國/",
       "/countries/亞洲-東南亞/",
-      "/countries/亞洲-東南亞-印尼/",
-      "/countries/亞洲-東南亞-泰國/"
+      "/countries/亞洲-東南亞_印尼/",
+      "/countries/亞洲-東南亞_泰國/"
     ],
     "samples": [
       "阿弗歇鼓",
@@ -315,7 +315,7 @@
     "lat": 20.0,
     "lng": -75.0,
     "name": "東亞／中亞／歐洲／東南亞／非洲／美洲",
-    "count": 198,
+    "count": 196,
     "url": "/countries/中東-歐亞-東亞-美洲-全球/",
     "urls": [
       "/countries/中東-歐亞-東亞-美洲-全球/",
@@ -341,7 +341,7 @@
     "lat": 45.0,
     "lng": -100.0,
     "name": "東亞／中亞／歐洲／東南亞／非洲／美洲",
-    "count": 195,
+    "count": 193,
     "url": "/countries/中東-歐亞-東亞-美洲-全球/",
     "urls": [
       "/countries/中東-歐亞-東亞-美洲-全球/",
@@ -352,7 +352,7 @@
       "/countries/歐洲-葡萄牙-美洲-巴西/",
       "/countries/美洲/",
       "/countries/美洲-加勒比/",
-      "/countries/美洲-加勒比-千里達/",
+      "/countries/美洲-加勒比_千里達/",
       "/countries/美洲-北美/"
     ],
     "samples": [
@@ -367,7 +367,7 @@
     "lat": 15.0,
     "lng": -90.0,
     "name": "東亞／中亞／歐洲／東南亞／非洲／美洲",
-    "count": 195,
+    "count": 193,
     "url": "/countries/中東-歐亞-東亞-美洲-全球/",
     "urls": [
       "/countries/中東-歐亞-東亞-美洲-全球/",
@@ -378,7 +378,7 @@
       "/countries/歐洲-葡萄牙-美洲-巴西/",
       "/countries/美洲/",
       "/countries/美洲-加勒比/",
-      "/countries/美洲-加勒比-千里達/",
+      "/countries/美洲-加勒比_千里達/",
       "/countries/美洲-北美/"
     ],
     "samples": [
@@ -393,7 +393,7 @@
     "lat": -15.0,
     "lng": -60.0,
     "name": "東亞／中亞／歐洲／東南亞／非洲／美洲",
-    "count": 195,
+    "count": 193,
     "url": "/countries/中東-歐亞-東亞-美洲-全球/",
     "urls": [
       "/countries/中東-歐亞-東亞-美洲-全球/",
@@ -404,7 +404,7 @@
       "/countries/歐洲-葡萄牙-美洲-巴西/",
       "/countries/美洲/",
       "/countries/美洲-加勒比/",
-      "/countries/美洲-加勒比-千里達/",
+      "/countries/美洲-加勒比_千里達/",
       "/countries/美洲-北美/"
     ],
     "samples": [
@@ -419,130 +419,26 @@
     "lat": 5.0,
     "lng": 20.0,
     "name": "非洲中部（剛果）/ 非洲東部（坦尚尼亞）",
-    "count": 168,
+    "count": 163,
     "url": "/countries/中東-非洲-北非/",
     "urls": [
       "/countries/中東-非洲-北非/",
       "/countries/亞洲-東南亞-非洲/",
-      "/countries/剛果民主共和國-剛果共和國-非洲中部/",
       "/countries/印度洋地區-非洲-歐洲和北美/",
       "/countries/拉丁美洲-非洲-歐洲-亞洲-全球/",
       "/countries/東亞-中亞-歐洲-東南亞-非洲-美洲/",
       "/countries/東南亞-東亞-非洲-歐洲-全球/",
       "/countries/越南-非洲/",
       "/countries/非洲/",
-      "/countries/非洲中西部/"
+      "/countries/非洲中西部/",
+      "/countries/非洲中部/"
     ],
     "samples": [
-      "Adjalin（暫譯）",
+      "阿賈林琴",
       "阿弗歇鼓",
       "非洲弓豎琴",
-      "Agidigbo（暫譯）",
+      "阿吉迪格博",
       "阿果果雙鈴"
-    ]
-  },
-  {
-    "lat": 0.0,
-    "lng": 35.0,
-    "name": "東亞／中亞／歐洲／東南亞／非洲／美洲",
-    "count": 161,
-    "url": "/countries/中東-非洲-北非/",
-    "urls": [
-      "/countries/中東-非洲-北非/",
-      "/countries/亞洲-東南亞-非洲/",
-      "/countries/印度洋地區-非洲-歐洲和北美/",
-      "/countries/拉丁美洲-非洲-歐洲-亞洲-全球/",
-      "/countries/東亞-中亞-歐洲-東南亞-非洲-美洲/",
-      "/countries/東南亞-東亞-非洲-歐洲-全球/",
-      "/countries/東非-中非/",
-      "/countries/烏干達-東非/",
-      "/countries/衣索比亞-東非/",
-      "/countries/越南-非洲/"
-    ],
-    "samples": [
-      "阿杜古弓形豎琴",
-      "阿弗歇鼓",
-      "非洲弓豎琴",
-      "阿果果雙鈴",
-      "阿卡丁達木琴"
-    ]
-  },
-  {
-    "lat": 8.0,
-    "lng": -5.0,
-    "name": "東亞／中亞／歐洲／東南亞／非洲／美洲",
-    "count": 161,
-    "url": "/countries/中東-非洲-北非/",
-    "urls": [
-      "/countries/中東-非洲-北非/",
-      "/countries/亞洲-東南亞-非洲/",
-      "/countries/印度洋地區-非洲-歐洲和北美/",
-      "/countries/巴西-西非/",
-      "/countries/拉丁美洲-非洲-歐洲-亞洲-全球/",
-      "/countries/東亞-中亞-歐洲-東南亞-非洲-美洲/",
-      "/countries/東南亞-東亞-非洲-歐洲-全球/",
-      "/countries/西非-馬利/",
-      "/countries/越南-非洲/",
-      "/countries/非洲/"
-    ],
-    "samples": [
-      "阿弗歇鼓",
-      "非洲弓豎琴",
-      "阿哥哥鈴",
-      "阿果果雙鈴",
-      "阿卡丁達木琴"
-    ]
-  },
-  {
-    "lat": 25.0,
-    "lng": 10.0,
-    "name": "東亞／中亞／歐洲／東南亞／非洲／美洲",
-    "count": 160,
-    "url": "/countries/中東-北非/",
-    "urls": [
-      "/countries/中東-北非/",
-      "/countries/中東-非洲-北非/",
-      "/countries/亞洲-東南亞-非洲/",
-      "/countries/印度洋地區-非洲-歐洲和北美/",
-      "/countries/拉丁美洲-非洲-歐洲-亞洲-全球/",
-      "/countries/摩洛哥-北非/",
-      "/countries/東亞-中亞-歐洲-東南亞-非洲-美洲/",
-      "/countries/東南亞-東亞-非洲-歐洲-全球/",
-      "/countries/越南-非洲/",
-      "/countries/非洲/"
-    ],
-    "samples": [
-      "阿弗歇鼓",
-      "非洲弓豎琴",
-      "阿果果雙鈴",
-      "阿卡丁達木琴",
-      "阿馬丁達木琴"
-    ]
-  },
-  {
-    "lat": 0.0,
-    "lng": 20.0,
-    "name": "東亞／中亞／歐洲／東南亞／非洲／美洲",
-    "count": 159,
-    "url": "/countries/中東-非洲-北非/",
-    "urls": [
-      "/countries/中東-非洲-北非/",
-      "/countries/亞洲-東南亞-非洲/",
-      "/countries/印度洋地區-非洲-歐洲和北美/",
-      "/countries/拉丁美洲-非洲-歐洲-亞洲-全球/",
-      "/countries/東亞-中亞-歐洲-東南亞-非洲-美洲/",
-      "/countries/東南亞-東亞-非洲-歐洲-全球/",
-      "/countries/東非-中非/",
-      "/countries/越南-非洲/",
-      "/countries/非洲/",
-      "/countries/非洲-中東-亞洲-歐洲-美洲/"
-    ],
-    "samples": [
-      "阿弗歇鼓",
-      "非洲弓豎琴",
-      "阿果果雙鈴",
-      "阿卡丁達木琴",
-      "阿馬丁達木琴"
     ]
   },
   {
@@ -572,10 +468,114 @@
     ]
   },
   {
+    "lat": 0.0,
+    "lng": 35.0,
+    "name": "東亞／中亞／歐洲／東南亞／非洲／美洲",
+    "count": 158,
+    "url": "/countries/中東-非洲-北非/",
+    "urls": [
+      "/countries/中東-非洲-北非/",
+      "/countries/亞洲-東南亞-非洲/",
+      "/countries/印度洋地區-非洲-歐洲和北美/",
+      "/countries/拉丁美洲-非洲-歐洲-亞洲-全球/",
+      "/countries/東亞-中亞-歐洲-東南亞-非洲-美洲/",
+      "/countries/東南亞-東亞-非洲-歐洲-全球/",
+      "/countries/東非-中非/",
+      "/countries/烏干達-東非/",
+      "/countries/衣索比亞-東非/",
+      "/countries/越南-非洲/"
+    ],
+    "samples": [
+      "阿杜古弓形豎琴",
+      "阿弗歇鼓",
+      "非洲弓豎琴",
+      "阿果果雙鈴",
+      "阿卡丁達木琴"
+    ]
+  },
+  {
+    "lat": 8.0,
+    "lng": -5.0,
+    "name": "東亞／中亞／歐洲／東南亞／非洲／美洲",
+    "count": 158,
+    "url": "/countries/中東-非洲-北非/",
+    "urls": [
+      "/countries/中東-非洲-北非/",
+      "/countries/亞洲-東南亞-非洲/",
+      "/countries/印度洋地區-非洲-歐洲和北美/",
+      "/countries/巴西-西非/",
+      "/countries/拉丁美洲-非洲-歐洲-亞洲-全球/",
+      "/countries/東亞-中亞-歐洲-東南亞-非洲-美洲/",
+      "/countries/東南亞-東亞-非洲-歐洲-全球/",
+      "/countries/西非-馬利/",
+      "/countries/越南-非洲/",
+      "/countries/非洲/"
+    ],
+    "samples": [
+      "阿弗歇鼓",
+      "非洲弓豎琴",
+      "阿哥哥鈴",
+      "阿果果雙鈴",
+      "阿卡丁達木琴"
+    ]
+  },
+  {
+    "lat": 25.0,
+    "lng": 10.0,
+    "name": "東亞／中亞／歐洲／東南亞／非洲／美洲",
+    "count": 157,
+    "url": "/countries/中東-北非/",
+    "urls": [
+      "/countries/中東-北非/",
+      "/countries/中東-非洲-北非/",
+      "/countries/亞洲-東南亞-非洲/",
+      "/countries/印度洋地區-非洲-歐洲和北美/",
+      "/countries/拉丁美洲-非洲-歐洲-亞洲-全球/",
+      "/countries/摩洛哥-北非/",
+      "/countries/東亞-中亞-歐洲-東南亞-非洲-美洲/",
+      "/countries/東南亞-東亞-非洲-歐洲-全球/",
+      "/countries/越南-非洲/",
+      "/countries/非洲/"
+    ],
+    "samples": [
+      "阿弗歇鼓",
+      "非洲弓豎琴",
+      "阿果果雙鈴",
+      "阿卡丁達木琴",
+      "阿馬丁達木琴"
+    ]
+  },
+  {
+    "lat": 0.0,
+    "lng": 20.0,
+    "name": "東亞／中亞／歐洲／東南亞／非洲／美洲",
+    "count": 156,
+    "url": "/countries/中東-非洲-北非/",
+    "urls": [
+      "/countries/中東-非洲-北非/",
+      "/countries/亞洲-東南亞-非洲/",
+      "/countries/印度洋地區-非洲-歐洲和北美/",
+      "/countries/拉丁美洲-非洲-歐洲-亞洲-全球/",
+      "/countries/東亞-中亞-歐洲-東南亞-非洲-美洲/",
+      "/countries/東南亞-東亞-非洲-歐洲-全球/",
+      "/countries/東非-中非/",
+      "/countries/越南-非洲/",
+      "/countries/非洲/",
+      "/countries/非洲-中東-亞洲-歐洲-美洲/"
+    ],
+    "samples": [
+      "阿弗歇鼓",
+      "非洲弓豎琴",
+      "阿果果雙鈴",
+      "阿卡丁達木琴",
+      "阿馬丁達木琴"
+    ]
+  },
+  {
     "lat": -25.0,
     "lng": 25.0,
     "name": "東亞／中亞／歐洲／東南亞／非洲／美洲",
-    "count": 158,
+    "count": 155,
     "url": "/countries/中東-非洲-北非/",
     "urls": [
       "/countries/中東-非洲-北非/",
@@ -601,7 +601,7 @@
     "lat": -19.0,
     "lng": 30.0,
     "name": "東亞／中亞／歐洲／東南亞／非洲／美洲",
-    "count": 158,
+    "count": 155,
     "url": "/countries/中東-非洲-北非/",
     "urls": [
       "/countries/中東-非洲-北非/",
@@ -631,10 +631,10 @@
     "url": "/countries/中世紀法國-西歐/",
     "urls": [
       "/countries/中世紀法國-西歐/",
-      "/countries/歐洲-法國-德國/",
+      "/countries/歐洲_法國-德國/",
       "/countries/歐洲-法國/",
       "/countries/法國/",
-      "/countries/法國中部-波旁地區-貝里地區-涅韋爾內地區-莫凡地區/",
+      "/countries/法國中部_波旁地區-貝里地區-涅韋爾內地區-莫凡地區/",
       "/countries/法國-布列塔尼地區/",
       "/countries/法國-比利牛斯地區/",
       "/countries/法國-現代/",
@@ -652,12 +652,12 @@
     "lat": 36.0,
     "lng": 138.0,
     "name": "亞洲／東亞（日本）",
-    "count": 26,
-    "url": "/countries/亞洲-東亞-日本/",
+    "count": 25,
+    "url": "/countries/亞洲-東亞_日本/",
     "urls": [
-      "/countries/亞洲-東亞-日本/",
+      "/countries/亞洲-東亞_日本/",
       "/countries/日本/",
-      "/countries/日本-阿伊努民族/",
+      "/countries/日本_阿伊努民族/",
       "/countries/日本-全球電子音樂/"
     ],
     "samples": [
@@ -676,7 +676,7 @@
     "url": "/countries/中國/",
     "urls": [
       "/countries/中國/",
-      "/countries/亞洲-東亞-中國/"
+      "/countries/亞洲-東亞_中國/"
     ],
     "samples": [
       "編鐘",
@@ -696,8 +696,8 @@
       "/countries/德國/",
       "/countries/德國-奧地利/",
       "/countries/歐洲-德國-義大利地區/",
-      "/countries/歐洲-德國-奧地利/",
-      "/countries/歐洲-法國-德國/",
+      "/countries/歐洲_德國-奧地利/",
+      "/countries/歐洲_法國-德國/",
       "/countries/歐洲-德國/",
       "/countries/歐洲-德國-奧地利/",
       "/countries/歐洲-德國-美洲-阿根廷/"
@@ -736,9 +736,9 @@
     "lng": 120.0,
     "name": "亞洲／東南亞（印尼）",
     "count": 15,
-    "url": "/countries/亞洲-東南亞-印尼/",
+    "url": "/countries/亞洲-東南亞_印尼/",
     "urls": [
-      "/countries/亞洲-東南亞-印尼/",
+      "/countries/亞洲-東南亞_印尼/",
       "/countries/印尼/",
       "/countries/印尼巴厘島/",
       "/countries/印尼爪哇島/",
@@ -766,10 +766,10 @@
       "/countries/巴西-西非/",
       "/countries/歐洲-葡萄牙-美洲-巴西/",
       "/countries/美洲-巴西/",
-      "/countries/非洲-安哥拉-巴西/",
+      "/countries/非洲_安哥拉-巴西/",
       "/countries/非洲-巴西/",
       "/countries/非洲-美洲-巴西/",
-      "/countries/非洲-西非-奈及利亞-巴西/"
+      "/countries/非洲-西非_奈及利亞-巴西/"
     ],
     "samples": [
       "阿哥哥鈴",
@@ -777,27 +777,6 @@
       "阿塔巴克鼓",
       "伯林巴烏琴",
       "卡瓦基紐琴"
-    ]
-  },
-  {
-    "lat": 39.0,
-    "lng": 22.0,
-    "name": "歐洲／希臘（克里特島）",
-    "count": 12,
-    "url": "/countries/古希臘-地中海/",
-    "urls": [
-      "/countries/古希臘-地中海/",
-      "/countries/土耳其-希臘/",
-      "/countries/希臘/",
-      "/countries/歐洲-希臘/",
-      "/countries/歐洲-希臘-克里特島/"
-    ],
-    "samples": [
-      "風鳴琴",
-      "阿夫洛斯管",
-      "希臘巴格拉馬琴",
-      "克里特琴",
-      "電子琴"
     ]
   },
   {
@@ -820,6 +799,27 @@
       "邦哥鼓",
       "響板",
       "古典吉他"
+    ]
+  },
+  {
+    "lat": 39.0,
+    "lng": 22.0,
+    "name": "歐洲／希臘（克里特島）",
+    "count": 11,
+    "url": "/countries/古希臘-地中海/",
+    "urls": [
+      "/countries/古希臘-地中海/",
+      "/countries/土耳其-希臘/",
+      "/countries/希臘/",
+      "/countries/歐洲-希臘/",
+      "/countries/歐洲-希臘_克里特島/"
+    ],
+    "samples": [
+      "風鳴琴",
+      "阿夫洛斯管",
+      "希臘巴格拉馬琴",
+      "克里特琴",
+      "電子琴"
     ]
   },
   {
@@ -870,12 +870,12 @@
     "lng": 101.0,
     "name": "東南亞（柬埔寨／泰國）",
     "count": 9,
-    "url": "/countries/亞洲-東南亞-泰國/",
+    "url": "/countries/亞洲-東南亞_泰國/",
     "urls": [
-      "/countries/亞洲-東南亞-泰國/",
-      "/countries/東南亞-柬埔寨-泰國/",
+      "/countries/亞洲-東南亞_泰國/",
+      "/countries/東南亞_柬埔寨-泰國/",
       "/countries/泰國/",
-      "/countries/泰國東北部-依善地區/"
+      "/countries/泰國東北部_依善地區/"
     ],
     "samples": [
       "指鈸",
@@ -893,10 +893,10 @@
     "url": "/countries/愛爾蘭-英國/",
     "urls": [
       "/countries/愛爾蘭-英國/",
+      "/countries/歐洲_英國/",
       "/countries/歐洲-英國/",
-      "/countries/歐洲-英國/",
-      "/countries/歐洲-英國-威爾斯/",
-      "/countries/歐洲-英國-蘇格蘭/",
+      "/countries/歐洲-英國_威爾斯/",
+      "/countries/歐洲-英國_蘇格蘭/",
       "/countries/英國-全球/"
     ],
     "samples": [
@@ -917,7 +917,7 @@
       "/countries/凱爾特地區-蘇格蘭-愛爾蘭/",
       "/countries/愛爾蘭/",
       "/countries/愛爾蘭-英國/",
-      "/countries/歐洲西北部-凱爾特地區-愛爾蘭-蘇格蘭-威爾士-布列塔尼/",
+      "/countries/歐洲西北部_凱爾特地區-愛爾蘭-蘇格蘭-威爾士-布列塔尼/",
       "/countries/歐洲-愛爾蘭/"
     ],
     "samples": [
@@ -952,9 +952,9 @@
     "lng": 127.5,
     "name": "亞洲／東亞（韓國）",
     "count": 5,
-    "url": "/countries/亞洲-東亞-韓國/",
+    "url": "/countries/亞洲-東亞_韓國/",
     "urls": [
-      "/countries/亞洲-東亞-韓國/",
+      "/countries/亞洲-東亞_韓國/",
       "/countries/韓國/"
     ],
     "samples": [
@@ -963,43 +963,6 @@
       "奚琴／韓國奚琴",
       "杖鼓",
       "納巴爾號"
-    ]
-  },
-  {
-    "lat": 47.0,
-    "lng": 8.0,
-    "name": "瑞士／歐洲／全球現代",
-    "count": 5,
-    "url": "/countries/歐洲-瑞士/",
-    "urls": [
-      "/countries/歐洲-瑞士/",
-      "/countries/瑞士-歐洲-全球現代/"
-    ],
-    "samples": [
-      "阿爾卑斯長號",
-      "箏",
-      "手鼓",
-      "手碟",
-      "八音盒"
-    ]
-  },
-  {
-    "lat": 16.0,
-    "lng": 108.0,
-    "name": "東南亞／越南",
-    "count": 5,
-    "url": "/countries/東南亞-越南/",
-    "urls": [
-      "/countries/東南亞-越南/",
-      "/countries/越南/",
-      "/countries/越南-非洲/"
-    ],
-    "samples": [
-      "唇琴",
-      "越南十六絃琴",
-      "地絃琴",
-      "越南二胡",
-      "越南"
     ]
   },
   {
@@ -1015,7 +978,7 @@
     "samples": [
       "低音六弦琴",
       "墨西哥大吉他",
-      "Huiringua（暫譯）",
+      "刮葫",
       "哈拉納吉他",
       "墨西哥揚琴"
     ]
@@ -1039,20 +1002,37 @@
     ]
   },
   {
-    "lat": 46.0,
-    "lng": 25.0,
-    "name": "歐洲／羅馬尼亞",
+    "lat": 47.0,
+    "lng": 8.0,
+    "name": "歐洲／瑞士／全球現代",
     "count": 4,
-    "url": "/countries/歐洲-羅馬尼亞/",
+    "url": "/countries/歐洲-瑞士/",
     "urls": [
-      "/countries/歐洲-羅馬尼亞/",
-      "/countries/羅馬尼亞/"
+      "/countries/歐洲-瑞士/",
+      "/countries/歐洲-瑞士-全球現代/"
     ],
     "samples": [
-      "布海鼓",
-      "科布扎魯特琴",
-      "奈依笛",
-      "羅馬尼亞笛"
+      "阿爾卑斯長號",
+      "箏",
+      "手碟",
+      "八音盒"
+    ]
+  },
+  {
+    "lat": 16.0,
+    "lng": 108.0,
+    "name": "越南／非洲",
+    "count": 4,
+    "url": "/countries/越南/",
+    "urls": [
+      "/countries/越南/",
+      "/countries/越南-非洲/"
+    ],
+    "samples": [
+      "唇琴",
+      "越南十六弦琴",
+      "地弦琴",
+      "越南二胡"
     ]
   },
   {
@@ -1063,7 +1043,7 @@
     "url": "/countries/德國-奧地利/",
     "urls": [
       "/countries/德國-奧地利/",
-      "/countries/歐洲-德國-奧地利/",
+      "/countries/歐洲_德國-奧地利/",
       "/countries/歐洲-德國-奧地利/"
     ],
     "samples": [
@@ -1077,15 +1057,31 @@
     "lng": 8.0,
     "name": "非洲／西非（奈及利亞）／巴西",
     "count": 3,
-    "url": "/countries/非洲-西非-奈及利亞/",
+    "url": "/countries/非洲-西非_奈及利亞/",
     "urls": [
-      "/countries/非洲-西非-奈及利亞/",
-      "/countries/非洲-西非-奈及利亞-巴西/"
+      "/countries/非洲-西非_奈及利亞/",
+      "/countries/非洲-西非_奈及利亞-巴西/"
     ],
     "samples": [
       "阿果果雙鈴",
       "阿希科錐形鼓",
       "巫毒鼓"
+    ]
+  },
+  {
+    "lat": 46.0,
+    "lng": 25.0,
+    "name": "歐洲／羅馬尼亞",
+    "count": 3,
+    "url": "/countries/歐洲-羅馬尼亞/",
+    "urls": [
+      "/countries/歐洲-羅馬尼亞/",
+      "/countries/羅馬尼亞/"
+    ],
+    "samples": [
+      "布海鼓",
+      "科布扎魯特琴",
+      "羅馬尼亞笛"
     ]
   },
   {
@@ -1126,15 +1122,15 @@
     "lng": 105.0,
     "name": "東南亞（柬埔寨／泰國）",
     "count": 3,
-    "url": "/countries/東南亞-柬埔寨-泰國/",
+    "url": "/countries/東南亞_柬埔寨-泰國/",
     "urls": [
-      "/countries/東南亞-柬埔寨-泰國/",
+      "/countries/東南亞_柬埔寨-泰國/",
       "/countries/柬埔寨-東南亞/"
     ],
     "samples": [
       "指鈸",
       "克洛伊笛",
-      "Kse diev（暫譯）"
+      "克塞迪耶夫"
     ]
   },
   {
@@ -1164,7 +1160,7 @@
     ],
     "samples": [
       "荷索鼓",
-      "Lesiba（暫譯）",
+      "樂希巴琴",
       "樂弓"
     ]
   },
@@ -1236,7 +1232,7 @@
     "url": "/countries/衣索比亞-東非/",
     "urls": [
       "/countries/衣索比亞-東非/",
-      "/countries/非洲之角-厄立特里亞-衣索比亞/"
+      "/countries/非洲之角_厄立特里亞-衣索比亞/"
     ],
     "samples": [
       "馬辛可琴",
@@ -1313,19 +1309,6 @@
     ]
   },
   {
-    "lat": 64.0,
-    "lng": 26.0,
-    "name": "芬蘭及北歐地區",
-    "count": 1,
-    "url": "/countries/芬蘭及北歐地區/",
-    "urls": [
-      "/countries/芬蘭及北歐地區/"
-    ],
-    "samples": [
-      "Finns（暫譯）"
-    ]
-  },
-  {
     "lat": 8.0,
     "lng": -2.0,
     "name": "迦納／埃維文化圈",
@@ -1343,9 +1326,9 @@
     "lng": 35.0,
     "name": "非洲中部（剛果）/ 非洲東部（坦尚尼亞）",
     "count": 1,
-    "url": "/countries/非洲中部-剛果-非洲東部-坦尚尼亞/",
+    "url": "/countries/非洲中部_剛果-非洲東部_坦尚尼亞/",
     "urls": [
-      "/countries/非洲中部-剛果-非洲東部-坦尚尼亞/"
+      "/countries/非洲中部_剛果-非洲東部_坦尚尼亞/"
     ],
     "samples": [
       "馬林貝琴"
@@ -1382,9 +1365,9 @@
     "lng": 105.0,
     "name": "蒙古（西蒙古／衛拉特地區）",
     "count": 1,
-    "url": "/countries/蒙古-西蒙古-衛拉特地區/",
+    "url": "/countries/蒙古_西蒙古-衛拉特地區/",
     "urls": [
-      "/countries/蒙古-西蒙古-衛拉特地區/"
+      "/countries/蒙古_西蒙古-衛拉特地區/"
     ],
     "samples": [
       "託布秀爾"
@@ -1400,7 +1383,7 @@
       "/countries/馬達加斯加-印度-東南亞-台灣/"
     ],
     "samples": [
-      "管絃琴"
+      "管弦琴"
     ]
   }
 ]

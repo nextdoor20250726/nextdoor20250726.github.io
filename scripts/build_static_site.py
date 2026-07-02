@@ -2112,6 +2112,16 @@ def main():
     # Copy sitemap and robots.txt to project root for local development
     shutil.copy2(OUTPUT_DIR / "sitemap.xml", BASE_DIR / "sitemap.xml")
     shutil.copy2(OUTPUT_DIR / "robots.txt", BASE_DIR / "robots.txt")
+    # Sync assets to project root (tracked by git for direct access)
+    root_assets = BASE_DIR / "assets"
+    root_assets.mkdir(parents=True, exist_ok=True)
+    out_assets = OUTPUT_DIR / "assets"
+    if out_assets.exists():
+        for fname in ["instruments_database.xlsx", "site.css", "search.js",
+                       "random-instrument.js", "map-data.json", "author-logo.jpg"]:
+            src = out_assets / fname
+            if src.exists():
+                shutil.copy2(str(src), str(root_assets / fname))
     write(OUTPUT_DIR / ".nojekyll", "")
     # Write ads.txt for Google AdSense
     write(OUTPUT_DIR / "ads.txt", "google.com, pub-6561686484716387, DIRECT, f08c47fec0942fa0\n")
